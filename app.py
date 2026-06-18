@@ -1,5 +1,6 @@
 from pathlib import Path
 import json
+import math
 
 from flask import Flask, render_template, jsonify, send_from_directory, abort
 
@@ -38,7 +39,17 @@ def read_json_file(path):
         return None
 
     with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+        return clean_json_value(json.load(f))
+
+
+def clean_json_value(value):
+    if isinstance(value, float) and not math.isfinite(value):
+        return None
+    if isinstance(value, list):
+        return [clean_json_value(item) for item in value]
+    if isinstance(value, dict):
+        return {key: clean_json_value(item) for key, item in value.items()}
+    return value
 
 
 @app.route("/")
