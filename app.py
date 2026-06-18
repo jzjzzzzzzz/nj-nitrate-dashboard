@@ -42,18 +42,31 @@ def read_json_file(path):
 
 
 @app.route("/")
+@app.route("/index.html")
 def index():
     return render_template("index.html")
 
 
 @app.route("/watersheds")
+@app.route("/watersheds.html")
 def watersheds():
     return render_template("watersheds.html")
 
 
 @app.route("/proposal")
+@app.route("/proposal.html")
 def proposal():
     return render_template("proposal.html")
+
+
+@app.route("/healthz")
+def healthz():
+    return jsonify({"status": "ok"})
+
+
+@app.route("/__routes")
+def route_inventory():
+    return jsonify(sorted(str(rule) for rule in app.url_map.iter_rules()))
 
 
 @app.route("/api/summary")
