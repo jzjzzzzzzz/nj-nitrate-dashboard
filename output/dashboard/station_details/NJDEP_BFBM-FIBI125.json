@@ -1,0 +1,85 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-FIBI125",
+    "station_name": "Cruser Brook at Van Horne Road",
+    "latitude": 40.454285,
+    "longitude": -74.657861,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 1,
+    "confidence_level": "Low",
+    "confidence_score": 0.1501904832236879,
+    "mean_nitrate_mg_L": 2.45,
+    "median_nitrate_mg_L": 2.45,
+    "p90_nitrate_mg_L": 2.45,
+    "max_nitrate_mg_L": 2.45,
+    "min_nitrate_mg_L": 2.45,
+    "first_year": 2019,
+    "last_year": 2019,
+    "is_hotspot": true,
+    "is_p90_hotspot": true,
+    "is_mean_hotspot": true
+  },
+  "seasonal_summary": [
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 2.45,
+      "median_nitrate_mg_L": 2.45,
+      "p90_nitrate_mg_L": 2.45,
+      "max_nitrate_mg_L": 2.45,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2019.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 2.45,
+      "median_nitrate_mg_L": 2.45,
+      "p90_nitrate_mg_L": 2.45,
+      "max_nitrate_mg_L": 2.45,
+      "mean_3yr_moving_average": 2.45
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2019-09",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 2.45,
+      "median_nitrate_mg_L": 2.45,
+      "p90_nitrate_mg_L": 2.45,
+      "max_nitrate_mg_L": 2.45,
+      "date": "2019-09-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2019-09-05",
+      "year": 2019,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 2.45,
+      "result_value": 2.45,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0577",
+    "station_name": "HAMMONTON CREEK AT BOYER ROAD HAMMONTON",
+    "latitude": 39.63275,
+    "longitude": -74.760444,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 1,
+    "confidence_level": "Low",
+    "confidence_score": 0.1501904832236879,
+    "mean_nitrate_mg_L": 0.56,
+    "median_nitrate_mg_L": 0.56,
+    "p90_nitrate_mg_L": 0.56,
+    "max_nitrate_mg_L": 0.56,
+    "min_nitrate_mg_L": 0.56,
+    "first_year": 2020,
+    "last_year": 2020,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.56,
+      "median_nitrate_mg_L": 0.56,
+      "p90_nitrate_mg_L": 0.56,
+      "max_nitrate_mg_L": 0.56,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2020.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.56,
+      "median_nitrate_mg_L": 0.56,
+      "p90_nitrate_mg_L": 0.56,
+      "max_nitrate_mg_L": 0.56,
+      "mean_3yr_moving_average": 0.56
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2020-11",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.56,
+      "median_nitrate_mg_L": 0.56,
+      "p90_nitrate_mg_L": 0.56,
+      "max_nitrate_mg_L": 0.56,
+      "date": "2020-11-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2020-11-19",
+      "year": 2020,
+      "month": 11,
+      "season": "Fall",
+      "nitrate_mg_L": 0.56,
+      "result_value": 0.56,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

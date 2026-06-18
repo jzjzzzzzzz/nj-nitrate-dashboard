@@ -1,0 +1,85 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0708A",
+    "station_name": "Macanippuck Run at Macanippuck Rd",
+    "latitude": 39.43280805,
+    "longitude": -75.33573796,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 1,
+    "confidence_level": "Low",
+    "confidence_score": 0.1501904832236879,
+    "mean_nitrate_mg_L": 3.13,
+    "median_nitrate_mg_L": 3.13,
+    "p90_nitrate_mg_L": 3.13,
+    "max_nitrate_mg_L": 3.13,
+    "min_nitrate_mg_L": 3.13,
+    "first_year": 2022,
+    "last_year": 2022,
+    "is_hotspot": true,
+    "is_p90_hotspot": true,
+    "is_mean_hotspot": true
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 3.13,
+      "median_nitrate_mg_L": 3.13,
+      "p90_nitrate_mg_L": 3.13,
+      "max_nitrate_mg_L": 3.13,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2022.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 3.13,
+      "median_nitrate_mg_L": 3.13,
+      "p90_nitrate_mg_L": 3.13,
+      "max_nitrate_mg_L": 3.13,
+      "mean_3yr_moving_average": 3.13
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2022-07",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 3.13,
+      "median_nitrate_mg_L": 3.13,
+      "p90_nitrate_mg_L": 3.13,
+      "max_nitrate_mg_L": 3.13,
+      "date": "2022-07-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2022-07-12",
+      "year": 2022,
+      "month": 7,
+      "season": "Summer",
+      "nitrate_mg_L": 3.13,
+      "result_value": 3.13,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

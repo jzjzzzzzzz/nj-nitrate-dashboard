@@ -1,0 +1,131 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0762",
+    "station_name": "MANUMUSKIN RIVER OLD MAYS LANDING RD",
+    "latitude": 39.424111,
+    "longitude": -74.913277,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.32,
+    "median_nitrate_mg_L": 0.32,
+    "p90_nitrate_mg_L": 0.4424,
+    "max_nitrate_mg_L": 0.473,
+    "min_nitrate_mg_L": 0.167,
+    "first_year": 2017,
+    "last_year": 2022,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Spring",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.473,
+      "median_nitrate_mg_L": 0.473,
+      "p90_nitrate_mg_L": 0.473,
+      "max_nitrate_mg_L": 0.473,
+      "season_order": 2
+    },
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.167,
+      "median_nitrate_mg_L": 0.167,
+      "p90_nitrate_mg_L": 0.167,
+      "max_nitrate_mg_L": 0.167,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2017.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.167,
+      "median_nitrate_mg_L": 0.167,
+      "p90_nitrate_mg_L": 0.167,
+      "max_nitrate_mg_L": 0.167,
+      "mean_3yr_moving_average": 0.167
+    },
+    {
+      "year": 2022.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.473,
+      "median_nitrate_mg_L": 0.473,
+      "p90_nitrate_mg_L": 0.473,
+      "max_nitrate_mg_L": 0.473,
+      "mean_3yr_moving_average": 0.32
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2017-11",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.167,
+      "median_nitrate_mg_L": 0.167,
+      "p90_nitrate_mg_L": 0.167,
+      "max_nitrate_mg_L": 0.167,
+      "date": "2017-11-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2022-05",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.473,
+      "median_nitrate_mg_L": 0.473,
+      "p90_nitrate_mg_L": 0.473,
+      "max_nitrate_mg_L": 0.473,
+      "date": "2022-05-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2017-11-02",
+      "year": 2017,
+      "month": 11,
+      "season": "Fall",
+      "nitrate_mg_L": 0.167,
+      "result_value": 0.167,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2022-05-26",
+      "year": 2022,
+      "month": 5,
+      "season": "Spring",
+      "nitrate_mg_L": 0.473,
+      "result_value": 0.473,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0381",
+    "station_name": "ROCKY BROOK MAIN ST OUTLET PEDDIE LAKE",
+    "latitude": 40.270277,
+    "longitude": -74.52275,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.5974999999999999,
+    "median_nitrate_mg_L": 0.5974999999999999,
+    "p90_nitrate_mg_L": 0.7787,
+    "max_nitrate_mg_L": 0.824,
+    "min_nitrate_mg_L": 0.371,
+    "first_year": 2014,
+    "last_year": 2019,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.371,
+      "median_nitrate_mg_L": 0.371,
+      "p90_nitrate_mg_L": 0.371,
+      "max_nitrate_mg_L": 0.371,
+      "season_order": 3
+    },
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.824,
+      "median_nitrate_mg_L": 0.824,
+      "p90_nitrate_mg_L": 0.824,
+      "max_nitrate_mg_L": 0.824,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2014.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.371,
+      "median_nitrate_mg_L": 0.371,
+      "p90_nitrate_mg_L": 0.371,
+      "max_nitrate_mg_L": 0.371,
+      "mean_3yr_moving_average": 0.371
+    },
+    {
+      "year": 2019.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.824,
+      "median_nitrate_mg_L": 0.824,
+      "p90_nitrate_mg_L": 0.824,
+      "max_nitrate_mg_L": 0.824,
+      "mean_3yr_moving_average": 0.5974999999999999
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2014-07",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.371,
+      "median_nitrate_mg_L": 0.371,
+      "p90_nitrate_mg_L": 0.371,
+      "max_nitrate_mg_L": 0.371,
+      "date": "2014-07-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2019-09",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.824,
+      "median_nitrate_mg_L": 0.824,
+      "p90_nitrate_mg_L": 0.824,
+      "max_nitrate_mg_L": 0.824,
+      "date": "2019-09-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2014-07-17",
+      "year": 2014,
+      "month": 7,
+      "season": "Summer",
+      "nitrate_mg_L": 0.371,
+      "result_value": 0.371,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2019-09-20",
+      "year": 2019,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.824,
+      "result_value": 0.824,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

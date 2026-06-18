@@ -1,0 +1,85 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-FIBI570",
+    "station_name": "Mill Brook at Fords Rd.",
+    "latitude": 40.858407,
+    "longitude": -74.56243,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 1,
+    "confidence_level": "Low",
+    "confidence_score": 0.1501904832236879,
+    "mean_nitrate_mg_L": 2.39,
+    "median_nitrate_mg_L": 2.39,
+    "p90_nitrate_mg_L": 2.39,
+    "max_nitrate_mg_L": 2.39,
+    "min_nitrate_mg_L": 2.39,
+    "first_year": 2018,
+    "last_year": 2018,
+    "is_hotspot": true,
+    "is_p90_hotspot": true,
+    "is_mean_hotspot": true
+  },
+  "seasonal_summary": [
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 2.39,
+      "median_nitrate_mg_L": 2.39,
+      "p90_nitrate_mg_L": 2.39,
+      "max_nitrate_mg_L": 2.39,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2018.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 2.39,
+      "median_nitrate_mg_L": 2.39,
+      "p90_nitrate_mg_L": 2.39,
+      "max_nitrate_mg_L": 2.39,
+      "mean_3yr_moving_average": 2.39
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2018-09",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 2.39,
+      "median_nitrate_mg_L": 2.39,
+      "p90_nitrate_mg_L": 2.39,
+      "max_nitrate_mg_L": 2.39,
+      "date": "2018-09-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2018-09-05",
+      "year": 2018,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 2.39,
+      "result_value": 2.39,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

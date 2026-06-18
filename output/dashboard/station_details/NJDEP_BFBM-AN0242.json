@@ -1,0 +1,131 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0242",
+    "station_name": "GREEN POND BK MT PLEASANT RD AND RT 15",
+    "latitude": 40.904388,
+    "longitude": -74.567833,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.246,
+    "median_nitrate_mg_L": 0.246,
+    "p90_nitrate_mg_L": 0.2492,
+    "max_nitrate_mg_L": 0.25,
+    "min_nitrate_mg_L": 0.242,
+    "first_year": 2019,
+    "last_year": 2023,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.242,
+      "median_nitrate_mg_L": 0.242,
+      "p90_nitrate_mg_L": 0.242,
+      "max_nitrate_mg_L": 0.242,
+      "season_order": 3
+    },
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.25,
+      "median_nitrate_mg_L": 0.25,
+      "p90_nitrate_mg_L": 0.25,
+      "max_nitrate_mg_L": 0.25,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2019.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.242,
+      "median_nitrate_mg_L": 0.242,
+      "p90_nitrate_mg_L": 0.242,
+      "max_nitrate_mg_L": 0.242,
+      "mean_3yr_moving_average": 0.242
+    },
+    {
+      "year": 2023.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.25,
+      "median_nitrate_mg_L": 0.25,
+      "p90_nitrate_mg_L": 0.25,
+      "max_nitrate_mg_L": 0.25,
+      "mean_3yr_moving_average": 0.246
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2019-06",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.242,
+      "median_nitrate_mg_L": 0.242,
+      "p90_nitrate_mg_L": 0.242,
+      "max_nitrate_mg_L": 0.242,
+      "date": "2019-06-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2023-09",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.25,
+      "median_nitrate_mg_L": 0.25,
+      "p90_nitrate_mg_L": 0.25,
+      "max_nitrate_mg_L": 0.25,
+      "date": "2023-09-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2019-06-12",
+      "year": 2019,
+      "month": 6,
+      "season": "Summer",
+      "nitrate_mg_L": 0.242,
+      "result_value": 0.242,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2023-09-19",
+      "year": 2023,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.25,
+      "result_value": 0.25,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0256B",
+    "station_name": "Ringwood Creek at park trail",
+    "latitude": 41.12722,
+    "longitude": -74.265772,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.1725,
+    "median_nitrate_mg_L": 0.1725,
+    "p90_nitrate_mg_L": 0.2057,
+    "max_nitrate_mg_L": 0.214,
+    "min_nitrate_mg_L": 0.131,
+    "first_year": 2018,
+    "last_year": 2024,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.214,
+      "median_nitrate_mg_L": 0.214,
+      "p90_nitrate_mg_L": 0.214,
+      "max_nitrate_mg_L": 0.214,
+      "season_order": 3
+    },
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.131,
+      "median_nitrate_mg_L": 0.131,
+      "p90_nitrate_mg_L": 0.131,
+      "max_nitrate_mg_L": 0.131,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2018.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.131,
+      "median_nitrate_mg_L": 0.131,
+      "p90_nitrate_mg_L": 0.131,
+      "max_nitrate_mg_L": 0.131,
+      "mean_3yr_moving_average": 0.131
+    },
+    {
+      "year": 2024.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.214,
+      "median_nitrate_mg_L": 0.214,
+      "p90_nitrate_mg_L": 0.214,
+      "max_nitrate_mg_L": 0.214,
+      "mean_3yr_moving_average": 0.1725
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2018-10",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.131,
+      "median_nitrate_mg_L": 0.131,
+      "p90_nitrate_mg_L": 0.131,
+      "max_nitrate_mg_L": 0.131,
+      "date": "2018-10-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2024-07",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.214,
+      "median_nitrate_mg_L": 0.214,
+      "p90_nitrate_mg_L": 0.214,
+      "max_nitrate_mg_L": 0.214,
+      "date": "2024-07-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2018-10-09",
+      "year": 2018,
+      "month": 10,
+      "season": "Fall",
+      "nitrate_mg_L": 0.131,
+      "result_value": 0.131,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2024-07-22",
+      "year": 2024,
+      "month": 7,
+      "season": "Summer",
+      "nitrate_mg_L": 0.214,
+      "result_value": 0.214,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

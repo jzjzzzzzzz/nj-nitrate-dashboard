@@ -1,0 +1,113 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-01460555",
+    "station_name": "Delaware and Raritan Canal at East Millstone NJ",
+    "latitude": 40.50277778,
+    "longitude": -74.5830556,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.6225,
+    "median_nitrate_mg_L": 0.6225,
+    "p90_nitrate_mg_L": 0.6877,
+    "max_nitrate_mg_L": 0.704,
+    "min_nitrate_mg_L": 0.541,
+    "first_year": 2021,
+    "last_year": 2021,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.6225,
+      "median_nitrate_mg_L": 0.6225,
+      "p90_nitrate_mg_L": 0.6877,
+      "max_nitrate_mg_L": 0.704,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2021.0,
+      "observation_count": 2.0,
+      "mean_nitrate_mg_L": 0.6225,
+      "median_nitrate_mg_L": 0.6225,
+      "p90_nitrate_mg_L": 0.6877,
+      "max_nitrate_mg_L": 0.704,
+      "mean_3yr_moving_average": 0.6225
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2021-06",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.541,
+      "median_nitrate_mg_L": 0.541,
+      "p90_nitrate_mg_L": 0.541,
+      "max_nitrate_mg_L": 0.541,
+      "date": "2021-06-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2021-08",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.704,
+      "median_nitrate_mg_L": 0.704,
+      "p90_nitrate_mg_L": 0.704,
+      "max_nitrate_mg_L": 0.704,
+      "date": "2021-08-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2021-06-14",
+      "year": 2021,
+      "month": 6,
+      "season": "Summer",
+      "nitrate_mg_L": 0.541,
+      "result_value": 0.541,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Filtered, field",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2021-08-18",
+      "year": 2021,
+      "month": 8,
+      "season": "Summer",
+      "nitrate_mg_L": 0.704,
+      "result_value": 0.704,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Filtered, field",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

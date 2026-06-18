@@ -1,0 +1,102 @@
+{
+  "station_info": {
+    "station_id": "NARS_WQX-NLA_NJ-10018",
+    "station_name": "NLA_NJ-10018",
+    "latitude": 40.79987801,
+    "longitude": -74.78468146,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate, Nitrate + Nitrite",
+    "units_seen": "mg N/l******"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.4635,
+    "median_nitrate_mg_L": 0.4635,
+    "p90_nitrate_mg_L": 0.4655,
+    "max_nitrate_mg_L": 0.466,
+    "min_nitrate_mg_L": 0.461,
+    "first_year": 2012,
+    "last_year": 2012,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.4635,
+      "median_nitrate_mg_L": 0.4635,
+      "p90_nitrate_mg_L": 0.4655,
+      "max_nitrate_mg_L": 0.466,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2012.0,
+      "observation_count": 2.0,
+      "mean_nitrate_mg_L": 0.4635,
+      "median_nitrate_mg_L": 0.4635,
+      "p90_nitrate_mg_L": 0.4655,
+      "max_nitrate_mg_L": 0.466,
+      "mean_3yr_moving_average": 0.4635
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2012-07",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.4635,
+      "median_nitrate_mg_L": 0.4635,
+      "p90_nitrate_mg_L": 0.4655,
+      "max_nitrate_mg_L": 0.466,
+      "date": "2012-07-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2012-07-10",
+      "year": 2012,
+      "month": 7,
+      "season": "Summer",
+      "nitrate_mg_L": 0.466,
+      "result_value": 0.466,
+      "unit": "mg N/l******",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total Recoverable",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2012-07-10",
+      "year": 2012,
+      "month": 7,
+      "season": "Summer",
+      "nitrate_mg_L": 0.461,
+      "result_value": 0.461,
+      "unit": "mg N/l******",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Total Recoverable",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

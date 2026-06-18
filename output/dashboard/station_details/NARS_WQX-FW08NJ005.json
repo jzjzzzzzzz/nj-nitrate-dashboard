@@ -1,0 +1,113 @@
+{
+  "station_info": {
+    "station_id": "NARS_WQX-FW08NJ005",
+    "station_name": "Raritan River",
+    "latitude": 40.50889787,
+    "longitude": -74.46614516,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 2.02815,
+    "median_nitrate_mg_L": 2.02815,
+    "p90_nitrate_mg_L": 2.029766,
+    "max_nitrate_mg_L": 2.03017,
+    "min_nitrate_mg_L": 2.02613,
+    "first_year": 2009,
+    "last_year": 2009,
+    "is_hotspot": true,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": true
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 2.02815,
+      "median_nitrate_mg_L": 2.02815,
+      "p90_nitrate_mg_L": 2.029766,
+      "max_nitrate_mg_L": 2.03017,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2009.0,
+      "observation_count": 2.0,
+      "mean_nitrate_mg_L": 2.02815,
+      "median_nitrate_mg_L": 2.02815,
+      "p90_nitrate_mg_L": 2.029766,
+      "max_nitrate_mg_L": 2.03017,
+      "mean_3yr_moving_average": 2.02815
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2009-07",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 2.03017,
+      "median_nitrate_mg_L": 2.03017,
+      "p90_nitrate_mg_L": 2.03017,
+      "max_nitrate_mg_L": 2.03017,
+      "date": "2009-07-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2009-08",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 2.02613,
+      "median_nitrate_mg_L": 2.02613,
+      "p90_nitrate_mg_L": 2.02613,
+      "max_nitrate_mg_L": 2.02613,
+      "date": "2009-08-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2009-07-07",
+      "year": 2009,
+      "month": 7,
+      "season": "Summer",
+      "nitrate_mg_L": 2.03017,
+      "result_value": 2.03017,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2009-08-11",
+      "year": 2009,
+      "month": 8,
+      "season": "Summer",
+      "nitrate_mg_L": 2.02613,
+      "result_value": 2.02613,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

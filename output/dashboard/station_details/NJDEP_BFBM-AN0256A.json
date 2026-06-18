@@ -1,0 +1,122 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0256A",
+    "station_name": "MEADOW BROOK AT HIGHLAND AVENUE",
+    "latitude": 41.042833,
+    "longitude": -74.285691,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.9045,
+    "median_nitrate_mg_L": 0.9045,
+    "p90_nitrate_mg_L": 0.9353,
+    "max_nitrate_mg_L": 0.943,
+    "min_nitrate_mg_L": 0.866,
+    "first_year": 2018,
+    "last_year": 2023,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Fall",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.9045,
+      "median_nitrate_mg_L": 0.9045,
+      "p90_nitrate_mg_L": 0.9352999999999999,
+      "max_nitrate_mg_L": 0.943,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2018.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.943,
+      "median_nitrate_mg_L": 0.943,
+      "p90_nitrate_mg_L": 0.943,
+      "max_nitrate_mg_L": 0.943,
+      "mean_3yr_moving_average": 0.943
+    },
+    {
+      "year": 2023.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.866,
+      "median_nitrate_mg_L": 0.866,
+      "p90_nitrate_mg_L": 0.866,
+      "max_nitrate_mg_L": 0.866,
+      "mean_3yr_moving_average": 0.9045
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2018-09",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.943,
+      "median_nitrate_mg_L": 0.943,
+      "p90_nitrate_mg_L": 0.943,
+      "max_nitrate_mg_L": 0.943,
+      "date": "2018-09-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2023-11",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.866,
+      "median_nitrate_mg_L": 0.866,
+      "p90_nitrate_mg_L": 0.866,
+      "max_nitrate_mg_L": 0.866,
+      "date": "2023-11-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2018-09-04",
+      "year": 2018,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.943,
+      "result_value": 0.943,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2023-11-01",
+      "year": 2023,
+      "month": 11,
+      "season": "Fall",
+      "nitrate_mg_L": 0.866,
+      "result_value": 0.866,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

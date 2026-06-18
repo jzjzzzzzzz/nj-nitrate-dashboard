@@ -1,0 +1,85 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-FIBI130",
+    "station_name": "Pequest River at Orchard Street",
+    "latitude": 40.833983,
+    "longitude": -75.060165,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 1,
+    "confidence_level": "Low",
+    "confidence_score": 0.1501904832236879,
+    "mean_nitrate_mg_L": 1.25,
+    "median_nitrate_mg_L": 1.25,
+    "p90_nitrate_mg_L": 1.25,
+    "max_nitrate_mg_L": 1.25,
+    "min_nitrate_mg_L": 1.25,
+    "first_year": 2024,
+    "last_year": 2024,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.25,
+      "median_nitrate_mg_L": 1.25,
+      "p90_nitrate_mg_L": 1.25,
+      "max_nitrate_mg_L": 1.25,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2024.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 1.25,
+      "median_nitrate_mg_L": 1.25,
+      "p90_nitrate_mg_L": 1.25,
+      "max_nitrate_mg_L": 1.25,
+      "mean_3yr_moving_average": 1.25
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2024-08",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.25,
+      "median_nitrate_mg_L": 1.25,
+      "p90_nitrate_mg_L": 1.25,
+      "max_nitrate_mg_L": 1.25,
+      "date": "2024-08-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2024-08-01",
+      "year": 2024,
+      "month": 8,
+      "season": "Summer",
+      "nitrate_mg_L": 1.25,
+      "result_value": 1.25,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

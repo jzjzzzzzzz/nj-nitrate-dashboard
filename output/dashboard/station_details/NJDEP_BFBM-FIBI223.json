@@ -1,0 +1,122 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-FIBI223",
+    "station_name": "Barkers Brook UNT at Saylors Pond Road",
+    "latitude": 40.036,
+    "longitude": -74.68759,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.5865,
+    "median_nitrate_mg_L": 0.5865,
+    "p90_nitrate_mg_L": 0.6421,
+    "max_nitrate_mg_L": 0.656,
+    "min_nitrate_mg_L": 0.517,
+    "first_year": 2015,
+    "last_year": 2023,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.5865,
+      "median_nitrate_mg_L": 0.5865,
+      "p90_nitrate_mg_L": 0.6421,
+      "max_nitrate_mg_L": 0.656,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2015.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.517,
+      "median_nitrate_mg_L": 0.517,
+      "p90_nitrate_mg_L": 0.517,
+      "max_nitrate_mg_L": 0.517,
+      "mean_3yr_moving_average": 0.517
+    },
+    {
+      "year": 2023.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.656,
+      "median_nitrate_mg_L": 0.656,
+      "p90_nitrate_mg_L": 0.656,
+      "max_nitrate_mg_L": 0.656,
+      "mean_3yr_moving_average": 0.5865
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2015-06",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.517,
+      "median_nitrate_mg_L": 0.517,
+      "p90_nitrate_mg_L": 0.517,
+      "max_nitrate_mg_L": 0.517,
+      "date": "2015-06-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2023-07",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.656,
+      "median_nitrate_mg_L": 0.656,
+      "p90_nitrate_mg_L": 0.656,
+      "max_nitrate_mg_L": 0.656,
+      "date": "2023-07-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2015-06-23",
+      "year": 2015,
+      "month": 6,
+      "season": "Summer",
+      "nitrate_mg_L": 0.517,
+      "result_value": 0.517,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2023-07-11",
+      "year": 2023,
+      "month": 7,
+      "season": "Summer",
+      "nitrate_mg_L": 0.656,
+      "result_value": 0.656,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

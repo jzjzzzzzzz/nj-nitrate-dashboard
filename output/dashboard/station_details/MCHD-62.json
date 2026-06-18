@@ -1,0 +1,122 @@
+{
+  "station_info": {
+    "station_id": "MCHD-62",
+    "station_name": "TROUTMANS CREEK",
+    "latitude": 40.3129,
+    "longitude": -73.9871,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.0,
+    "median_nitrate_mg_L": 0.0,
+    "p90_nitrate_mg_L": 0.0,
+    "max_nitrate_mg_L": 0.0,
+    "min_nitrate_mg_L": 0.0,
+    "first_year": 2013,
+    "last_year": 2013,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Spring",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0,
+      "median_nitrate_mg_L": 0.0,
+      "p90_nitrate_mg_L": 0.0,
+      "max_nitrate_mg_L": 0.0,
+      "season_order": 2
+    },
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0,
+      "median_nitrate_mg_L": 0.0,
+      "p90_nitrate_mg_L": 0.0,
+      "max_nitrate_mg_L": 0.0,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2013.0,
+      "observation_count": 2.0,
+      "mean_nitrate_mg_L": 0.0,
+      "median_nitrate_mg_L": 0.0,
+      "p90_nitrate_mg_L": 0.0,
+      "max_nitrate_mg_L": 0.0,
+      "mean_3yr_moving_average": 0.0
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2013-03",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0,
+      "median_nitrate_mg_L": 0.0,
+      "p90_nitrate_mg_L": 0.0,
+      "max_nitrate_mg_L": 0.0,
+      "date": "2013-03-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2013-11",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0,
+      "median_nitrate_mg_L": 0.0,
+      "p90_nitrate_mg_L": 0.0,
+      "max_nitrate_mg_L": 0.0,
+      "date": "2013-11-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2013-03-22",
+      "year": 2013,
+      "month": 3,
+      "season": "Spring",
+      "nitrate_mg_L": 0.0,
+      "result_value": 0.0,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2013-11-06",
+      "year": 2013,
+      "month": 11,
+      "season": "Fall",
+      "nitrate_mg_L": 0.0,
+      "result_value": 0.0,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

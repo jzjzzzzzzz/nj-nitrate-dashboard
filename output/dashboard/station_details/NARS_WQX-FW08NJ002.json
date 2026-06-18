@@ -1,0 +1,122 @@
+{
+  "station_info": {
+    "station_id": "NARS_WQX-FW08NJ002",
+    "station_name": "Pophandusing Brook",
+    "latitude": 40.81493935,
+    "longitude": -75.04027188,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 1.738055,
+    "median_nitrate_mg_L": 1.738055,
+    "p90_nitrate_mg_L": 1.743851,
+    "max_nitrate_mg_L": 1.7453,
+    "min_nitrate_mg_L": 1.73081,
+    "first_year": 2008,
+    "last_year": 2008,
+    "is_hotspot": true,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": true
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.73081,
+      "median_nitrate_mg_L": 1.73081,
+      "p90_nitrate_mg_L": 1.73081,
+      "max_nitrate_mg_L": 1.73081,
+      "season_order": 3
+    },
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.7453,
+      "median_nitrate_mg_L": 1.7453,
+      "p90_nitrate_mg_L": 1.7453,
+      "max_nitrate_mg_L": 1.7453,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2008.0,
+      "observation_count": 2.0,
+      "mean_nitrate_mg_L": 1.7380550000000001,
+      "median_nitrate_mg_L": 1.7380550000000001,
+      "p90_nitrate_mg_L": 1.743851,
+      "max_nitrate_mg_L": 1.7453,
+      "mean_3yr_moving_average": 1.7380550000000001
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2008-07",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.73081,
+      "median_nitrate_mg_L": 1.73081,
+      "p90_nitrate_mg_L": 1.73081,
+      "max_nitrate_mg_L": 1.73081,
+      "date": "2008-07-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2008-10",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.7453,
+      "median_nitrate_mg_L": 1.7453,
+      "p90_nitrate_mg_L": 1.7453,
+      "max_nitrate_mg_L": 1.7453,
+      "date": "2008-10-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2008-07-19",
+      "year": 2008,
+      "month": 7,
+      "season": "Summer",
+      "nitrate_mg_L": 1.73081,
+      "result_value": 1.73081,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2008-10-11",
+      "year": 2008,
+      "month": 10,
+      "season": "Fall",
+      "nitrate_mg_L": 1.7453,
+      "result_value": 1.7453,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

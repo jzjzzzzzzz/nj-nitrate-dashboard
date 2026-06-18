@@ -1,0 +1,122 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0091",
+    "station_name": "WICKECHEOKE CK LOCKTOWN/SERGEANTSVILLE RD",
+    "latitude": 40.485805,
+    "longitude": -74.9705,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.10045,
+    "median_nitrate_mg_L": 0.10045,
+    "p90_nitrate_mg_L": 0.14169,
+    "max_nitrate_mg_L": 0.152,
+    "min_nitrate_mg_L": 0.0489,
+    "first_year": 2018,
+    "last_year": 2023,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Spring",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.10045,
+      "median_nitrate_mg_L": 0.10045,
+      "p90_nitrate_mg_L": 0.14169,
+      "max_nitrate_mg_L": 0.152,
+      "season_order": 2
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2018.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.152,
+      "median_nitrate_mg_L": 0.152,
+      "p90_nitrate_mg_L": 0.152,
+      "max_nitrate_mg_L": 0.152,
+      "mean_3yr_moving_average": 0.152
+    },
+    {
+      "year": 2023.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.0489,
+      "median_nitrate_mg_L": 0.0489,
+      "p90_nitrate_mg_L": 0.0489,
+      "max_nitrate_mg_L": 0.0489,
+      "mean_3yr_moving_average": 0.10045
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2018-05",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.152,
+      "median_nitrate_mg_L": 0.152,
+      "p90_nitrate_mg_L": 0.152,
+      "max_nitrate_mg_L": 0.152,
+      "date": "2018-05-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2023-04",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0489,
+      "median_nitrate_mg_L": 0.0489,
+      "p90_nitrate_mg_L": 0.0489,
+      "max_nitrate_mg_L": 0.0489,
+      "date": "2023-04-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2018-05-15",
+      "year": 2018,
+      "month": 5,
+      "season": "Spring",
+      "nitrate_mg_L": 0.152,
+      "result_value": 0.152,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2023-04-26",
+      "year": 2023,
+      "month": 4,
+      "season": "Spring",
+      "nitrate_mg_L": 0.0489,
+      "result_value": 0.0489,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

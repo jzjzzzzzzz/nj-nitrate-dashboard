@@ -1,0 +1,131 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0210A",
+    "station_name": "Hirshfeld Brook on River Rd",
+    "latitude": 40.947399,
+    "longitude": -74.020112,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 1.92,
+    "median_nitrate_mg_L": 1.92,
+    "p90_nitrate_mg_L": 2.096,
+    "max_nitrate_mg_L": 2.14,
+    "min_nitrate_mg_L": 1.7,
+    "first_year": 2018,
+    "last_year": 2023,
+    "is_hotspot": true,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": true
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.7,
+      "median_nitrate_mg_L": 1.7,
+      "p90_nitrate_mg_L": 1.7,
+      "max_nitrate_mg_L": 1.7,
+      "season_order": 3
+    },
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 2.14,
+      "median_nitrate_mg_L": 2.14,
+      "p90_nitrate_mg_L": 2.14,
+      "max_nitrate_mg_L": 2.14,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2018.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 2.14,
+      "median_nitrate_mg_L": 2.14,
+      "p90_nitrate_mg_L": 2.14,
+      "max_nitrate_mg_L": 2.14,
+      "mean_3yr_moving_average": 2.14
+    },
+    {
+      "year": 2023.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 1.7,
+      "median_nitrate_mg_L": 1.7,
+      "p90_nitrate_mg_L": 1.7,
+      "max_nitrate_mg_L": 1.7,
+      "mean_3yr_moving_average": 1.92
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2018-11",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 2.14,
+      "median_nitrate_mg_L": 2.14,
+      "p90_nitrate_mg_L": 2.14,
+      "max_nitrate_mg_L": 2.14,
+      "date": "2018-11-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2023-08",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.7,
+      "median_nitrate_mg_L": 1.7,
+      "p90_nitrate_mg_L": 1.7,
+      "max_nitrate_mg_L": 1.7,
+      "date": "2023-08-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2018-11-28",
+      "year": 2018,
+      "month": 11,
+      "season": "Fall",
+      "nitrate_mg_L": 2.14,
+      "result_value": 2.14,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2023-08-02",
+      "year": 2023,
+      "month": 8,
+      "season": "Summer",
+      "nitrate_mg_L": 1.7,
+      "result_value": 1.7,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

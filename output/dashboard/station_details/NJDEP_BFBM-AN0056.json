@@ -1,0 +1,131 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0056",
+    "station_name": "BRASS CASTLE CK RT 623 BRASS CASTLE RD",
+    "latitude": 40.764861,
+    "longitude": -75.012027,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.4985,
+    "median_nitrate_mg_L": 0.4985,
+    "p90_nitrate_mg_L": 0.6109,
+    "max_nitrate_mg_L": 0.639,
+    "min_nitrate_mg_L": 0.358,
+    "first_year": 2018,
+    "last_year": 2022,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Spring",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.639,
+      "median_nitrate_mg_L": 0.639,
+      "p90_nitrate_mg_L": 0.639,
+      "max_nitrate_mg_L": 0.639,
+      "season_order": 2
+    },
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.358,
+      "median_nitrate_mg_L": 0.358,
+      "p90_nitrate_mg_L": 0.358,
+      "max_nitrate_mg_L": 0.358,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2018.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.639,
+      "median_nitrate_mg_L": 0.639,
+      "p90_nitrate_mg_L": 0.639,
+      "max_nitrate_mg_L": 0.639,
+      "mean_3yr_moving_average": 0.639
+    },
+    {
+      "year": 2022.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.358,
+      "median_nitrate_mg_L": 0.358,
+      "p90_nitrate_mg_L": 0.358,
+      "max_nitrate_mg_L": 0.358,
+      "mean_3yr_moving_average": 0.4985
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2018-04",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.639,
+      "median_nitrate_mg_L": 0.639,
+      "p90_nitrate_mg_L": 0.639,
+      "max_nitrate_mg_L": 0.639,
+      "date": "2018-04-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2022-10",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.358,
+      "median_nitrate_mg_L": 0.358,
+      "p90_nitrate_mg_L": 0.358,
+      "max_nitrate_mg_L": 0.358,
+      "date": "2022-10-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2018-04-19",
+      "year": 2018,
+      "month": 4,
+      "season": "Spring",
+      "nitrate_mg_L": 0.639,
+      "result_value": 0.639,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2022-10-27",
+      "year": 2022,
+      "month": 10,
+      "season": "Fall",
+      "nitrate_mg_L": 0.358,
+      "result_value": 0.358,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0606",
+    "station_name": "OSWEGO RIVER ANDREWS RD OUTLET OSWEGO LAKE",
+    "latitude": 39.731655,
+    "longitude": -74.488427,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.29,
+    "median_nitrate_mg_L": 0.29,
+    "p90_nitrate_mg_L": 0.4948000000000001,
+    "max_nitrate_mg_L": 0.546,
+    "min_nitrate_mg_L": 0.034,
+    "first_year": 2015,
+    "last_year": 2021,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Spring",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.546,
+      "median_nitrate_mg_L": 0.546,
+      "p90_nitrate_mg_L": 0.546,
+      "max_nitrate_mg_L": 0.546,
+      "season_order": 2
+    },
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.034,
+      "median_nitrate_mg_L": 0.034,
+      "p90_nitrate_mg_L": 0.034,
+      "max_nitrate_mg_L": 0.034,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2015.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.034,
+      "median_nitrate_mg_L": 0.034,
+      "p90_nitrate_mg_L": 0.034,
+      "max_nitrate_mg_L": 0.034,
+      "mean_3yr_moving_average": 0.034
+    },
+    {
+      "year": 2021.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.546,
+      "median_nitrate_mg_L": 0.546,
+      "p90_nitrate_mg_L": 0.546,
+      "max_nitrate_mg_L": 0.546,
+      "mean_3yr_moving_average": 0.29000000000000004
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2015-11",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.034,
+      "median_nitrate_mg_L": 0.034,
+      "p90_nitrate_mg_L": 0.034,
+      "max_nitrate_mg_L": 0.034,
+      "date": "2015-11-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2021-05",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.546,
+      "median_nitrate_mg_L": 0.546,
+      "p90_nitrate_mg_L": 0.546,
+      "max_nitrate_mg_L": 0.546,
+      "date": "2021-05-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2015-11-06",
+      "year": 2015,
+      "month": 11,
+      "season": "Fall",
+      "nitrate_mg_L": 0.034,
+      "result_value": 0.034,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2021-05-28",
+      "year": 2021,
+      "month": 5,
+      "season": "Spring",
+      "nitrate_mg_L": 0.546,
+      "result_value": 0.546,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "season": "Winter",
+    "site_group": "Hotspot Stations",
+    "observation_count": 1400,
+    "station_count": 158,
+    "mean_nitrate_mg_L": 2.981193105416691,
+    "median_nitrate_mg_L": 2.24485,
+    "p90_nitrate_mg_L": 4.9391,
+    "max_nitrate_mg_L": 39.423,
+    "season_order": 1
+  },
+  {
+    "season": "Winter",
+    "site_group": "Non-Hotspot Stations",
+    "observation_count": 6653,
+    "station_count": 804,
+    "mean_nitrate_mg_L": 0.5280665725939584,
+    "median_nitrate_mg_L": 0.429,
+    "p90_nitrate_mg_L": 1.2093800000000001,
+    "max_nitrate_mg_L": 17.18,
+    "season_order": 1
+  },
+  {
+    "season": "Spring",
+    "site_group": "Hotspot Stations",
+    "observation_count": 2477,
+    "station_count": 245,
+    "mean_nitrate_mg_L": 2.584238607336704,
+    "median_nitrate_mg_L": 1.78,
+    "p90_nitrate_mg_L": 4.3782000000000005,
+    "max_nitrate_mg_L": 145.764,
+    "season_order": 2
+  },
+  {
+    "season": "Spring",
+    "site_group": "Non-Hotspot Stations",
+    "observation_count": 10787,
+    "station_count": 1796,
+    "mean_nitrate_mg_L": 0.472726918075585,
+    "median_nitrate_mg_L": 0.382,
+    "p90_nitrate_mg_L": 1.1286859999999996,
+    "max_nitrate_mg_L": 7.7,
+    "season_order": 2
+  },
+  {
+    "season": "Summer",
+    "site_group": "Hotspot Stations",
+    "observation_count": 3966,
+    "station_count": 344,
+    "mean_nitrate_mg_L": 2.5576907584548243,
+    "median_nitrate_mg_L": 1.9078,
+    "p90_nitrate_mg_L": 4.73,
+    "max_nitrate_mg_L": 156.0,
+    "season_order": 3
+  },
+  {
+    "season": "Summer",
+    "site_group": "Non-Hotspot Stations",
+    "observation_count": 15927,
+    "station_count": 2513,
+    "mean_nitrate_mg_L": 0.41153699904239277,
+    "median_nitrate_mg_L": 0.3155,
+    "p90_nitrate_mg_L": 0.98268,
+    "max_nitrate_mg_L": 8.75,
+    "season_order": 3
+  },
+  {
+    "season": "Fall",
+    "site_group": "Hotspot Stations",
+    "observation_count": 2920,
+    "station_count": 293,
+    "mean_nitrate_mg_L": 3.258948822542885,
+    "median_nitrate_mg_L": 2.40055,
+    "p90_nitrate_mg_L": 6.61603999999999,
+    "max_nitrate_mg_L": 30.82,
+    "season_order": 4
+  },
+  {
+    "season": "Fall",
+    "site_group": "Non-Hotspot Stations",
+    "observation_count": 11877,
+    "station_count": 2107,
+    "mean_nitrate_mg_L": 0.46507464274779625,
+    "median_nitrate_mg_L": 0.378,
+    "p90_nitrate_mg_L": 1.07,
+    "max_nitrate_mg_L": 4.94,
+    "season_order": 4
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-BFBM000348",
+    "station_name": "Furnace Bk at Lower Denmark Road in Warren",
+    "latitude": 40.806273,
+    "longitude": -74.993053,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 1,
+    "confidence_level": "Low",
+    "confidence_score": 0.1501904832236879,
+    "mean_nitrate_mg_L": 0.275,
+    "median_nitrate_mg_L": 0.275,
+    "p90_nitrate_mg_L": 0.275,
+    "max_nitrate_mg_L": 0.275,
+    "min_nitrate_mg_L": 0.275,
+    "first_year": 2022,
+    "last_year": 2022,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.275,
+      "median_nitrate_mg_L": 0.275,
+      "p90_nitrate_mg_L": 0.275,
+      "max_nitrate_mg_L": 0.275,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2022.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.275,
+      "median_nitrate_mg_L": 0.275,
+      "p90_nitrate_mg_L": 0.275,
+      "max_nitrate_mg_L": 0.275,
+      "mean_3yr_moving_average": 0.275
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2022-10",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.275,
+      "median_nitrate_mg_L": 0.275,
+      "p90_nitrate_mg_L": 0.275,
+      "max_nitrate_mg_L": 0.275,
+      "date": "2022-10-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2022-10-18",
+      "year": 2022,
+      "month": 10,
+      "season": "Fall",
+      "nitrate_mg_L": 0.275,
+      "result_value": 0.275,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

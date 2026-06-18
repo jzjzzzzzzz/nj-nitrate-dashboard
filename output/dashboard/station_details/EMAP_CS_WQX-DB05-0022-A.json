@@ -1,0 +1,136 @@
+{
+  "station_info": {
+    "station_id": "EMAP_CS_WQX-DB05-0022-A",
+    "station_name": "Stow Creek",
+    "latitude": 39.374,
+    "longitude": -75.468,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate, Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 4,
+    "confidence_level": "Low",
+    "confidence_score": 0.3487315025817901,
+    "mean_nitrate_mg_L": 0.967025,
+    "median_nitrate_mg_L": 0.97055,
+    "p90_nitrate_mg_L": 1.06905,
+    "max_nitrate_mg_L": 1.0812,
+    "min_nitrate_mg_L": 0.8458,
+    "first_year": 2005,
+    "last_year": 2005,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 4,
+      "mean_nitrate_mg_L": 0.967025,
+      "median_nitrate_mg_L": 0.97055,
+      "p90_nitrate_mg_L": 1.06905,
+      "max_nitrate_mg_L": 1.0812,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2005.0,
+      "observation_count": 4.0,
+      "mean_nitrate_mg_L": 0.967025,
+      "median_nitrate_mg_L": 0.97055,
+      "p90_nitrate_mg_L": 1.06905,
+      "max_nitrate_mg_L": 1.0812,
+      "mean_3yr_moving_average": 0.967025
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2005-07",
+      "observation_count": 4,
+      "mean_nitrate_mg_L": 0.967025,
+      "median_nitrate_mg_L": 0.97055,
+      "p90_nitrate_mg_L": 1.06905,
+      "max_nitrate_mg_L": 1.0812,
+      "date": "2005-07-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2005-07-31",
+      "year": 2005,
+      "month": 7,
+      "season": "Summer",
+      "nitrate_mg_L": 1.0812,
+      "result_value": 1.0812,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Calculated",
+      "detection_condition": null
+    },
+    {
+      "date": "2005-07-31",
+      "year": 2005,
+      "month": 7,
+      "season": "Summer",
+      "nitrate_mg_L": 0.9004,
+      "result_value": 0.9004,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Calculated",
+      "detection_condition": null
+    },
+    {
+      "date": "2005-07-31",
+      "year": 2005,
+      "month": 7,
+      "season": "Summer",
+      "nitrate_mg_L": 0.8458,
+      "result_value": 0.8458,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Calculated",
+      "detection_condition": null
+    },
+    {
+      "date": "2005-07-31",
+      "year": 2005,
+      "month": 7,
+      "season": "Summer",
+      "nitrate_mg_L": 1.0407,
+      "result_value": 1.0407,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Calculated",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

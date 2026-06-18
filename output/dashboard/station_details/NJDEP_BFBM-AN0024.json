@@ -1,0 +1,122 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0024",
+    "station_name": "TROUT BK RT 612 AND RT 521 POND BROOK RD",
+    "latitude": 41.059305,
+    "longitude": -74.853277,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.10585,
+    "median_nitrate_mg_L": 0.10585,
+    "p90_nitrate_mg_L": 0.13957,
+    "max_nitrate_mg_L": 0.148,
+    "min_nitrate_mg_L": 0.0637,
+    "first_year": 2017,
+    "last_year": 2022,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Fall",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.10585,
+      "median_nitrate_mg_L": 0.10585,
+      "p90_nitrate_mg_L": 0.13957,
+      "max_nitrate_mg_L": 0.148,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2017.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.0637,
+      "median_nitrate_mg_L": 0.0637,
+      "p90_nitrate_mg_L": 0.0637,
+      "max_nitrate_mg_L": 0.0637,
+      "mean_3yr_moving_average": 0.0637
+    },
+    {
+      "year": 2022.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.148,
+      "median_nitrate_mg_L": 0.148,
+      "p90_nitrate_mg_L": 0.148,
+      "max_nitrate_mg_L": 0.148,
+      "mean_3yr_moving_average": 0.10585
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2017-11",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0637,
+      "median_nitrate_mg_L": 0.0637,
+      "p90_nitrate_mg_L": 0.0637,
+      "max_nitrate_mg_L": 0.0637,
+      "date": "2017-11-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2022-09",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.148,
+      "median_nitrate_mg_L": 0.148,
+      "p90_nitrate_mg_L": 0.148,
+      "max_nitrate_mg_L": 0.148,
+      "date": "2022-09-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2017-11-01",
+      "year": 2017,
+      "month": 11,
+      "season": "Fall",
+      "nitrate_mg_L": 0.0637,
+      "result_value": 0.0637,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2022-09-29",
+      "year": 2022,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.148,
+      "result_value": 0.148,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

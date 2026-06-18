@@ -1,0 +1,131 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0034",
+    "station_name": "RAMSEYBURG CREEK AT ROUTE 46",
+    "latitude": 40.884733,
+    "longitude": -75.060144,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 1.16,
+    "median_nitrate_mg_L": 1.16,
+    "p90_nitrate_mg_L": 1.256,
+    "max_nitrate_mg_L": 1.28,
+    "min_nitrate_mg_L": 1.04,
+    "first_year": 2017,
+    "last_year": 2023,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.28,
+      "median_nitrate_mg_L": 1.28,
+      "p90_nitrate_mg_L": 1.28,
+      "max_nitrate_mg_L": 1.28,
+      "season_order": 3
+    },
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.04,
+      "median_nitrate_mg_L": 1.04,
+      "p90_nitrate_mg_L": 1.04,
+      "max_nitrate_mg_L": 1.04,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2017.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 1.04,
+      "median_nitrate_mg_L": 1.04,
+      "p90_nitrate_mg_L": 1.04,
+      "max_nitrate_mg_L": 1.04,
+      "mean_3yr_moving_average": 1.04
+    },
+    {
+      "year": 2023.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 1.28,
+      "median_nitrate_mg_L": 1.28,
+      "p90_nitrate_mg_L": 1.28,
+      "max_nitrate_mg_L": 1.28,
+      "mean_3yr_moving_average": 1.1600000000000001
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2017-11",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.04,
+      "median_nitrate_mg_L": 1.04,
+      "p90_nitrate_mg_L": 1.04,
+      "max_nitrate_mg_L": 1.04,
+      "date": "2017-11-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2023-07",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.28,
+      "median_nitrate_mg_L": 1.28,
+      "p90_nitrate_mg_L": 1.28,
+      "max_nitrate_mg_L": 1.28,
+      "date": "2023-07-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2017-11-02",
+      "year": 2017,
+      "month": 11,
+      "season": "Fall",
+      "nitrate_mg_L": 1.04,
+      "result_value": 1.04,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2023-07-13",
+      "year": 2023,
+      "month": 7,
+      "season": "Summer",
+      "nitrate_mg_L": 1.28,
+      "result_value": 1.28,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-NJW04459-322-2",
+    "station_name": "Mercer County Park Lake-2",
+    "latitude": 40.267156,
+    "longitude": -74.658428,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 6,
+    "confidence_level": "Low",
+    "confidence_score": 0.4216379923242304,
+    "mean_nitrate_mg_L": 0.36386,
+    "median_nitrate_mg_L": 0.3815,
+    "p90_nitrate_mg_L": 0.6779999999999999,
+    "max_nitrate_mg_L": 0.877,
+    "min_nitrate_mg_L": 0.00656,
+    "first_year": 2017,
+    "last_year": 2018,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Spring",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.6779999999999999,
+      "median_nitrate_mg_L": 0.6779999999999999,
+      "p90_nitrate_mg_L": 0.8372,
+      "max_nitrate_mg_L": 0.877,
+      "season_order": 2
+    },
+    {
+      "season": "Summer",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.3815,
+      "median_nitrate_mg_L": 0.3815,
+      "p90_nitrate_mg_L": 0.3819,
+      "max_nitrate_mg_L": 0.382,
+      "season_order": 3
+    },
+    {
+      "season": "Fall",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.03208,
+      "median_nitrate_mg_L": 0.03208,
+      "p90_nitrate_mg_L": 0.052496,
+      "max_nitrate_mg_L": 0.0576,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2017.0,
+      "observation_count": 3.0,
+      "mean_nitrate_mg_L": 0.28885333333333335,
+      "median_nitrate_mg_L": 0.381,
+      "p90_nitrate_mg_L": 0.4594,
+      "max_nitrate_mg_L": 0.479,
+      "mean_3yr_moving_average": 0.28885333333333335
+    },
+    {
+      "year": 2018.0,
+      "observation_count": 3.0,
+      "mean_nitrate_mg_L": 0.4388666666666667,
+      "median_nitrate_mg_L": 0.382,
+      "p90_nitrate_mg_L": 0.778,
+      "max_nitrate_mg_L": 0.877,
+      "mean_3yr_moving_average": 0.36386
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2017-04",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.479,
+      "median_nitrate_mg_L": 0.479,
+      "p90_nitrate_mg_L": 0.479,
+      "max_nitrate_mg_L": 0.479,
+      "date": "2017-04-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2017-06",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.381,
+      "median_nitrate_mg_L": 0.381,
+      "p90_nitrate_mg_L": 0.381,
+      "max_nitrate_mg_L": 0.381,
+      "date": "2017-06-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2017-09",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.00656,
+      "median_nitrate_mg_L": 0.00656,
+      "p90_nitrate_mg_L": 0.00656,
+      "max_nitrate_mg_L": 0.00656,
+      "date": "2017-09-01",
+      "mean_6mo_moving_average": 0.28885333333333335,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2018-04",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.877,
+      "median_nitrate_mg_L": 0.877,
+      "p90_nitrate_mg_L": 0.877,
+      "max_nitrate_mg_L": 0.877,
+      "date": "2018-04-01",
+      "mean_6mo_moving_average": 0.43589,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2018-06",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.382,
+      "median_nitrate_mg_L": 0.382,
+      "p90_nitrate_mg_L": 0.382,
+      "max_nitrate_mg_L": 0.382,
+      "date": "2018-06-01",
+      "mean_6mo_moving_average": 0.42511200000000005,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2018-09",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0576,
+      "median_nitrate_mg_L": 0.0576,
+      "p90_nitrate_mg_L": 0.0576,
+      "max_nitrate_mg_L": 0.0576,
+      "date": "2018-09-01",
+      "mean_6mo_moving_average": 0.36386,
+      "mean_12mo_moving_average": 0.36386
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2017-04-12",
+      "year": 2017,
+      "month": 4,
+      "season": "Spring",
+      "nitrate_mg_L": 0.479,
+      "result_value": 0.479,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2017-06-14",
+      "year": 2017,
+      "month": 6,
+      "season": "Summer",
+      "nitrate_mg_L": 0.381,
+      "result_value": 0.381,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2017-09-05",
+      "year": 2017,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.00656,
+      "result_value": 0.00656,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Estimated",
+      "detection_condition": null
+    },
+    {
+      "date": "2018-04-05",
+      "year": 2018,
+      "month": 4,
+      "season": "Spring",
+      "nitrate_mg_L": 0.877,
+      "result_value": 0.877,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2018-06-08",
+      "year": 2018,
+      "month": 6,
+      "season": "Summer",
+      "nitrate_mg_L": 0.382,
+      "result_value": 0.382,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2018-09-10",
+      "year": 2018,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.0576,
+      "result_value": 0.0576,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

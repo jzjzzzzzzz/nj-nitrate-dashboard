@@ -1,0 +1,131 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0595",
+    "station_name": "WEST BRANCH WADING RIVER RT 563",
+    "latitude": 39.814444,
+    "longitude": -74.547027,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.0377,
+    "median_nitrate_mg_L": 0.0377,
+    "p90_nitrate_mg_L": 0.04722,
+    "max_nitrate_mg_L": 0.0496,
+    "min_nitrate_mg_L": 0.0258,
+    "first_year": 2015,
+    "last_year": 2021,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Spring",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0258,
+      "median_nitrate_mg_L": 0.0258,
+      "p90_nitrate_mg_L": 0.0258,
+      "max_nitrate_mg_L": 0.0258,
+      "season_order": 2
+    },
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0496,
+      "median_nitrate_mg_L": 0.0496,
+      "p90_nitrate_mg_L": 0.0496,
+      "max_nitrate_mg_L": 0.0496,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2015.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.0496,
+      "median_nitrate_mg_L": 0.0496,
+      "p90_nitrate_mg_L": 0.0496,
+      "max_nitrate_mg_L": 0.0496,
+      "mean_3yr_moving_average": 0.0496
+    },
+    {
+      "year": 2021.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.0258,
+      "median_nitrate_mg_L": 0.0258,
+      "p90_nitrate_mg_L": 0.0258,
+      "max_nitrate_mg_L": 0.0258,
+      "mean_3yr_moving_average": 0.0377
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2015-10",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0496,
+      "median_nitrate_mg_L": 0.0496,
+      "p90_nitrate_mg_L": 0.0496,
+      "max_nitrate_mg_L": 0.0496,
+      "date": "2015-10-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2021-04",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0258,
+      "median_nitrate_mg_L": 0.0258,
+      "p90_nitrate_mg_L": 0.0258,
+      "max_nitrate_mg_L": 0.0258,
+      "date": "2021-04-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2015-10-21",
+      "year": 2015,
+      "month": 10,
+      "season": "Fall",
+      "nitrate_mg_L": 0.0496,
+      "result_value": 0.0496,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2021-04-07",
+      "year": 2021,
+      "month": 4,
+      "season": "Spring",
+      "nitrate_mg_L": 0.0258,
+      "result_value": 0.0258,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

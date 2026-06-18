@@ -1,0 +1,131 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0526",
+    "station_name": "SHANNAE BR COLLIERS MILL WILDLIFE AREA",
+    "latitude": 40.05875,
+    "longitude": -74.391555,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.05055,
+    "median_nitrate_mg_L": 0.05055,
+    "p90_nitrate_mg_L": 0.08547,
+    "max_nitrate_mg_L": 0.0942,
+    "min_nitrate_mg_L": 0.0069,
+    "first_year": 2015,
+    "last_year": 2020,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Spring",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0942,
+      "median_nitrate_mg_L": 0.0942,
+      "p90_nitrate_mg_L": 0.0942,
+      "max_nitrate_mg_L": 0.0942,
+      "season_order": 2
+    },
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0069,
+      "median_nitrate_mg_L": 0.0069,
+      "p90_nitrate_mg_L": 0.0069,
+      "max_nitrate_mg_L": 0.0069,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2015.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.0942,
+      "median_nitrate_mg_L": 0.0942,
+      "p90_nitrate_mg_L": 0.0942,
+      "max_nitrate_mg_L": 0.0942,
+      "mean_3yr_moving_average": 0.0942
+    },
+    {
+      "year": 2020.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.0069,
+      "median_nitrate_mg_L": 0.0069,
+      "p90_nitrate_mg_L": 0.0069,
+      "max_nitrate_mg_L": 0.0069,
+      "mean_3yr_moving_average": 0.050550000000000005
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2015-04",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0942,
+      "median_nitrate_mg_L": 0.0942,
+      "p90_nitrate_mg_L": 0.0942,
+      "max_nitrate_mg_L": 0.0942,
+      "date": "2015-04-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2020-09",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0069,
+      "median_nitrate_mg_L": 0.0069,
+      "p90_nitrate_mg_L": 0.0069,
+      "max_nitrate_mg_L": 0.0069,
+      "date": "2020-09-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2015-04-13",
+      "year": 2015,
+      "month": 4,
+      "season": "Spring",
+      "nitrate_mg_L": 0.0942,
+      "result_value": 0.0942,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2020-09-11",
+      "year": 2020,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.0069,
+      "result_value": 0.0069,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

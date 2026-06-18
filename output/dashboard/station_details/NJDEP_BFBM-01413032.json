@@ -1,0 +1,131 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-01413032",
+    "station_name": "Town Swamp Branch near Gouldtown NJ",
+    "latitude": 39.402778,
+    "longitude": -75.167222,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.0209,
+    "median_nitrate_mg_L": 0.0209,
+    "p90_nitrate_mg_L": 0.02842,
+    "max_nitrate_mg_L": 0.0303,
+    "min_nitrate_mg_L": 0.0115,
+    "first_year": 2017,
+    "last_year": 2021,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Spring",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0303,
+      "median_nitrate_mg_L": 0.0303,
+      "p90_nitrate_mg_L": 0.0303,
+      "max_nitrate_mg_L": 0.0303,
+      "season_order": 2
+    },
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0115,
+      "median_nitrate_mg_L": 0.0115,
+      "p90_nitrate_mg_L": 0.0115,
+      "max_nitrate_mg_L": 0.0115,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2017.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.0303,
+      "median_nitrate_mg_L": 0.0303,
+      "p90_nitrate_mg_L": 0.0303,
+      "max_nitrate_mg_L": 0.0303,
+      "mean_3yr_moving_average": 0.0303
+    },
+    {
+      "year": 2021.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.0115,
+      "median_nitrate_mg_L": 0.0115,
+      "p90_nitrate_mg_L": 0.0115,
+      "max_nitrate_mg_L": 0.0115,
+      "mean_3yr_moving_average": 0.020900000000000002
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2017-05",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0303,
+      "median_nitrate_mg_L": 0.0303,
+      "p90_nitrate_mg_L": 0.0303,
+      "max_nitrate_mg_L": 0.0303,
+      "date": "2017-05-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2021-11",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0115,
+      "median_nitrate_mg_L": 0.0115,
+      "p90_nitrate_mg_L": 0.0115,
+      "max_nitrate_mg_L": 0.0115,
+      "date": "2021-11-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2017-05-26",
+      "year": 2017,
+      "month": 5,
+      "season": "Spring",
+      "nitrate_mg_L": 0.0303,
+      "result_value": 0.0303,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2021-11-18",
+      "year": 2021,
+      "month": 11,
+      "season": "Fall",
+      "nitrate_mg_L": 0.0115,
+      "result_value": 0.0115,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Estimated",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

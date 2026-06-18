@@ -1,0 +1,224 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-BFBM000382",
+    "station_name": "Cold Bk trib off Homestead Rd",
+    "latitude": 40.687436,
+    "longitude": -74.751753,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 5,
+    "confidence_level": "Low",
+    "confidence_score": 0.3882367670984233,
+    "mean_nitrate_mg_L": 1.7193999999999998,
+    "median_nitrate_mg_L": 2.03,
+    "p90_nitrate_mg_L": 2.692,
+    "max_nitrate_mg_L": 3.12,
+    "min_nitrate_mg_L": 0.257,
+    "first_year": 2023,
+    "last_year": 2024,
+    "is_hotspot": true,
+    "is_p90_hotspot": true,
+    "is_mean_hotspot": true
+  },
+  "seasonal_summary": [
+    {
+      "season": "Winter",
+      "observation_count": 3,
+      "mean_nitrate_mg_L": 2.103333333333333,
+      "median_nitrate_mg_L": 2.05,
+      "p90_nitrate_mg_L": 2.906,
+      "max_nitrate_mg_L": 3.12,
+      "season_order": 1
+    },
+    {
+      "season": "Spring",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 2.03,
+      "median_nitrate_mg_L": 2.03,
+      "p90_nitrate_mg_L": 2.03,
+      "max_nitrate_mg_L": 2.03,
+      "season_order": 2
+    },
+    {
+      "season": "Summer",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.257,
+      "median_nitrate_mg_L": 0.257,
+      "p90_nitrate_mg_L": 0.257,
+      "max_nitrate_mg_L": 0.257,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2023.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 2.05,
+      "median_nitrate_mg_L": 2.05,
+      "p90_nitrate_mg_L": 2.05,
+      "max_nitrate_mg_L": 2.05,
+      "mean_3yr_moving_average": 2.05
+    },
+    {
+      "year": 2024.0,
+      "observation_count": 4.0,
+      "mean_nitrate_mg_L": 1.63675,
+      "median_nitrate_mg_L": 1.585,
+      "p90_nitrate_mg_L": 2.793,
+      "max_nitrate_mg_L": 3.12,
+      "mean_3yr_moving_average": 1.843375
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2023-12",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 2.05,
+      "median_nitrate_mg_L": 2.05,
+      "p90_nitrate_mg_L": 2.05,
+      "max_nitrate_mg_L": 2.05,
+      "date": "2023-12-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2024-02",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 3.12,
+      "median_nitrate_mg_L": 3.12,
+      "p90_nitrate_mg_L": 3.12,
+      "max_nitrate_mg_L": 3.12,
+      "date": "2024-02-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2024-05",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 2.03,
+      "median_nitrate_mg_L": 2.03,
+      "p90_nitrate_mg_L": 2.03,
+      "max_nitrate_mg_L": 2.03,
+      "date": "2024-05-01",
+      "mean_6mo_moving_average": 2.4,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2024-08",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.257,
+      "median_nitrate_mg_L": 0.257,
+      "p90_nitrate_mg_L": 0.257,
+      "max_nitrate_mg_L": 0.257,
+      "date": "2024-08-01",
+      "mean_6mo_moving_average": 1.86425,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2024-12",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.14,
+      "median_nitrate_mg_L": 1.14,
+      "p90_nitrate_mg_L": 1.14,
+      "max_nitrate_mg_L": 1.14,
+      "date": "2024-12-01",
+      "mean_6mo_moving_average": 1.7193999999999998,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2023-12-05",
+      "year": 2023,
+      "month": 12,
+      "season": "Winter",
+      "nitrate_mg_L": 2.05,
+      "result_value": 2.05,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Filtered, field",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2024-02-21",
+      "year": 2024,
+      "month": 2,
+      "season": "Winter",
+      "nitrate_mg_L": 3.12,
+      "result_value": 3.12,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Filtered, field",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2024-05-23",
+      "year": 2024,
+      "month": 5,
+      "season": "Spring",
+      "nitrate_mg_L": 2.03,
+      "result_value": 2.03,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Filtered, field",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2024-08-27",
+      "year": 2024,
+      "month": 8,
+      "season": "Summer",
+      "nitrate_mg_L": 0.257,
+      "result_value": 0.257,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Filtered, field",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2024-12-19",
+      "year": 2024,
+      "month": 12,
+      "season": "Winter",
+      "nitrate_mg_L": 1.14,
+      "result_value": 1.14,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Filtered, field",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

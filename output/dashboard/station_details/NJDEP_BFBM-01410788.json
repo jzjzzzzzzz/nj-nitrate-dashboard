@@ -1,0 +1,205 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-01410788",
+    "station_name": "Great Egg Harbor R at Winslow Crossing NJ",
+    "latitude": 39.701479,
+    "longitude": -74.937473,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 4,
+    "confidence_level": "Low",
+    "confidence_score": 0.3487315025817901,
+    "mean_nitrate_mg_L": 0.4529999999999999,
+    "median_nitrate_mg_L": 0.4395,
+    "p90_nitrate_mg_L": 0.5774,
+    "max_nitrate_mg_L": 0.599,
+    "min_nitrate_mg_L": 0.334,
+    "first_year": 2015,
+    "last_year": 2016,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Winter",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.599,
+      "median_nitrate_mg_L": 0.599,
+      "p90_nitrate_mg_L": 0.599,
+      "max_nitrate_mg_L": 0.599,
+      "season_order": 1
+    },
+    {
+      "season": "Spring",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.334,
+      "median_nitrate_mg_L": 0.334,
+      "p90_nitrate_mg_L": 0.334,
+      "max_nitrate_mg_L": 0.334,
+      "season_order": 2
+    },
+    {
+      "season": "Summer",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.527,
+      "median_nitrate_mg_L": 0.527,
+      "p90_nitrate_mg_L": 0.527,
+      "max_nitrate_mg_L": 0.527,
+      "season_order": 3
+    },
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.352,
+      "median_nitrate_mg_L": 0.352,
+      "p90_nitrate_mg_L": 0.352,
+      "max_nitrate_mg_L": 0.352,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2015.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.599,
+      "median_nitrate_mg_L": 0.599,
+      "p90_nitrate_mg_L": 0.599,
+      "max_nitrate_mg_L": 0.599,
+      "mean_3yr_moving_average": 0.599
+    },
+    {
+      "year": 2016.0,
+      "observation_count": 3.0,
+      "mean_nitrate_mg_L": 0.4043333333333334,
+      "median_nitrate_mg_L": 0.352,
+      "p90_nitrate_mg_L": 0.492,
+      "max_nitrate_mg_L": 0.527,
+      "mean_3yr_moving_average": 0.5016666666666667
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2015-12",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.599,
+      "median_nitrate_mg_L": 0.599,
+      "p90_nitrate_mg_L": 0.599,
+      "max_nitrate_mg_L": 0.599,
+      "date": "2015-12-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2016-03",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.334,
+      "median_nitrate_mg_L": 0.334,
+      "p90_nitrate_mg_L": 0.334,
+      "max_nitrate_mg_L": 0.334,
+      "date": "2016-03-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2016-06",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.527,
+      "median_nitrate_mg_L": 0.527,
+      "p90_nitrate_mg_L": 0.527,
+      "max_nitrate_mg_L": 0.527,
+      "date": "2016-06-01",
+      "mean_6mo_moving_average": 0.48666666666666664,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2016-09",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.352,
+      "median_nitrate_mg_L": 0.352,
+      "p90_nitrate_mg_L": 0.352,
+      "max_nitrate_mg_L": 0.352,
+      "date": "2016-09-01",
+      "mean_6mo_moving_average": 0.45299999999999996,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2015-12-17",
+      "year": 2015,
+      "month": 12,
+      "season": "Winter",
+      "nitrate_mg_L": 0.599,
+      "result_value": 0.599,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2016-03-15",
+      "year": 2016,
+      "month": 3,
+      "season": "Spring",
+      "nitrate_mg_L": 0.334,
+      "result_value": 0.334,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2016-06-16",
+      "year": 2016,
+      "month": 6,
+      "season": "Summer",
+      "nitrate_mg_L": 0.527,
+      "result_value": 0.527,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2016-09-22",
+      "year": 2016,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.352,
+      "result_value": 0.352,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0128A",
+    "station_name": "Doctors Ck at Sharon Station Rd",
+    "latitude": 40.157864,
+    "longitude": -74.539523,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.29,
+    "median_nitrate_mg_L": 0.29,
+    "p90_nitrate_mg_L": 0.4116,
+    "max_nitrate_mg_L": 0.442,
+    "min_nitrate_mg_L": 0.138,
+    "first_year": 2016,
+    "last_year": 2021,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Fall",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.29000000000000004,
+      "median_nitrate_mg_L": 0.29000000000000004,
+      "p90_nitrate_mg_L": 0.4116,
+      "max_nitrate_mg_L": 0.442,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2016.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.138,
+      "median_nitrate_mg_L": 0.138,
+      "p90_nitrate_mg_L": 0.138,
+      "max_nitrate_mg_L": 0.138,
+      "mean_3yr_moving_average": 0.138
+    },
+    {
+      "year": 2021.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.442,
+      "median_nitrate_mg_L": 0.442,
+      "p90_nitrate_mg_L": 0.442,
+      "max_nitrate_mg_L": 0.442,
+      "mean_3yr_moving_average": 0.29000000000000004
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2016-09",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.138,
+      "median_nitrate_mg_L": 0.138,
+      "p90_nitrate_mg_L": 0.138,
+      "max_nitrate_mg_L": 0.138,
+      "date": "2016-09-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2021-11",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.442,
+      "median_nitrate_mg_L": 0.442,
+      "p90_nitrate_mg_L": 0.442,
+      "max_nitrate_mg_L": 0.442,
+      "date": "2021-11-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2016-09-20",
+      "year": 2016,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.138,
+      "result_value": 0.138,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2021-11-04",
+      "year": 2021,
+      "month": 11,
+      "season": "Fall",
+      "nitrate_mg_L": 0.442,
+      "result_value": 0.442,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

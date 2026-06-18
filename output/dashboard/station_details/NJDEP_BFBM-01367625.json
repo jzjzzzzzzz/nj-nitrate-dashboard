@@ -1,0 +1,159 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-01367625",
+    "station_name": "WALLKILL RIVER AT SPARTA",
+    "latitude": 41.03897,
+    "longitude": -74.6301,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 3,
+    "confidence_level": "Low",
+    "confidence_score": 0.3003809664473759,
+    "mean_nitrate_mg_L": 0.6206666666666666,
+    "median_nitrate_mg_L": 0.369,
+    "p90_nitrate_mg_L": 1.0258,
+    "max_nitrate_mg_L": 1.19,
+    "min_nitrate_mg_L": 0.303,
+    "first_year": 2024,
+    "last_year": 2024,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Winter",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.19,
+      "median_nitrate_mg_L": 1.19,
+      "p90_nitrate_mg_L": 1.19,
+      "max_nitrate_mg_L": 1.19,
+      "season_order": 1
+    },
+    {
+      "season": "Spring",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.303,
+      "median_nitrate_mg_L": 0.303,
+      "p90_nitrate_mg_L": 0.303,
+      "max_nitrate_mg_L": 0.303,
+      "season_order": 2
+    },
+    {
+      "season": "Summer",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.369,
+      "median_nitrate_mg_L": 0.369,
+      "p90_nitrate_mg_L": 0.369,
+      "max_nitrate_mg_L": 0.369,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2024.0,
+      "observation_count": 3.0,
+      "mean_nitrate_mg_L": 0.6206666666666666,
+      "median_nitrate_mg_L": 0.369,
+      "p90_nitrate_mg_L": 1.0258,
+      "max_nitrate_mg_L": 1.19,
+      "mean_3yr_moving_average": 0.6206666666666666
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2024-04",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.303,
+      "median_nitrate_mg_L": 0.303,
+      "p90_nitrate_mg_L": 0.303,
+      "max_nitrate_mg_L": 0.303,
+      "date": "2024-04-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2024-08",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.369,
+      "median_nitrate_mg_L": 0.369,
+      "p90_nitrate_mg_L": 0.369,
+      "max_nitrate_mg_L": 0.369,
+      "date": "2024-08-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2024-12",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.19,
+      "median_nitrate_mg_L": 1.19,
+      "p90_nitrate_mg_L": 1.19,
+      "max_nitrate_mg_L": 1.19,
+      "date": "2024-12-01",
+      "mean_6mo_moving_average": 0.6206666666666666,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2024-04-10",
+      "year": 2024,
+      "month": 4,
+      "season": "Spring",
+      "nitrate_mg_L": 0.303,
+      "result_value": 0.303,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Filtered, field",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2024-08-13",
+      "year": 2024,
+      "month": 8,
+      "season": "Summer",
+      "nitrate_mg_L": 0.369,
+      "result_value": 0.369,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Filtered, field",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2024-12-04",
+      "year": 2024,
+      "month": 12,
+      "season": "Winter",
+      "nitrate_mg_L": 1.19,
+      "result_value": 1.19,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Filtered, field",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

@@ -1,0 +1,296 @@
+[
+  {
+    "factor_metric": "mean_annual_precip_inches",
+    "nitrate_metric": "hotspot_rate_percent",
+    "pearson_r": 0.2189,
+    "spearman_r": 0.1748,
+    "n": 21
+  },
+  {
+    "factor_metric": "mean_annual_precip_inches",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": 0.205,
+    "spearman_r": 0.0747,
+    "n": 21
+  },
+  {
+    "factor_metric": "mean_annual_precip_inches",
+    "nitrate_metric": "mean_p90_nitrate_mg_L",
+    "pearson_r": 0.1049,
+    "spearman_r": -0.0058,
+    "n": 21
+  },
+  {
+    "factor_metric": "p90_annual_precip_inches",
+    "nitrate_metric": "hotspot_rate_percent",
+    "pearson_r": 0.5613,
+    "spearman_r": 0.5339,
+    "n": 21
+  },
+  {
+    "factor_metric": "p90_annual_precip_inches",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": 0.5554,
+    "spearman_r": 0.439,
+    "n": 21
+  },
+  {
+    "factor_metric": "p90_annual_precip_inches",
+    "nitrate_metric": "mean_p90_nitrate_mg_L",
+    "pearson_r": 0.4885,
+    "spearman_r": 0.3273,
+    "n": 21
+  },
+  {
+    "factor_metric": "precip_cv",
+    "nitrate_metric": "hotspot_rate_percent",
+    "pearson_r": 0.2525,
+    "spearman_r": 0.5099,
+    "n": 21
+  },
+  {
+    "factor_metric": "precip_cv",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": 0.3554,
+    "spearman_r": 0.5078,
+    "n": 21
+  },
+  {
+    "factor_metric": "precip_cv",
+    "nitrate_metric": "mean_p90_nitrate_mg_L",
+    "pearson_r": 0.275,
+    "spearman_r": 0.4221,
+    "n": 21
+  },
+  {
+    "factor_metric": "watershed_area_km2_recomputed",
+    "nitrate_metric": "hotspot_rate_percent",
+    "pearson_r": -0.014,
+    "spearman_r": -0.1604,
+    "n": 21
+  },
+  {
+    "factor_metric": "watershed_area_km2_recomputed",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": -0.1398,
+    "spearman_r": -0.2935,
+    "n": 21
+  },
+  {
+    "factor_metric": "watershed_area_km2_recomputed",
+    "nitrate_metric": "mean_p90_nitrate_mg_L",
+    "pearson_r": -0.1905,
+    "spearman_r": -0.3,
+    "n": 21
+  },
+  {
+    "factor_metric": "perimeter_km",
+    "nitrate_metric": "hotspot_rate_percent",
+    "pearson_r": -0.1989,
+    "spearman_r": -0.2884,
+    "n": 21
+  },
+  {
+    "factor_metric": "perimeter_km",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": -0.353,
+    "spearman_r": -0.4026,
+    "n": 21
+  },
+  {
+    "factor_metric": "perimeter_km",
+    "nitrate_metric": "mean_p90_nitrate_mg_L",
+    "pearson_r": -0.3787,
+    "spearman_r": -0.3961,
+    "n": 21
+  },
+  {
+    "factor_metric": "shape_compactness",
+    "nitrate_metric": "hotspot_rate_percent",
+    "pearson_r": 0.0901,
+    "spearman_r": 0.1487,
+    "n": 21
+  },
+  {
+    "factor_metric": "shape_compactness",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": 0.1765,
+    "spearman_r": 0.2052,
+    "n": 21
+  },
+  {
+    "factor_metric": "shape_compactness",
+    "nitrate_metric": "mean_p90_nitrate_mg_L",
+    "pearson_r": 0.2024,
+    "spearman_r": 0.2065,
+    "n": 21
+  },
+  {
+    "factor_metric": "upgradient_facility_count_proxy",
+    "nitrate_metric": "hotspot_rate_percent",
+    "pearson_r": 0.2764,
+    "spearman_r": 0.3612,
+    "n": 21
+  },
+  {
+    "factor_metric": "upgradient_facility_count_proxy",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": 0.3602,
+    "spearman_r": 0.4273,
+    "n": 21
+  },
+  {
+    "factor_metric": "upgradient_facility_count_proxy",
+    "nitrate_metric": "mean_p90_nitrate_mg_L",
+    "pearson_r": 0.3898,
+    "spearman_r": 0.5052,
+    "n": 21
+  },
+  {
+    "factor_metric": "upgradient_facility_density_proxy_per_100_km2",
+    "nitrate_metric": "hotspot_rate_percent",
+    "pearson_r": 0.4039,
+    "spearman_r": 0.4768,
+    "n": 21
+  },
+  {
+    "factor_metric": "upgradient_facility_density_proxy_per_100_km2",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": 0.5615,
+    "spearman_r": 0.6143,
+    "n": 21
+  },
+  {
+    "factor_metric": "upgradient_facility_density_proxy_per_100_km2",
+    "nitrate_metric": "mean_p90_nitrate_mg_L",
+    "pearson_r": 0.6304,
+    "spearman_r": 0.6714,
+    "n": 21
+  },
+  {
+    "factor_metric": "mean_facility_discharge_value",
+    "nitrate_metric": "hotspot_rate_percent",
+    "pearson_r": -0.1886,
+    "spearman_r": -0.2527,
+    "n": 13
+  },
+  {
+    "factor_metric": "mean_facility_discharge_value",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": -0.2542,
+    "spearman_r": -0.2198,
+    "n": 13
+  },
+  {
+    "factor_metric": "mean_facility_discharge_value",
+    "nitrate_metric": "mean_p90_nitrate_mg_L",
+    "pearson_r": -0.1303,
+    "spearman_r": -0.2527,
+    "n": 13
+  },
+  {
+    "factor_metric": "total_facility_discharge_value",
+    "nitrate_metric": "hotspot_rate_percent",
+    "pearson_r": 0.2319,
+    "spearman_r": 0.3687,
+    "n": 20
+  },
+  {
+    "factor_metric": "total_facility_discharge_value",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": 0.168,
+    "spearman_r": 0.4041,
+    "n": 20
+  },
+  {
+    "factor_metric": "total_facility_discharge_value",
+    "nitrate_metric": "mean_p90_nitrate_mg_L",
+    "pearson_r": 0.1034,
+    "spearman_r": 0.3288,
+    "n": 20
+  },
+  {
+    "factor_metric": "dmr_facility_match_rate_percent",
+    "nitrate_metric": "hotspot_rate_percent",
+    "pearson_r": 0.3867,
+    "spearman_r": 0.6493,
+    "n": 21
+  },
+  {
+    "factor_metric": "dmr_facility_match_rate_percent",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": 0.4352,
+    "spearman_r": 0.6458,
+    "n": 21
+  },
+  {
+    "factor_metric": "dmr_facility_match_rate_percent",
+    "nitrate_metric": "mean_p90_nitrate_mg_L",
+    "pearson_r": 0.3054,
+    "spearman_r": 0.5683,
+    "n": 21
+  },
+  {
+    "factor_metric": "mean_facility_nitrogen_load",
+    "nitrate_metric": "hotspot_rate_percent",
+    "pearson_r": -0.8442,
+    "spearman_r": -0.9,
+    "n": 5
+  },
+  {
+    "factor_metric": "mean_facility_nitrogen_load",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": -0.7658,
+    "spearman_r": -0.8,
+    "n": 5
+  },
+  {
+    "factor_metric": "mean_facility_nitrogen_load",
+    "nitrate_metric": "mean_p90_nitrate_mg_L",
+    "pearson_r": -0.7434,
+    "spearman_r": -0.9,
+    "n": 5
+  },
+  {
+    "factor_metric": "total_facility_nitrogen_load",
+    "nitrate_metric": "hotspot_rate_percent",
+    "pearson_r": -0.1643,
+    "spearman_r": 0.085,
+    "n": 20
+  },
+  {
+    "factor_metric": "total_facility_nitrogen_load",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": -0.1964,
+    "spearman_r": 0.0395,
+    "n": 20
+  },
+  {
+    "factor_metric": "total_facility_nitrogen_load",
+    "nitrate_metric": "mean_p90_nitrate_mg_L",
+    "pearson_r": -0.1948,
+    "spearman_r": 0.004,
+    "n": 20
+  },
+  {
+    "factor_metric": "mean_facility_nitrogen_concentration",
+    "nitrate_metric": "hotspot_rate_percent",
+    "pearson_r": -0.0731,
+    "spearman_r": 0.0727,
+    "n": 11
+  },
+  {
+    "factor_metric": "mean_facility_nitrogen_concentration",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": -0.2321,
+    "spearman_r": -0.1636,
+    "n": 11
+  },
+  {
+    "factor_metric": "mean_facility_nitrogen_concentration",
+    "nitrate_metric": "mean_p90_nitrate_mg_L",
+    "pearson_r": -0.2651,
+    "spearman_r": -0.1455,
+    "n": 11
+  }
+]

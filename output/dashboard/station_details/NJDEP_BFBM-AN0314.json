@@ -1,0 +1,85 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0314",
+    "station_name": "ELECTRIC BK FAIRVIEW AVE",
+    "latitude": 40.789833,
+    "longitude": -74.776361,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 1,
+    "confidence_level": "Low",
+    "confidence_score": 0.1501904832236879,
+    "mean_nitrate_mg_L": 0.761,
+    "median_nitrate_mg_L": 0.761,
+    "p90_nitrate_mg_L": 0.761,
+    "max_nitrate_mg_L": 0.761,
+    "min_nitrate_mg_L": 0.761,
+    "first_year": 2019,
+    "last_year": 2019,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Spring",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.761,
+      "median_nitrate_mg_L": 0.761,
+      "p90_nitrate_mg_L": 0.761,
+      "max_nitrate_mg_L": 0.761,
+      "season_order": 2
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2019.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.761,
+      "median_nitrate_mg_L": 0.761,
+      "p90_nitrate_mg_L": 0.761,
+      "max_nitrate_mg_L": 0.761,
+      "mean_3yr_moving_average": 0.761
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2019-04",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.761,
+      "median_nitrate_mg_L": 0.761,
+      "p90_nitrate_mg_L": 0.761,
+      "max_nitrate_mg_L": 0.761,
+      "date": "2019-04-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2019-04-23",
+      "year": 2019,
+      "month": 4,
+      "season": "Spring",
+      "nitrate_mg_L": 0.761,
+      "result_value": 0.761,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

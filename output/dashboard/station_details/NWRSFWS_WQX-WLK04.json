@@ -1,0 +1,159 @@
+{
+  "station_info": {
+    "station_id": "NWRSFWS_WQX-WLK04",
+    "station_name": "Lake Wallkill outflow at Lake Wallkill Rd within WLK (1/2)",
+    "latitude": 41.23952,
+    "longitude": -74.54322,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "ppm"
+  },
+  "summary": {
+    "observation_count": 3,
+    "confidence_level": "Low",
+    "confidence_score": 0.3003809664473759,
+    "mean_nitrate_mg_L": 0.208,
+    "median_nitrate_mg_L": 0.2,
+    "p90_nitrate_mg_L": 0.2288,
+    "max_nitrate_mg_L": 0.236,
+    "min_nitrate_mg_L": 0.188,
+    "first_year": 2016,
+    "last_year": 2017,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.194,
+      "median_nitrate_mg_L": 0.194,
+      "p90_nitrate_mg_L": 0.1988,
+      "max_nitrate_mg_L": 0.2,
+      "season_order": 3
+    },
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.236,
+      "median_nitrate_mg_L": 0.236,
+      "p90_nitrate_mg_L": 0.236,
+      "max_nitrate_mg_L": 0.236,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2016.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.188,
+      "median_nitrate_mg_L": 0.188,
+      "p90_nitrate_mg_L": 0.188,
+      "max_nitrate_mg_L": 0.188,
+      "mean_3yr_moving_average": 0.188
+    },
+    {
+      "year": 2017.0,
+      "observation_count": 2.0,
+      "mean_nitrate_mg_L": 0.218,
+      "median_nitrate_mg_L": 0.218,
+      "p90_nitrate_mg_L": 0.2324,
+      "max_nitrate_mg_L": 0.236,
+      "mean_3yr_moving_average": 0.203
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2016-07",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.188,
+      "median_nitrate_mg_L": 0.188,
+      "p90_nitrate_mg_L": 0.188,
+      "max_nitrate_mg_L": 0.188,
+      "date": "2016-07-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2017-07",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.2,
+      "median_nitrate_mg_L": 0.2,
+      "p90_nitrate_mg_L": 0.2,
+      "max_nitrate_mg_L": 0.2,
+      "date": "2017-07-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2017-09",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.236,
+      "median_nitrate_mg_L": 0.236,
+      "p90_nitrate_mg_L": 0.236,
+      "max_nitrate_mg_L": 0.236,
+      "date": "2017-09-01",
+      "mean_6mo_moving_average": 0.208,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2016-07-06",
+      "year": 2016,
+      "month": 7,
+      "season": "Summer",
+      "nitrate_mg_L": 0.188,
+      "result_value": 0.188,
+      "unit": "ppm",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2017-07-11",
+      "year": 2017,
+      "month": 7,
+      "season": "Summer",
+      "nitrate_mg_L": 0.2,
+      "result_value": 0.2,
+      "unit": "ppm",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2017-09-19",
+      "year": 2017,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.236,
+      "result_value": 0.236,
+      "unit": "ppm",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

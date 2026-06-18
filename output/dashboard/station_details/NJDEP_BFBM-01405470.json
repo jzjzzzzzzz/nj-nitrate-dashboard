@@ -1,0 +1,150 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-01405470",
+    "station_name": "IRESICK BROOK ON RT 527",
+    "latitude": 40.393087,
+    "longitude": -74.359276,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 3,
+    "confidence_level": "Low",
+    "confidence_score": 0.3003809664473759,
+    "mean_nitrate_mg_L": 0.2128333333333333,
+    "median_nitrate_mg_L": 0.0687,
+    "p90_nitrate_mg_L": 0.45374,
+    "max_nitrate_mg_L": 0.55,
+    "min_nitrate_mg_L": 0.0198,
+    "first_year": 2009,
+    "last_year": 2009,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Winter",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0687,
+      "median_nitrate_mg_L": 0.0687,
+      "p90_nitrate_mg_L": 0.0687,
+      "max_nitrate_mg_L": 0.0687,
+      "season_order": 1
+    },
+    {
+      "season": "Summer",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.28490000000000004,
+      "median_nitrate_mg_L": 0.28490000000000004,
+      "p90_nitrate_mg_L": 0.49698000000000003,
+      "max_nitrate_mg_L": 0.55,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2009.0,
+      "observation_count": 3.0,
+      "mean_nitrate_mg_L": 0.21283333333333335,
+      "median_nitrate_mg_L": 0.0687,
+      "p90_nitrate_mg_L": 0.45374000000000003,
+      "max_nitrate_mg_L": 0.55,
+      "mean_3yr_moving_average": 0.21283333333333335
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2009-06",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.55,
+      "median_nitrate_mg_L": 0.55,
+      "p90_nitrate_mg_L": 0.55,
+      "max_nitrate_mg_L": 0.55,
+      "date": "2009-06-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2009-08",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0198,
+      "median_nitrate_mg_L": 0.0198,
+      "p90_nitrate_mg_L": 0.0198,
+      "max_nitrate_mg_L": 0.0198,
+      "date": "2009-08-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2009-12",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0687,
+      "median_nitrate_mg_L": 0.0687,
+      "p90_nitrate_mg_L": 0.0687,
+      "max_nitrate_mg_L": 0.0687,
+      "date": "2009-12-01",
+      "mean_6mo_moving_average": 0.21283333333333335,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2009-06-25",
+      "year": 2009,
+      "month": 6,
+      "season": "Summer",
+      "nitrate_mg_L": 0.55,
+      "result_value": 0.55,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2009-08-24",
+      "year": 2009,
+      "month": 8,
+      "season": "Summer",
+      "nitrate_mg_L": 0.0198,
+      "result_value": 0.0198,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2009-12-03",
+      "year": 2009,
+      "month": 12,
+      "season": "Winter",
+      "nitrate_mg_L": 0.0687,
+      "result_value": 0.0687,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0588",
+    "station_name": "BATSTO RIVER AT ROUTE 542",
+    "latitude": 39.642013,
+    "longitude": -74.649883,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.185,
+    "median_nitrate_mg_L": 0.185,
+    "p90_nitrate_mg_L": 0.2042,
+    "max_nitrate_mg_L": 0.209,
+    "min_nitrate_mg_L": 0.161,
+    "first_year": 2015,
+    "last_year": 2020,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Fall",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.185,
+      "median_nitrate_mg_L": 0.185,
+      "p90_nitrate_mg_L": 0.2042,
+      "max_nitrate_mg_L": 0.209,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2015.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.161,
+      "median_nitrate_mg_L": 0.161,
+      "p90_nitrate_mg_L": 0.161,
+      "max_nitrate_mg_L": 0.161,
+      "mean_3yr_moving_average": 0.161
+    },
+    {
+      "year": 2020.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.209,
+      "median_nitrate_mg_L": 0.209,
+      "p90_nitrate_mg_L": 0.209,
+      "max_nitrate_mg_L": 0.209,
+      "mean_3yr_moving_average": 0.185
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2015-09",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.161,
+      "median_nitrate_mg_L": 0.161,
+      "p90_nitrate_mg_L": 0.161,
+      "max_nitrate_mg_L": 0.161,
+      "date": "2015-09-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2020-11",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.209,
+      "median_nitrate_mg_L": 0.209,
+      "p90_nitrate_mg_L": 0.209,
+      "max_nitrate_mg_L": 0.209,
+      "date": "2020-11-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2015-09-18",
+      "year": 2015,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.161,
+      "result_value": 0.161,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2020-11-20",
+      "year": 2020,
+      "month": 11,
+      "season": "Fall",
+      "nitrate_mg_L": 0.209,
+      "result_value": 0.209,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

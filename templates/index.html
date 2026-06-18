@@ -1,0 +1,1512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NJ Nitrate Hotspot Research Dashboard</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f7fb;
+            color: #1f2937;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1d4ed8, #0f766e);
+            color: white;
+            padding: 34px 42px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            line-height: 1.2;
+        }
+
+        header .subtitle {
+            margin-top: 12px;
+            max-width: 1150px;
+            line-height: 1.6;
+            font-size: 17px;
+        }
+
+        header .tagline {
+            margin-top: 16px;
+            display: inline-block;
+            padding: 8px 13px;
+            background: rgba(255, 255, 255, 0.18);
+            border: 1px solid rgba(255, 255, 255, 0.35);
+            border-radius: 999px;
+            font-size: 14px;
+        }
+
+        nav {
+            background: white;
+            padding: 14px 42px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        nav a {
+            color: #1d4ed8;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 24px;
+            line-height: 2;
+        }
+
+        main {
+            padding: 30px 42px 55px;
+        }
+
+        section {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 28px;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #0f172a;
+        }
+
+        h3 {
+            color: #0f172a;
+        }
+
+        .note {
+            color: #475569;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+
+        .about-grid, .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 22px;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 18px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(180px, 1fr));
+            gap: 16px;
+            margin-top: 18px;
+        }
+
+        .card, .panel, .figure-card {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 14px;
+            padding: 18px;
+        }
+
+        .card-title {
+            color: #64748b;
+            font-size: 13px;
+            margin-bottom: 8px;
+        }
+
+        .card-value {
+            color: #0f172a;
+            font-size: 26px;
+            font-weight: bold;
+        }
+
+        .card-subtitle {
+            color: #64748b;
+            font-size: 13px;
+            margin-top: 8px;
+            line-height: 1.4;
+        }
+
+        .success {
+            background: #ecfdf5;
+            border: 1px solid #a7f3d0;
+            color: #047857;
+            border-radius: 12px;
+            padding: 14px 16px;
+            line-height: 1.6;
+            margin-top: 16px;
+        }
+
+        .warning {
+            background: #fff7ed;
+            border: 1px solid #fed7aa;
+            color: #9a3412;
+            border-radius: 12px;
+            padding: 14px 16px;
+            line-height: 1.6;
+            margin-top: 16px;
+        }
+
+        .map-frame {
+            width: 100%;
+            height: 720px;
+            border: none;
+            border-radius: 12px;
+            box-shadow: inset 0 0 0 1px #e5e7eb;
+            background: #f8fafc;
+        }
+
+        .figure-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .figure-card h3 {
+            margin-top: 0;
+            font-size: 16px;
+        }
+
+        .figure-card img {
+            width: 100%;
+            border-radius: 10px;
+            border: 1px solid #e5e7eb;
+            background: white;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 16px;
+            font-size: 14px;
+        }
+
+        th {
+            background: #e0f2fe;
+            text-align: left;
+            padding: 10px;
+            border-bottom: 2px solid #bae6fd;
+            color: #0f172a;
+        }
+
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #e5e7eb;
+            vertical-align: top;
+        }
+
+        tr:hover {
+            background: #f8fafc;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+            margin-top: 16px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 14px 22px;
+            background: #0f766e;
+            color: white;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 14px;
+            margin-right: 10px;
+        }
+
+        .button-blue { background: #1d4ed8; }
+        .button-dark { background: #0f172a; }
+
+        .metric-pill, .ok-pill, .danger-pill {
+            display: inline-block;
+            padding: 4px 9px;
+            border-radius: 999px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .metric-pill {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
+        .ok-pill {
+            background: #dcfce7;
+            color: #166534;
+        }
+
+        .danger-pill {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        input {
+            padding: 12px 14px;
+            border: 1px solid #cbd5e1;
+            border-radius: 10px;
+            width: 100%;
+            box-sizing: border-box;
+            font-size: 14px;
+            margin-top: 8px;
+        }
+
+        select {
+            padding: 12px 14px;
+            border: 1px solid #cbd5e1;
+            border-radius: 10px;
+            width: 100%;
+            box-sizing: border-box;
+            font-size: 14px;
+            margin-top: 8px;
+            background: white;
+        }
+
+        .small {
+            font-size: 13px;
+            color: #64748b;
+        }
+
+        .map-frame {
+            width: 100%;
+            height: 640px;
+            border: 1px solid #cbd5e1;
+            border-radius: 12px;
+            background: white;
+        }
+
+        @media (max-width: 1000px) {
+            .cards, .grid-3, .grid-2, .about-grid, .figure-grid {
+                grid-template-columns: 1fr;
+            }
+
+            main, header, nav {
+                padding-left: 22px;
+                padding-right: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>New Jersey Nitrate Hotspot Research Dashboard</h1>
+        <p class="subtitle">
+            An interactive water-quality research website analyzing nitrate and nitrate + nitrite monitoring records near New Jersey from 2000 to 2026.
+            The project identifies station-level hotspots, compares seasonal and long-term nitrate patterns, and connects watershed hotspots with land use,
+            NJPDES facility density, rainfall, buffer-scale land use, and regression model checks.
+        </p>
+        <div class="tagline">
+            Water Quality Portal Data | Nitrate Hotspot Detection | Watershed Analysis | Land Use | NJPDES Facilities | Robustness Checks | Proposal Export
+        </div>
+    </header>
+
+    <nav>
+        <a href="/">Main Dashboard</a>
+        <a href="#about">About</a>
+        <a href="#map">Hotspot Map</a>
+        <a href="/watersheds">Watersheds</a>
+        <a href="#facility-analysis">Facilities</a>
+        <a href="#multivariable-model">Regression</a>
+        <a href="#robustness-refinement">Robustness</a>
+        <a href="#additional-factors">Additional Factors</a>
+        <a href="#hydrography-outfalls">Hydrography</a>
+        <a href="#station-detail">Station Details</a>
+        <a href="/proposal">Proposal</a>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About This Project</h2>
+            <p class="note">
+                This website supports a research project on nitrate pollution patterns in and around New Jersey.
+                It combines public monitoring data, spatial watershed boundaries, land-use data, NJPDES facility locations,
+                and model diagnostics to evaluate where hotspots occur and which factors best explain them.
+            </p>
+
+            <div class="about-grid" style="margin-top: 16px;">
+                <div class="panel">
+                    <h3>Research Goal</h3>
+                    <p class="note">
+                        Find where nitrate hotspots occur, test whether they cluster in specific watersheds,
+                        and compare developed land, agriculture, facility density, rainfall, and local buffer-scale land use.
+                    </p>
+                </div>
+                <div class="panel">
+                    <h3>Current Finding</h3>
+                    <p class="note">
+                        Developed land remains the most stable watershed-level predictor after threshold sensitivity,
+                        confidence filtering, observation-count weighting, rainfall, buffer-scale, and low-VIF model checks.
+                        Facility density is associated with hotspots, but it overlaps strongly with developed land.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Dashboard Summary</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="card-title">Total Stations</div>
+                    <div class="card-value" id="totalStations">Loading...</div>
+                    <div class="card-subtitle">Stations with nitrate summary data.</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">Hotspot Stations</div>
+                    <div class="card-value" id="hotspotStations">Loading...</div>
+                    <div class="card-subtitle">Top 10% by mean or p90 nitrate.</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">High Confidence</div>
+                    <div class="card-value" id="highConfidence">Loading...</div>
+                    <div class="card-subtitle">At least 100 observations.</div>
+                </div>
+                <div class="card">
+                    <div class="card-title">Mean Nitrate</div>
+                    <div class="card-value" id="meanNitrate">Loading...</div>
+                    <div class="card-subtitle">Mean across station summaries.</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Research Finding So Far</h2>
+            <div class="success" id="mainFinding">
+                Loading research finding...
+            </div>
+            <div class="warning">
+                This dashboard shows spatial patterns and statistical associations. It does not prove causation.
+                Stronger causal analysis would require discharge volume, event-level rainfall, groundwater flow,
+                streamflow direction, and monitoring-density controls.
+            </div>
+            <a class="button button-blue" href="/watersheds">Open Watershed Analysis</a>
+            <a class="button" href="/proposal">Open Research Proposal</a>
+        </section>
+
+        <section id="map">
+            <h2>Nitrate Hotspot Map</h2>
+            <p class="note">
+                Station-level nitrate map with hotspot and confidence layers. Low-confidence hotspots should be interpreted carefully.
+            </p>
+            <iframe class="map-frame" src="/maps/nitrate_hotspot_map.html"></iframe>
+        </section>
+
+        <section>
+            <h2>Watershed Comparison</h2>
+            <div class="grid-2">
+                <div class="panel">
+                    <h3>Watershed and Land Use Page</h3>
+                    <p class="note">
+                        The full watershed page contains the comparison map, land-use correlation table,
+                        top watershed ranking, and scatter plots.
+                    </p>
+                    <a class="button button-blue" href="/watersheds">Go to Watershed Page</a>
+                </div>
+                <div class="panel">
+                    <h3>Core Watershed Result</h3>
+                    <p class="note">
+                        Lower Passaic and Saddle and Hackensack/Hudson/Pascack remain key hotspot watersheds.
+                        Maurice/Salem/Cohansey is also important and has a different land-use pattern.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="facility-analysis">
+            <h2>NJPDES Facility Density vs Nitrate Hotspots</h2>
+            <p class="note">
+                Facility density is associated with nitrate hotspot patterns in simple comparisons, especially industrial stormwater density.
+                Regression and VIF checks show that facility variables overlap strongly with developed land.
+            </p>
+            <div class="figure-grid">
+                <div class="figure-card">
+                    <h3>Facility Density vs Hotspot Rate</h3>
+                    <img src="/figures/facility_density_vs_hotspot_rate_scatter.png" alt="Facility density vs hotspot rate">
+                </div>
+                <div class="figure-card">
+                    <h3>Industrial Stormwater Density vs Hotspot Rate</h3>
+                    <img src="/figures/industrial_stormwater_density_vs_hotspot_rate_scatter.png" alt="Industrial stormwater density vs hotspot rate">
+                </div>
+            </div>
+
+            <h3>Top Facility-Nitrate Correlations</h3>
+            <div class="table-wrapper">
+                <table id="facilityCorrelationTable">
+                    <thead>
+                        <tr>
+                            <th>Facility Metric</th>
+                            <th>Nitrate Metric</th>
+                            <th>Pearson r</th>
+                            <th>Spearman r</th>
+                            <th>Strength</th>
+                            <th>n</th>
+                        </tr>
+                    </thead>
+                    <tbody><tr><td colspan="6">Loading...</td></tr></tbody>
+                </table>
+            </div>
+
+            <h3>Top Watersheds by Facility Density</h3>
+            <div class="table-wrapper">
+                <table id="facilityRankingTable">
+                    <thead>
+                        <tr>
+                            <th>Watershed</th>
+                            <th>Facility Density</th>
+                            <th>Industrial Density</th>
+                            <th>Hotspot Rate</th>
+                            <th>Mean Nitrate</th>
+                            <th>Developed Land</th>
+                        </tr>
+                    </thead>
+                    <tbody><tr><td colspan="6">Loading...</td></tr></tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="multivariable-model">
+            <h2>Multivariable Model: Land Use vs Facility Density</h2>
+            <p class="note">
+                Model comparison tests whether adding variables improves predictive value and whether VIF remains acceptable.
+            </p>
+            <div class="success">
+                Best interpretable model for mean nitrate: developed + agriculture. It keeps VIF near 1 and adjusted R2 around 0.4495.
+            </div>
+            <div class="figure-grid">
+                <div class="figure-card">
+                    <h3>Original Model R2 Comparison</h3>
+                    <img src="/figures/multivariable_model_r2_comparison.png" alt="Original model R2 comparison">
+                </div>
+                <div class="figure-card">
+                    <h3>Simplified Models and VIF</h3>
+                    <img src="/figures/simplified_model_r2_vif_comparison.png" alt="Simplified model R2 VIF comparison">
+                </div>
+                <div class="figure-card">
+                    <h3>Observed vs Predicted Hotspot Rate</h3>
+                    <img src="/figures/observed_vs_predicted_hotspot_rate.png" alt="Observed vs predicted hotspot rate">
+                </div>
+                <div class="figure-card">
+                    <h3>Observed vs Predicted Mean Nitrate</h3>
+                    <img src="/figures/observed_vs_predicted_mean_nitrate.png" alt="Observed vs predicted mean nitrate">
+                </div>
+            </div>
+
+            <h3>Model Comparison Table</h3>
+            <div class="table-wrapper">
+                <table id="modelComparisonTable">
+                    <thead>
+                        <tr>
+                            <th>Target Metric</th>
+                            <th>Model</th>
+                            <th>R2</th>
+                            <th>Adjusted R2</th>
+                            <th>RMSE</th>
+                            <th>n</th>
+                        </tr>
+                    </thead>
+                    <tbody><tr><td colspan="6">Loading...</td></tr></tbody>
+                </table>
+            </div>
+
+            <h3>VIF / Multicollinearity Check</h3>
+            <div class="table-wrapper">
+                <table id="vifTable">
+                    <thead>
+                        <tr>
+                            <th>Predictor</th>
+                            <th>VIF</th>
+                            <th>Interpretation</th>
+                        </tr>
+                    </thead>
+                    <tbody><tr><td colspan="3">Loading...</td></tr></tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="robustness-refinement">
+            <h2>Robustness & Model Refinement</h2>
+            <p class="note">
+                Advisor-requested checks: hotspot thresholds, confidence filtering, weighted averages, rainfall,
+                buffer-scale land use, model comparison, and VIF reduction.
+            </p>
+            <div class="success">
+                Threshold, confidence, weighting, and low-VIF model checks support the same main conclusion:
+                developed land remains the most stable broad predictor.
+            </div>
+            <div class="warning" id="rainfallStatus">Rainfall factor status is loading.</div>
+
+            <div class="figure-grid">
+                <div class="figure-card">
+                    <h3>Threshold Sensitivity</h3>
+                    <img src="/figures/hotspot_threshold_robustness.png" alt="Hotspot threshold robustness">
+                </div>
+                <div class="figure-card">
+                    <h3>Confidence and Weighting</h3>
+                    <img src="/figures/confidence_weighted_hotspot_comparison.png" alt="Confidence weighted hotspot comparison">
+                </div>
+                <div class="figure-card">
+                    <h3>Rainfall vs Yearly Nitrate</h3>
+                    <img src="/figures/rainfall_vs_yearly_nitrate.png" alt="Rainfall vs yearly nitrate">
+                </div>
+                <div class="figure-card">
+                    <h3>Buffer Scale Correlation</h3>
+                    <img src="/figures/buffer_land_use_scale_correlation.png" alt="Buffer scale correlation">
+                </div>
+                <div class="figure-card">
+                    <h3>Developed Land by Buffer Radius</h3>
+                    <img src="/figures/buffer_developed_vs_nitrate_by_scale.png" alt="Developed land buffer scale">
+                </div>
+            </div>
+
+            <h3>Hotspot Threshold Table</h3>
+            <div class="table-wrapper">
+                <table id="thresholdRobustnessTable">
+                    <thead>
+                        <tr>
+                            <th>Threshold</th>
+                            <th>Mean Cutoff</th>
+                            <th>P90 Cutoff</th>
+                            <th>Hotspot Stations</th>
+                            <th>Station Jaccard vs 10%</th>
+                            <th>Top Watersheds</th>
+                        </tr>
+                    </thead>
+                    <tbody><tr><td colspan="6">Loading...</td></tr></tbody>
+                </table>
+            </div>
+
+            <h3>Simplified Model / VIF Table</h3>
+            <div class="table-wrapper">
+                <table id="simplifiedModelTable">
+                    <thead>
+                        <tr>
+                            <th>Target</th>
+                            <th>Model</th>
+                            <th>Predictors</th>
+                            <th>R2</th>
+                            <th>Adjusted R2</th>
+                            <th>Max VIF</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody><tr><td colspan="7">Loading...</td></tr></tbody>
+                </table>
+            </div>
+
+            <h3>Buffer Scale Correlation Table</h3>
+            <div class="table-wrapper">
+                <table id="bufferCorrelationTable">
+                    <thead>
+                        <tr>
+                            <th>Radius</th>
+                            <th>Land Use</th>
+                            <th>Nitrate Metric</th>
+                            <th>Pearson r</th>
+                            <th>Spearman r</th>
+                            <th>n</th>
+                        </tr>
+                    </thead>
+                    <tbody><tr><td colspan="6">Loading...</td></tr></tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="additional-factors">
+            <h2>Additional Factors: Discharge, Rainfall, Hydrology / Upstream</h2>
+            <p class="note">
+                Step 20 adds advisor-requested factors beyond developed land. Rainfall is estimated at each watershed centroid
+                from daily archive data, hydrology uses watershed shape metrics, and upstream pressure is represented by a same-region
+                upgradient facility-density proxy. Discharge volume is supported when a DMR/discharge CSV is available.
+            </p>
+            <div class="success">
+                Best added-factor model so far: developed + agriculture + upgradient facility-density proxy.
+                For mean nitrate, adjusted R2 improves to 0.4813 while max VIF remains 1.4835.
+            </div>
+            <div class="warning" id="dischargeStatus">Discharge volume status is loading.</div>
+
+            <div class="figure-grid">
+                <div class="figure-card">
+                    <h3>Watershed Rainfall vs Mean Nitrate</h3>
+                    <img src="/figures/watershed_rainfall_vs_mean_nitrate.png" alt="Watershed rainfall vs mean nitrate">
+                </div>
+                <div class="figure-card">
+                    <h3>Additional Factor Correlations</h3>
+                    <img src="/figures/additional_factors_correlation.png" alt="Additional factor correlations">
+                </div>
+                <div class="figure-card">
+                    <h3>Hydrology / Upgradient Proxy</h3>
+                    <img src="/figures/hydrology_proxy_vs_hotspot_rate.png" alt="Hydrology proxy vs hotspot rate">
+                </div>
+            </div>
+
+            <h3>Additional Factor Correlation Table</h3>
+            <div class="table-wrapper">
+                <table id="additionalFactorCorrelationTable">
+                    <thead>
+                        <tr>
+                            <th>Factor</th>
+                            <th>Nitrate Metric</th>
+                            <th>Pearson r</th>
+                            <th>Spearman r</th>
+                            <th>n</th>
+                        </tr>
+                    </thead>
+                    <tbody><tr><td colspan="5">Loading...</td></tr></tbody>
+                </table>
+            </div>
+
+            <h3>Additional Factor Model Table</h3>
+            <div class="table-wrapper">
+                <table id="additionalFactorModelTable">
+                    <thead>
+                        <tr>
+                            <th>Target</th>
+                            <th>Model</th>
+                            <th>Predictors</th>
+                            <th>R2</th>
+                            <th>Adjusted R2</th>
+                            <th>Max VIF</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody><tr><td colspan="7">Loading...</td></tr></tbody>
+                </table>
+            </div>
+
+            <h3 id="hydrography-outfalls">Hydrography and DMR Permit-Feature Context</h3>
+            <p class="note">
+                Step 21 reads DMR permit-feature records and NHDPlus HR hydrography. DMR feature numbers are treated as
+                permit-feature / outfall identifiers when available. Because the current DMR and NJPDES facility inputs do not
+                include exact outfall coordinates, the map uses matched NJPDES facility points as clearly labeled outfall proxies.
+            </p>
+            <div class="warning" id="hydrographyOutfallStatus">Hydrography and outfall status is loading.</div>
+            <iframe class="map-frame" src="/maps/hydrography_outfall_context_map.html" title="Hydrography and DMR outfall context map"></iframe>
+
+            <div class="panel" style="margin-top: 18px;">
+                <h3>Watershed Interaction</h3>
+                <p class="note">
+                    Select a watershed or click a row in the table below to inspect DMR permit-feature counts,
+                    snapped outfall proxies, flowline coverage, and nearest-flowline snap distances.
+                </p>
+                <select id="hydroWatershedSelect">
+                    <option value="">Loading watersheds...</option>
+                </select>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-title">Permit Features</div>
+                        <div class="card-value" id="selectedPermitFeatures">N/A</div>
+                    </div>
+                    <div class="card">
+                        <div class="card-title">Snapped Proxies</div>
+                        <div class="card-value" id="selectedSnappedProxies">N/A</div>
+                    </div>
+                    <div class="card">
+                        <div class="card-title">Flowline Length</div>
+                        <div class="card-value" id="selectedFlowlineLength">N/A</div>
+                    </div>
+                    <div class="card">
+                        <div class="card-title">Median Snap Distance</div>
+                        <div class="card-value" id="selectedSnapDistance">N/A</div>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Watershed DMR Permit-Feature Summary</h3>
+            <div class="table-wrapper">
+                <table id="outfallFeatureTable">
+                    <thead>
+                        <tr>
+                            <th>Watershed</th>
+                            <th>Permit Features</th>
+                            <th>EXO Features</th>
+                            <th>Flow Records</th>
+                            <th>Nitrogen Records</th>
+                            <th>Flowline Segments</th>
+                            <th>Flowline km</th>
+                        </tr>
+                    </thead>
+                    <tbody><tr><td colspan="7">Loading...</td></tr></tbody>
+                </table>
+            </div>
+
+            <h3>Selected Watershed Snapped Outfall Proxies</h3>
+            <div class="table-wrapper">
+                <table id="snappedProxyTable">
+                    <thead>
+                        <tr>
+                            <th>Permit</th>
+                            <th>Facility</th>
+                            <th>Features</th>
+                            <th>Nearest Flowline</th>
+                            <th>Snap Distance</th>
+                            <th>Flow Records</th>
+                            <th>Nitrogen Records</th>
+                        </tr>
+                    </thead>
+                    <tbody><tr><td colspan="7">Select a watershed.</td></tr></tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="proposal-section">
+            <h2>Research Proposal Export</h2>
+            <div class="grid-2">
+                <div class="panel">
+                    <h3>Proposal Page</h3>
+                    <p class="note">
+                        Open the formal research summary with methods, results, limitations, and future work.
+                    </p>
+                    <a class="button button-blue" href="/proposal">Open Research Proposal</a>
+                </div>
+                <div class="panel">
+                    <h3>Exported Files</h3>
+                    <p class="note">The proposal is exported as Markdown and HTML.</p>
+                    <a class="button" href="/proposal-output/nj_nitrate_research_proposal.md" target="_blank">Markdown</a>
+                    <a class="button button-dark" href="/proposal-output/nj_nitrate_research_proposal.html" target="_blank">HTML</a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Seasonal and Long-Term Trends</h2>
+            <div class="grid-2">
+                <div class="panel">
+                    <h3>Seasonal Summary</h3>
+                    <table id="seasonalTable">
+                        <thead>
+                            <tr>
+                                <th>Season</th>
+                                <th>Mean Nitrate</th>
+                                <th>P90</th>
+                                <th>Observations</th>
+                            </tr>
+                        </thead>
+                        <tbody><tr><td colspan="4">Loading...</td></tr></tbody>
+                    </table>
+                </div>
+                <div class="panel">
+                    <h3>Latest Yearly Trend</h3>
+                    <table id="yearlyTable">
+                        <thead>
+                            <tr>
+                                <th>Year</th>
+                                <th>Mean Nitrate</th>
+                                <th>Observations</th>
+                            </tr>
+                        </thead>
+                        <tbody><tr><td colspan="3">Loading...</td></tr></tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="station-detail">
+            <h2>Station Detail Explorer</h2>
+            <p class="note">Search station summaries and click a row to load station-level detail JSON.</p>
+            <input id="stationSearch" type="text" placeholder="Search by station name or station ID">
+            <div class="table-wrapper">
+                <table id="stationTable">
+                    <thead>
+                        <tr>
+                            <th>Station</th>
+                            <th>Hotspot</th>
+                            <th>Confidence</th>
+                            <th>Mean Nitrate</th>
+                            <th>P90</th>
+                            <th>Observations</th>
+                        </tr>
+                    </thead>
+                    <tbody><tr><td colspan="6">Loading...</td></tr></tbody>
+                </table>
+            </div>
+            <div id="stationDetailBox" class="panel" style="margin-top: 20px; display: none;">
+                <h3 id="stationDetailTitle">Station Detail</h3>
+                <div id="stationDetailContent" class="note"></div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        let stationIndex = [];
+        let hydroOutfallRows = [];
+        let hydroFlowlineRows = [];
+        let snappedProxyRows = [];
+
+        function formatNumber(value, digits = 3) {
+            if (value === null || value === undefined || isNaN(Number(value))) {
+                return "N/A";
+            }
+            return Number(value).toFixed(digits);
+        }
+
+        function formatInteger(value) {
+            if (value === null || value === undefined || isNaN(Number(value))) {
+                return "N/A";
+            }
+            return Number(value).toLocaleString();
+        }
+
+        function formatPercent(value, digits = 2) {
+            if (value === null || value === undefined || isNaN(Number(value))) {
+                return "N/A";
+            }
+            return Number(value).toFixed(digits) + "%";
+        }
+
+        function cleanMetricName(value) {
+            if (!value) {
+                return "N/A";
+            }
+            return String(value)
+                .replaceAll("_", " ")
+                .replaceAll("mg L", "mg/L")
+                .replaceAll("per 100 km2", "per 100 km2");
+        }
+
+        async function fetchJson(url) {
+            const response = await fetch(url);
+            if (!response.ok) {
+                throw new Error(`Failed to fetch ${url}`);
+            }
+            return await response.json();
+        }
+
+        async function loadSummaryCards() {
+            try {
+                const [summary, proposal] = await Promise.all([
+                    fetchJson("/api/summary"),
+                    fetchJson("/api/research-proposal-summary")
+                ]);
+                document.getElementById("totalStations").textContent = formatInteger(summary.total_stations);
+                document.getElementById("hotspotStations").textContent = formatInteger(summary.hotspot_stations);
+                document.getElementById("highConfidence").textContent = formatInteger(summary.high_confidence_stations);
+                document.getElementById("meanNitrate").textContent = formatNumber(summary.mean_nitrate_all_stations, 3);
+                document.getElementById("mainFinding").textContent = proposal.main_finding || "Summary not available.";
+            } catch (error) {
+                console.error(error);
+            }
+        }
+
+        async function loadSeasonalTable() {
+            const tbody = document.querySelector("#seasonalTable tbody");
+            try {
+                const rows = await fetchJson("/api/seasonal-chart");
+                tbody.innerHTML = "";
+                rows.forEach(row => {
+                    const tr = document.createElement("tr");
+                    tr.innerHTML = `
+                        <td>${row.season || "N/A"}</td>
+                        <td>${formatNumber(row.mean_nitrate_mg_L, 4)}</td>
+                        <td>${formatNumber(row.p90_nitrate_mg_L, 4)}</td>
+                        <td>${formatInteger(row.observation_count)}</td>
+                    `;
+                    tbody.appendChild(tr);
+                });
+            } catch (error) {
+                console.error(error);
+                tbody.innerHTML = `<tr><td colspan="4">Could not load seasonal data.</td></tr>`;
+            }
+        }
+
+        async function loadYearlyTable() {
+            const tbody = document.querySelector("#yearlyTable tbody");
+            try {
+                const rows = await fetchJson("/api/yearly-trend");
+                tbody.innerHTML = "";
+                rows
+                    .slice()
+                    .sort((a, b) => Number(b.year) - Number(a.year))
+                    .slice(0, 10)
+                    .forEach(row => {
+                        const tr = document.createElement("tr");
+                        tr.innerHTML = `
+                            <td>${row.year}</td>
+                            <td>${formatNumber(row.mean_nitrate_mg_L, 4)}</td>
+                            <td>${formatInteger(row.observation_count)}</td>
+                        `;
+                        tbody.appendChild(tr);
+                    });
+            } catch (error) {
+                console.error(error);
+                tbody.innerHTML = `<tr><td colspan="3">Could not load yearly data.</td></tr>`;
+            }
+        }
+
+        async function loadFacilityCorrelationTable() {
+            const tbody = document.querySelector("#facilityCorrelationTable tbody");
+            try {
+                const rows = await fetchJson("/api/facility-nitrate-correlation");
+                tbody.innerHTML = "";
+                rows
+                    .filter(row => row.pearson_r !== null && row.pearson_r !== undefined)
+                    .sort((a, b) => Math.abs(Number(b.pearson_r)) - Math.abs(Number(a.pearson_r)))
+                    .slice(0, 12)
+                    .forEach(row => {
+                        const tr = document.createElement("tr");
+                        tr.innerHTML = `
+                            <td>${cleanMetricName(row.facility_metric)}</td>
+                            <td>${cleanMetricName(row.nitrate_metric)}</td>
+                            <td>${formatNumber(row.pearson_r, 4)}</td>
+                            <td>${formatNumber(row.spearman_r, 4)}</td>
+                            <td><span class="metric-pill">${row.pearson_strength || "N/A"}</span></td>
+                            <td>${formatInteger(row.n)}</td>
+                        `;
+                        tbody.appendChild(tr);
+                    });
+            } catch (error) {
+                console.error(error);
+                tbody.innerHTML = `<tr><td colspan="6">Could not load facility correlations.</td></tr>`;
+            }
+        }
+
+        async function loadFacilityRankingTable() {
+            const tbody = document.querySelector("#facilityRankingTable tbody");
+            try {
+                const rows = await fetchJson("/api/facility-nitrate-ranking");
+                tbody.innerHTML = "";
+                rows
+                    .slice()
+                    .sort((a, b) => Number(b.facility_density_per_100_km2 || 0) - Number(a.facility_density_per_100_km2 || 0))
+                    .slice(0, 10)
+                    .forEach(row => {
+                        const tr = document.createElement("tr");
+                        tr.innerHTML = `
+                            <td>${row.watershed_name || "N/A"}</td>
+                            <td>${formatNumber(row.facility_density_per_100_km2, 3)}</td>
+                            <td>${formatNumber(row.industrial_stormwater_density_per_100_km2, 3)}</td>
+                            <td>${formatPercent(row.hotspot_rate_percent, 2)}</td>
+                            <td>${formatNumber(row.mean_nitrate_mg_L, 4)}</td>
+                            <td>${formatPercent(row.developed_percent, 2)}</td>
+                        `;
+                        tbody.appendChild(tr);
+                    });
+            } catch (error) {
+                console.error(error);
+                tbody.innerHTML = `<tr><td colspan="6">Could not load facility ranking.</td></tr>`;
+            }
+        }
+
+        async function loadModelComparisonTable() {
+            const tbody = document.querySelector("#modelComparisonTable tbody");
+            try {
+                const rows = await fetchJson("/api/multivariable-model-comparison");
+                tbody.innerHTML = "";
+                rows
+                    .filter(row => ["hotspot_rate_percent", "mean_nitrate_mg_L", "mean_p90_nitrate_mg_L"].includes(row.target_metric))
+                    .sort((a, b) => {
+                        const targetCompare = String(a.target_metric).localeCompare(String(b.target_metric));
+                        if (targetCompare !== 0) {
+                            return targetCompare;
+                        }
+                        return Number(b.adjusted_r2 || -999) - Number(a.adjusted_r2 || -999);
+                    })
+                    .forEach(row => {
+                        const tr = document.createElement("tr");
+                        tr.innerHTML = `
+                            <td>${cleanMetricName(row.target_metric)}</td>
+                            <td>${cleanMetricName(row.model_name)}</td>
+                            <td>${formatNumber(row.r2, 4)}</td>
+                            <td>${formatNumber(row.adjusted_r2, 4)}</td>
+                            <td>${formatNumber(row.rmse, 4)}</td>
+                            <td>${formatInteger(row.n)}</td>
+                        `;
+                        tbody.appendChild(tr);
+                    });
+            } catch (error) {
+                console.error(error);
+                tbody.innerHTML = `<tr><td colspan="6">Could not load model comparison.</td></tr>`;
+            }
+        }
+
+        async function loadVifTable() {
+            const tbody = document.querySelector("#vifTable tbody");
+            try {
+                const rows = await fetchJson("/api/multivariable-model-vif");
+                tbody.innerHTML = "";
+                rows
+                    .slice()
+                    .sort((a, b) => Number(b.vif || 0) - Number(a.vif || 0))
+                    .forEach(row => {
+                        const vifValue = Number(row.vif);
+                        const pillClass = vifValue >= 10 ? "danger-pill" : "ok-pill";
+                        const tr = document.createElement("tr");
+                        tr.innerHTML = `
+                            <td>${cleanMetricName(row.predictor)}</td>
+                            <td>${formatNumber(row.vif, 4)}</td>
+                            <td><span class="${pillClass}">${row.interpretation || "N/A"}</span></td>
+                        `;
+                        tbody.appendChild(tr);
+                    });
+            } catch (error) {
+                console.error(error);
+                tbody.innerHTML = `<tr><td colspan="3">Could not load VIF data.</td></tr>`;
+            }
+        }
+
+        async function loadThresholdRobustnessTable() {
+            const tbody = document.querySelector("#thresholdRobustnessTable tbody");
+            try {
+                const rows = await fetchJson("/api/hotspot-threshold-robustness");
+                tbody.innerHTML = "";
+                rows.forEach(row => {
+                    const tr = document.createElement("tr");
+                    tr.innerHTML = `
+                        <td>${row.threshold || "N/A"}</td>
+                        <td>${formatNumber(row.mean_cutoff_mg_L, 4)}</td>
+                        <td>${formatNumber(row.p90_cutoff_mg_L, 4)}</td>
+                        <td>${formatInteger(row.hotspot_station_count)}</td>
+                        <td>${formatNumber(row.station_jaccard_vs_10pct, 4)}</td>
+                        <td>${row.top5_watersheds || "N/A"}</td>
+                    `;
+                    tbody.appendChild(tr);
+                });
+            } catch (error) {
+                console.error(error);
+                tbody.innerHTML = `<tr><td colspan="6">Could not load threshold data.</td></tr>`;
+            }
+        }
+
+        async function loadSimplifiedModelTable() {
+            const tbody = document.querySelector("#simplifiedModelTable tbody");
+            try {
+                const rows = await fetchJson("/api/simplified-model-vif-comparison");
+                tbody.innerHTML = "";
+                rows
+                    .filter(row => ["hotspot_rate_percent", "mean_nitrate_mg_L"].includes(row.target_metric))
+                    .sort((a, b) => {
+                        const targetCompare = String(a.target_metric).localeCompare(String(b.target_metric));
+                        if (targetCompare !== 0) {
+                            return targetCompare;
+                        }
+                        return Number(b.adjusted_r2 || -999) - Number(a.adjusted_r2 || -999);
+                    })
+                    .forEach(row => {
+                        const statusClass = row.vif_status === "acceptable" ? "ok-pill" : "danger-pill";
+                        const tr = document.createElement("tr");
+                        tr.innerHTML = `
+                            <td>${cleanMetricName(row.target_metric)}</td>
+                            <td>${cleanMetricName(row.model_name)}</td>
+                            <td>${cleanMetricName(row.predictors)}</td>
+                            <td>${formatNumber(row.r2, 4)}</td>
+                            <td>${formatNumber(row.adjusted_r2, 4)}</td>
+                            <td>${formatNumber(row.max_vif, 4)}</td>
+                            <td><span class="${statusClass}">${row.vif_status || "N/A"}</span></td>
+                        `;
+                        tbody.appendChild(tr);
+                    });
+            } catch (error) {
+                console.error(error);
+                tbody.innerHTML = `<tr><td colspan="7">Could not load simplified model data.</td></tr>`;
+            }
+        }
+
+        async function loadBufferCorrelationTable() {
+            const tbody = document.querySelector("#bufferCorrelationTable tbody");
+            try {
+                const rows = await fetchJson("/api/station-buffer-land-use-correlation");
+                tbody.innerHTML = "";
+                rows
+                    .filter(row => row.nitrate_metric === "mean_nitrate_mg_L")
+                    .sort((a, b) => Math.abs(Number(b.pearson_r || 0)) - Math.abs(Number(a.pearson_r || 0)))
+                    .slice(0, 15)
+                    .forEach(row => {
+                        const tr = document.createElement("tr");
+                        tr.innerHTML = `
+                            <td>${formatInteger(row.buffer_radius_m)} m</td>
+                            <td>${cleanMetricName(row.land_use_metric)}</td>
+                            <td>${cleanMetricName(row.nitrate_metric)}</td>
+                            <td>${formatNumber(row.pearson_r, 4)}</td>
+                            <td>${formatNumber(row.spearman_r, 4)}</td>
+                            <td>${formatInteger(row.n)}</td>
+                        `;
+                        tbody.appendChild(tr);
+                    });
+            } catch (error) {
+                console.error(error);
+                tbody.innerHTML = `<tr><td colspan="6">Could not load buffer correlations.</td></tr>`;
+            }
+        }
+
+        async function loadRainfallStatus() {
+            const box = document.getElementById("rainfallStatus");
+            try {
+                const rows = await fetchJson("/api/rainfall-nitrate-correlation");
+                const first = rows[0] || {};
+                if (first.status === "download_failed") {
+                    box.textContent = `Rainfall factor: NOAA download failed. Source attempted: ${first.source}`;
+                    box.className = "warning";
+                    return;
+                }
+                box.textContent =
+                    `Rainfall factor: NOAA annual precipitation joined successfully. ` +
+                    `Pearson r=${formatNumber(first.pearson_r_precip_vs_mean_nitrate, 4)}, ` +
+                    `Spearman r=${formatNumber(first.spearman_r_precip_vs_mean_nitrate, 4)}.`;
+                box.className = "success";
+            } catch (error) {
+                console.error(error);
+                box.textContent = "Rainfall factor: no result available.";
+                box.className = "warning";
+            }
+        }
+
+        async function loadAdditionalFactorCorrelationTable() {
+            const tbody = document.querySelector("#additionalFactorCorrelationTable tbody");
+            try {
+                const rows = await fetchJson("/api/additional-factor-correlation");
+                tbody.innerHTML = "";
+                rows
+                    .filter(row => row.pearson_r !== null && row.pearson_r !== undefined)
+                    .sort((a, b) => Math.abs(Number(b.pearson_r || 0)) - Math.abs(Number(a.pearson_r || 0)))
+                    .slice(0, 14)
+                    .forEach(row => {
+                        const tr = document.createElement("tr");
+                        tr.innerHTML = `
+                            <td>${cleanMetricName(row.factor_metric)}</td>
+                            <td>${cleanMetricName(row.nitrate_metric)}</td>
+                            <td>${formatNumber(row.pearson_r, 4)}</td>
+                            <td>${formatNumber(row.spearman_r, 4)}</td>
+                            <td>${formatInteger(row.n)}</td>
+                        `;
+                        tbody.appendChild(tr);
+                    });
+            } catch (error) {
+                console.error(error);
+                tbody.innerHTML = `<tr><td colspan="5">Could not load additional factor correlations.</td></tr>`;
+            }
+        }
+
+        async function loadAdditionalFactorModelTable() {
+            const tbody = document.querySelector("#additionalFactorModelTable tbody");
+            try {
+                const rows = await fetchJson("/api/additional-factor-model-comparison");
+                tbody.innerHTML = "";
+                rows
+                    .slice()
+                    .sort((a, b) => {
+                        const targetCompare = String(a.target_metric).localeCompare(String(b.target_metric));
+                        if (targetCompare !== 0) {
+                            return targetCompare;
+                        }
+                        return Number(b.adjusted_r2 || -999) - Number(a.adjusted_r2 || -999);
+                    })
+                    .forEach(row => {
+                        const statusClass = row.vif_status === "acceptable" ? "ok-pill" : "danger-pill";
+                        const tr = document.createElement("tr");
+                        tr.innerHTML = `
+                            <td>${cleanMetricName(row.target_metric)}</td>
+                            <td>${cleanMetricName(row.model_name)}</td>
+                            <td>${cleanMetricName(row.predictors)}</td>
+                            <td>${formatNumber(row.r2, 4)}</td>
+                            <td>${formatNumber(row.adjusted_r2, 4)}</td>
+                            <td>${formatNumber(row.max_vif, 4)}</td>
+                            <td><span class="${statusClass}">${row.vif_status || "N/A"}</span></td>
+                        `;
+                        tbody.appendChild(tr);
+                    });
+            } catch (error) {
+                console.error(error);
+                tbody.innerHTML = `<tr><td colspan="7">Could not load additional factor model data.</td></tr>`;
+            }
+        }
+
+        async function loadDischargeStatus() {
+            const box = document.getElementById("dischargeStatus");
+            try {
+                const rows = await fetchJson("/api/discharge-volume-status");
+                const first = rows[0] || {};
+                if (first.status === "loaded") {
+                    box.textContent =
+                        `Discharge volume loaded; matched facilities: ${first.matched_facilities}/${first.total_facilities} ` +
+                        `(${formatNumber(first.facility_match_rate_percent, 4)}%). ` +
+                        `General-permit facilities: ${formatInteger(first.general_permit_facilities)}.`;
+                    box.className = "success";
+                } else {
+                    box.textContent = `Discharge volume not yet available: place a DMR/discharge CSV in ${first.required_folder}, then rerun Step 20. Facility-count proxies are shown instead.`;
+                    box.className = "warning";
+                }
+            } catch (error) {
+                console.error(error);
+                box.textContent = "Discharge volume status is unavailable. Please run Step 20.";
+                box.className = "warning";
+            }
+        }
+
+        async function loadHydrographyOutfallStatus() {
+            const box = document.getElementById("hydrographyOutfallStatus");
+            try {
+                const rows = await fetchJson("/api/hydrography-outfall-status");
+                const first = rows[0] || {};
+                const flowlineText = first.flowline_segment_count > 0
+                    ? `${formatInteger(first.flowline_segment_count)} NHDPlus flowline segments loaded.`
+                    : `No NJ-intersecting flowlines were found in the local NHDPlus HU4 ZIPs.`;
+                box.textContent =
+                    `DMR permit features: ${formatInteger(first.permit_feature_count)}; ` +
+                    `matched to local facility watersheds: ${formatInteger(first.permit_features_matched_to_facility_watershed)}. ` +
+                    `${flowlineText} Snapped outfall proxies: ${formatInteger(first.snapped_outfall_proxy_count)}; ` +
+                    `median snap distance: ${formatNumber(first.median_snap_distance_m, 1)} m. ` +
+                    `Outfall coordinate status: ${first.outfall_coordinate_status}.`;
+                box.className = first.flowline_segment_count > 0 ? "success" : "warning";
+            } catch (error) {
+                console.error(error);
+                box.textContent = "Hydrography/outfall outputs are unavailable. Please run Step 21.";
+                box.className = "warning";
+            }
+        }
+
+        async function loadOutfallFeatureTable() {
+            const tbody = document.querySelector("#outfallFeatureTable tbody");
+            try {
+                const [outfallRows, hydroRows, proxyRows] = await Promise.all([
+                    fetchJson("/api/watershed-outfall-feature-summary"),
+                    fetchJson("/api/watershed-hydrography-flowline-summary"),
+                    fetchJson("/api/dmr-outfall-snapped-proxies")
+                ]);
+                hydroOutfallRows = outfallRows;
+                hydroFlowlineRows = hydroRows;
+                snappedProxyRows = proxyRows;
+                const hydroByWatershed = new Map(
+                    hydroRows.map(row => [row.watershed_name, row])
+                );
+                tbody.innerHTML = "";
+                outfallRows
+                    .slice()
+                    .sort((a, b) => Number(b.dmr_permit_feature_count || 0) - Number(a.dmr_permit_feature_count || 0))
+                    .forEach(row => {
+                        const hydro = hydroByWatershed.get(row.watershed_name) || {};
+                        const tr = document.createElement("tr");
+                        tr.style.cursor = "pointer";
+                        tr.innerHTML = `
+                            <td>${row.watershed_name || "N/A"}</td>
+                            <td>${formatInteger(row.dmr_permit_feature_count)}</td>
+                            <td>${formatInteger(row.exo_feature_count)}</td>
+                            <td>${formatInteger(row.flow_feature_record_count)}</td>
+                            <td>${formatInteger(row.nitrogen_feature_record_count)}</td>
+                            <td>${formatInteger(hydro.flowline_segment_count)}</td>
+                            <td>${formatNumber(hydro.flowline_total_length_km, 2)}</td>
+                        `;
+                        tr.addEventListener("click", () => selectHydroWatershed(row.watershed_name));
+                        tbody.appendChild(tr);
+                    });
+                if (!outfallRows.length) {
+                    tbody.innerHTML = `<tr><td colspan="7">No watershed permit-feature matches are available.</td></tr>`;
+                }
+                populateHydroWatershedSelect();
+                if (outfallRows.length) {
+                    selectHydroWatershed(outfallRows[0].watershed_name);
+                }
+            } catch (error) {
+                console.error(error);
+                tbody.innerHTML = `<tr><td colspan="7">Could not load hydrography/outfall data.</td></tr>`;
+            }
+        }
+
+        function populateHydroWatershedSelect() {
+            const select = document.getElementById("hydroWatershedSelect");
+            const names = Array.from(new Set([
+                ...hydroOutfallRows.map(row => row.watershed_name),
+                ...hydroFlowlineRows.map(row => row.watershed_name),
+                ...snappedProxyRows.map(row => row.watershed_name)
+            ].filter(Boolean))).sort();
+            select.innerHTML = names
+                .map(name => `<option value="${name}">${name}</option>`)
+                .join("");
+            select.onchange = () => selectHydroWatershed(select.value);
+        }
+
+        function median(values) {
+            const nums = values.map(Number).filter(value => Number.isFinite(value)).sort((a, b) => a - b);
+            if (!nums.length) {
+                return null;
+            }
+            const middle = Math.floor(nums.length / 2);
+            return nums.length % 2 ? nums[middle] : (nums[middle - 1] + nums[middle]) / 2;
+        }
+
+        function selectHydroWatershed(name) {
+            if (!name) {
+                return;
+            }
+            const select = document.getElementById("hydroWatershedSelect");
+            if (select.value !== name) {
+                select.value = name;
+            }
+
+            const outfall = hydroOutfallRows.find(row => row.watershed_name === name) || {};
+            const hydro = hydroFlowlineRows.find(row => row.watershed_name === name) || {};
+            const proxies = snappedProxyRows
+                .filter(row => row.watershed_name === name)
+                .sort((a, b) => Number(a.snap_distance_m || 0) - Number(b.snap_distance_m || 0));
+            const snapMedian = median(proxies.map(row => row.snap_distance_m));
+
+            document.getElementById("selectedPermitFeatures").textContent =
+                formatInteger(outfall.dmr_permit_feature_count);
+            document.getElementById("selectedSnappedProxies").textContent =
+                formatInteger(proxies.length);
+            document.getElementById("selectedFlowlineLength").textContent =
+                hydro.flowline_total_length_km === undefined
+                    ? "N/A"
+                    : `${formatNumber(hydro.flowline_total_length_km, 1)} km`;
+            document.getElementById("selectedSnapDistance").textContent =
+                snapMedian === null ? "N/A" : `${formatNumber(snapMedian, 1)} m`;
+
+            renderSnappedProxyTable(proxies);
+        }
+
+        function renderSnappedProxyTable(rows) {
+            const tbody = document.querySelector("#snappedProxyTable tbody");
+            tbody.innerHTML = "";
+            if (!rows.length) {
+                tbody.innerHTML = `<tr><td colspan="7">No snapped outfall proxies for this watershed.</td></tr>`;
+                return;
+            }
+            rows.forEach(row => {
+                const flowlineName = row.nearest_flowline_name && String(row.nearest_flowline_name).trim()
+                    ? row.nearest_flowline_name
+                    : "Unnamed flowline";
+                const tr = document.createElement("tr");
+                tr.innerHTML = `
+                    <td>${row.permit_id_clean || "N/A"}</td>
+                    <td>${row.facility_name || "N/A"}</td>
+                    <td>${formatInteger(row.permit_feature_count)}</td>
+                    <td>${flowlineName}</td>
+                    <td>${formatNumber(row.snap_distance_m, 1)} m</td>
+                    <td>${formatInteger(row.flow_feature_record_count)}</td>
+                    <td>${formatInteger(row.nitrogen_feature_record_count)}</td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        async function loadStationIndex() {
+            const tbody = document.querySelector("#stationTable tbody");
+            try {
+                stationIndex = await fetchJson("/api/station-index");
+                renderStationTable(stationIndex.slice(0, 30));
+            } catch (error) {
+                console.error(error);
+                tbody.innerHTML = `<tr><td colspan="6">Could not load station index.</td></tr>`;
+            }
+        }
+
+        function getStationName(row) {
+            return row.station_name || row.MonitoringLocationName || row.station || row.station_id || "N/A";
+        }
+
+        function getStationId(row) {
+            return row.station_id || row.MonitoringLocationIdentifier || row.id || "N/A";
+        }
+
+        function getStationFilename(row) {
+            return row.filename || row.detail_file || row.file || row.station_detail_file || null;
+        }
+
+        function renderStationTable(rows) {
+            const tbody = document.querySelector("#stationTable tbody");
+            tbody.innerHTML = "";
+            if (!rows || rows.length === 0) {
+                tbody.innerHTML = `<tr><td colspan="6">No stations found.</td></tr>`;
+                return;
+            }
+            rows.forEach(row => {
+                const stationName = getStationName(row);
+                const stationId = getStationId(row);
+                const filename = getStationFilename(row);
+                const isHotspot = row.is_hotspot || false;
+                const confidence = row.confidence || row.confidence_level || "N/A";
+                const mean = row.mean_nitrate_mg_L || row.mean_nitrate;
+                const p90 = row.p90_nitrate_mg_L || row.p90_nitrate;
+                const obs = row.observation_count || row.observations || row.count;
+                const tr = document.createElement("tr");
+                tr.innerHTML = `
+                    <td><strong>${stationName}</strong><div class="small">${stationId}</div></td>
+                    <td>${isHotspot ? "Yes" : "No"}</td>
+                    <td>${confidence}</td>
+                    <td>${formatNumber(mean, 4)}</td>
+                    <td>${formatNumber(p90, 4)}</td>
+                    <td>${formatInteger(obs)}</td>
+                `;
+                if (filename) {
+                    tr.style.cursor = "pointer";
+                    tr.addEventListener("click", () => loadStationDetail(filename, stationName, stationId));
+                }
+                tbody.appendChild(tr);
+            });
+        }
+
+        async function loadStationDetail(filename, stationName, stationId) {
+            const box = document.getElementById("stationDetailBox");
+            const title = document.getElementById("stationDetailTitle");
+            const content = document.getElementById("stationDetailContent");
+            box.style.display = "block";
+            title.textContent = `${stationName} (${stationId})`;
+            content.innerHTML = "Loading station detail...";
+            try {
+                const data = await fetchJson(`/api/station-detail/${filename}`);
+                const info = data.station_info || {};
+                const summary = data.summary || {};
+                const notes = data.notes || [];
+                content.innerHTML = `
+                    <p><strong>Station ID:</strong> ${info.station_id || stationId}</p>
+                    <p><strong>Station Name:</strong> ${info.station_name || stationName}</p>
+                    <p><strong>Latitude:</strong> ${formatNumber(info.latitude, 5)}</p>
+                    <p><strong>Longitude:</strong> ${formatNumber(info.longitude, 5)}</p>
+                    <p><strong>Mean nitrate:</strong> ${formatNumber(summary.mean_nitrate_mg_L, 4)} mg/L</p>
+                    <p><strong>P90 nitrate:</strong> ${formatNumber(summary.p90_nitrate_mg_L, 4)} mg/L</p>
+                    <p><strong>Max nitrate:</strong> ${formatNumber(summary.max_nitrate_mg_L, 4)} mg/L</p>
+                    <p><strong>Observations:</strong> ${formatInteger(summary.observation_count)}</p>
+                    <p><strong>Confidence:</strong> ${summary.confidence || summary.confidence_level || "N/A"}</p>
+                    <p><strong>Hotspot:</strong> ${summary.is_hotspot ? "Yes" : "No"}</p>
+                    <p><strong>Notes:</strong> ${Array.isArray(notes) ? notes.join("; ") : notes}</p>
+                `;
+            } catch (error) {
+                console.error(error);
+                content.innerHTML = "Could not load station detail.";
+            }
+        }
+
+        function setupStationSearch() {
+            const input = document.getElementById("stationSearch");
+            input.addEventListener("input", () => {
+                const query = input.value.trim().toLowerCase();
+                if (!query) {
+                    renderStationTable(stationIndex.slice(0, 30));
+                    return;
+                }
+                const filtered = stationIndex.filter(row => {
+                    return String(getStationName(row)).toLowerCase().includes(query)
+                        || String(getStationId(row)).toLowerCase().includes(query);
+                });
+                renderStationTable(filtered.slice(0, 50));
+            });
+        }
+
+        async function initDashboard() {
+            await loadSummaryCards();
+            await loadSeasonalTable();
+            await loadYearlyTable();
+            await loadFacilityCorrelationTable();
+            await loadFacilityRankingTable();
+            await loadModelComparisonTable();
+            await loadVifTable();
+            await loadThresholdRobustnessTable();
+            await loadSimplifiedModelTable();
+            await loadBufferCorrelationTable();
+            await loadRainfallStatus();
+            await loadAdditionalFactorCorrelationTable();
+            await loadAdditionalFactorModelTable();
+            await loadDischargeStatus();
+            await loadHydrographyOutfallStatus();
+            await loadOutfallFeatureTable();
+            await loadStationIndex();
+            setupStationSearch();
+        }
+
+        initDashboard();
+    </script>
+</body>
+</html>

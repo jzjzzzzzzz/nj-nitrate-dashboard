@@ -1,0 +1,210 @@
+[
+  {
+    "year": 2000,
+    "mean_nitrate_mg_L": 0.191817321299639,
+    "observation_count": 1385,
+    "annual_precip_inches": 45.25,
+    "pearson_r_precip_vs_mean_nitrate": 0.1721,
+    "spearman_r_precip_vs_mean_nitrate": 0.1556
+  },
+  {
+    "year": 2001,
+    "mean_nitrate_mg_L": 0.42452111010450705,
+    "observation_count": 997,
+    "annual_precip_inches": 35.55,
+    "pearson_r_precip_vs_mean_nitrate": 0.1721,
+    "spearman_r_precip_vs_mean_nitrate": 0.1556
+  },
+  {
+    "year": 2002,
+    "mean_nitrate_mg_L": 0.44782756804214224,
+    "observation_count": 1139,
+    "annual_precip_inches": 45.91,
+    "pearson_r_precip_vs_mean_nitrate": 0.1721,
+    "spearman_r_precip_vs_mean_nitrate": 0.1556
+  },
+  {
+    "year": 2003,
+    "mean_nitrate_mg_L": 0.5853619625334522,
+    "observation_count": 1121,
+    "annual_precip_inches": 56.48,
+    "pearson_r_precip_vs_mean_nitrate": 0.1721,
+    "spearman_r_precip_vs_mean_nitrate": 0.1556
+  },
+  {
+    "year": 2004,
+    "mean_nitrate_mg_L": 0.943738702867889,
+    "observation_count": 2127,
+    "annual_precip_inches": 48.7,
+    "pearson_r_precip_vs_mean_nitrate": 0.1721,
+    "spearman_r_precip_vs_mean_nitrate": 0.1556
+  },
+  {
+    "year": 2005,
+    "mean_nitrate_mg_L": 1.0255803077783996,
+    "observation_count": 1787,
+    "annual_precip_inches": 48.81,
+    "pearson_r_precip_vs_mean_nitrate": 0.1721,
+    "spearman_r_precip_vs_mean_nitrate": 0.1556
+  },
+  {
+    "year": 2006,
+    "mean_nitrate_mg_L": 0.9634357295373666,
+    "observation_count": 1967,
+    "annual_precip_inches": 51.41,
+    "pearson_r_precip_vs_mean_nitrate": 0.1721,
+    "spearman_r_precip_vs_mean_nitrate": 0.1556
+  },
+  {
+    "year": 2007,
+    "mean_nitrate_mg_L": 1.4063808838383838,
+    "observation_count": 1980,
+    "annual_precip_inches": 46.93,
+    "pearson_r_precip_vs_mean_nitrate": 0.1721,
+    "spearman_r_precip_vs_mean_nitrate": 0.1556
+  },
+  {
+    "year": 2008,
+    "mean_nitrate_mg_L": 1.3424059779107225,
+    "observation_count": 2173,
+    "annual_precip_inches": 47.22,
+    "pearson_r_precip_vs_mean_nitrate": 0.1721,
+    "spearman_r_precip_vs_mean_nitrate": 0.1556
+  },
+  {
+    "year": 2009,
+    "mean_nitrate_mg_L": 0.993382172439759,
+    "observation_count": 2656,
+    "annual_precip_inches": 53.17,
+    "pearson_r_precip_vs_mean_nitrate": 0.1721,
+    "spearman_r_precip_vs_mean_nitrate": 0.1556
+  },
+  {
+    "year": 2010,
+    "mean_nitrate_mg_L": 1.0739491345801246,
+    "observation_count": 2727,
+    "annual_precip_inches": 44.6,
+    "pearson_r_precip_vs_mean_nitrate": 0.1721,
+    "spearman_r_precip_vs_mean_nitrate": 0.1556
+  },
+  {
+    "year": 2011,
+    "mean_nitrate_mg_L": 0.9171112332545311,
+    "observation_count": 2538,
+    "annual_precip_inches": 63.95,
+    "pearson_r_precip_vs_mean_nitrate": 0.1721,
+    "spearman_r_precip_vs_mean_nitrate": 0.1556
+  },
+  {
+    "year": 2012,
+    "mean_nitrate_mg_L": 0.900726089618703,
+    "observation_count": 3593,
+    "annual_precip_inches": 41.99,
+    "pearson_r_precip_vs_mean_nitrate": 0.1721,
+    "spearman_r_precip_vs_mean_nitrate": 0.1556
+  },
+  {
+    "year": 2013,
+    "mean_nitrate_mg_L": 1.1163596141363146,
+    "observation_count": 2773,
+    "annual_precip_inches": 46.38,
+    "pearson_r_precip_vs_mean_nitrate": 0.1721,
+    "spearman_r_precip_vs_mean_nitrate": 0.1556
+  },
+  {
+    "year": 2014,
+    "mean_nitrate_mg_L": 0.7520743684210526,
+    "observation_count": 1520,
+    "annual_precip_inches": 48.95,
+    "pearson_r_precip_vs_mean_nitrate": 0.1721,
+    "spearman_r_precip_vs_mean_nitrate": 0.1556
+  },
+  {
+    "year": 2015,
+    "mean_nitrate_mg_L": 0.9870320553691275,
+    "observation_count": 2384,
+    "annual_precip_inches": 43.86,
+    "pearson_r_precip_vs_mean_nitrate": 0.1721,
+    "spearman_r_precip_vs_mean_nitrate": 0.1556
+  },
+  {
+    "year": 2016,
+    "mean_nitrate_mg_L": 0.8961025506822985,
+    "observation_count": 3028,
+    "annual_precip_inches": 39.59,
+    "pearson_r_precip_vs_mean_nitrate": 0.1721,
+    "spearman_r_precip_vs_mean_nitrate": 0.1556
+  },
+  {
+    "year": 2017,
+    "mean_nitrate_mg_L": 1.0928405742778542,
+    "observation_count": 2908,
+    "annual_precip_inches": 44.92,
+    "pearson_r_precip_vs_mean_nitrate": 0.1721,
+    "spearman_r_precip_vs_mean_nitrate": 0.1556
+  },
+  {
+    "year": 2018,
+    "mean_nitrate_mg_L": 0.9072800462941101,
+    "observation_count": 3141,
+    "annual_precip_inches": 64.76,
+    "pearson_r_precip_vs_mean_nitrate": 0.1721,
+    "spearman_r_precip_vs_mean_nitrate": 0.1556
+  },
+  {
+    "year": 2019,
+    "mean_nitrate_mg_L": 0.9298831535388182,
+    "observation_count": 3063,
+    "annual_precip_inches": 51.55,
+    "pearson_r_precip_vs_mean_nitrate": 0.1721,
+    "spearman_r_precip_vs_mean_nitrate": 0.1556
+  },
+  {
+    "year": 2020,
+    "mean_nitrate_mg_L": 0.72321508706518,
+    "observation_count": 1278,
+    "annual_precip_inches": 49.85,
+    "pearson_r_precip_vs_mean_nitrate": 0.1721,
+    "spearman_r_precip_vs_mean_nitrate": 0.1556
+  },
+  {
+    "year": 2021,
+    "mean_nitrate_mg_L": 0.7209579430529329,
+    "observation_count": 1884,
+    "annual_precip_inches": 47.87,
+    "pearson_r_precip_vs_mean_nitrate": 0.1721,
+    "spearman_r_precip_vs_mean_nitrate": 0.1556
+  },
+  {
+    "year": 2022,
+    "mean_nitrate_mg_L": 0.8550860193612201,
+    "observation_count": 1965,
+    "annual_precip_inches": 44.05,
+    "pearson_r_precip_vs_mean_nitrate": 0.1721,
+    "spearman_r_precip_vs_mean_nitrate": 0.1556
+  },
+  {
+    "year": 2023,
+    "mean_nitrate_mg_L": 0.7689430349216549,
+    "observation_count": 2110,
+    "annual_precip_inches": 50.54,
+    "pearson_r_precip_vs_mean_nitrate": 0.1721,
+    "spearman_r_precip_vs_mean_nitrate": 0.1556
+  },
+  {
+    "year": 2024,
+    "mean_nitrate_mg_L": 0.8211557952960356,
+    "observation_count": 2533,
+    "annual_precip_inches": 42.58,
+    "pearson_r_precip_vs_mean_nitrate": 0.1721,
+    "spearman_r_precip_vs_mean_nitrate": 0.1556
+  },
+  {
+    "year": 2025,
+    "mean_nitrate_mg_L": 0.5298060104670113,
+    "observation_count": 1203,
+    "annual_precip_inches": 38.73,
+    "pearson_r_precip_vs_mean_nitrate": 0.1721,
+    "spearman_r_precip_vs_mean_nitrate": 0.1556
+  }
+]

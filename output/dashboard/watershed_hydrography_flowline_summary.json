@@ -1,0 +1,142 @@
+[
+  {
+    "watershed_name": "Arthur Kill",
+    "flowline_segment_count": 145,
+    "flowline_total_length_km": 220.231,
+    "named_flowline_count": 145,
+    "in_network_segment_count": 0
+  },
+  {
+    "watershed_name": "Assiscunk, Crosswicks, and Doctors",
+    "flowline_segment_count": 339,
+    "flowline_total_length_km": 537.061,
+    "named_flowline_count": 339,
+    "in_network_segment_count": 0
+  },
+  {
+    "watershed_name": "Barnegat Bay",
+    "flowline_segment_count": 1879,
+    "flowline_total_length_km": 1329.444,
+    "named_flowline_count": 1879,
+    "in_network_segment_count": 0
+  },
+  {
+    "watershed_name": "Cape May",
+    "flowline_segment_count": 363,
+    "flowline_total_length_km": 461.477,
+    "named_flowline_count": 363,
+    "in_network_segment_count": 0
+  },
+  {
+    "watershed_name": "Central Delaware",
+    "flowline_segment_count": 254,
+    "flowline_total_length_km": 467.047,
+    "named_flowline_count": 254,
+    "in_network_segment_count": 0
+  },
+  {
+    "watershed_name": "Great Egg Harbor",
+    "flowline_segment_count": 419,
+    "flowline_total_length_km": 727.833,
+    "named_flowline_count": 419,
+    "in_network_segment_count": 0
+  },
+  {
+    "watershed_name": "Hackensack, Hudson, and Pascack",
+    "flowline_segment_count": 337,
+    "flowline_total_length_km": 417.066,
+    "named_flowline_count": 337,
+    "in_network_segment_count": 0
+  },
+  {
+    "watershed_name": "Lower Delaware",
+    "flowline_segment_count": 793,
+    "flowline_total_length_km": 651.007,
+    "named_flowline_count": 793,
+    "in_network_segment_count": 0
+  },
+  {
+    "watershed_name": "Lower Passaic and Saddle",
+    "flowline_segment_count": 255,
+    "flowline_total_length_km": 304.718,
+    "named_flowline_count": 255,
+    "in_network_segment_count": 0
+  },
+  {
+    "watershed_name": "Lower Raritan, South River, and Lawrence",
+    "flowline_segment_count": 355,
+    "flowline_total_length_km": 586.559,
+    "named_flowline_count": 355,
+    "in_network_segment_count": 0
+  },
+  {
+    "watershed_name": "Maurice, Salem, and Cohansey",
+    "flowline_segment_count": 2216,
+    "flowline_total_length_km": 2057.637,
+    "named_flowline_count": 2216,
+    "in_network_segment_count": 0
+  },
+  {
+    "watershed_name": "Millstone",
+    "flowline_segment_count": 296,
+    "flowline_total_length_km": 509.269,
+    "named_flowline_count": 296,
+    "in_network_segment_count": 0
+  },
+  {
+    "watershed_name": "Monmouth",
+    "flowline_segment_count": 452,
+    "flowline_total_length_km": 690.209,
+    "named_flowline_count": 452,
+    "in_network_segment_count": 0
+  },
+  {
+    "watershed_name": "Mullica",
+    "flowline_segment_count": 1419,
+    "flowline_total_length_km": 1246.16,
+    "named_flowline_count": 1419,
+    "in_network_segment_count": 0
+  },
+  {
+    "watershed_name": "North and South Branch Raritan",
+    "flowline_segment_count": 480,
+    "flowline_total_length_km": 830.396,
+    "named_flowline_count": 480,
+    "in_network_segment_count": 0
+  },
+  {
+    "watershed_name": "Pompton, Pequannock, Wanaque, Ramapo",
+    "flowline_segment_count": 570,
+    "flowline_total_length_km": 529.259,
+    "named_flowline_count": 570,
+    "in_network_segment_count": 0
+  },
+  {
+    "watershed_name": "Rancocas",
+    "flowline_segment_count": 587,
+    "flowline_total_length_km": 679.117,
+    "named_flowline_count": 587,
+    "in_network_segment_count": 0
+  },
+  {
+    "watershed_name": "Upper Delaware",
+    "flowline_segment_count": 979,
+    "flowline_total_length_km": 1324.927,
+    "named_flowline_count": 979,
+    "in_network_segment_count": 0
+  },
+  {
+    "watershed_name": "Upper Passaic, Whippany, and Rockaway",
+    "flowline_segment_count": 532,
+    "flowline_total_length_km": 712.601,
+    "named_flowline_count": 532,
+    "in_network_segment_count": 0
+  },
+  {
+    "watershed_name": "Wallkill",
+    "flowline_segment_count": 255,
+    "flowline_total_length_km": 437.082,
+    "named_flowline_count": 255,
+    "in_network_segment_count": 0
+  }
+]

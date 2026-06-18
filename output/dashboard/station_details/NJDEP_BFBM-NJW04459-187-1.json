@@ -1,0 +1,122 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-NJW04459-187-1",
+    "station_name": "Algonquian Waters Lake - 1",
+    "latitude": 41.05974,
+    "longitude": -74.371999,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.03715,
+    "median_nitrate_mg_L": 0.03715,
+    "p90_nitrate_mg_L": 0.05799,
+    "max_nitrate_mg_L": 0.0632,
+    "min_nitrate_mg_L": 0.0111,
+    "first_year": 2014,
+    "last_year": 2014,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0111,
+      "median_nitrate_mg_L": 0.0111,
+      "p90_nitrate_mg_L": 0.0111,
+      "max_nitrate_mg_L": 0.0111,
+      "season_order": 3
+    },
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0632,
+      "median_nitrate_mg_L": 0.0632,
+      "p90_nitrate_mg_L": 0.0632,
+      "max_nitrate_mg_L": 0.0632,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2014.0,
+      "observation_count": 2.0,
+      "mean_nitrate_mg_L": 0.03715,
+      "median_nitrate_mg_L": 0.03715,
+      "p90_nitrate_mg_L": 0.05799000000000001,
+      "max_nitrate_mg_L": 0.0632,
+      "mean_3yr_moving_average": 0.03715
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2014-06",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0111,
+      "median_nitrate_mg_L": 0.0111,
+      "p90_nitrate_mg_L": 0.0111,
+      "max_nitrate_mg_L": 0.0111,
+      "date": "2014-06-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2014-10",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0632,
+      "median_nitrate_mg_L": 0.0632,
+      "p90_nitrate_mg_L": 0.0632,
+      "max_nitrate_mg_L": 0.0632,
+      "date": "2014-10-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2014-06-09",
+      "year": 2014,
+      "month": 6,
+      "season": "Summer",
+      "nitrate_mg_L": 0.0111,
+      "result_value": 0.0111,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Estimated",
+      "detection_condition": null
+    },
+    {
+      "date": "2014-10-09",
+      "year": 2014,
+      "month": 10,
+      "season": "Fall",
+      "nitrate_mg_L": 0.0632,
+      "result_value": 0.0632,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

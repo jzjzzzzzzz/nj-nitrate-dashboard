@@ -1,0 +1,85 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-01465808",
+    "station_name": "BURRS MILL BROOK ON SOOY PLACE, HEDGERHOUSE ROAD",
+    "latitude": 39.85941,
+    "longitude": -74.598116,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 1,
+    "confidence_level": "Low",
+    "confidence_score": 0.1501904832236879,
+    "mean_nitrate_mg_L": 0.008,
+    "median_nitrate_mg_L": 0.008,
+    "p90_nitrate_mg_L": 0.008,
+    "max_nitrate_mg_L": 0.008,
+    "min_nitrate_mg_L": 0.008,
+    "first_year": 2009,
+    "last_year": 2009,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.008,
+      "median_nitrate_mg_L": 0.008,
+      "p90_nitrate_mg_L": 0.008,
+      "max_nitrate_mg_L": 0.008,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2009.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.008,
+      "median_nitrate_mg_L": 0.008,
+      "p90_nitrate_mg_L": 0.008,
+      "max_nitrate_mg_L": 0.008,
+      "mean_3yr_moving_average": 0.008
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2009-06",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.008,
+      "median_nitrate_mg_L": 0.008,
+      "p90_nitrate_mg_L": 0.008,
+      "max_nitrate_mg_L": 0.008,
+      "date": "2009-06-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2009-06-09",
+      "year": 2009,
+      "month": 6,
+      "season": "Summer",
+      "nitrate_mg_L": 0.008,
+      "result_value": 0.008,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Estimated",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

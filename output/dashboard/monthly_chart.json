@@ -1,0 +1,122 @@
+[
+  {
+    "month": 1,
+    "observation_count": 2229,
+    "station_count": 542,
+    "mean_nitrate_mg_L": 0.8823131588898968,
+    "median_nitrate_mg_L": 0.533,
+    "p90_nitrate_mg_L": 2.0317800000000004,
+    "max_nitrate_mg_L": 25.956,
+    "month_name": "Jan"
+  },
+  {
+    "month": 2,
+    "observation_count": 2558,
+    "station_count": 696,
+    "mean_nitrate_mg_L": 1.1641909511287871,
+    "median_nitrate_mg_L": 0.6292,
+    "p90_nitrate_mg_L": 2.423000000000002,
+    "max_nitrate_mg_L": 39.423,
+    "month_name": "Feb"
+  },
+  {
+    "month": 3,
+    "observation_count": 3554,
+    "station_count": 980,
+    "mean_nitrate_mg_L": 1.0340644205990295,
+    "median_nitrate_mg_L": 0.521277622461319,
+    "p90_nitrate_mg_L": 1.8383800000000015,
+    "max_nitrate_mg_L": 145.764,
+    "month_name": "Mar"
+  },
+  {
+    "month": 4,
+    "observation_count": 3785,
+    "station_count": 1230,
+    "mean_nitrate_mg_L": 0.6710532676521302,
+    "median_nitrate_mg_L": 0.451,
+    "p90_nitrate_mg_L": 1.5580399999999996,
+    "max_nitrate_mg_L": 13.5214,
+    "month_name": "Apr"
+  },
+  {
+    "month": 5,
+    "observation_count": 5925,
+    "station_count": 1447,
+    "mean_nitrate_mg_L": 0.8920612197100569,
+    "median_nitrate_mg_L": 0.5635,
+    "p90_nitrate_mg_L": 1.937840000000002,
+    "max_nitrate_mg_L": 37.541,
+    "month_name": "May"
+  },
+  {
+    "month": 6,
+    "observation_count": 6398,
+    "station_count": 1702,
+    "mean_nitrate_mg_L": 0.7566120088358217,
+    "median_nitrate_mg_L": 0.46692,
+    "p90_nitrate_mg_L": 1.89,
+    "max_nitrate_mg_L": 16.1,
+    "month_name": "Jun"
+  },
+  {
+    "month": 7,
+    "observation_count": 6043,
+    "station_count": 1528,
+    "mean_nitrate_mg_L": 0.7696288908075213,
+    "median_nitrate_mg_L": 0.4178,
+    "p90_nitrate_mg_L": 1.8377800000000004,
+    "max_nitrate_mg_L": 24.974,
+    "month_name": "Jul"
+  },
+  {
+    "month": 8,
+    "observation_count": 7452,
+    "station_count": 1683,
+    "mean_nitrate_mg_L": 0.9670800204104381,
+    "median_nitrate_mg_L": 0.4806899993896485,
+    "p90_nitrate_mg_L": 2.1333600000000015,
+    "max_nitrate_mg_L": 156.0,
+    "month_name": "Aug"
+  },
+  {
+    "month": 9,
+    "observation_count": 6591,
+    "station_count": 1576,
+    "mean_nitrate_mg_L": 0.9880096954109117,
+    "median_nitrate_mg_L": 0.563,
+    "p90_nitrate_mg_L": 2.4187,
+    "max_nitrate_mg_L": 20.7,
+    "month_name": "Sep"
+  },
+  {
+    "month": 10,
+    "observation_count": 4948,
+    "station_count": 1425,
+    "mean_nitrate_mg_L": 1.03042542438912,
+    "median_nitrate_mg_L": 0.49073500000000003,
+    "p90_nitrate_mg_L": 2.44,
+    "max_nitrate_mg_L": 28.012,
+    "month_name": "Oct"
+  },
+  {
+    "month": 11,
+    "observation_count": 3258,
+    "station_count": 1142,
+    "mean_nitrate_mg_L": 1.0525798623112699,
+    "median_nitrate_mg_L": 0.56,
+    "p90_nitrate_mg_L": 2.36,
+    "max_nitrate_mg_L": 30.82,
+    "month_name": "Nov"
+  },
+  {
+    "month": 12,
+    "observation_count": 3266,
+    "station_count": 833,
+    "mean_nitrate_mg_L": 0.8396266904157852,
+    "median_nitrate_mg_L": 0.5472049999999999,
+    "p90_nitrate_mg_L": 1.91845,
+    "max_nitrate_mg_L": 18.322,
+    "month_name": "Dec"
+  }
+]

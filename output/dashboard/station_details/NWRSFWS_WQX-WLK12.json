@@ -1,0 +1,159 @@
+{
+  "station_info": {
+    "station_id": "NWRSFWS_WQX-WLK12",
+    "station_name": "Quarryville Br at Lower Unionville Rd BL bridge within WLK",
+    "latitude": 41.23446,
+    "longitude": -74.5723,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "ppm"
+  },
+  "summary": {
+    "observation_count": 3,
+    "confidence_level": "Low",
+    "confidence_score": 0.3003809664473759,
+    "mean_nitrate_mg_L": 0.458,
+    "median_nitrate_mg_L": 0.435,
+    "p90_nitrate_mg_L": 0.5166000000000001,
+    "max_nitrate_mg_L": 0.537,
+    "min_nitrate_mg_L": 0.402,
+    "first_year": 2016,
+    "last_year": 2017,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.486,
+      "median_nitrate_mg_L": 0.486,
+      "p90_nitrate_mg_L": 0.5268,
+      "max_nitrate_mg_L": 0.537,
+      "season_order": 3
+    },
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.402,
+      "median_nitrate_mg_L": 0.402,
+      "p90_nitrate_mg_L": 0.402,
+      "max_nitrate_mg_L": 0.402,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2016.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.537,
+      "median_nitrate_mg_L": 0.537,
+      "p90_nitrate_mg_L": 0.537,
+      "max_nitrate_mg_L": 0.537,
+      "mean_3yr_moving_average": 0.537
+    },
+    {
+      "year": 2017.0,
+      "observation_count": 2.0,
+      "mean_nitrate_mg_L": 0.4185,
+      "median_nitrate_mg_L": 0.4185,
+      "p90_nitrate_mg_L": 0.43170000000000003,
+      "max_nitrate_mg_L": 0.435,
+      "mean_3yr_moving_average": 0.47775
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2016-07",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.537,
+      "median_nitrate_mg_L": 0.537,
+      "p90_nitrate_mg_L": 0.537,
+      "max_nitrate_mg_L": 0.537,
+      "date": "2016-07-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2017-07",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.435,
+      "median_nitrate_mg_L": 0.435,
+      "p90_nitrate_mg_L": 0.435,
+      "max_nitrate_mg_L": 0.435,
+      "date": "2017-07-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2017-09",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.402,
+      "median_nitrate_mg_L": 0.402,
+      "p90_nitrate_mg_L": 0.402,
+      "max_nitrate_mg_L": 0.402,
+      "date": "2017-09-01",
+      "mean_6mo_moving_average": 0.458,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2016-07-06",
+      "year": 2016,
+      "month": 7,
+      "season": "Summer",
+      "nitrate_mg_L": 0.537,
+      "result_value": 0.537,
+      "unit": "ppm",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2017-07-11",
+      "year": 2017,
+      "month": 7,
+      "season": "Summer",
+      "nitrate_mg_L": 0.435,
+      "result_value": 0.435,
+      "unit": "ppm",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2017-09-19",
+      "year": 2017,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.402,
+      "result_value": 0.402,
+      "unit": "ppm",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

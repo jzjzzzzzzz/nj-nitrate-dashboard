@@ -1,0 +1,100 @@
+[
+  {
+    "watershed_name": "Arthur Kill",
+    "dmr_permit_feature_count": 8,
+    "exo_feature_count": 8,
+    "flow_feature_record_count": 440,
+    "nitrogen_feature_record_count": 146
+  },
+  {
+    "watershed_name": "Assiscunk, Crosswicks, and Doctors",
+    "dmr_permit_feature_count": 3,
+    "exo_feature_count": 3,
+    "flow_feature_record_count": 0,
+    "nitrogen_feature_record_count": 388
+  },
+  {
+    "watershed_name": "Central Delaware",
+    "dmr_permit_feature_count": 3,
+    "exo_feature_count": 3,
+    "flow_feature_record_count": 1512,
+    "nitrogen_feature_record_count": 0
+  },
+  {
+    "watershed_name": "Great Egg Harbor",
+    "dmr_permit_feature_count": 6,
+    "exo_feature_count": 6,
+    "flow_feature_record_count": 1928,
+    "nitrogen_feature_record_count": 0
+  },
+  {
+    "watershed_name": "Hackensack, Hudson, and Pascack",
+    "dmr_permit_feature_count": 1,
+    "exo_feature_count": 1,
+    "flow_feature_record_count": 76,
+    "nitrogen_feature_record_count": 76
+  },
+  {
+    "watershed_name": "Lower Delaware",
+    "dmr_permit_feature_count": 19,
+    "exo_feature_count": 19,
+    "flow_feature_record_count": 5544,
+    "nitrogen_feature_record_count": 5452
+  },
+  {
+    "watershed_name": "Lower Passaic and Saddle",
+    "dmr_permit_feature_count": 3,
+    "exo_feature_count": 3,
+    "flow_feature_record_count": 382,
+    "nitrogen_feature_record_count": 91
+  },
+  {
+    "watershed_name": "Lower Raritan, South River, and Lawrence",
+    "dmr_permit_feature_count": 10,
+    "exo_feature_count": 10,
+    "flow_feature_record_count": 1024,
+    "nitrogen_feature_record_count": 44
+  },
+  {
+    "watershed_name": "Maurice, Salem, and Cohansey",
+    "dmr_permit_feature_count": 10,
+    "exo_feature_count": 10,
+    "flow_feature_record_count": 3179,
+    "nitrogen_feature_record_count": 580
+  },
+  {
+    "watershed_name": "Millstone",
+    "dmr_permit_feature_count": 2,
+    "exo_feature_count": 2,
+    "flow_feature_record_count": 450,
+    "nitrogen_feature_record_count": 1326
+  },
+  {
+    "watershed_name": "Monmouth",
+    "dmr_permit_feature_count": 5,
+    "exo_feature_count": 5,
+    "flow_feature_record_count": 366,
+    "nitrogen_feature_record_count": 965
+  },
+  {
+    "watershed_name": "North and South Branch Raritan",
+    "dmr_permit_feature_count": 2,
+    "exo_feature_count": 2,
+    "flow_feature_record_count": 431,
+    "nitrogen_feature_record_count": 0
+  },
+  {
+    "watershed_name": "Upper Delaware",
+    "dmr_permit_feature_count": 4,
+    "exo_feature_count": 4,
+    "flow_feature_record_count": 880,
+    "nitrogen_feature_record_count": 2346
+  },
+  {
+    "watershed_name": "Upper Passaic, Whippany, and Rockaway",
+    "dmr_permit_feature_count": 3,
+    "exo_feature_count": 3,
+    "flow_feature_record_count": 871,
+    "nitrogen_feature_record_count": 2928
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "season": "Winter",
+    "observation_count": 8053,
+    "station_count": 962,
+    "mean_nitrate_mg_L": 0.9545383403763781,
+    "median_nitrate_mg_L": 0.57,
+    "p90_nitrate_mg_L": 2.09,
+    "max_nitrate_mg_L": 39.423,
+    "season_order": 1
+  },
+  {
+    "season": "Spring",
+    "observation_count": 13264,
+    "station_count": 2041,
+    "mean_nitrate_mg_L": 0.8670434481042182,
+    "median_nitrate_mg_L": 0.51995,
+    "p90_nitrate_mg_L": 1.8043600000000029,
+    "max_nitrate_mg_L": 145.764,
+    "season_order": 2
+  },
+  {
+    "season": "Summer",
+    "observation_count": 19893,
+    "station_count": 2857,
+    "mean_nitrate_mg_L": 0.8394084015372254,
+    "median_nitrate_mg_L": 0.4578,
+    "p90_nitrate_mg_L": 1.95,
+    "max_nitrate_mg_L": 156.0,
+    "season_order": 3
+  },
+  {
+    "season": "Fall",
+    "observation_count": 14797,
+    "station_count": 2400,
+    "mean_nitrate_mg_L": 1.0164102246226128,
+    "median_nitrate_mg_L": 0.5427,
+    "p90_nitrate_mg_L": 2.41,
+    "max_nitrate_mg_L": 30.82,
+    "season_order": 4
+  }
+]

@@ -1,0 +1,113 @@
+{
+  "station_info": {
+    "station_id": "NARS_WQX-NJS9-0908",
+    "station_name": "Mill Brook",
+    "latitude": 41.04212,
+    "longitude": -74.0473,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate",
+    "units_seen": "mg N/l******"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 1.724,
+    "median_nitrate_mg_L": 1.724,
+    "p90_nitrate_mg_L": 1.8008,
+    "max_nitrate_mg_L": 1.82,
+    "min_nitrate_mg_L": 1.628,
+    "first_year": 2013,
+    "last_year": 2013,
+    "is_hotspot": true,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": true
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 1.724,
+      "median_nitrate_mg_L": 1.724,
+      "p90_nitrate_mg_L": 1.8008,
+      "max_nitrate_mg_L": 1.82,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2013.0,
+      "observation_count": 2.0,
+      "mean_nitrate_mg_L": 1.724,
+      "median_nitrate_mg_L": 1.724,
+      "p90_nitrate_mg_L": 1.8008,
+      "max_nitrate_mg_L": 1.82,
+      "mean_3yr_moving_average": 1.724
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2013-06",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.628,
+      "median_nitrate_mg_L": 1.628,
+      "p90_nitrate_mg_L": 1.628,
+      "max_nitrate_mg_L": 1.628,
+      "date": "2013-06-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2013-07",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.82,
+      "median_nitrate_mg_L": 1.82,
+      "p90_nitrate_mg_L": 1.82,
+      "max_nitrate_mg_L": 1.82,
+      "date": "2013-07-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2013-06-02",
+      "year": 2013,
+      "month": 6,
+      "season": "Summer",
+      "nitrate_mg_L": 1.628,
+      "result_value": 1.628,
+      "unit": "mg N/l******",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2013-07-09",
+      "year": 2013,
+      "month": 7,
+      "season": "Summer",
+      "nitrate_mg_L": 1.82,
+      "result_value": 1.82,
+      "unit": "mg N/l******",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

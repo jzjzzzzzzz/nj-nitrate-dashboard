@@ -1,0 +1,122 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0169",
+    "station_name": "RANCOCAS CK S WEST BR RT 70 BRIDGE 0310-156/1456",
+    "latitude": 39.904592,
+    "longitude": -74.812567,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.4475,
+    "median_nitrate_mg_L": 0.4475,
+    "p90_nitrate_mg_L": 0.5183,
+    "max_nitrate_mg_L": 0.536,
+    "min_nitrate_mg_L": 0.359,
+    "first_year": 2016,
+    "last_year": 2021,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Fall",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.4475,
+      "median_nitrate_mg_L": 0.4475,
+      "p90_nitrate_mg_L": 0.5183,
+      "max_nitrate_mg_L": 0.536,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2016.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.536,
+      "median_nitrate_mg_L": 0.536,
+      "p90_nitrate_mg_L": 0.536,
+      "max_nitrate_mg_L": 0.536,
+      "mean_3yr_moving_average": 0.536
+    },
+    {
+      "year": 2021.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.359,
+      "median_nitrate_mg_L": 0.359,
+      "p90_nitrate_mg_L": 0.359,
+      "max_nitrate_mg_L": 0.359,
+      "mean_3yr_moving_average": 0.4475
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2016-11",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.536,
+      "median_nitrate_mg_L": 0.536,
+      "p90_nitrate_mg_L": 0.536,
+      "max_nitrate_mg_L": 0.536,
+      "date": "2016-11-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2021-10",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.359,
+      "median_nitrate_mg_L": 0.359,
+      "p90_nitrate_mg_L": 0.359,
+      "max_nitrate_mg_L": 0.359,
+      "date": "2021-10-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2016-11-28",
+      "year": 2016,
+      "month": 11,
+      "season": "Fall",
+      "nitrate_mg_L": 0.536,
+      "result_value": 0.536,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2021-10-14",
+      "year": 2021,
+      "month": 10,
+      "season": "Fall",
+      "nitrate_mg_L": 0.359,
+      "result_value": 0.359,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

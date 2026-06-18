@@ -1,0 +1,122 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-NJW04459-015-1",
+    "station_name": "Vincentown Millpond-1",
+    "latitude": 39.931522,
+    "longitude": -74.749652,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.03475,
+    "median_nitrate_mg_L": 0.03475,
+    "p90_nitrate_mg_L": 0.04103,
+    "max_nitrate_mg_L": 0.0426,
+    "min_nitrate_mg_L": 0.0269,
+    "first_year": 2010,
+    "last_year": 2010,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Spring",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0426,
+      "median_nitrate_mg_L": 0.0426,
+      "p90_nitrate_mg_L": 0.0426,
+      "max_nitrate_mg_L": 0.0426,
+      "season_order": 2
+    },
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0269,
+      "median_nitrate_mg_L": 0.0269,
+      "p90_nitrate_mg_L": 0.0269,
+      "max_nitrate_mg_L": 0.0269,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2010.0,
+      "observation_count": 2.0,
+      "mean_nitrate_mg_L": 0.03475,
+      "median_nitrate_mg_L": 0.03475,
+      "p90_nitrate_mg_L": 0.04103,
+      "max_nitrate_mg_L": 0.0426,
+      "mean_3yr_moving_average": 0.03475
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2010-04",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0426,
+      "median_nitrate_mg_L": 0.0426,
+      "p90_nitrate_mg_L": 0.0426,
+      "max_nitrate_mg_L": 0.0426,
+      "date": "2010-04-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2010-09",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0269,
+      "median_nitrate_mg_L": 0.0269,
+      "p90_nitrate_mg_L": 0.0269,
+      "max_nitrate_mg_L": 0.0269,
+      "date": "2010-09-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2010-04-12",
+      "year": 2010,
+      "month": 4,
+      "season": "Spring",
+      "nitrate_mg_L": 0.0426,
+      "result_value": 0.0426,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2010-09-15",
+      "year": 2010,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.0269,
+      "result_value": 0.0269,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

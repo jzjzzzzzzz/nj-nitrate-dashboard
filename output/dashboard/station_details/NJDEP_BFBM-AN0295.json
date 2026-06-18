@@ -1,0 +1,131 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0295",
+    "station_name": "WAWAYANDA BROOK AT CANAL ROAD",
+    "latitude": 41.22815,
+    "longitude": -74.467101,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.2324999999999999,
+    "median_nitrate_mg_L": 0.2324999999999999,
+    "p90_nitrate_mg_L": 0.3817,
+    "max_nitrate_mg_L": 0.419,
+    "min_nitrate_mg_L": 0.046,
+    "first_year": 2018,
+    "last_year": 2023,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Spring",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.419,
+      "median_nitrate_mg_L": 0.419,
+      "p90_nitrate_mg_L": 0.419,
+      "max_nitrate_mg_L": 0.419,
+      "season_order": 2
+    },
+    {
+      "season": "Summer",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.046,
+      "median_nitrate_mg_L": 0.046,
+      "p90_nitrate_mg_L": 0.046,
+      "max_nitrate_mg_L": 0.046,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2018.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.046,
+      "median_nitrate_mg_L": 0.046,
+      "p90_nitrate_mg_L": 0.046,
+      "max_nitrate_mg_L": 0.046,
+      "mean_3yr_moving_average": 0.046
+    },
+    {
+      "year": 2023.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.419,
+      "median_nitrate_mg_L": 0.419,
+      "p90_nitrate_mg_L": 0.419,
+      "max_nitrate_mg_L": 0.419,
+      "mean_3yr_moving_average": 0.23249999999999998
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2018-06",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.046,
+      "median_nitrate_mg_L": 0.046,
+      "p90_nitrate_mg_L": 0.046,
+      "max_nitrate_mg_L": 0.046,
+      "date": "2018-06-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2023-04",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.419,
+      "median_nitrate_mg_L": 0.419,
+      "p90_nitrate_mg_L": 0.419,
+      "max_nitrate_mg_L": 0.419,
+      "date": "2023-04-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2018-06-12",
+      "year": 2018,
+      "month": 6,
+      "season": "Summer",
+      "nitrate_mg_L": 0.046,
+      "result_value": 0.046,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2023-04-10",
+      "year": 2023,
+      "month": 4,
+      "season": "Spring",
+      "nitrate_mg_L": 0.419,
+      "result_value": 0.419,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

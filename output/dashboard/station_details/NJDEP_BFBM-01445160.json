@@ -1,0 +1,150 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-01445160",
+    "station_name": "BEAR CREEK AT DARK MOON ROAD",
+    "latitude": 40.97499,
+    "longitude": -74.8494,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 3,
+    "confidence_level": "Low",
+    "confidence_score": 0.3003809664473759,
+    "mean_nitrate_mg_L": 0.7839999999999999,
+    "median_nitrate_mg_L": 0.824,
+    "p90_nitrate_mg_L": 0.8904,
+    "max_nitrate_mg_L": 0.907,
+    "min_nitrate_mg_L": 0.621,
+    "first_year": 2024,
+    "last_year": 2024,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Spring",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.621,
+      "median_nitrate_mg_L": 0.621,
+      "p90_nitrate_mg_L": 0.621,
+      "max_nitrate_mg_L": 0.621,
+      "season_order": 2
+    },
+    {
+      "season": "Fall",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.8654999999999999,
+      "median_nitrate_mg_L": 0.8654999999999999,
+      "p90_nitrate_mg_L": 0.8987,
+      "max_nitrate_mg_L": 0.907,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2024.0,
+      "observation_count": 3.0,
+      "mean_nitrate_mg_L": 0.7839999999999999,
+      "median_nitrate_mg_L": 0.824,
+      "p90_nitrate_mg_L": 0.8904,
+      "max_nitrate_mg_L": 0.907,
+      "mean_3yr_moving_average": 0.7839999999999999
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2024-05",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.621,
+      "median_nitrate_mg_L": 0.621,
+      "p90_nitrate_mg_L": 0.621,
+      "max_nitrate_mg_L": 0.621,
+      "date": "2024-05-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2024-09",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.824,
+      "median_nitrate_mg_L": 0.824,
+      "p90_nitrate_mg_L": 0.824,
+      "max_nitrate_mg_L": 0.824,
+      "date": "2024-09-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2024-11",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.907,
+      "median_nitrate_mg_L": 0.907,
+      "p90_nitrate_mg_L": 0.907,
+      "max_nitrate_mg_L": 0.907,
+      "date": "2024-11-01",
+      "mean_6mo_moving_average": 0.7839999999999999,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2024-05-13",
+      "year": 2024,
+      "month": 5,
+      "season": "Spring",
+      "nitrate_mg_L": 0.621,
+      "result_value": 0.621,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Filtered, field",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2024-09-17",
+      "year": 2024,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.824,
+      "result_value": 0.824,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Filtered, field",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2024-11-18",
+      "year": 2024,
+      "month": 11,
+      "season": "Fall",
+      "nitrate_mg_L": 0.907,
+      "result_value": 0.907,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Filtered, field",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-01379200",
+    "station_name": "DEAD RIVER NEAR MILLINGTON",
+    "latitude": 40.64973,
+    "longitude": -74.5242,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 3,
+    "confidence_level": "Low",
+    "confidence_score": 0.3003809664473759,
+    "mean_nitrate_mg_L": 4.086666666666667,
+    "median_nitrate_mg_L": 4.55,
+    "p90_nitrate_mg_L": 4.902,
+    "max_nitrate_mg_L": 4.99,
+    "min_nitrate_mg_L": 2.72,
+    "first_year": 2024,
+    "last_year": 2024,
+    "is_hotspot": true,
+    "is_p90_hotspot": true,
+    "is_mean_hotspot": true
+  },
+  "seasonal_summary": [
+    {
+      "season": "Winter",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 2.72,
+      "median_nitrate_mg_L": 2.72,
+      "p90_nitrate_mg_L": 2.72,
+      "max_nitrate_mg_L": 2.72,
+      "season_order": 1
+    },
+    {
+      "season": "Spring",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 4.99,
+      "median_nitrate_mg_L": 4.99,
+      "p90_nitrate_mg_L": 4.99,
+      "max_nitrate_mg_L": 4.99,
+      "season_order": 2
+    },
+    {
+      "season": "Summer",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 4.55,
+      "median_nitrate_mg_L": 4.55,
+      "p90_nitrate_mg_L": 4.55,
+      "max_nitrate_mg_L": 4.55,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2024.0,
+      "observation_count": 3.0,
+      "mean_nitrate_mg_L": 4.086666666666667,
+      "median_nitrate_mg_L": 4.55,
+      "p90_nitrate_mg_L": 4.902,
+      "max_nitrate_mg_L": 4.99,
+      "mean_3yr_moving_average": 4.086666666666667
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2024-05",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 4.99,
+      "median_nitrate_mg_L": 4.99,
+      "p90_nitrate_mg_L": 4.99,
+      "max_nitrate_mg_L": 4.99,
+      "date": "2024-05-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2024-07",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 4.55,
+      "median_nitrate_mg_L": 4.55,
+      "p90_nitrate_mg_L": 4.55,
+      "max_nitrate_mg_L": 4.55,
+      "date": "2024-07-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2024-12",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 2.72,
+      "median_nitrate_mg_L": 2.72,
+      "p90_nitrate_mg_L": 2.72,
+      "max_nitrate_mg_L": 2.72,
+      "date": "2024-12-01",
+      "mean_6mo_moving_average": 4.086666666666667,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2024-05-22",
+      "year": 2024,
+      "month": 5,
+      "season": "Spring",
+      "nitrate_mg_L": 4.99,
+      "result_value": 4.99,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Filtered, field",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2024-07-17",
+      "year": 2024,
+      "month": 7,
+      "season": "Summer",
+      "nitrate_mg_L": 4.55,
+      "result_value": 4.55,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Filtered, field",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2024-12-03",
+      "year": 2024,
+      "month": 12,
+      "season": "Winter",
+      "nitrate_mg_L": 2.72,
+      "result_value": 2.72,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Filtered, field",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-01379580",
+    "station_name": "PASSAIC R EAGLE ROCK AVE",
+    "latitude": 40.827638,
+    "longitude": -74.335083,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 1,
+    "confidence_level": "Low",
+    "confidence_score": 0.1501904832236879,
+    "mean_nitrate_mg_L": 0.555,
+    "median_nitrate_mg_L": 0.555,
+    "p90_nitrate_mg_L": 0.555,
+    "max_nitrate_mg_L": 0.555,
+    "min_nitrate_mg_L": 0.555,
+    "first_year": 2020,
+    "last_year": 2020,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Spring",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.555,
+      "median_nitrate_mg_L": 0.555,
+      "p90_nitrate_mg_L": 0.555,
+      "max_nitrate_mg_L": 0.555,
+      "season_order": 2
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2020.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.555,
+      "median_nitrate_mg_L": 0.555,
+      "p90_nitrate_mg_L": 0.555,
+      "max_nitrate_mg_L": 0.555,
+      "mean_3yr_moving_average": 0.555
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2020-03",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.555,
+      "median_nitrate_mg_L": 0.555,
+      "p90_nitrate_mg_L": 0.555,
+      "max_nitrate_mg_L": 0.555,
+      "date": "2020-03-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2020-03-12",
+      "year": 2020,
+      "month": 3,
+      "season": "Spring",
+      "nitrate_mg_L": 0.555,
+      "result_value": 0.555,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Filtered, field",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

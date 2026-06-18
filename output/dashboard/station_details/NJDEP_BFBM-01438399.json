@@ -1,0 +1,159 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-01438399",
+    "station_name": "SHIMERS BROOK ON  RT 521, MILLVILLE ROAD",
+    "latitude": 41.31298,
+    "longitude": -74.778736,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 3,
+    "confidence_level": "Low",
+    "confidence_score": 0.3003809664473759,
+    "mean_nitrate_mg_L": 0.212,
+    "median_nitrate_mg_L": 0.189,
+    "p90_nitrate_mg_L": 0.3066,
+    "max_nitrate_mg_L": 0.336,
+    "min_nitrate_mg_L": 0.111,
+    "first_year": 2009,
+    "last_year": 2009,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Spring",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.189,
+      "median_nitrate_mg_L": 0.189,
+      "p90_nitrate_mg_L": 0.189,
+      "max_nitrate_mg_L": 0.189,
+      "season_order": 2
+    },
+    {
+      "season": "Summer",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.111,
+      "median_nitrate_mg_L": 0.111,
+      "p90_nitrate_mg_L": 0.111,
+      "max_nitrate_mg_L": 0.111,
+      "season_order": 3
+    },
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.336,
+      "median_nitrate_mg_L": 0.336,
+      "p90_nitrate_mg_L": 0.336,
+      "max_nitrate_mg_L": 0.336,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2009.0,
+      "observation_count": 3.0,
+      "mean_nitrate_mg_L": 0.212,
+      "median_nitrate_mg_L": 0.189,
+      "p90_nitrate_mg_L": 0.30660000000000004,
+      "max_nitrate_mg_L": 0.336,
+      "mean_3yr_moving_average": 0.212
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2009-04",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.189,
+      "median_nitrate_mg_L": 0.189,
+      "p90_nitrate_mg_L": 0.189,
+      "max_nitrate_mg_L": 0.189,
+      "date": "2009-04-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2009-07",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.111,
+      "median_nitrate_mg_L": 0.111,
+      "p90_nitrate_mg_L": 0.111,
+      "max_nitrate_mg_L": 0.111,
+      "date": "2009-07-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2009-10",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.336,
+      "median_nitrate_mg_L": 0.336,
+      "p90_nitrate_mg_L": 0.336,
+      "max_nitrate_mg_L": 0.336,
+      "date": "2009-10-01",
+      "mean_6mo_moving_average": 0.212,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2009-04-13",
+      "year": 2009,
+      "month": 4,
+      "season": "Spring",
+      "nitrate_mg_L": 0.189,
+      "result_value": 0.189,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2009-07-09",
+      "year": 2009,
+      "month": 7,
+      "season": "Summer",
+      "nitrate_mg_L": 0.111,
+      "result_value": 0.111,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2009-10-15",
+      "year": 2009,
+      "month": 10,
+      "season": "Fall",
+      "nitrate_mg_L": 0.336,
+      "result_value": 0.336,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

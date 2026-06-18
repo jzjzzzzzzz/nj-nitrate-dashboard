@@ -1,0 +1,37 @@
+[
+  {
+    "predictor": "developed_percent",
+    "vif": 10.9544,
+    "interpretation": "high multicollinearity"
+  },
+  {
+    "predictor": "agriculture_percent",
+    "vif": 2.2432,
+    "interpretation": "acceptable"
+  },
+  {
+    "predictor": "facility_density_per_100_km2",
+    "vif": 3198.3036,
+    "interpretation": "high multicollinearity"
+  },
+  {
+    "predictor": "industrial_stormwater_density_per_100_km2",
+    "vif": 2513.8958,
+    "interpretation": "high multicollinearity"
+  },
+  {
+    "predictor": "septic_groundwater_density_per_100_km2",
+    "vif": 22.4388,
+    "interpretation": "high multicollinearity"
+  },
+  {
+    "predictor": "groundwater_discharge_density_per_100_km2",
+    "vif": 20.7387,
+    "interpretation": "high multicollinearity"
+  },
+  {
+    "predictor": "stormwater_or_surface_density_per_100_km2",
+    "vif": 79.3331,
+    "interpretation": "high multicollinearity"
+  }
+]

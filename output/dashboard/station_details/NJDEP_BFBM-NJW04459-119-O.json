@@ -1,0 +1,122 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-NJW04459-119-O",
+    "station_name": "Bearfort Waters - OUTLET",
+    "latitude": 41.14947,
+    "longitude": -74.401981,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.08,
+    "median_nitrate_mg_L": 0.08,
+    "p90_nitrate_mg_L": 0.12,
+    "max_nitrate_mg_L": 0.13,
+    "min_nitrate_mg_L": 0.03,
+    "first_year": 2007,
+    "last_year": 2007,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Spring",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.13,
+      "median_nitrate_mg_L": 0.13,
+      "p90_nitrate_mg_L": 0.13,
+      "max_nitrate_mg_L": 0.13,
+      "season_order": 2
+    },
+    {
+      "season": "Summer",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.03,
+      "median_nitrate_mg_L": 0.03,
+      "p90_nitrate_mg_L": 0.03,
+      "max_nitrate_mg_L": 0.03,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2007.0,
+      "observation_count": 2.0,
+      "mean_nitrate_mg_L": 0.08,
+      "median_nitrate_mg_L": 0.08,
+      "p90_nitrate_mg_L": 0.12000000000000001,
+      "max_nitrate_mg_L": 0.13,
+      "mean_3yr_moving_average": 0.08
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2007-05",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.13,
+      "median_nitrate_mg_L": 0.13,
+      "p90_nitrate_mg_L": 0.13,
+      "max_nitrate_mg_L": 0.13,
+      "date": "2007-05-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2007-08",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.03,
+      "median_nitrate_mg_L": 0.03,
+      "p90_nitrate_mg_L": 0.03,
+      "max_nitrate_mg_L": 0.03,
+      "date": "2007-08-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2007-05-17",
+      "year": 2007,
+      "month": 5,
+      "season": "Spring",
+      "nitrate_mg_L": 0.13,
+      "result_value": 0.13,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2007-08-14",
+      "year": 2007,
+      "month": 8,
+      "season": "Summer",
+      "nitrate_mg_L": 0.03,
+      "result_value": 0.03,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

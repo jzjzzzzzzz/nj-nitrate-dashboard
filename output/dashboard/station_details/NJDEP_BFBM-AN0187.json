@@ -1,0 +1,122 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0187",
+    "station_name": "NORTH BR COOPER R SPRINGDALE RD BRIDGE 5E-12",
+    "latitude": 39.888848,
+    "longitude": -74.968621,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.418,
+    "median_nitrate_mg_L": 0.418,
+    "p90_nitrate_mg_L": 0.4556,
+    "max_nitrate_mg_L": 0.465,
+    "min_nitrate_mg_L": 0.371,
+    "first_year": 2017,
+    "last_year": 2022,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Spring",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.41800000000000004,
+      "median_nitrate_mg_L": 0.41800000000000004,
+      "p90_nitrate_mg_L": 0.4556,
+      "max_nitrate_mg_L": 0.465,
+      "season_order": 2
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2017.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.371,
+      "median_nitrate_mg_L": 0.371,
+      "p90_nitrate_mg_L": 0.371,
+      "max_nitrate_mg_L": 0.371,
+      "mean_3yr_moving_average": 0.371
+    },
+    {
+      "year": 2022.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.465,
+      "median_nitrate_mg_L": 0.465,
+      "p90_nitrate_mg_L": 0.465,
+      "max_nitrate_mg_L": 0.465,
+      "mean_3yr_moving_average": 0.41800000000000004
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2017-04",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.371,
+      "median_nitrate_mg_L": 0.371,
+      "p90_nitrate_mg_L": 0.371,
+      "max_nitrate_mg_L": 0.371,
+      "date": "2017-04-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2022-05",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.465,
+      "median_nitrate_mg_L": 0.465,
+      "p90_nitrate_mg_L": 0.465,
+      "max_nitrate_mg_L": 0.465,
+      "date": "2022-05-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2017-04-19",
+      "year": 2017,
+      "month": 4,
+      "season": "Spring",
+      "nitrate_mg_L": 0.371,
+      "result_value": 0.371,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2022-05-05",
+      "year": 2022,
+      "month": 5,
+      "season": "Spring",
+      "nitrate_mg_L": 0.465,
+      "result_value": 0.465,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

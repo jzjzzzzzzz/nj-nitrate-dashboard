@@ -1,0 +1,170 @@
+{
+  "station_info": {
+    "station_id": "EMAP_CS_WQX-NJ06-0032-A",
+    "station_name": "Sandy Hook Bay",
+    "latitude": 40.43,
+    "longitude": -74.027,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate, Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 6,
+    "confidence_level": "Low",
+    "confidence_score": 0.4216379923242304,
+    "mean_nitrate_mg_L": 0.255245,
+    "median_nitrate_mg_L": 0.256825,
+    "p90_nitrate_mg_L": 0.282335,
+    "max_nitrate_mg_L": 0.29007,
+    "min_nitrate_mg_L": 0.22587,
+    "first_year": 2006,
+    "last_year": 2006,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Fall",
+      "observation_count": 6,
+      "mean_nitrate_mg_L": 0.255245,
+      "median_nitrate_mg_L": 0.256825,
+      "p90_nitrate_mg_L": 0.282335,
+      "max_nitrate_mg_L": 0.29007,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2006.0,
+      "observation_count": 6.0,
+      "mean_nitrate_mg_L": 0.255245,
+      "median_nitrate_mg_L": 0.256825,
+      "p90_nitrate_mg_L": 0.282335,
+      "max_nitrate_mg_L": 0.29007,
+      "mean_3yr_moving_average": 0.255245
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2006-09",
+      "observation_count": 6,
+      "mean_nitrate_mg_L": 0.255245,
+      "median_nitrate_mg_L": 0.256825,
+      "p90_nitrate_mg_L": 0.282335,
+      "max_nitrate_mg_L": 0.29007,
+      "date": "2006-09-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2006-09-25",
+      "year": 2006,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.22587,
+      "result_value": 0.22587,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Calculated",
+      "detection_condition": null
+    },
+    {
+      "date": "2006-09-25",
+      "year": 2006,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.2746,
+      "result_value": 0.2746,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Calculated",
+      "detection_condition": null
+    },
+    {
+      "date": "2006-09-25",
+      "year": 2006,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.27194,
+      "result_value": 0.27194,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Calculated",
+      "detection_condition": null
+    },
+    {
+      "date": "2006-09-25",
+      "year": 2006,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.29007,
+      "result_value": 0.29007,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Calculated",
+      "detection_condition": null
+    },
+    {
+      "date": "2006-09-25",
+      "year": 2006,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.24171,
+      "result_value": 0.24171,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Calculated",
+      "detection_condition": null
+    },
+    {
+      "date": "2006-09-25",
+      "year": 2006,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.22728,
+      "result_value": 0.22728,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Calculated",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

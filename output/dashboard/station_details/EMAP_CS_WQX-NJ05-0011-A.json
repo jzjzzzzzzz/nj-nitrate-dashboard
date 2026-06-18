@@ -1,0 +1,102 @@
+{
+  "station_info": {
+    "station_id": "EMAP_CS_WQX-NJ05-0011-A",
+    "station_name": "Sandy Hook Bay",
+    "latitude": 40.424,
+    "longitude": -74.053,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate, Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.25821,
+    "median_nitrate_mg_L": 0.25821,
+    "p90_nitrate_mg_L": 0.283658,
+    "max_nitrate_mg_L": 0.29002,
+    "min_nitrate_mg_L": 0.2264,
+    "first_year": 2005,
+    "last_year": 2005,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Fall",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.25821,
+      "median_nitrate_mg_L": 0.25821,
+      "p90_nitrate_mg_L": 0.283658,
+      "max_nitrate_mg_L": 0.29002,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2005.0,
+      "observation_count": 2.0,
+      "mean_nitrate_mg_L": 0.25821,
+      "median_nitrate_mg_L": 0.25821,
+      "p90_nitrate_mg_L": 0.283658,
+      "max_nitrate_mg_L": 0.29002,
+      "mean_3yr_moving_average": 0.25821
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2005-10",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.25821,
+      "median_nitrate_mg_L": 0.25821,
+      "p90_nitrate_mg_L": 0.283658,
+      "max_nitrate_mg_L": 0.29002,
+      "date": "2005-10-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2005-10-05",
+      "year": 2005,
+      "month": 10,
+      "season": "Fall",
+      "nitrate_mg_L": 0.2264,
+      "result_value": 0.2264,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Calculated",
+      "detection_condition": null
+    },
+    {
+      "date": "2005-10-05",
+      "year": 2005,
+      "month": 10,
+      "season": "Fall",
+      "nitrate_mg_L": 0.29002,
+      "result_value": 0.29002,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Calculated",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

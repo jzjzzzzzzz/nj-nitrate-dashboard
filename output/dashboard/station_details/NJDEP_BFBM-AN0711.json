@@ -1,0 +1,131 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0711",
+    "station_name": "PARSONAGE RUN FINLEY RD",
+    "latitude": 39.487333,
+    "longitude": -75.253555,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 5.91,
+    "median_nitrate_mg_L": 5.91,
+    "p90_nitrate_mg_L": 5.942,
+    "max_nitrate_mg_L": 5.95,
+    "min_nitrate_mg_L": 5.87,
+    "first_year": 2017,
+    "last_year": 2022,
+    "is_hotspot": true,
+    "is_p90_hotspot": true,
+    "is_mean_hotspot": true
+  },
+  "seasonal_summary": [
+    {
+      "season": "Spring",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 5.87,
+      "median_nitrate_mg_L": 5.87,
+      "p90_nitrate_mg_L": 5.87,
+      "max_nitrate_mg_L": 5.87,
+      "season_order": 2
+    },
+    {
+      "season": "Summer",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 5.95,
+      "median_nitrate_mg_L": 5.95,
+      "p90_nitrate_mg_L": 5.95,
+      "max_nitrate_mg_L": 5.95,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2017.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 5.87,
+      "median_nitrate_mg_L": 5.87,
+      "p90_nitrate_mg_L": 5.87,
+      "max_nitrate_mg_L": 5.87,
+      "mean_3yr_moving_average": 5.87
+    },
+    {
+      "year": 2022.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 5.95,
+      "median_nitrate_mg_L": 5.95,
+      "p90_nitrate_mg_L": 5.95,
+      "max_nitrate_mg_L": 5.95,
+      "mean_3yr_moving_average": 5.91
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2017-05",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 5.87,
+      "median_nitrate_mg_L": 5.87,
+      "p90_nitrate_mg_L": 5.87,
+      "max_nitrate_mg_L": 5.87,
+      "date": "2017-05-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2022-07",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 5.95,
+      "median_nitrate_mg_L": 5.95,
+      "p90_nitrate_mg_L": 5.95,
+      "max_nitrate_mg_L": 5.95,
+      "date": "2022-07-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2017-05-30",
+      "year": 2017,
+      "month": 5,
+      "season": "Spring",
+      "nitrate_mg_L": 5.87,
+      "result_value": 5.87,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2022-07-13",
+      "year": 2022,
+      "month": 7,
+      "season": "Summer",
+      "nitrate_mg_L": 5.95,
+      "result_value": 5.95,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

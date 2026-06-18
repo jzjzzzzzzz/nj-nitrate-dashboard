@@ -1,0 +1,85 @@
+{
+  "station_info": {
+    "station_id": "NARS_WQX-NJRO-1020",
+    "station_name": "Passaic River",
+    "latitude": 40.90745,
+    "longitude": -74.30466,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate",
+    "units_seen": "mg N/l******"
+  },
+  "summary": {
+    "observation_count": 1,
+    "confidence_level": "Low",
+    "confidence_score": 0.1501904832236879,
+    "mean_nitrate_mg_L": 0.487,
+    "median_nitrate_mg_L": 0.487,
+    "p90_nitrate_mg_L": 0.487,
+    "max_nitrate_mg_L": 0.487,
+    "min_nitrate_mg_L": 0.487,
+    "first_year": 2013,
+    "last_year": 2013,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.487,
+      "median_nitrate_mg_L": 0.487,
+      "p90_nitrate_mg_L": 0.487,
+      "max_nitrate_mg_L": 0.487,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2013.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.487,
+      "median_nitrate_mg_L": 0.487,
+      "p90_nitrate_mg_L": 0.487,
+      "max_nitrate_mg_L": 0.487,
+      "mean_3yr_moving_average": 0.487
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2013-06",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.487,
+      "median_nitrate_mg_L": 0.487,
+      "p90_nitrate_mg_L": 0.487,
+      "max_nitrate_mg_L": 0.487,
+      "date": "2013-06-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2013-06-09",
+      "year": 2013,
+      "month": 6,
+      "season": "Summer",
+      "nitrate_mg_L": 0.487,
+      "result_value": 0.487,
+      "unit": "mg N/l******",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

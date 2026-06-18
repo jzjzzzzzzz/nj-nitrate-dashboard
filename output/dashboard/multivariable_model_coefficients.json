@@ -1,0 +1,730 @@
+[
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "land_use_only",
+    "predictor": "intercept",
+    "coefficient": 11.771925,
+    "coefficient_type": "intercept"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "land_use_only",
+    "predictor": "developed_percent",
+    "coefficient": 8.629386,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "land_use_only",
+    "predictor": "agriculture_percent",
+    "coefficient": 2.037142,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "facility_only",
+    "predictor": "intercept",
+    "coefficient": 11.771925,
+    "coefficient_type": "intercept"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "facility_only",
+    "predictor": "facility_density_per_100_km2",
+    "coefficient": 3.223267,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "facility_only",
+    "predictor": "industrial_stormwater_density_per_100_km2",
+    "coefficient": 4.660143,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "facility_only",
+    "predictor": "septic_groundwater_density_per_100_km2",
+    "coefficient": -0.470166,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_total_facility",
+    "predictor": "intercept",
+    "coefficient": 11.771925,
+    "coefficient_type": "intercept"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_total_facility",
+    "predictor": "developed_percent",
+    "coefficient": 4.901387,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_total_facility",
+    "predictor": "facility_density_per_100_km2",
+    "coefficient": 3.497491,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_industrial",
+    "predictor": "intercept",
+    "coefficient": 11.771925,
+    "coefficient_type": "intercept"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_industrial",
+    "predictor": "developed_percent",
+    "coefficient": 4.521325,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_industrial",
+    "predictor": "industrial_stormwater_density_per_100_km2",
+    "coefficient": 3.961944,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_core",
+    "predictor": "intercept",
+    "coefficient": 11.771925,
+    "coefficient_type": "intercept"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_core",
+    "predictor": "developed_percent",
+    "coefficient": 2.797803,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_core",
+    "predictor": "agriculture_percent",
+    "coefficient": 3.916614,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_core",
+    "predictor": "facility_density_per_100_km2",
+    "coefficient": -10.534083,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_core",
+    "predictor": "industrial_stormwater_density_per_100_km2",
+    "coefficient": 17.607553,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_extended",
+    "predictor": "intercept",
+    "coefficient": 11.771925,
+    "coefficient_type": "intercept"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_extended",
+    "predictor": "developed_percent",
+    "coefficient": 8.871897,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_extended",
+    "predictor": "agriculture_percent",
+    "coefficient": 4.870378,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_extended",
+    "predictor": "facility_density_per_100_km2",
+    "coefficient": -277.632695,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_extended",
+    "predictor": "industrial_stormwater_density_per_100_km2",
+    "coefficient": 257.52626,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_extended",
+    "predictor": "septic_groundwater_density_per_100_km2",
+    "coefficient": 23.2691,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_extended",
+    "predictor": "groundwater_discharge_density_per_100_km2",
+    "coefficient": 16.992923,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_extended",
+    "predictor": "stormwater_or_surface_density_per_100_km2",
+    "coefficient": 33.649894,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "predictor": "intercept",
+    "coefficient": 0.761828,
+    "coefficient_type": "intercept"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "predictor": "developed_percent",
+    "coefficient": 0.408251,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "predictor": "agriculture_percent",
+    "coefficient": 0.112669,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "facility_only",
+    "predictor": "intercept",
+    "coefficient": 0.761828,
+    "coefficient_type": "intercept"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "facility_only",
+    "predictor": "facility_density_per_100_km2",
+    "coefficient": 0.368276,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "facility_only",
+    "predictor": "industrial_stormwater_density_per_100_km2",
+    "coefficient": -0.007195,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "facility_only",
+    "predictor": "septic_groundwater_density_per_100_km2",
+    "coefficient": -0.023019,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "predictor": "intercept",
+    "coefficient": 0.761828,
+    "coefficient_type": "intercept"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "predictor": "developed_percent",
+    "coefficient": 0.263727,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "predictor": "facility_density_per_100_km2",
+    "coefficient": 0.126455,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "predictor": "intercept",
+    "coefficient": 0.761828,
+    "coefficient_type": "intercept"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "predictor": "developed_percent",
+    "coefficient": 0.260067,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "predictor": "industrial_stormwater_density_per_100_km2",
+    "coefficient": 0.132152,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_core",
+    "predictor": "intercept",
+    "coefficient": 0.761828,
+    "coefficient_type": "intercept"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_core",
+    "predictor": "developed_percent",
+    "coefficient": 0.15696,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_core",
+    "predictor": "agriculture_percent",
+    "coefficient": 0.18732,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_core",
+    "predictor": "facility_density_per_100_km2",
+    "coefficient": -0.319987,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_core",
+    "predictor": "industrial_stormwater_density_per_100_km2",
+    "coefficient": 0.621285,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "predictor": "intercept",
+    "coefficient": 0.761828,
+    "coefficient_type": "intercept"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "predictor": "developed_percent",
+    "coefficient": 0.357154,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "predictor": "agriculture_percent",
+    "coefficient": 0.274518,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "predictor": "facility_density_per_100_km2",
+    "coefficient": -6.220229,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "predictor": "industrial_stormwater_density_per_100_km2",
+    "coefficient": 6.270071,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "predictor": "septic_groundwater_density_per_100_km2",
+    "coefficient": 0.627468,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "predictor": "groundwater_discharge_density_per_100_km2",
+    "coefficient": 0.257527,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "predictor": "stormwater_or_surface_density_per_100_km2",
+    "coefficient": 0.38598,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "predictor": "intercept",
+    "coefficient": 1.057041,
+    "coefficient_type": "intercept"
+  },
+  {
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "predictor": "developed_percent",
+    "coefficient": 0.548623,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "predictor": "agriculture_percent",
+    "coefficient": 0.07387,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "facility_only",
+    "predictor": "intercept",
+    "coefficient": 1.057041,
+    "coefficient_type": "intercept"
+  },
+  {
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "facility_only",
+    "predictor": "facility_density_per_100_km2",
+    "coefficient": -1.646322,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "facility_only",
+    "predictor": "industrial_stormwater_density_per_100_km2",
+    "coefficient": 2.307165,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "facility_only",
+    "predictor": "septic_groundwater_density_per_100_km2",
+    "coefficient": 0.260215,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "predictor": "intercept",
+    "coefficient": 1.057041,
+    "coefficient_type": "intercept"
+  },
+  {
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "predictor": "developed_percent",
+    "coefficient": 0.156772,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "predictor": "facility_density_per_100_km2",
+    "coefficient": 0.405638,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "predictor": "intercept",
+    "coefficient": 1.057041,
+    "coefficient_type": "intercept"
+  },
+  {
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "predictor": "developed_percent",
+    "coefficient": 0.141066,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "predictor": "industrial_stormwater_density_per_100_km2",
+    "coefficient": 0.428276,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_core",
+    "predictor": "intercept",
+    "coefficient": 1.057041,
+    "coefficient_type": "intercept"
+  },
+  {
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_core",
+    "predictor": "developed_percent",
+    "coefficient": 0.043372,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_core",
+    "predictor": "agriculture_percent",
+    "coefficient": 0.22167,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_core",
+    "predictor": "facility_density_per_100_km2",
+    "coefficient": -0.594895,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_core",
+    "predictor": "industrial_stormwater_density_per_100_km2",
+    "coefficient": 1.19942,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "predictor": "intercept",
+    "coefficient": 1.057041,
+    "coefficient_type": "intercept"
+  },
+  {
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "predictor": "developed_percent",
+    "coefficient": 0.300725,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "predictor": "agriculture_percent",
+    "coefficient": 0.433297,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "predictor": "facility_density_per_100_km2",
+    "coefficient": -4.725289,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "predictor": "industrial_stormwater_density_per_100_km2",
+    "coefficient": 6.117279,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "predictor": "septic_groundwater_density_per_100_km2",
+    "coefficient": 0.690505,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "predictor": "groundwater_discharge_density_per_100_km2",
+    "coefficient": -0.067905,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "predictor": "stormwater_or_surface_density_per_100_km2",
+    "coefficient": -0.689041,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "predictor": "intercept",
+    "coefficient": 23.51369,
+    "coefficient_type": "intercept"
+  },
+  {
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "predictor": "developed_percent",
+    "coefficient": 3.482112,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "predictor": "agriculture_percent",
+    "coefficient": -10.739186,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "facility_only",
+    "predictor": "intercept",
+    "coefficient": 23.51369,
+    "coefficient_type": "intercept"
+  },
+  {
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "facility_only",
+    "predictor": "facility_density_per_100_km2",
+    "coefficient": -329.160466,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "facility_only",
+    "predictor": "industrial_stormwater_density_per_100_km2",
+    "coefficient": 363.417485,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "facility_only",
+    "predictor": "septic_groundwater_density_per_100_km2",
+    "coefficient": 55.120809,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "predictor": "intercept",
+    "coefficient": 23.51369,
+    "coefficient_type": "intercept"
+  },
+  {
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "predictor": "developed_percent",
+    "coefficient": -30.945907,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "predictor": "facility_density_per_100_km2",
+    "coefficient": 40.309261,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "predictor": "intercept",
+    "coefficient": 23.51369,
+    "coefficient_type": "intercept"
+  },
+  {
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "predictor": "developed_percent",
+    "coefficient": -27.062462,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "predictor": "industrial_stormwater_density_per_100_km2",
+    "coefficient": 36.566997,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_core",
+    "predictor": "intercept",
+    "coefficient": 23.51369,
+    "coefficient_type": "intercept"
+  },
+  {
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_core",
+    "predictor": "developed_percent",
+    "coefficient": -27.588561,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_core",
+    "predictor": "agriculture_percent",
+    "coefficient": -5.239792,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_core",
+    "predictor": "facility_density_per_100_km2",
+    "coefficient": 39.271266,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_core",
+    "predictor": "industrial_stormwater_density_per_100_km2",
+    "coefficient": -4.082412,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "predictor": "intercept",
+    "coefficient": 23.51369,
+    "coefficient_type": "intercept"
+  },
+  {
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "predictor": "developed_percent",
+    "coefficient": -11.594005,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "predictor": "agriculture_percent",
+    "coefficient": 13.537774,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "predictor": "facility_density_per_100_km2",
+    "coefficient": 202.79195,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "predictor": "industrial_stormwater_density_per_100_km2",
+    "coefficient": -50.756683,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "predictor": "septic_groundwater_density_per_100_km2",
+    "coefficient": 19.053517,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "predictor": "groundwater_discharge_density_per_100_km2",
+    "coefficient": -45.141856,
+    "coefficient_type": "standardized_predictor"
+  },
+  {
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "predictor": "stormwater_or_surface_density_per_100_km2",
+    "coefficient": -123.537723,
+    "coefficient_type": "standardized_predictor"
+  }
+]

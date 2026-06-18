@@ -1,0 +1,35 @@
+[
+  {
+    "threshold": "top_5pct",
+    "top_percent": 5,
+    "mean_cutoff_mg_L": 2.51,
+    "p90_cutoff_mg_L": 3.1178,
+    "hotspot_station_count": 208,
+    "hotspot_station_percent": 5.71,
+    "top5_watersheds": "Hackensack, Hudson, and Pascack; Lower Passaic and Saddle; Maurice, Salem, and Cohansey; Millstone; Lower Raritan, South River, and Lawrence",
+    "station_jaccard_vs_10pct": NaN,
+    "top5_watershed_jaccard_vs_10pct": NaN
+  },
+  {
+    "threshold": "top_10pct",
+    "top_percent": 10,
+    "mean_cutoff_mg_L": 1.7036,
+    "p90_cutoff_mg_L": 2.1448,
+    "hotspot_station_count": 410,
+    "hotspot_station_percent": 11.25,
+    "top5_watersheds": "Lower Passaic and Saddle; Hackensack, Hudson, and Pascack; Maurice, Salem, and Cohansey; Millstone; Lower Delaware",
+    "station_jaccard_vs_10pct": 1.0,
+    "top5_watershed_jaccard_vs_10pct": 1.0
+  },
+  {
+    "threshold": "top_20pct",
+    "top_percent": 20,
+    "mean_cutoff_mg_L": 1.081,
+    "p90_cutoff_mg_L": 1.3495,
+    "hotspot_station_count": 807,
+    "hotspot_station_percent": 22.15,
+    "top5_watersheds": "Lower Passaic and Saddle; North and South Branch Raritan; Maurice, Salem, and Cohansey; Hackensack, Hudson, and Pascack; Lower Delaware",
+    "station_jaccard_vs_10pct": 0.5081,
+    "top5_watershed_jaccard_vs_10pct": 0.6667
+  }
+]

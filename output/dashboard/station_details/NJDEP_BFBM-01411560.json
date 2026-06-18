@@ -1,0 +1,122 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-01411560",
+    "station_name": "Little Robin Branch at SR 55 near Vineland NJ",
+    "latitude": 39.481996,
+    "longitude": -75.072861,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 2.825,
+    "median_nitrate_mg_L": 2.825,
+    "p90_nitrate_mg_L": 2.989,
+    "max_nitrate_mg_L": 3.03,
+    "min_nitrate_mg_L": 2.62,
+    "first_year": 2018,
+    "last_year": 2021,
+    "is_hotspot": true,
+    "is_p90_hotspot": true,
+    "is_mean_hotspot": true
+  },
+  "seasonal_summary": [
+    {
+      "season": "Fall",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 2.825,
+      "median_nitrate_mg_L": 2.825,
+      "p90_nitrate_mg_L": 2.989,
+      "max_nitrate_mg_L": 3.03,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2018.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 2.62,
+      "median_nitrate_mg_L": 2.62,
+      "p90_nitrate_mg_L": 2.62,
+      "max_nitrate_mg_L": 2.62,
+      "mean_3yr_moving_average": 2.62
+    },
+    {
+      "year": 2021.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 3.03,
+      "median_nitrate_mg_L": 3.03,
+      "p90_nitrate_mg_L": 3.03,
+      "max_nitrate_mg_L": 3.03,
+      "mean_3yr_moving_average": 2.825
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2018-11",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 2.62,
+      "median_nitrate_mg_L": 2.62,
+      "p90_nitrate_mg_L": 2.62,
+      "max_nitrate_mg_L": 2.62,
+      "date": "2018-11-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2021-11",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 3.03,
+      "median_nitrate_mg_L": 3.03,
+      "p90_nitrate_mg_L": 3.03,
+      "max_nitrate_mg_L": 3.03,
+      "date": "2021-11-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2018-11-26",
+      "year": 2018,
+      "month": 11,
+      "season": "Fall",
+      "nitrate_mg_L": 2.62,
+      "result_value": 2.62,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2021-11-18",
+      "year": 2021,
+      "month": 11,
+      "season": "Fall",
+      "nitrate_mg_L": 3.03,
+      "result_value": 3.03,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

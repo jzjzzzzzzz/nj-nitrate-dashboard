@@ -1,0 +1,131 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0227",
+    "station_name": "DEAD R KING GEORGE RD",
+    "latitude": 40.64975,
+    "longitude": -74.524194,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 3.73,
+    "median_nitrate_mg_L": 3.73,
+    "p90_nitrate_mg_L": 4.258,
+    "max_nitrate_mg_L": 4.39,
+    "min_nitrate_mg_L": 3.07,
+    "first_year": 2018,
+    "last_year": 2023,
+    "is_hotspot": true,
+    "is_p90_hotspot": true,
+    "is_mean_hotspot": true
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 3.07,
+      "median_nitrate_mg_L": 3.07,
+      "p90_nitrate_mg_L": 3.07,
+      "max_nitrate_mg_L": 3.07,
+      "season_order": 3
+    },
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 4.39,
+      "median_nitrate_mg_L": 4.39,
+      "p90_nitrate_mg_L": 4.39,
+      "max_nitrate_mg_L": 4.39,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2018.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 3.07,
+      "median_nitrate_mg_L": 3.07,
+      "p90_nitrate_mg_L": 3.07,
+      "max_nitrate_mg_L": 3.07,
+      "mean_3yr_moving_average": 3.07
+    },
+    {
+      "year": 2023.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 4.39,
+      "median_nitrate_mg_L": 4.39,
+      "p90_nitrate_mg_L": 4.39,
+      "max_nitrate_mg_L": 4.39,
+      "mean_3yr_moving_average": 3.7299999999999995
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2018-08",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 3.07,
+      "median_nitrate_mg_L": 3.07,
+      "p90_nitrate_mg_L": 3.07,
+      "max_nitrate_mg_L": 3.07,
+      "date": "2018-08-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2023-10",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 4.39,
+      "median_nitrate_mg_L": 4.39,
+      "p90_nitrate_mg_L": 4.39,
+      "max_nitrate_mg_L": 4.39,
+      "date": "2023-10-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2018-08-29",
+      "year": 2018,
+      "month": 8,
+      "season": "Summer",
+      "nitrate_mg_L": 3.07,
+      "result_value": 3.07,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2023-10-12",
+      "year": 2023,
+      "month": 10,
+      "season": "Fall",
+      "nitrate_mg_L": 4.39,
+      "result_value": 4.39,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

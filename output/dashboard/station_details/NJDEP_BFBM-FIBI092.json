@@ -1,0 +1,159 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-FIBI092",
+    "station_name": "Holland Brook , Hillcrest Rd",
+    "latitude": 40.5686,
+    "longitude": -74.7383,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 3,
+    "confidence_level": "Low",
+    "confidence_score": 0.3003809664473759,
+    "mean_nitrate_mg_L": 0.565,
+    "median_nitrate_mg_L": 0.573,
+    "p90_nitrate_mg_L": 0.6026,
+    "max_nitrate_mg_L": 0.61,
+    "min_nitrate_mg_L": 0.512,
+    "first_year": 2014,
+    "last_year": 2019,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.5914999999999999,
+      "median_nitrate_mg_L": 0.5914999999999999,
+      "p90_nitrate_mg_L": 0.6063,
+      "max_nitrate_mg_L": 0.61,
+      "season_order": 3
+    },
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.512,
+      "median_nitrate_mg_L": 0.512,
+      "p90_nitrate_mg_L": 0.512,
+      "max_nitrate_mg_L": 0.512,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2014.0,
+      "observation_count": 2.0,
+      "mean_nitrate_mg_L": 0.5914999999999999,
+      "median_nitrate_mg_L": 0.5914999999999999,
+      "p90_nitrate_mg_L": 0.6063,
+      "max_nitrate_mg_L": 0.61,
+      "mean_3yr_moving_average": 0.5914999999999999
+    },
+    {
+      "year": 2019.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.512,
+      "median_nitrate_mg_L": 0.512,
+      "p90_nitrate_mg_L": 0.512,
+      "max_nitrate_mg_L": 0.512,
+      "mean_3yr_moving_average": 0.55175
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2014-07",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.573,
+      "median_nitrate_mg_L": 0.573,
+      "p90_nitrate_mg_L": 0.573,
+      "max_nitrate_mg_L": 0.573,
+      "date": "2014-07-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2014-08",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.61,
+      "median_nitrate_mg_L": 0.61,
+      "p90_nitrate_mg_L": 0.61,
+      "max_nitrate_mg_L": 0.61,
+      "date": "2014-08-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2019-09",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.512,
+      "median_nitrate_mg_L": 0.512,
+      "p90_nitrate_mg_L": 0.512,
+      "max_nitrate_mg_L": 0.512,
+      "date": "2019-09-01",
+      "mean_6mo_moving_average": 0.565,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2014-07-02",
+      "year": 2014,
+      "month": 7,
+      "season": "Summer",
+      "nitrate_mg_L": 0.573,
+      "result_value": 0.573,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Estimated",
+      "detection_condition": null
+    },
+    {
+      "date": "2014-08-12",
+      "year": 2014,
+      "month": 8,
+      "season": "Summer",
+      "nitrate_mg_L": 0.61,
+      "result_value": 0.61,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2019-09-11",
+      "year": 2019,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.512,
+      "result_value": 0.512,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

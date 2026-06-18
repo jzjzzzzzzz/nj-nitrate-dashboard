@@ -1,0 +1,122 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0207A",
+    "station_name": "Pascack Brook on Westwood Ave",
+    "latitude": 40.996641,
+    "longitude": -74.02572,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.7210000000000001,
+    "median_nitrate_mg_L": 0.7210000000000001,
+    "p90_nitrate_mg_L": 0.889,
+    "max_nitrate_mg_L": 0.931,
+    "min_nitrate_mg_L": 0.511,
+    "first_year": 2019,
+    "last_year": 2023,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.7210000000000001,
+      "median_nitrate_mg_L": 0.7210000000000001,
+      "p90_nitrate_mg_L": 0.889,
+      "max_nitrate_mg_L": 0.931,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2019.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.931,
+      "median_nitrate_mg_L": 0.931,
+      "p90_nitrate_mg_L": 0.931,
+      "max_nitrate_mg_L": 0.931,
+      "mean_3yr_moving_average": 0.931
+    },
+    {
+      "year": 2023.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.511,
+      "median_nitrate_mg_L": 0.511,
+      "p90_nitrate_mg_L": 0.511,
+      "max_nitrate_mg_L": 0.511,
+      "mean_3yr_moving_average": 0.7210000000000001
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2019-08",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.931,
+      "median_nitrate_mg_L": 0.931,
+      "p90_nitrate_mg_L": 0.931,
+      "max_nitrate_mg_L": 0.931,
+      "date": "2019-08-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2023-07",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.511,
+      "median_nitrate_mg_L": 0.511,
+      "p90_nitrate_mg_L": 0.511,
+      "max_nitrate_mg_L": 0.511,
+      "date": "2023-07-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2019-08-07",
+      "year": 2019,
+      "month": 8,
+      "season": "Summer",
+      "nitrate_mg_L": 0.931,
+      "result_value": 0.931,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2023-07-27",
+      "year": 2023,
+      "month": 7,
+      "season": "Summer",
+      "nitrate_mg_L": 0.511,
+      "result_value": 0.511,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

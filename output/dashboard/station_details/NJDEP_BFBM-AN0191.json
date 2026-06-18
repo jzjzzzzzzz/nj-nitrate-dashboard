@@ -1,0 +1,85 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0191",
+    "station_name": "COOPER R RT 41 USGS GUAGE AT FOOT BRIDGE NR DAM",
+    "latitude": 39.90325,
+    "longitude": -75.021888,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 1,
+    "confidence_level": "Low",
+    "confidence_score": 0.1501904832236879,
+    "mean_nitrate_mg_L": 0.193,
+    "median_nitrate_mg_L": 0.193,
+    "p90_nitrate_mg_L": 0.193,
+    "max_nitrate_mg_L": 0.193,
+    "min_nitrate_mg_L": 0.193,
+    "first_year": 2017,
+    "last_year": 2017,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Spring",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.193,
+      "median_nitrate_mg_L": 0.193,
+      "p90_nitrate_mg_L": 0.193,
+      "max_nitrate_mg_L": 0.193,
+      "season_order": 2
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2017.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.193,
+      "median_nitrate_mg_L": 0.193,
+      "p90_nitrate_mg_L": 0.193,
+      "max_nitrate_mg_L": 0.193,
+      "mean_3yr_moving_average": 0.193
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2017-04",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.193,
+      "median_nitrate_mg_L": 0.193,
+      "p90_nitrate_mg_L": 0.193,
+      "max_nitrate_mg_L": 0.193,
+      "date": "2017-04-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2017-04-19",
+      "year": 2017,
+      "month": 4,
+      "season": "Spring",
+      "nitrate_mg_L": 0.193,
+      "result_value": 0.193,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0483A",
+    "station_name": "Wreck Pond Bk at Ocean Rd",
+    "latitude": 40.145779,
+    "longitude": -74.056946,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.487,
+    "median_nitrate_mg_L": 0.487,
+    "p90_nitrate_mg_L": 0.5142,
+    "max_nitrate_mg_L": 0.521,
+    "min_nitrate_mg_L": 0.453,
+    "first_year": 2015,
+    "last_year": 2021,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Spring",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.487,
+      "median_nitrate_mg_L": 0.487,
+      "p90_nitrate_mg_L": 0.5142,
+      "max_nitrate_mg_L": 0.521,
+      "season_order": 2
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2015.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.453,
+      "median_nitrate_mg_L": 0.453,
+      "p90_nitrate_mg_L": 0.453,
+      "max_nitrate_mg_L": 0.453,
+      "mean_3yr_moving_average": 0.453
+    },
+    {
+      "year": 2021.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.521,
+      "median_nitrate_mg_L": 0.521,
+      "p90_nitrate_mg_L": 0.521,
+      "max_nitrate_mg_L": 0.521,
+      "mean_3yr_moving_average": 0.487
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2015-05",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.453,
+      "median_nitrate_mg_L": 0.453,
+      "p90_nitrate_mg_L": 0.453,
+      "max_nitrate_mg_L": 0.453,
+      "date": "2015-05-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2021-05",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.521,
+      "median_nitrate_mg_L": 0.521,
+      "p90_nitrate_mg_L": 0.521,
+      "max_nitrate_mg_L": 0.521,
+      "date": "2021-05-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2015-05-13",
+      "year": 2015,
+      "month": 5,
+      "season": "Spring",
+      "nitrate_mg_L": 0.453,
+      "result_value": 0.453,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2021-05-03",
+      "year": 2021,
+      "month": 5,
+      "season": "Spring",
+      "nitrate_mg_L": 0.521,
+      "result_value": 0.521,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

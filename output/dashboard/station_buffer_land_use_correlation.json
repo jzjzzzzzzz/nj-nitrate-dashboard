@@ -1,0 +1,290 @@
+[
+  {
+    "buffer_radius_m": 500,
+    "land_use_metric": "developed_percent",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": 0.1568,
+    "spearman_r": 0.4316,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 500,
+    "land_use_metric": "developed_percent",
+    "nitrate_metric": "p90_nitrate_mg_L",
+    "pearson_r": 0.0983,
+    "spearman_r": 0.43,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 500,
+    "land_use_metric": "agriculture_percent",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": 0.163,
+    "spearman_r": 0.3139,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 500,
+    "land_use_metric": "agriculture_percent",
+    "nitrate_metric": "p90_nitrate_mg_L",
+    "pearson_r": 0.1005,
+    "spearman_r": 0.3017,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 500,
+    "land_use_metric": "forest_percent",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": -0.0571,
+    "spearman_r": 0.0817,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 500,
+    "land_use_metric": "forest_percent",
+    "nitrate_metric": "p90_nitrate_mg_L",
+    "pearson_r": -0.047,
+    "spearman_r": 0.0589,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 500,
+    "land_use_metric": "wetlands_percent",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": 0.0117,
+    "spearman_r": 0.0232,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 500,
+    "land_use_metric": "wetlands_percent",
+    "nitrate_metric": "p90_nitrate_mg_L",
+    "pearson_r": 0.0234,
+    "spearman_r": 0.0152,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 500,
+    "land_use_metric": "water_percent",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": -0.1828,
+    "spearman_r": -0.4019,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 500,
+    "land_use_metric": "water_percent",
+    "nitrate_metric": "p90_nitrate_mg_L",
+    "pearson_r": -0.1153,
+    "spearman_r": -0.3649,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 500,
+    "land_use_metric": "barren_percent",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": 0.046,
+    "spearman_r": 0.0742,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 500,
+    "land_use_metric": "barren_percent",
+    "nitrate_metric": "p90_nitrate_mg_L",
+    "pearson_r": 0.0405,
+    "spearman_r": 0.0791,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 1000,
+    "land_use_metric": "developed_percent",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": 0.1777,
+    "spearman_r": 0.4439,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 1000,
+    "land_use_metric": "developed_percent",
+    "nitrate_metric": "p90_nitrate_mg_L",
+    "pearson_r": 0.1184,
+    "spearman_r": 0.4429,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 1000,
+    "land_use_metric": "agriculture_percent",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": 0.1712,
+    "spearman_r": 0.3464,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 1000,
+    "land_use_metric": "agriculture_percent",
+    "nitrate_metric": "p90_nitrate_mg_L",
+    "pearson_r": 0.1033,
+    "spearman_r": 0.3324,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 1000,
+    "land_use_metric": "forest_percent",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": -0.0839,
+    "spearman_r": 0.0279,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 1000,
+    "land_use_metric": "forest_percent",
+    "nitrate_metric": "p90_nitrate_mg_L",
+    "pearson_r": -0.0674,
+    "spearman_r": 0.0062,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 1000,
+    "land_use_metric": "wetlands_percent",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": -0.0393,
+    "spearman_r": -0.097,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 1000,
+    "land_use_metric": "wetlands_percent",
+    "nitrate_metric": "p90_nitrate_mg_L",
+    "pearson_r": -0.0053,
+    "spearman_r": -0.0973,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 1000,
+    "land_use_metric": "water_percent",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": -0.1723,
+    "spearman_r": -0.3956,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 1000,
+    "land_use_metric": "water_percent",
+    "nitrate_metric": "p90_nitrate_mg_L",
+    "pearson_r": -0.1111,
+    "spearman_r": -0.362,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 1000,
+    "land_use_metric": "barren_percent",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": 0.057,
+    "spearman_r": 0.1492,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 1000,
+    "land_use_metric": "barren_percent",
+    "nitrate_metric": "p90_nitrate_mg_L",
+    "pearson_r": 0.0458,
+    "spearman_r": 0.1509,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 5000,
+    "land_use_metric": "developed_percent",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": 0.2036,
+    "spearman_r": 0.4316,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 5000,
+    "land_use_metric": "developed_percent",
+    "nitrate_metric": "p90_nitrate_mg_L",
+    "pearson_r": 0.1477,
+    "spearman_r": 0.4271,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 5000,
+    "land_use_metric": "agriculture_percent",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": 0.2086,
+    "spearman_r": 0.3533,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 5000,
+    "land_use_metric": "agriculture_percent",
+    "nitrate_metric": "p90_nitrate_mg_L",
+    "pearson_r": 0.1268,
+    "spearman_r": 0.3437,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 5000,
+    "land_use_metric": "forest_percent",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": -0.0996,
+    "spearman_r": -0.0281,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 5000,
+    "land_use_metric": "forest_percent",
+    "nitrate_metric": "p90_nitrate_mg_L",
+    "pearson_r": -0.0799,
+    "spearman_r": -0.0473,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 5000,
+    "land_use_metric": "wetlands_percent",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": -0.1293,
+    "spearman_r": -0.2743,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 5000,
+    "land_use_metric": "wetlands_percent",
+    "nitrate_metric": "p90_nitrate_mg_L",
+    "pearson_r": -0.0693,
+    "spearman_r": -0.2673,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 5000,
+    "land_use_metric": "water_percent",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": -0.1831,
+    "spearman_r": -0.3983,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 5000,
+    "land_use_metric": "water_percent",
+    "nitrate_metric": "p90_nitrate_mg_L",
+    "pearson_r": -0.1221,
+    "spearman_r": -0.3778,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 5000,
+    "land_use_metric": "barren_percent",
+    "nitrate_metric": "mean_nitrate_mg_L",
+    "pearson_r": 0.1097,
+    "spearman_r": 0.1236,
+    "n": 3658
+  },
+  {
+    "buffer_radius_m": 5000,
+    "land_use_metric": "barren_percent",
+    "nitrate_metric": "p90_nitrate_mg_L",
+    "pearson_r": 0.1082,
+    "spearman_r": 0.1303,
+    "n": 3658
+  }
+]

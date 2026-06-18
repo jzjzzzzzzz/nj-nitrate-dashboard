@@ -1,0 +1,85 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0386A",
+    "station_name": "Cranbury Brook at George Davison Road",
+    "latitude": 40.32409643,
+    "longitude": -74.56450983,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 1,
+    "confidence_level": "Low",
+    "confidence_score": 0.1501904832236879,
+    "mean_nitrate_mg_L": 0.687,
+    "median_nitrate_mg_L": 0.687,
+    "p90_nitrate_mg_L": 0.687,
+    "max_nitrate_mg_L": 0.687,
+    "min_nitrate_mg_L": 0.687,
+    "first_year": 2024,
+    "last_year": 2024,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.687,
+      "median_nitrate_mg_L": 0.687,
+      "p90_nitrate_mg_L": 0.687,
+      "max_nitrate_mg_L": 0.687,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2024.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.687,
+      "median_nitrate_mg_L": 0.687,
+      "p90_nitrate_mg_L": 0.687,
+      "max_nitrate_mg_L": 0.687,
+      "mean_3yr_moving_average": 0.687
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2024-09",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.687,
+      "median_nitrate_mg_L": 0.687,
+      "p90_nitrate_mg_L": 0.687,
+      "max_nitrate_mg_L": 0.687,
+      "date": "2024-09-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2024-09-04",
+      "year": 2024,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.687,
+      "result_value": 0.687,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BEARS-SW2",
+    "station_name": "Trib to Clove Brook at Stag Mt. Rd., West Mahwah",
+    "latitude": 41.10385,
+    "longitude": -74.179783,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 7,
+    "confidence_level": "Low",
+    "confidence_score": 0.4505714496710639,
+    "mean_nitrate_mg_L": 0.6042857142857143,
+    "median_nitrate_mg_L": 0.67,
+    "p90_nitrate_mg_L": 0.794,
+    "max_nitrate_mg_L": 0.89,
+    "min_nitrate_mg_L": 0.36,
+    "first_year": 2003,
+    "last_year": 2003,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Fall",
+      "observation_count": 7,
+      "mean_nitrate_mg_L": 0.6042857142857143,
+      "median_nitrate_mg_L": 0.67,
+      "p90_nitrate_mg_L": 0.794,
+      "max_nitrate_mg_L": 0.89,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2003.0,
+      "observation_count": 7.0,
+      "mean_nitrate_mg_L": 0.6042857142857143,
+      "median_nitrate_mg_L": 0.67,
+      "p90_nitrate_mg_L": 0.794,
+      "max_nitrate_mg_L": 0.89,
+      "mean_3yr_moving_average": 0.6042857142857143
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2003-09",
+      "observation_count": 4,
+      "mean_nitrate_mg_L": 0.6950000000000001,
+      "median_nitrate_mg_L": 0.7,
+      "p90_nitrate_mg_L": 0.8420000000000001,
+      "max_nitrate_mg_L": 0.89,
+      "date": "2003-09-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2003-10",
+      "observation_count": 3,
+      "mean_nitrate_mg_L": 0.48333333333333334,
+      "median_nitrate_mg_L": 0.4,
+      "p90_nitrate_mg_L": 0.632,
+      "max_nitrate_mg_L": 0.69,
+      "date": "2003-10-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2003-09-19",
+      "year": 2003,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.89,
+      "result_value": 0.89,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2003-09-19",
+      "year": 2003,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.49,
+      "result_value": 0.49,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2003-09-19",
+      "year": 2003,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.67,
+      "result_value": 0.67,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2003-09-19",
+      "year": 2003,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.73,
+      "result_value": 0.73,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2003-10-15",
+      "year": 2003,
+      "month": 10,
+      "season": "Fall",
+      "nitrate_mg_L": 0.36,
+      "result_value": 0.36,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2003-10-15",
+      "year": 2003,
+      "month": 10,
+      "season": "Fall",
+      "nitrate_mg_L": 0.69,
+      "result_value": 0.69,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2003-10-15",
+      "year": 2003,
+      "month": 10,
+      "season": "Fall",
+      "nitrate_mg_L": 0.4,
+      "result_value": 0.4,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

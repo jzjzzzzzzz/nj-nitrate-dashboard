@@ -1,0 +1,122 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0254",
+    "station_name": "CROOKED BK RIVER RD",
+    "latitude": 40.89025,
+    "longitude": -74.373555,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.8585,
+    "median_nitrate_mg_L": 0.8585,
+    "p90_nitrate_mg_L": 0.8829,
+    "max_nitrate_mg_L": 0.889,
+    "min_nitrate_mg_L": 0.828,
+    "first_year": 2018,
+    "last_year": 2023,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Fall",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.8585,
+      "median_nitrate_mg_L": 0.8585,
+      "p90_nitrate_mg_L": 0.8829,
+      "max_nitrate_mg_L": 0.889,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2018.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.828,
+      "median_nitrate_mg_L": 0.828,
+      "p90_nitrate_mg_L": 0.828,
+      "max_nitrate_mg_L": 0.828,
+      "mean_3yr_moving_average": 0.828
+    },
+    {
+      "year": 2023.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.889,
+      "median_nitrate_mg_L": 0.889,
+      "p90_nitrate_mg_L": 0.889,
+      "max_nitrate_mg_L": 0.889,
+      "mean_3yr_moving_average": 0.8585
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2018-10",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.828,
+      "median_nitrate_mg_L": 0.828,
+      "p90_nitrate_mg_L": 0.828,
+      "max_nitrate_mg_L": 0.828,
+      "date": "2018-10-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2023-10",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.889,
+      "median_nitrate_mg_L": 0.889,
+      "p90_nitrate_mg_L": 0.889,
+      "max_nitrate_mg_L": 0.889,
+      "date": "2023-10-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2018-10-10",
+      "year": 2018,
+      "month": 10,
+      "season": "Fall",
+      "nitrate_mg_L": 0.828,
+      "result_value": 0.828,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2023-10-11",
+      "year": 2023,
+      "month": 10,
+      "season": "Fall",
+      "nitrate_mg_L": 0.889,
+      "result_value": 0.889,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

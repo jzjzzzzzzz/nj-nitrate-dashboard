@@ -1,0 +1,122 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-NJS2016-038",
+    "station_name": "Second R nr Mill St",
+    "latitude": 40.791256,
+    "longitude": -74.173009,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 2.1,
+    "median_nitrate_mg_L": 2.1,
+    "p90_nitrate_mg_L": 2.268,
+    "max_nitrate_mg_L": 2.31,
+    "min_nitrate_mg_L": 1.89,
+    "first_year": 2016,
+    "last_year": 2018,
+    "is_hotspot": true,
+    "is_p90_hotspot": true,
+    "is_mean_hotspot": true
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 2.1,
+      "median_nitrate_mg_L": 2.1,
+      "p90_nitrate_mg_L": 2.2680000000000002,
+      "max_nitrate_mg_L": 2.31,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2016.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 1.89,
+      "median_nitrate_mg_L": 1.89,
+      "p90_nitrate_mg_L": 1.89,
+      "max_nitrate_mg_L": 1.89,
+      "mean_3yr_moving_average": 1.89
+    },
+    {
+      "year": 2018.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 2.31,
+      "median_nitrate_mg_L": 2.31,
+      "p90_nitrate_mg_L": 2.31,
+      "max_nitrate_mg_L": 2.31,
+      "mean_3yr_moving_average": 2.1
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2016-07",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.89,
+      "median_nitrate_mg_L": 1.89,
+      "p90_nitrate_mg_L": 1.89,
+      "max_nitrate_mg_L": 1.89,
+      "date": "2016-07-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2018-07",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 2.31,
+      "median_nitrate_mg_L": 2.31,
+      "p90_nitrate_mg_L": 2.31,
+      "max_nitrate_mg_L": 2.31,
+      "date": "2018-07-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2016-07-25",
+      "year": 2016,
+      "month": 7,
+      "season": "Summer",
+      "nitrate_mg_L": 1.89,
+      "result_value": 1.89,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2018-07-11",
+      "year": 2018,
+      "month": 7,
+      "season": "Summer",
+      "nitrate_mg_L": 2.31,
+      "result_value": 2.31,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

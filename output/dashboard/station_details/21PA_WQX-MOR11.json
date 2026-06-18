@@ -1,0 +1,156 @@
+{
+  "station_info": {
+    "station_id": "21PA_WQX-MOR11",
+    "station_name": "Delaware River Morrisville Transect 11",
+    "latitude": 40.2203,
+    "longitude": -74.7772,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 4,
+    "confidence_level": "Low",
+    "confidence_score": 0.3487315025817901,
+    "mean_nitrate_mg_L": 0.93575,
+    "median_nitrate_mg_L": 0.9275,
+    "p90_nitrate_mg_L": 1.0611,
+    "max_nitrate_mg_L": 1.071,
+    "min_nitrate_mg_L": 0.817,
+    "first_year": 2014,
+    "last_year": 2014,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Spring",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.817,
+      "median_nitrate_mg_L": 0.817,
+      "p90_nitrate_mg_L": 0.817,
+      "max_nitrate_mg_L": 0.817,
+      "season_order": 2
+    },
+    {
+      "season": "Summer",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 1.0545,
+      "median_nitrate_mg_L": 1.0545,
+      "p90_nitrate_mg_L": 1.0676999999999999,
+      "max_nitrate_mg_L": 1.071,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2014.0,
+      "observation_count": 4.0,
+      "mean_nitrate_mg_L": 0.93575,
+      "median_nitrate_mg_L": 0.9275,
+      "p90_nitrate_mg_L": 1.0611,
+      "max_nitrate_mg_L": 1.071,
+      "mean_3yr_moving_average": 0.93575
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2014-05",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.817,
+      "median_nitrate_mg_L": 0.817,
+      "p90_nitrate_mg_L": 0.817,
+      "max_nitrate_mg_L": 0.817,
+      "date": "2014-05-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2014-06",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 1.0545,
+      "median_nitrate_mg_L": 1.0545,
+      "p90_nitrate_mg_L": 1.0676999999999999,
+      "max_nitrate_mg_L": 1.071,
+      "date": "2014-06-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2014-05-27",
+      "year": 2014,
+      "month": 5,
+      "season": "Spring",
+      "nitrate_mg_L": 0.817,
+      "result_value": 0.817,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2014-05-27",
+      "year": 2014,
+      "month": 5,
+      "season": "Spring",
+      "nitrate_mg_L": 0.817,
+      "result_value": 0.817,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2014-06-23",
+      "year": 2014,
+      "month": 6,
+      "season": "Summer",
+      "nitrate_mg_L": 1.038,
+      "result_value": 1.038,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2014-06-23",
+      "year": 2014,
+      "month": 6,
+      "season": "Summer",
+      "nitrate_mg_L": 1.071,
+      "result_value": 1.071,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

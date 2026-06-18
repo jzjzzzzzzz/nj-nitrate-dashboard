@@ -1,0 +1,131 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0566",
+    "station_name": "SLEEPER BR PARKDALE",
+    "latitude": 39.722777,
+    "longitude": -74.756555,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.327,
+    "median_nitrate_mg_L": 0.327,
+    "p90_nitrate_mg_L": 0.467,
+    "max_nitrate_mg_L": 0.502,
+    "min_nitrate_mg_L": 0.152,
+    "first_year": 2015,
+    "last_year": 2020,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.502,
+      "median_nitrate_mg_L": 0.502,
+      "p90_nitrate_mg_L": 0.502,
+      "max_nitrate_mg_L": 0.502,
+      "season_order": 3
+    },
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.152,
+      "median_nitrate_mg_L": 0.152,
+      "p90_nitrate_mg_L": 0.152,
+      "max_nitrate_mg_L": 0.152,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2015.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.502,
+      "median_nitrate_mg_L": 0.502,
+      "p90_nitrate_mg_L": 0.502,
+      "max_nitrate_mg_L": 0.502,
+      "mean_3yr_moving_average": 0.502
+    },
+    {
+      "year": 2020.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.152,
+      "median_nitrate_mg_L": 0.152,
+      "p90_nitrate_mg_L": 0.152,
+      "max_nitrate_mg_L": 0.152,
+      "mean_3yr_moving_average": 0.327
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2015-08",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.502,
+      "median_nitrate_mg_L": 0.502,
+      "p90_nitrate_mg_L": 0.502,
+      "max_nitrate_mg_L": 0.502,
+      "date": "2015-08-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2020-11",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.152,
+      "median_nitrate_mg_L": 0.152,
+      "p90_nitrate_mg_L": 0.152,
+      "max_nitrate_mg_L": 0.152,
+      "date": "2020-11-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2015-08-13",
+      "year": 2015,
+      "month": 8,
+      "season": "Summer",
+      "nitrate_mg_L": 0.502,
+      "result_value": 0.502,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2020-11-13",
+      "year": 2020,
+      "month": 11,
+      "season": "Fall",
+      "nitrate_mg_L": 0.152,
+      "result_value": 0.152,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

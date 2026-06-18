@@ -1,0 +1,85 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-FIBI060",
+    "station_name": "Musquapsink Creek,Harrington Ave",
+    "latitude": 40.992314,
+    "longitude": -74.02324,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 1,
+    "confidence_level": "Low",
+    "confidence_score": 0.1501904832236879,
+    "mean_nitrate_mg_L": 2.92,
+    "median_nitrate_mg_L": 2.92,
+    "p90_nitrate_mg_L": 2.92,
+    "max_nitrate_mg_L": 2.92,
+    "min_nitrate_mg_L": 2.92,
+    "first_year": 2018,
+    "last_year": 2018,
+    "is_hotspot": true,
+    "is_p90_hotspot": true,
+    "is_mean_hotspot": true
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 2.92,
+      "median_nitrate_mg_L": 2.92,
+      "p90_nitrate_mg_L": 2.92,
+      "max_nitrate_mg_L": 2.92,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2018.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 2.92,
+      "median_nitrate_mg_L": 2.92,
+      "p90_nitrate_mg_L": 2.92,
+      "max_nitrate_mg_L": 2.92,
+      "mean_3yr_moving_average": 2.92
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2018-07",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 2.92,
+      "median_nitrate_mg_L": 2.92,
+      "p90_nitrate_mg_L": 2.92,
+      "max_nitrate_mg_L": 2.92,
+      "date": "2018-07-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2018-07-09",
+      "year": 2018,
+      "month": 7,
+      "season": "Summer",
+      "nitrate_mg_L": 2.92,
+      "result_value": 2.92,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

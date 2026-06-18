@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Watershed Analysis | NJ Nitrate Hotspots</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f7fb;
+            color: #1f2937;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0f766e, #1d4ed8);
+            color: white;
+            padding: 28px 40px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 16px;
+            max-width: 1000px;
+            line-height: 1.5;
+        }
+
+        nav {
+            background: white;
+            padding: 14px 40px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        nav a {
+            color: #1d4ed8;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 24px;
+        }
+
+        main {
+            padding: 28px 40px 50px 40px;
+        }
+
+        section {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 28px;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #0f172a;
+        }
+
+        .note {
+            color: #475569;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+
+        .map-frame {
+            width: 100%;
+            height: 720px;
+            border: none;
+            border-radius: 12px;
+            box-shadow: inset 0 0 0 1px #e5e7eb;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(180px, 1fr));
+            gap: 16px;
+            margin-top: 18px;
+        }
+
+        .card {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 14px;
+            padding: 18px;
+        }
+
+        .card-title {
+            color: #64748b;
+            font-size: 13px;
+            margin-bottom: 8px;
+        }
+
+        .card-value {
+            color: #0f172a;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .card-subtitle {
+            color: #64748b;
+            font-size: 13px;
+            margin-top: 8px;
+            line-height: 1.4;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 22px;
+        }
+
+        .figure-box {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 14px;
+            padding: 16px;
+        }
+
+        .figure-box img {
+            width: 100%;
+            border-radius: 10px;
+            background: white;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 16px;
+            font-size: 14px;
+        }
+
+        th {
+            background: #e0f2fe;
+            text-align: left;
+            padding: 10px;
+            border-bottom: 2px solid #bae6fd;
+            color: #0f172a;
+        }
+
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        tr:hover {
+            background: #f8fafc;
+        }
+
+        .positive {
+            color: #047857;
+            font-weight: bold;
+        }
+
+        .negative {
+            color: #b91c1c;
+            font-weight: bold;
+        }
+
+        .warning {
+            background: #fff7ed;
+            border: 1px solid #fed7aa;
+            color: #9a3412;
+            border-radius: 12px;
+            padding: 14px 16px;
+            line-height: 1.6;
+            margin-top: 16px;
+        }
+
+        .small {
+            font-size: 13px;
+            color: #64748b;
+        }
+
+        @media (max-width: 1000px) {
+            .cards {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+
+            main {
+                padding: 20px;
+            }
+
+            header {
+                padding: 24px 20px;
+            }
+
+            nav {
+                padding: 14px 20px;
+            }
+        }
+
+        @media (max-width: 650px) {
+            .cards {
+                grid-template-columns: 1fr;
+            }
+
+            .map-frame {
+                height: 560px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Watershed and Land Use Analysis</h1>
+        <p>
+            This page connects nitrate hotspot patterns with watershed boundaries and 2020 land use composition.
+            It compares hotspot rate, mean nitrate, developed land, agriculture, forest, wetlands, and other land cover types.
+        </p>
+    </header>
+
+    <nav>
+        <a href="/">Main Dashboard</a>
+        <a href="/watersheds">Watershed Analysis</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Watershed Comparison Map</h2>
+            <p class="note">
+                This interactive map compares watershed hotspot rate, mean nitrate, high-confidence coverage,
+                hotspot station points, and all station points by confidence level.
+            </p>
+
+            <iframe
+                class="map-frame"
+                src="/maps/watershed_comparison_map.html">
+            </iframe>
+        </section>
+
+        <section>
+            <h2>Land Use vs Nitrate Summary</h2>
+            <p class="note">
+                This section summarizes the watershed-level relationship between land use composition and nitrate hotspot patterns.
+                The values are correlations across 21 New Jersey watershed management areas.
+            </p>
+
+            <div class="cards">
+                <div class="card">
+                    <div class="card-title">Strongest Hotspot Association</div>
+                    <div class="card-value" id="hotspotAssocValue">Loading...</div>
+                    <div class="card-subtitle" id="hotspotAssocText">Loading...</div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">Strongest Mean Nitrate Association</div>
+                    <div class="card-value" id="meanAssocValue">Loading...</div>
+                    <div class="card-subtitle" id="meanAssocText">Loading...</div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">Top Hotspot Watershed</div>
+                    <div class="card-value" id="topHotspotName">Loading...</div>
+                    <div class="card-subtitle" id="topHotspotText">Loading...</div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">Main Finding</div>
+                    <div class="card-value">Urban Pattern</div>
+                    <div class="card-subtitle">
+                        Developed land shows the clearest positive association with hotspot rate and mean nitrate.
+                    </div>
+                </div>
+            </div>
+
+            <div class="warning">
+                Important: this analysis shows association, not causation. Higher developed-land percentage may be related
+                to nitrate patterns, but wastewater, rainfall, groundwater, soil, and monitoring density should be analyzed next.
+            </div>
+        </section>
+
+        <section>
+            <h2>Scatter Plots</h2>
+            <p class="note">
+                These plots show land use percentages against nitrate hotspot rate and mean nitrate at the watershed level.
+            </p>
+
+            <div class="grid-2">
+                <div class="figure-box">
+                    <h3>Land Use vs Hotspot Rate</h3>
+                    <img src="/figures/land_use_vs_hotspot_rate_scatter.png" alt="Land use vs nitrate hotspot rate scatter plot">
+                </div>
+
+                <div class="figure-box">
+                    <h3>Land Use vs Mean Nitrate</h3>
+                    <img src="/figures/land_use_vs_mean_nitrate_scatter.png" alt="Land use vs mean nitrate scatter plot">
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Correlation Table</h2>
+            <p class="note">
+                Pearson r measures linear association. Spearman r measures rank-based association.
+                Positive values mean higher land-use percentage tends to match higher nitrate values.
+            </p>
+
+            <table id="correlationTable">
+                <thead>
+                    <tr>
+                        <th>Land Use Variable</th>
+                        <th>Nitrate Metric</th>
+                        <th>Pearson r</th>
+                        <th>Spearman r</th>
+                        <th>Direction</th>
+                        <th>Strength</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="6">Loading...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Top Watershed Ranking</h2>
+            <p class="note">
+                Watersheds are ranked by nitrate hotspot rate. This helps compare whether high-hotspot watersheds are more developed,
+                agricultural, forested, or wetland-dominated.
+            </p>
+
+            <table id="rankingTable">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Watershed</th>
+                        <th>Hotspot Rate (%)</th>
+                        <th>Mean Nitrate (mg/L)</th>
+                        <th>Developed (%)</th>
+                        <th>Agriculture (%)</th>
+                        <th>Forest (%)</th>
+                        <th>Wetlands (%)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="8">Loading...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <script>
+        function formatNumber(value, digits = 3) {
+            if (value === null || value === undefined || isNaN(Number(value))) {
+                return "N/A";
+            }
+
+            return Number(value).toFixed(digits);
+        }
+
+        function cleanName(value) {
+            if (!value) {
+                return "N/A";
+            }
+
+            return String(value)
+                .replace("_percent", "")
+                .replace("_mg_L", "")
+                .replaceAll("_", " ");
+        }
+
+        function directionClass(direction) {
+            if (direction === "positive") {
+                return "positive";
+            }
+
+            if (direction === "negative") {
+                return "negative";
+            }
+
+            return "";
+        }
+
+        async function loadCorrelationData() {
+            const response = await fetch("/api/land-use-correlation");
+
+            if (!response.ok) {
+                throw new Error("Could not load land use correlation data.");
+            }
+
+            return await response.json();
+        }
+
+        async function loadRankingData() {
+            const response = await fetch("/api/land-use-ranking");
+
+            if (!response.ok) {
+                throw new Error("Could not load land use ranking data.");
+            }
+
+            return await response.json();
+        }
+
+        function renderSummaryCards(correlationData, rankingData) {
+            const hotspotRows = correlationData
+                .filter(row => row.nitrate_metric === "hotspot_rate_percent")
+                .sort((a, b) => Number(b.pearson_abs_r) - Number(a.pearson_abs_r));
+
+            const meanRows = correlationData
+                .filter(row => row.nitrate_metric === "mean_nitrate_mg_L")
+                .sort((a, b) => Number(b.pearson_abs_r) - Number(a.pearson_abs_r));
+
+            const hotspotBest = hotspotRows[0];
+            const meanBest = meanRows[0];
+
+            if (hotspotBest) {
+                document.getElementById("hotspotAssocValue").textContent =
+                    cleanName(hotspotBest.land_use_variable);
+
+                document.getElementById("hotspotAssocText").textContent =
+                    `Pearson r = ${formatNumber(hotspotBest.pearson_r, 3)}, ${hotspotBest.direction}, ${hotspotBest.strength}`;
+            }
+
+            if (meanBest) {
+                document.getElementById("meanAssocValue").textContent =
+                    cleanName(meanBest.land_use_variable);
+
+                document.getElementById("meanAssocText").textContent =
+                    `Pearson r = ${formatNumber(meanBest.pearson_r, 3)}, ${meanBest.direction}, ${meanBest.strength}`;
+            }
+
+            const top = rankingData
+                .sort((a, b) => Number(a.hotspot_rank) - Number(b.hotspot_rank))[0];
+
+            if (top) {
+                document.getElementById("topHotspotName").textContent = top.watershed_name;
+
+                document.getElementById("topHotspotText").textContent =
+                    `Hotspot rate ${formatNumber(top.hotspot_rate_percent, 2)}%, developed land ${formatNumber(top.developed_percent, 2)}%`;
+            }
+        }
+
+        function renderCorrelationTable(data) {
+            const tbody = document.querySelector("#correlationTable tbody");
+            tbody.innerHTML = "";
+
+            const priorityMetrics = [
+                "hotspot_rate_percent",
+                "mean_nitrate_mg_L",
+                "mean_p90_nitrate_mg_L"
+            ];
+
+            const filtered = data
+                .filter(row => priorityMetrics.includes(row.nitrate_metric))
+                .sort((a, b) => {
+                    if (a.nitrate_metric !== b.nitrate_metric) {
+                        return priorityMetrics.indexOf(a.nitrate_metric) - priorityMetrics.indexOf(b.nitrate_metric);
+                    }
+
+                    return Number(b.pearson_abs_r) - Number(a.pearson_abs_r);
+                });
+
+            filtered.forEach(row => {
+                const tr = document.createElement("tr");
+
+                tr.innerHTML = `
+                    <td>${cleanName(row.land_use_variable)}</td>
+                    <td>${cleanName(row.nitrate_metric)}</td>
+                    <td>${formatNumber(row.pearson_r, 4)}</td>
+                    <td>${formatNumber(row.spearman_r, 4)}</td>
+                    <td class="${directionClass(row.direction)}">${row.direction}</td>
+                    <td>${row.strength}</td>
+                `;
+
+                tbody.appendChild(tr);
+            });
+        }
+
+        function renderRankingTable(data) {
+            const tbody = document.querySelector("#rankingTable tbody");
+            tbody.innerHTML = "";
+
+            const topRows = data
+                .sort((a, b) => Number(a.hotspot_rank) - Number(b.hotspot_rank))
+                .slice(0, 10);
+
+            topRows.forEach(row => {
+                const tr = document.createElement("tr");
+
+                tr.innerHTML = `
+                    <td>${row.hotspot_rank}</td>
+                    <td>${row.watershed_name}</td>
+                    <td>${formatNumber(row.hotspot_rate_percent, 2)}</td>
+                    <td>${formatNumber(row.mean_nitrate_mg_L, 3)}</td>
+                    <td>${formatNumber(row.developed_percent, 2)}</td>
+                    <td>${formatNumber(row.agriculture_percent, 2)}</td>
+                    <td>${formatNumber(row.forest_percent, 2)}</td>
+                    <td>${formatNumber(row.wetlands_percent, 2)}</td>
+                `;
+
+                tbody.appendChild(tr);
+            });
+        }
+
+        async function initPage() {
+            try {
+                const correlationData = await loadCorrelationData();
+                const rankingData = await loadRankingData();
+
+                renderSummaryCards(correlationData, rankingData);
+                renderCorrelationTable(correlationData);
+                renderRankingTable(rankingData);
+            } catch (error) {
+                console.error(error);
+
+                document.querySelector("#correlationTable tbody").innerHTML =
+                    `<tr><td colspan="6">Failed to load correlation data. Please make sure Step 11 has been run.</td></tr>`;
+
+                document.querySelector("#rankingTable tbody").innerHTML =
+                    `<tr><td colspan="8">Failed to load ranking data. Please make sure Step 11 has been run.</td></tr>`;
+            }
+        }
+
+        initPage();
+    </script>
+</body>
+</html>

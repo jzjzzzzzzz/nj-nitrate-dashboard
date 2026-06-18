@@ -1,0 +1,122 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0435",
+    "station_name": "SAWMILL BROOK RYDERS LN",
+    "latitude": 40.458555,
+    "longitude": -74.425305,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.6990000000000001,
+    "median_nitrate_mg_L": 0.6990000000000001,
+    "p90_nitrate_mg_L": 0.7142,
+    "max_nitrate_mg_L": 0.718,
+    "min_nitrate_mg_L": 0.68,
+    "first_year": 2014,
+    "last_year": 2019,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Fall",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.6990000000000001,
+      "median_nitrate_mg_L": 0.6990000000000001,
+      "p90_nitrate_mg_L": 0.7142,
+      "max_nitrate_mg_L": 0.718,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2014.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.68,
+      "median_nitrate_mg_L": 0.68,
+      "p90_nitrate_mg_L": 0.68,
+      "max_nitrate_mg_L": 0.68,
+      "mean_3yr_moving_average": 0.68
+    },
+    {
+      "year": 2019.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.718,
+      "median_nitrate_mg_L": 0.718,
+      "p90_nitrate_mg_L": 0.718,
+      "max_nitrate_mg_L": 0.718,
+      "mean_3yr_moving_average": 0.6990000000000001
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2014-10",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.68,
+      "median_nitrate_mg_L": 0.68,
+      "p90_nitrate_mg_L": 0.68,
+      "max_nitrate_mg_L": 0.68,
+      "date": "2014-10-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2019-10",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.718,
+      "median_nitrate_mg_L": 0.718,
+      "p90_nitrate_mg_L": 0.718,
+      "max_nitrate_mg_L": 0.718,
+      "date": "2019-10-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2014-10-08",
+      "year": 2014,
+      "month": 10,
+      "season": "Fall",
+      "nitrate_mg_L": 0.68,
+      "result_value": 0.68,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2019-10-10",
+      "year": 2019,
+      "month": 10,
+      "season": "Fall",
+      "nitrate_mg_L": 0.718,
+      "result_value": 0.718,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

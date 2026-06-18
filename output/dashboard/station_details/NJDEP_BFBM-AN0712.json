@@ -1,0 +1,122 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0712",
+    "station_name": "COHANSEY RIVER SILVER LAKE RD",
+    "latitude": 39.472611,
+    "longitude": -75.255388,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 5.225,
+    "median_nitrate_mg_L": 5.225,
+    "p90_nitrate_mg_L": 5.245,
+    "max_nitrate_mg_L": 5.25,
+    "min_nitrate_mg_L": 5.2,
+    "first_year": 2017,
+    "last_year": 2022,
+    "is_hotspot": true,
+    "is_p90_hotspot": true,
+    "is_mean_hotspot": true
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 5.225,
+      "median_nitrate_mg_L": 5.225,
+      "p90_nitrate_mg_L": 5.245,
+      "max_nitrate_mg_L": 5.25,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2017.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 5.25,
+      "median_nitrate_mg_L": 5.25,
+      "p90_nitrate_mg_L": 5.25,
+      "max_nitrate_mg_L": 5.25,
+      "mean_3yr_moving_average": 5.25
+    },
+    {
+      "year": 2022.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 5.2,
+      "median_nitrate_mg_L": 5.2,
+      "p90_nitrate_mg_L": 5.2,
+      "max_nitrate_mg_L": 5.2,
+      "mean_3yr_moving_average": 5.225
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2017-06",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 5.25,
+      "median_nitrate_mg_L": 5.25,
+      "p90_nitrate_mg_L": 5.25,
+      "max_nitrate_mg_L": 5.25,
+      "date": "2017-06-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2022-07",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 5.2,
+      "median_nitrate_mg_L": 5.2,
+      "p90_nitrate_mg_L": 5.2,
+      "max_nitrate_mg_L": 5.2,
+      "date": "2022-07-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2017-06-05",
+      "year": 2017,
+      "month": 6,
+      "season": "Summer",
+      "nitrate_mg_L": 5.25,
+      "result_value": 5.25,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2022-07-13",
+      "year": 2022,
+      "month": 7,
+      "season": "Summer",
+      "nitrate_mg_L": 5.2,
+      "result_value": 5.2,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

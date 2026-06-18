@@ -1,0 +1,130 @@
+{
+  "station_info": {
+    "station_id": "NJ_MSU-04-070-1-A-S",
+    "station_name": "Mainstreet outfall, Hampton",
+    "latitude": 40.70844,
+    "longitude": -74.96353,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 3,
+    "confidence_level": "Low",
+    "confidence_score": 0.3003809664473759,
+    "mean_nitrate_mg_L": 3.986333333333333,
+    "median_nitrate_mg_L": 4.62,
+    "p90_nitrate_mg_L": 5.572,
+    "max_nitrate_mg_L": 5.81,
+    "min_nitrate_mg_L": 1.529,
+    "first_year": 2018,
+    "last_year": 2018,
+    "is_hotspot": true,
+    "is_p90_hotspot": true,
+    "is_mean_hotspot": true
+  },
+  "seasonal_summary": [
+    {
+      "season": "Fall",
+      "observation_count": 3,
+      "mean_nitrate_mg_L": 3.986333333333333,
+      "median_nitrate_mg_L": 4.62,
+      "p90_nitrate_mg_L": 5.572,
+      "max_nitrate_mg_L": 5.81,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2018.0,
+      "observation_count": 3.0,
+      "mean_nitrate_mg_L": 3.986333333333333,
+      "median_nitrate_mg_L": 4.62,
+      "p90_nitrate_mg_L": 5.572,
+      "max_nitrate_mg_L": 5.81,
+      "mean_3yr_moving_average": 3.986333333333333
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2018-09",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.529,
+      "median_nitrate_mg_L": 1.529,
+      "p90_nitrate_mg_L": 1.529,
+      "max_nitrate_mg_L": 1.529,
+      "date": "2018-09-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2018-10",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 5.215,
+      "median_nitrate_mg_L": 5.215,
+      "p90_nitrate_mg_L": 5.691,
+      "max_nitrate_mg_L": 5.81,
+      "date": "2018-10-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2018-09-18",
+      "year": 2018,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 1.529,
+      "result_value": 1.529,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Suspended",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Calculated",
+      "detection_condition": null
+    },
+    {
+      "date": "2018-10-02",
+      "year": 2018,
+      "month": 10,
+      "season": "Fall",
+      "nitrate_mg_L": 5.81,
+      "result_value": 5.81,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Suspended",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Calculated",
+      "detection_condition": null
+    },
+    {
+      "date": "2018-10-16",
+      "year": 2018,
+      "month": 10,
+      "season": "Fall",
+      "nitrate_mg_L": 4.62,
+      "result_value": 4.62,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Suspended",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Calculated",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

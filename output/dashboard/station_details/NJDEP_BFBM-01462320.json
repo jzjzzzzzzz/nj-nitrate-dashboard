@@ -1,0 +1,131 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-01462320",
+    "station_name": "Delaware River tributary 3 near Titusville NJ",
+    "latitude": 40.31821,
+    "longitude": -74.904355,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.7135,
+    "median_nitrate_mg_L": 0.7135,
+    "p90_nitrate_mg_L": 1.1987,
+    "max_nitrate_mg_L": 1.32,
+    "min_nitrate_mg_L": 0.107,
+    "first_year": 2011,
+    "last_year": 2012,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Spring",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.32,
+      "median_nitrate_mg_L": 1.32,
+      "p90_nitrate_mg_L": 1.32,
+      "max_nitrate_mg_L": 1.32,
+      "season_order": 2
+    },
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.107,
+      "median_nitrate_mg_L": 0.107,
+      "p90_nitrate_mg_L": 0.107,
+      "max_nitrate_mg_L": 0.107,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2011.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.107,
+      "median_nitrate_mg_L": 0.107,
+      "p90_nitrate_mg_L": 0.107,
+      "max_nitrate_mg_L": 0.107,
+      "mean_3yr_moving_average": 0.107
+    },
+    {
+      "year": 2012.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 1.32,
+      "median_nitrate_mg_L": 1.32,
+      "p90_nitrate_mg_L": 1.32,
+      "max_nitrate_mg_L": 1.32,
+      "mean_3yr_moving_average": 0.7135
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2011-09",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.107,
+      "median_nitrate_mg_L": 0.107,
+      "p90_nitrate_mg_L": 0.107,
+      "max_nitrate_mg_L": 0.107,
+      "date": "2011-09-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2012-03",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.32,
+      "median_nitrate_mg_L": 1.32,
+      "p90_nitrate_mg_L": 1.32,
+      "max_nitrate_mg_L": 1.32,
+      "date": "2012-03-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2011-09-14",
+      "year": 2011,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.107,
+      "result_value": 0.107,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2012-03-29",
+      "year": 2012,
+      "month": 3,
+      "season": "Spring",
+      "nitrate_mg_L": 1.32,
+      "result_value": 1.32,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

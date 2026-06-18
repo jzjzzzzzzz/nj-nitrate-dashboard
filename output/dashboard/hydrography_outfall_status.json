@@ -1,0 +1,17 @@
+[
+  {
+    "status": "loaded",
+    "dmr_zip_folder": "C:\\Users\\DELL\\Desktop\\\u5b66\u4e60\u8d44\u6599\\Research\\Water-web\\water_analysis\\data\\external\\discharge\\npdes_dmr_limits_by_fy",
+    "nhdplus_sources": "NHDPLUS_H_0206_HU4_GDB.zip",
+    "permit_feature_count": 1295,
+    "permit_features_matched_to_facility_watershed": 79,
+    "snapped_outfall_proxy_count": 47,
+    "median_snap_distance_m": 518.94,
+    "flowline_segment_count": 12925,
+    "outfall_coordinate_status": "snapped_proxy_generated",
+    "outfall_proxy_used": "NJPDES facility point snapped to nearest NHD flowline for matched permit features",
+    "flowline_network_status": "loaded_intersecting_flowlines",
+    "recommended_hu4_note": "For full NJ coverage, place the relevant NHDPlus HR HU4 FileGDB ZIPs in data/external/hydrography, then rerun Step 21.",
+    "map_path": "/maps/hydrography_outfall_context_map.html"
+  }
+]

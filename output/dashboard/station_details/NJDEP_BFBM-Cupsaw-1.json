@@ -1,0 +1,113 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-Cupsaw-1",
+    "station_name": "Cupsaw Bk at Shepherd Pond Rd",
+    "latitude": 41.136492,
+    "longitude": -74.233357,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.0336,
+    "median_nitrate_mg_L": 0.0336,
+    "p90_nitrate_mg_L": 0.04632,
+    "max_nitrate_mg_L": 0.0495,
+    "min_nitrate_mg_L": 0.0177,
+    "first_year": 2024,
+    "last_year": 2024,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.033600000000000005,
+      "median_nitrate_mg_L": 0.033600000000000005,
+      "p90_nitrate_mg_L": 0.04632,
+      "max_nitrate_mg_L": 0.0495,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2024.0,
+      "observation_count": 2.0,
+      "mean_nitrate_mg_L": 0.033600000000000005,
+      "median_nitrate_mg_L": 0.033600000000000005,
+      "p90_nitrate_mg_L": 0.04632,
+      "max_nitrate_mg_L": 0.0495,
+      "mean_3yr_moving_average": 0.033600000000000005
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2024-06",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0495,
+      "median_nitrate_mg_L": 0.0495,
+      "p90_nitrate_mg_L": 0.0495,
+      "max_nitrate_mg_L": 0.0495,
+      "date": "2024-06-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2024-08",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0177,
+      "median_nitrate_mg_L": 0.0177,
+      "p90_nitrate_mg_L": 0.0177,
+      "max_nitrate_mg_L": 0.0177,
+      "date": "2024-08-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2024-06-14",
+      "year": 2024,
+      "month": 6,
+      "season": "Summer",
+      "nitrate_mg_L": 0.0495,
+      "result_value": 0.0495,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2024-08-08",
+      "year": 2024,
+      "month": 8,
+      "season": "Summer",
+      "nitrate_mg_L": 0.0177,
+      "result_value": 0.0177,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Estimated",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

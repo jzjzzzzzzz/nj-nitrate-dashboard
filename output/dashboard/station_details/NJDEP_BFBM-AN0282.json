@@ -1,0 +1,122 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0282",
+    "station_name": "SADDLE R E RIDGEWOOD AVE SOUTH-EAST OF PARK",
+    "latitude": 40.972611,
+    "longitude": -74.092444,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 1.3405,
+    "median_nitrate_mg_L": 1.3405,
+    "p90_nitrate_mg_L": 1.6681,
+    "max_nitrate_mg_L": 1.75,
+    "min_nitrate_mg_L": 0.931,
+    "first_year": 2018,
+    "last_year": 2023,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Fall",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 1.3405,
+      "median_nitrate_mg_L": 1.3405,
+      "p90_nitrate_mg_L": 1.6681,
+      "max_nitrate_mg_L": 1.75,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2018.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 1.75,
+      "median_nitrate_mg_L": 1.75,
+      "p90_nitrate_mg_L": 1.75,
+      "max_nitrate_mg_L": 1.75,
+      "mean_3yr_moving_average": 1.75
+    },
+    {
+      "year": 2023.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.931,
+      "median_nitrate_mg_L": 0.931,
+      "p90_nitrate_mg_L": 0.931,
+      "max_nitrate_mg_L": 0.931,
+      "mean_3yr_moving_average": 1.3405
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2018-09",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.75,
+      "median_nitrate_mg_L": 1.75,
+      "p90_nitrate_mg_L": 1.75,
+      "max_nitrate_mg_L": 1.75,
+      "date": "2018-09-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2023-11",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.931,
+      "median_nitrate_mg_L": 0.931,
+      "p90_nitrate_mg_L": 0.931,
+      "max_nitrate_mg_L": 0.931,
+      "date": "2023-11-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2018-09-21",
+      "year": 2018,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 1.75,
+      "result_value": 1.75,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2023-11-27",
+      "year": 2023,
+      "month": 11,
+      "season": "Fall",
+      "nitrate_mg_L": 0.931,
+      "result_value": 0.931,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

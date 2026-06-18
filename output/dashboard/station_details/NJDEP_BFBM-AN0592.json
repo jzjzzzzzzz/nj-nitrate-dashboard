@@ -1,0 +1,122 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0592",
+    "station_name": "LANDING CK INDIAN CABIN RD",
+    "latitude": 39.556805,
+    "longitude": -74.602861,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.475,
+    "median_nitrate_mg_L": 0.475,
+    "p90_nitrate_mg_L": 0.4862,
+    "max_nitrate_mg_L": 0.489,
+    "min_nitrate_mg_L": 0.461,
+    "first_year": 2015,
+    "last_year": 2020,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Fall",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.475,
+      "median_nitrate_mg_L": 0.475,
+      "p90_nitrate_mg_L": 0.4862,
+      "max_nitrate_mg_L": 0.489,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2015.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.489,
+      "median_nitrate_mg_L": 0.489,
+      "p90_nitrate_mg_L": 0.489,
+      "max_nitrate_mg_L": 0.489,
+      "mean_3yr_moving_average": 0.489
+    },
+    {
+      "year": 2020.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.461,
+      "median_nitrate_mg_L": 0.461,
+      "p90_nitrate_mg_L": 0.461,
+      "max_nitrate_mg_L": 0.461,
+      "mean_3yr_moving_average": 0.475
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2015-09",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.489,
+      "median_nitrate_mg_L": 0.489,
+      "p90_nitrate_mg_L": 0.489,
+      "max_nitrate_mg_L": 0.489,
+      "date": "2015-09-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2020-11",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.461,
+      "median_nitrate_mg_L": 0.461,
+      "p90_nitrate_mg_L": 0.461,
+      "max_nitrate_mg_L": 0.461,
+      "date": "2020-11-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2015-09-18",
+      "year": 2015,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.489,
+      "result_value": 0.489,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2020-11-23",
+      "year": 2020,
+      "month": 11,
+      "season": "Fall",
+      "nitrate_mg_L": 0.461,
+      "result_value": 0.461,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

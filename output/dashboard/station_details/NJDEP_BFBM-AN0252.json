@@ -1,0 +1,85 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0252",
+    "station_name": "CROOKED BK HEMLOCK RD UPSTR OF LK VALHALLA",
+    "latitude": 40.938638,
+    "longitude": -74.371305,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 1,
+    "confidence_level": "Low",
+    "confidence_score": 0.1501904832236879,
+    "mean_nitrate_mg_L": 0.0997,
+    "median_nitrate_mg_L": 0.0997,
+    "p90_nitrate_mg_L": 0.0997,
+    "max_nitrate_mg_L": 0.0997,
+    "min_nitrate_mg_L": 0.0997,
+    "first_year": 2018,
+    "last_year": 2018,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0997,
+      "median_nitrate_mg_L": 0.0997,
+      "p90_nitrate_mg_L": 0.0997,
+      "max_nitrate_mg_L": 0.0997,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2018.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.0997,
+      "median_nitrate_mg_L": 0.0997,
+      "p90_nitrate_mg_L": 0.0997,
+      "max_nitrate_mg_L": 0.0997,
+      "mean_3yr_moving_average": 0.0997
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2018-10",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0997,
+      "median_nitrate_mg_L": 0.0997,
+      "p90_nitrate_mg_L": 0.0997,
+      "max_nitrate_mg_L": 0.0997,
+      "date": "2018-10-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2018-10-10",
+      "year": 2018,
+      "month": 10,
+      "season": "Fall",
+      "nitrate_mg_L": 0.0997,
+      "result_value": 0.0997,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

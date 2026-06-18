@@ -1,0 +1,4034 @@
+[
+  {
+    "watershed_name": "Lower Passaic and Saddle",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "land_use_only",
+    "observed": 57.471264,
+    "predicted": 27.97269,
+    "residual": 29.498574
+  },
+  {
+    "watershed_name": "Hackensack, Hudson, and Pascack",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "land_use_only",
+    "observed": 33.64486,
+    "predicted": 21.859948,
+    "residual": 11.784911
+  },
+  {
+    "watershed_name": "Maurice, Salem, and Cohansey",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "land_use_only",
+    "observed": 31.498471,
+    "predicted": 4.960634,
+    "residual": 26.537837
+  },
+  {
+    "watershed_name": "Millstone",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "land_use_only",
+    "observed": 20.529801,
+    "predicted": 16.32732,
+    "residual": 4.202481
+  },
+  {
+    "watershed_name": "Lower Delaware",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "land_use_only",
+    "observed": 19.333333,
+    "predicted": 19.693681,
+    "residual": -0.360348
+  },
+  {
+    "watershed_name": "North and South Branch Raritan",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "land_use_only",
+    "observed": 17.467249,
+    "predicted": 13.61077,
+    "residual": 3.856479
+  },
+  {
+    "watershed_name": "Upper Passaic, Whippany, and Rockaway",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "land_use_only",
+    "observed": 15.789474,
+    "predicted": 14.573213,
+    "residual": 1.216261
+  },
+  {
+    "watershed_name": "Lower Raritan, South River, and Lawrence",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "land_use_only",
+    "observed": 13.432836,
+    "predicted": 20.216235,
+    "residual": -6.783399
+  },
+  {
+    "watershed_name": "Central Delaware",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "land_use_only",
+    "observed": 11.320755,
+    "predicted": 14.364738,
+    "residual": -3.043983
+  },
+  {
+    "watershed_name": "Upper Delaware",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "land_use_only",
+    "observed": 8.450704,
+    "predicted": 6.712401,
+    "residual": 1.738303
+  },
+  {
+    "watershed_name": "Assiscunk, Crosswicks, and Doctors",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "land_use_only",
+    "observed": 4.081633,
+    "predicted": 14.808,
+    "residual": -10.726367
+  },
+  {
+    "watershed_name": "Arthur Kill",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "land_use_only",
+    "observed": 2.985075,
+    "predicted": 27.791837,
+    "residual": -24.806762
+  },
+  {
+    "watershed_name": "Wallkill",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "land_use_only",
+    "observed": 2.654867,
+    "predicted": 6.795613,
+    "residual": -4.140746
+  },
+  {
+    "watershed_name": "Pompton, Pequannock, Wanaque, Ramapo",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "land_use_only",
+    "observed": 1.948052,
+    "predicted": 6.676272,
+    "residual": -4.72822
+  },
+  {
+    "watershed_name": "Mullica",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "land_use_only",
+    "observed": 1.923077,
+    "predicted": 0.789146,
+    "residual": 1.133931
+  },
+  {
+    "watershed_name": "Barnegat Bay",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "land_use_only",
+    "observed": 1.727862,
+    "predicted": 5.188441,
+    "residual": -3.460579
+  },
+  {
+    "watershed_name": "Great Egg Harbor",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "land_use_only",
+    "observed": 1.136364,
+    "predicted": 4.818818,
+    "residual": -3.682455
+  },
+  {
+    "watershed_name": "Cape May",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "land_use_only",
+    "observed": 0.970874,
+    "predicted": 2.282106,
+    "residual": -1.311232
+  },
+  {
+    "watershed_name": "Monmouth",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "land_use_only",
+    "observed": 0.843882,
+    "predicted": 12.074308,
+    "residual": -11.230426
+  },
+  {
+    "watershed_name": "Rancocas",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "land_use_only",
+    "observed": 0.0,
+    "predicted": 9.147138,
+    "residual": -9.147138
+  },
+  {
+    "watershed_name": " ",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "land_use_only",
+    "observed": 0.0,
+    "predicted": -3.452878,
+    "residual": 3.452878
+  },
+  {
+    "watershed_name": "Lower Passaic and Saddle",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "facility_only",
+    "observed": 57.471264,
+    "predicted": 30.782771,
+    "residual": 26.688493
+  },
+  {
+    "watershed_name": "Hackensack, Hudson, and Pascack",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "facility_only",
+    "observed": 33.64486,
+    "predicted": 27.661975,
+    "residual": 5.982885
+  },
+  {
+    "watershed_name": "Maurice, Salem, and Cohansey",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "facility_only",
+    "observed": 31.498471,
+    "predicted": 6.665448,
+    "residual": 24.833023
+  },
+  {
+    "watershed_name": "Millstone",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "facility_only",
+    "observed": 20.529801,
+    "predicted": 8.481651,
+    "residual": 12.048151
+  },
+  {
+    "watershed_name": "Lower Delaware",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "facility_only",
+    "observed": 19.333333,
+    "predicted": 14.229845,
+    "residual": 5.103488
+  },
+  {
+    "watershed_name": "North and South Branch Raritan",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "facility_only",
+    "observed": 17.467249,
+    "predicted": 8.060938,
+    "residual": 9.406311
+  },
+  {
+    "watershed_name": "Upper Passaic, Whippany, and Rockaway",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "facility_only",
+    "observed": 15.789474,
+    "predicted": 10.919872,
+    "residual": 4.869601
+  },
+  {
+    "watershed_name": "Lower Raritan, South River, and Lawrence",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "facility_only",
+    "observed": 13.432836,
+    "predicted": 17.101758,
+    "residual": -3.668922
+  },
+  {
+    "watershed_name": "Central Delaware",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "facility_only",
+    "observed": 11.320755,
+    "predicted": 8.462129,
+    "residual": 2.858626
+  },
+  {
+    "watershed_name": "Upper Delaware",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "facility_only",
+    "observed": 8.450704,
+    "predicted": 7.658277,
+    "residual": 0.792427
+  },
+  {
+    "watershed_name": "Assiscunk, Crosswicks, and Doctors",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "facility_only",
+    "observed": 4.081633,
+    "predicted": 8.712342,
+    "residual": -4.63071
+  },
+  {
+    "watershed_name": "Arthur Kill",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "facility_only",
+    "observed": 2.985075,
+    "predicted": 32.646699,
+    "residual": -29.661624
+  },
+  {
+    "watershed_name": "Wallkill",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "facility_only",
+    "observed": 2.654867,
+    "predicted": 6.523347,
+    "residual": -3.86848
+  },
+  {
+    "watershed_name": "Pompton, Pequannock, Wanaque, Ramapo",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "facility_only",
+    "observed": 1.948052,
+    "predicted": 9.191166,
+    "residual": -7.243114
+  },
+  {
+    "watershed_name": "Mullica",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "facility_only",
+    "observed": 1.923077,
+    "predicted": 5.839684,
+    "residual": -3.916607
+  },
+  {
+    "watershed_name": "Barnegat Bay",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "facility_only",
+    "observed": 1.727862,
+    "predicted": 8.270504,
+    "residual": -6.542643
+  },
+  {
+    "watershed_name": "Great Egg Harbor",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "facility_only",
+    "observed": 1.136364,
+    "predicted": 7.113673,
+    "residual": -5.97731
+  },
+  {
+    "watershed_name": "Cape May",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "facility_only",
+    "observed": 0.970874,
+    "predicted": 6.607807,
+    "residual": -5.636933
+  },
+  {
+    "watershed_name": "Monmouth",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "facility_only",
+    "observed": 0.843882,
+    "predicted": 9.566143,
+    "residual": -8.722261
+  },
+  {
+    "watershed_name": "Rancocas",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "facility_only",
+    "observed": 0.0,
+    "predicted": 7.444913,
+    "residual": -7.444913
+  },
+  {
+    "watershed_name": " ",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "facility_only",
+    "observed": 0.0,
+    "predicted": 5.26949,
+    "residual": -5.26949
+  },
+  {
+    "watershed_name": "Lower Passaic and Saddle",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_total_facility",
+    "observed": 57.471264,
+    "predicted": 30.502518,
+    "residual": 26.968747
+  },
+  {
+    "watershed_name": "Hackensack, Hudson, and Pascack",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_total_facility",
+    "observed": 33.64486,
+    "predicted": 25.064433,
+    "residual": 8.580427
+  },
+  {
+    "watershed_name": "Maurice, Salem, and Cohansey",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_total_facility",
+    "observed": 31.498471,
+    "predicted": 4.033468,
+    "residual": 27.465003
+  },
+  {
+    "watershed_name": "Millstone",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_total_facility",
+    "observed": 20.529801,
+    "predicted": 12.141413,
+    "residual": 8.388389
+  },
+  {
+    "watershed_name": "Lower Delaware",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_total_facility",
+    "observed": 19.333333,
+    "predicted": 16.785229,
+    "residual": 2.548105
+  },
+  {
+    "watershed_name": "North and South Branch Raritan",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_total_facility",
+    "observed": 17.467249,
+    "predicted": 10.525507,
+    "residual": 6.941742
+  },
+  {
+    "watershed_name": "Upper Passaic, Whippany, and Rockaway",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_total_facility",
+    "observed": 15.789474,
+    "predicted": 14.022787,
+    "residual": 1.766687
+  },
+  {
+    "watershed_name": "Lower Raritan, South River, and Lawrence",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_total_facility",
+    "observed": 13.432836,
+    "predicted": 19.40073,
+    "residual": -5.967894
+  },
+  {
+    "watershed_name": "Central Delaware",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_total_facility",
+    "observed": 11.320755,
+    "predicted": 9.242546,
+    "residual": 2.078209
+  },
+  {
+    "watershed_name": "Upper Delaware",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_total_facility",
+    "observed": 8.450704,
+    "predicted": 6.847964,
+    "residual": 1.60274
+  },
+  {
+    "watershed_name": "Assiscunk, Crosswicks, and Doctors",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_total_facility",
+    "observed": 4.081633,
+    "predicted": 9.810451,
+    "residual": -5.728818
+  },
+  {
+    "watershed_name": "Arthur Kill",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_total_facility",
+    "observed": 2.985075,
+    "predicted": 31.036381,
+    "residual": -28.051307
+  },
+  {
+    "watershed_name": "Wallkill",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_total_facility",
+    "observed": 2.654867,
+    "predicted": 6.330908,
+    "residual": -3.676041
+  },
+  {
+    "watershed_name": "Pompton, Pequannock, Wanaque, Ramapo",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_total_facility",
+    "observed": 1.948052,
+    "predicted": 9.494194,
+    "residual": -7.546142
+  },
+  {
+    "watershed_name": "Mullica",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_total_facility",
+    "observed": 1.923077,
+    "predicted": 3.054479,
+    "residual": -1.131402
+  },
+  {
+    "watershed_name": "Barnegat Bay",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_total_facility",
+    "observed": 1.727862,
+    "predicted": 7.104047,
+    "residual": -5.376185
+  },
+  {
+    "watershed_name": "Great Egg Harbor",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_total_facility",
+    "observed": 1.136364,
+    "predicted": 6.577782,
+    "residual": -5.441418
+  },
+  {
+    "watershed_name": "Cape May",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.970874,
+    "predicted": 5.653826,
+    "residual": -4.682952
+  },
+  {
+    "watershed_name": "Monmouth",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.843882,
+    "predicted": 11.508856,
+    "residual": -10.664974
+  },
+  {
+    "watershed_name": "Rancocas",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.0,
+    "predicted": 7.525026,
+    "residual": -7.525026
+  },
+  {
+    "watershed_name": " ",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.0,
+    "predicted": 0.547889,
+    "residual": -0.547889
+  },
+  {
+    "watershed_name": "Lower Passaic and Saddle",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_industrial",
+    "observed": 57.471264,
+    "predicted": 30.673351,
+    "residual": 26.797913
+  },
+  {
+    "watershed_name": "Hackensack, Hudson, and Pascack",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_industrial",
+    "observed": 33.64486,
+    "predicted": 26.094479,
+    "residual": 7.550381
+  },
+  {
+    "watershed_name": "Maurice, Salem, and Cohansey",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_industrial",
+    "observed": 31.498471,
+    "predicted": 4.582096,
+    "residual": 26.916375
+  },
+  {
+    "watershed_name": "Millstone",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_industrial",
+    "observed": 20.529801,
+    "predicted": 11.603173,
+    "residual": 8.926629
+  },
+  {
+    "watershed_name": "Lower Delaware",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_industrial",
+    "observed": 19.333333,
+    "predicted": 16.451509,
+    "residual": 2.881825
+  },
+  {
+    "watershed_name": "North and South Branch Raritan",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_industrial",
+    "observed": 17.467249,
+    "predicted": 9.570534,
+    "residual": 7.896715
+  },
+  {
+    "watershed_name": "Upper Passaic, Whippany, and Rockaway",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_industrial",
+    "observed": 15.789474,
+    "predicted": 13.862328,
+    "residual": 1.927146
+  },
+  {
+    "watershed_name": "Lower Raritan, South River, and Lawrence",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_industrial",
+    "observed": 13.432836,
+    "predicted": 19.220019,
+    "residual": -5.787183
+  },
+  {
+    "watershed_name": "Central Delaware",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_industrial",
+    "observed": 11.320755,
+    "predicted": 9.513616,
+    "residual": 1.807138
+  },
+  {
+    "watershed_name": "Upper Delaware",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_industrial",
+    "observed": 8.450704,
+    "predicted": 6.196282,
+    "residual": 2.254422
+  },
+  {
+    "watershed_name": "Assiscunk, Crosswicks, and Doctors",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_industrial",
+    "observed": 4.081633,
+    "predicted": 9.206619,
+    "residual": -5.124986
+  },
+  {
+    "watershed_name": "Arthur Kill",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_industrial",
+    "observed": 2.985075,
+    "predicted": 31.423841,
+    "residual": -28.438767
+  },
+  {
+    "watershed_name": "Wallkill",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_industrial",
+    "observed": 2.654867,
+    "predicted": 6.110643,
+    "residual": -3.455775
+  },
+  {
+    "watershed_name": "Pompton, Pequannock, Wanaque, Ramapo",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_industrial",
+    "observed": 1.948052,
+    "predicted": 8.911999,
+    "residual": -6.963947
+  },
+  {
+    "watershed_name": "Mullica",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_industrial",
+    "observed": 1.923077,
+    "predicted": 3.536158,
+    "residual": -1.613081
+  },
+  {
+    "watershed_name": "Barnegat Bay",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_industrial",
+    "observed": 1.727862,
+    "predicted": 7.659657,
+    "residual": -5.931795
+  },
+  {
+    "watershed_name": "Great Egg Harbor",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_industrial",
+    "observed": 1.136364,
+    "predicted": 6.401479,
+    "residual": -5.265115
+  },
+  {
+    "watershed_name": "Cape May",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.970874,
+    "predicted": 5.260286,
+    "residual": -4.289412
+  },
+  {
+    "watershed_name": "Monmouth",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.843882,
+    "predicted": 11.364296,
+    "residual": -10.520414
+  },
+  {
+    "watershed_name": "Rancocas",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.0,
+    "predicted": 7.849218,
+    "residual": -7.849218
+  },
+  {
+    "watershed_name": " ",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.0,
+    "predicted": 1.718849,
+    "residual": -1.718849
+  },
+  {
+    "watershed_name": "Lower Passaic and Saddle",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_core",
+    "observed": 57.471264,
+    "predicted": 30.140175,
+    "residual": 27.331089
+  },
+  {
+    "watershed_name": "Hackensack, Hudson, and Pascack",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_core",
+    "observed": 33.64486,
+    "predicted": 27.935977,
+    "residual": 5.708883
+  },
+  {
+    "watershed_name": "Maurice, Salem, and Cohansey",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_core",
+    "observed": 31.498471,
+    "predicted": 9.815547,
+    "residual": 21.682924
+  },
+  {
+    "watershed_name": "Millstone",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_core",
+    "observed": 20.529801,
+    "predicted": 12.184598,
+    "residual": 8.345203
+  },
+  {
+    "watershed_name": "Lower Delaware",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_core",
+    "observed": 19.333333,
+    "predicted": 17.1273,
+    "residual": 2.206033
+  },
+  {
+    "watershed_name": "North and South Branch Raritan",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_core",
+    "observed": 17.467249,
+    "predicted": 10.643156,
+    "residual": 6.824093
+  },
+  {
+    "watershed_name": "Upper Passaic, Whippany, and Rockaway",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_core",
+    "observed": 15.789474,
+    "predicted": 9.626028,
+    "residual": 6.163445
+  },
+  {
+    "watershed_name": "Lower Raritan, South River, and Lawrence",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_core",
+    "observed": 13.432836,
+    "predicted": 17.135767,
+    "residual": -3.702932
+  },
+  {
+    "watershed_name": "Central Delaware",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_core",
+    "observed": 11.320755,
+    "predicted": 16.838059,
+    "residual": -5.517305
+  },
+  {
+    "watershed_name": "Upper Delaware",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_core",
+    "observed": 8.450704,
+    "predicted": 6.822186,
+    "residual": 1.628518
+  },
+  {
+    "watershed_name": "Assiscunk, Crosswicks, and Doctors",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_core",
+    "observed": 4.081633,
+    "predicted": 15.923432,
+    "residual": -11.8418
+  },
+  {
+    "watershed_name": "Arthur Kill",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_core",
+    "observed": 2.985075,
+    "predicted": 31.85924,
+    "residual": -28.874165
+  },
+  {
+    "watershed_name": "Wallkill",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_core",
+    "observed": 2.654867,
+    "predicted": 6.652237,
+    "residual": -3.997369
+  },
+  {
+    "watershed_name": "Pompton, Pequannock, Wanaque, Ramapo",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_core",
+    "observed": 1.948052,
+    "predicted": 3.210766,
+    "residual": -1.262714
+  },
+  {
+    "watershed_name": "Mullica",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_core",
+    "observed": 1.923077,
+    "predicted": 3.291158,
+    "residual": -1.368081
+  },
+  {
+    "watershed_name": "Barnegat Bay",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_core",
+    "observed": 1.727862,
+    "predicted": 5.361068,
+    "residual": -3.633206
+  },
+  {
+    "watershed_name": "Great Egg Harbor",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_core",
+    "observed": 1.136364,
+    "predicted": 3.276439,
+    "residual": -2.140076
+  },
+  {
+    "watershed_name": "Cape May",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_core",
+    "observed": 0.970874,
+    "predicted": 0.820921,
+    "residual": 0.149953
+  },
+  {
+    "watershed_name": "Monmouth",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_core",
+    "observed": 0.843882,
+    "predicted": 8.071603,
+    "residual": -7.227721
+  },
+  {
+    "watershed_name": "Rancocas",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_core",
+    "observed": 0.0,
+    "predicted": 9.657433,
+    "residual": -9.657433
+  },
+  {
+    "watershed_name": " ",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_core",
+    "observed": 0.0,
+    "predicted": 0.81734,
+    "residual": -0.81734
+  },
+  {
+    "watershed_name": "Lower Passaic and Saddle",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_extended",
+    "observed": 57.471264,
+    "predicted": 39.12798,
+    "residual": 18.343285
+  },
+  {
+    "watershed_name": "Hackensack, Hudson, and Pascack",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_extended",
+    "observed": 33.64486,
+    "predicted": 26.821087,
+    "residual": 6.823773
+  },
+  {
+    "watershed_name": "Maurice, Salem, and Cohansey",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_extended",
+    "observed": 31.498471,
+    "predicted": 11.371225,
+    "residual": 20.127246
+  },
+  {
+    "watershed_name": "Millstone",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_extended",
+    "observed": 20.529801,
+    "predicted": 18.551214,
+    "residual": 1.978588
+  },
+  {
+    "watershed_name": "Lower Delaware",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_extended",
+    "observed": 19.333333,
+    "predicted": 6.856228,
+    "residual": 12.477106
+  },
+  {
+    "watershed_name": "North and South Branch Raritan",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_extended",
+    "observed": 17.467249,
+    "predicted": 14.506982,
+    "residual": 2.960267
+  },
+  {
+    "watershed_name": "Upper Passaic, Whippany, and Rockaway",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_extended",
+    "observed": 15.789474,
+    "predicted": 18.256481,
+    "residual": -2.467008
+  },
+  {
+    "watershed_name": "Lower Raritan, South River, and Lawrence",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_extended",
+    "observed": 13.432836,
+    "predicted": 7.995048,
+    "residual": 5.437788
+  },
+  {
+    "watershed_name": "Central Delaware",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_extended",
+    "observed": 11.320755,
+    "predicted": 18.384829,
+    "residual": -7.064074
+  },
+  {
+    "watershed_name": "Upper Delaware",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_extended",
+    "observed": 8.450704,
+    "predicted": 6.828417,
+    "residual": 1.622287
+  },
+  {
+    "watershed_name": "Assiscunk, Crosswicks, and Doctors",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_extended",
+    "observed": 4.081633,
+    "predicted": 14.236628,
+    "residual": -10.154995
+  },
+  {
+    "watershed_name": "Arthur Kill",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_extended",
+    "observed": 2.985075,
+    "predicted": 28.869619,
+    "residual": -25.884545
+  },
+  {
+    "watershed_name": "Wallkill",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_extended",
+    "observed": 2.654867,
+    "predicted": 0.779763,
+    "residual": 1.875104
+  },
+  {
+    "watershed_name": "Pompton, Pequannock, Wanaque, Ramapo",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_extended",
+    "observed": 1.948052,
+    "predicted": 2.724744,
+    "residual": -0.776692
+  },
+  {
+    "watershed_name": "Mullica",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_extended",
+    "observed": 1.923077,
+    "predicted": 3.837579,
+    "residual": -1.914502
+  },
+  {
+    "watershed_name": "Barnegat Bay",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_extended",
+    "observed": 1.727862,
+    "predicted": 6.961468,
+    "residual": -5.233606
+  },
+  {
+    "watershed_name": "Great Egg Harbor",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_extended",
+    "observed": 1.136364,
+    "predicted": -0.26169,
+    "residual": 1.398054
+  },
+  {
+    "watershed_name": "Cape May",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_extended",
+    "observed": 0.970874,
+    "predicted": 4.218762,
+    "residual": -3.247888
+  },
+  {
+    "watershed_name": "Monmouth",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_extended",
+    "observed": 0.843882,
+    "predicted": 3.754565,
+    "residual": -2.910683
+  },
+  {
+    "watershed_name": "Rancocas",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_extended",
+    "observed": 0.0,
+    "predicted": 14.554325,
+    "residual": -14.554325
+  },
+  {
+    "watershed_name": " ",
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "combined_extended",
+    "observed": 0.0,
+    "predicted": -1.164822,
+    "residual": 1.164822
+  },
+  {
+    "watershed_name": "Lower Passaic and Saddle",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 2.198946,
+    "predicted": 1.512172,
+    "residual": 0.686774
+  },
+  {
+    "watershed_name": "Hackensack, Hudson, and Pascack",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 1.914934,
+    "predicted": 1.222879,
+    "residual": 0.692054
+  },
+  {
+    "watershed_name": "Maurice, Salem, and Cohansey",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 1.39063,
+    "predicted": 0.456514,
+    "residual": 0.934117
+  },
+  {
+    "watershed_name": "Millstone",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 1.067085,
+    "predicted": 0.990379,
+    "residual": 0.076705
+  },
+  {
+    "watershed_name": "Lower Delaware",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 1.107707,
+    "predicted": 1.14376,
+    "residual": -0.036053
+  },
+  {
+    "watershed_name": "North and South Branch Raritan",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 1.065743,
+    "predicted": 0.868456,
+    "residual": 0.197286
+  },
+  {
+    "watershed_name": "Upper Passaic, Whippany, and Rockaway",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 0.862031,
+    "predicted": 0.880517,
+    "residual": -0.018486
+  },
+  {
+    "watershed_name": "Lower Raritan, South River, and Lawrence",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 1.068226,
+    "predicted": 1.153092,
+    "residual": -0.084866
+  },
+  {
+    "watershed_name": "Central Delaware",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 0.934366,
+    "predicted": 0.91425,
+    "residual": 0.020116
+  },
+  {
+    "watershed_name": "Upper Delaware",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 0.513814,
+    "predicted": 0.535145,
+    "residual": -0.021331
+  },
+  {
+    "watershed_name": "Assiscunk, Crosswicks, and Doctors",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 0.520051,
+    "predicted": 0.943486,
+    "residual": -0.423435
+  },
+  {
+    "watershed_name": "Arthur Kill",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 0.735342,
+    "predicted": 1.503394,
+    "residual": -0.768052
+  },
+  {
+    "watershed_name": "Wallkill",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 0.351538,
+    "predicted": 0.53431,
+    "residual": -0.182772
+  },
+  {
+    "watershed_name": "Pompton, Pequannock, Wanaque, Ramapo",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 0.317041,
+    "predicted": 0.505571,
+    "residual": -0.18853
+  },
+  {
+    "watershed_name": "Mullica",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 0.213105,
+    "predicted": 0.237331,
+    "residual": -0.024226
+  },
+  {
+    "watershed_name": "Barnegat Bay",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 0.192525,
+    "predicted": 0.435472,
+    "residual": -0.242947
+  },
+  {
+    "watershed_name": "Great Egg Harbor",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 0.272212,
+    "predicted": 0.42453,
+    "residual": -0.152318
+  },
+  {
+    "watershed_name": "Cape May",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 0.60238,
+    "predicted": 0.30123,
+    "residual": 0.30115
+  },
+  {
+    "watershed_name": "Monmouth",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 0.312736,
+    "predicted": 0.766777,
+    "residual": -0.454041
+  },
+  {
+    "watershed_name": "Rancocas",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 0.286016,
+    "predicted": 0.643991,
+    "residual": -0.357975
+  },
+  {
+    "watershed_name": " ",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 0.071953,
+    "predicted": 0.025122,
+    "residual": 0.046831
+  },
+  {
+    "watershed_name": "Lower Passaic and Saddle",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 2.198946,
+    "predicted": 1.641267,
+    "residual": 0.557679
+  },
+  {
+    "watershed_name": "Hackensack, Hudson, and Pascack",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 1.914934,
+    "predicted": 1.451868,
+    "residual": 0.463066
+  },
+  {
+    "watershed_name": "Maurice, Salem, and Cohansey",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 1.39063,
+    "predicted": 0.500521,
+    "residual": 0.89011
+  },
+  {
+    "watershed_name": "Millstone",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 1.067085,
+    "predicted": 0.624059,
+    "residual": 0.443025
+  },
+  {
+    "watershed_name": "Lower Delaware",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 1.107707,
+    "predicted": 0.884396,
+    "residual": 0.223311
+  },
+  {
+    "watershed_name": "North and South Branch Raritan",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 1.065743,
+    "predicted": 0.637788,
+    "residual": 0.427955
+  },
+  {
+    "watershed_name": "Upper Passaic, Whippany, and Rockaway",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 0.862031,
+    "predicted": 0.717538,
+    "residual": 0.144493
+  },
+  {
+    "watershed_name": "Lower Raritan, South River, and Lawrence",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 1.068226,
+    "predicted": 1.01046,
+    "residual": 0.057765
+  },
+  {
+    "watershed_name": "Central Delaware",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 0.934366,
+    "predicted": 0.585169,
+    "residual": 0.349196
+  },
+  {
+    "watershed_name": "Upper Delaware",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 0.513814,
+    "predicted": 0.615635,
+    "residual": -0.101821
+  },
+  {
+    "watershed_name": "Assiscunk, Crosswicks, and Doctors",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 0.520051,
+    "predicted": 0.651635,
+    "residual": -0.131584
+  },
+  {
+    "watershed_name": "Arthur Kill",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 0.735342,
+    "predicted": 1.720536,
+    "residual": -0.985194
+  },
+  {
+    "watershed_name": "Wallkill",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 0.351538,
+    "predicted": 0.531965,
+    "residual": -0.180427
+  },
+  {
+    "watershed_name": "Pompton, Pequannock, Wanaque, Ramapo",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 0.317041,
+    "predicted": 0.678068,
+    "residual": -0.361027
+  },
+  {
+    "watershed_name": "Mullica",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 0.213105,
+    "predicted": 0.467718,
+    "residual": -0.254613
+  },
+  {
+    "watershed_name": "Barnegat Bay",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 0.192525,
+    "predicted": 0.568211,
+    "residual": -0.375686
+  },
+  {
+    "watershed_name": "Great Egg Harbor",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 0.272212,
+    "predicted": 0.558275,
+    "residual": -0.286063
+  },
+  {
+    "watershed_name": "Cape May",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 0.60238,
+    "predicted": 0.552193,
+    "residual": 0.050187
+  },
+  {
+    "watershed_name": "Monmouth",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 0.312736,
+    "predicted": 0.65772,
+    "residual": -0.344984
+  },
+  {
+    "watershed_name": "Rancocas",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 0.286016,
+    "predicted": 0.53788,
+    "residual": -0.251864
+  },
+  {
+    "watershed_name": " ",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 0.071953,
+    "predicted": 0.405477,
+    "residual": -0.333524
+  },
+  {
+    "watershed_name": "Lower Passaic and Saddle",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 2.198946,
+    "predicted": 1.621655,
+    "residual": 0.577291
+  },
+  {
+    "watershed_name": "Hackensack, Hudson, and Pascack",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 1.914934,
+    "predicted": 1.363882,
+    "residual": 0.551052
+  },
+  {
+    "watershed_name": "Maurice, Salem, and Cohansey",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 1.39063,
+    "predicted": 0.392537,
+    "residual": 0.998094
+  },
+  {
+    "watershed_name": "Millstone",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 1.067085,
+    "predicted": 0.804513,
+    "residual": 0.262572
+  },
+  {
+    "watershed_name": "Lower Delaware",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 1.107707,
+    "predicted": 1.013534,
+    "residual": 0.094173
+  },
+  {
+    "watershed_name": "North and South Branch Raritan",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 1.065743,
+    "predicted": 0.710587,
+    "residual": 0.355156
+  },
+  {
+    "watershed_name": "Upper Passaic, Whippany, and Rockaway",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.862031,
+    "predicted": 0.888639,
+    "residual": -0.026608
+  },
+  {
+    "watershed_name": "Lower Raritan, South River, and Lawrence",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 1.068226,
+    "predicted": 1.132629,
+    "residual": -0.064403
+  },
+  {
+    "watershed_name": "Central Delaware",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.934366,
+    "predicted": 0.659069,
+    "residual": 0.275296
+  },
+  {
+    "watershed_name": "Upper Delaware",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.513814,
+    "predicted": 0.517179,
+    "residual": -0.003365
+  },
+  {
+    "watershed_name": "Assiscunk, Crosswicks, and Doctors",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.520051,
+    "predicted": 0.673686,
+    "residual": -0.153635
+  },
+  {
+    "watershed_name": "Arthur Kill",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.735342,
+    "predicted": 1.639422,
+    "residual": -0.90408
+  },
+  {
+    "watershed_name": "Wallkill",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.351538,
+    "predicted": 0.5053,
+    "residual": -0.153762
+  },
+  {
+    "watershed_name": "Pompton, Pequannock, Wanaque, Ramapo",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.317041,
+    "predicted": 0.647421,
+    "residual": -0.33038
+  },
+  {
+    "watershed_name": "Mullica",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.213105,
+    "predicted": 0.342685,
+    "residual": -0.12958
+  },
+  {
+    "watershed_name": "Barnegat Bay",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.192525,
+    "predicted": 0.545724,
+    "residual": -0.353199
+  },
+  {
+    "watershed_name": "Great Egg Harbor",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.272212,
+    "predicted": 0.514788,
+    "residual": -0.242576
+  },
+  {
+    "watershed_name": "Cape May",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.60238,
+    "predicted": 0.460072,
+    "residual": 0.142308
+  },
+  {
+    "watershed_name": "Monmouth",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.312736,
+    "predicted": 0.767075,
+    "residual": -0.454338
+  },
+  {
+    "watershed_name": "Rancocas",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.286016,
+    "predicted": 0.574015,
+    "residual": -0.287999
+  },
+  {
+    "watershed_name": " ",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.071953,
+    "predicted": 0.22397,
+    "residual": -0.152017
+  },
+  {
+    "watershed_name": "Lower Passaic and Saddle",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 2.198946,
+    "predicted": 1.622903,
+    "residual": 0.576043
+  },
+  {
+    "watershed_name": "Hackensack, Hudson, and Pascack",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 1.914934,
+    "predicted": 1.392942,
+    "residual": 0.521992
+  },
+  {
+    "watershed_name": "Maurice, Salem, and Cohansey",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 1.39063,
+    "predicted": 0.40898,
+    "residual": 0.981651
+  },
+  {
+    "watershed_name": "Millstone",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 1.067085,
+    "predicted": 0.793234,
+    "residual": 0.27385
+  },
+  {
+    "watershed_name": "Lower Delaware",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 1.107707,
+    "predicted": 1.006882,
+    "residual": 0.100825
+  },
+  {
+    "watershed_name": "North and South Branch Raritan",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 1.065743,
+    "predicted": 0.6806,
+    "residual": 0.385142
+  },
+  {
+    "watershed_name": "Upper Passaic, Whippany, and Rockaway",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.862031,
+    "predicted": 0.888926,
+    "residual": -0.026895
+  },
+  {
+    "watershed_name": "Lower Raritan, South River, and Lawrence",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 1.068226,
+    "predicted": 1.130204,
+    "residual": -0.061978
+  },
+  {
+    "watershed_name": "Central Delaware",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.934366,
+    "predicted": 0.672222,
+    "residual": 0.262143
+  },
+  {
+    "watershed_name": "Upper Delaware",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.513814,
+    "predicted": 0.491718,
+    "residual": 0.022096
+  },
+  {
+    "watershed_name": "Assiscunk, Crosswicks, and Doctors",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.520051,
+    "predicted": 0.65451,
+    "residual": -0.134459
+  },
+  {
+    "watershed_name": "Arthur Kill",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.735342,
+    "predicted": 1.645997,
+    "residual": -0.910655
+  },
+  {
+    "watershed_name": "Wallkill",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.351538,
+    "predicted": 0.497469,
+    "residual": -0.145931
+  },
+  {
+    "watershed_name": "Pompton, Pequannock, Wanaque, Ramapo",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.317041,
+    "predicted": 0.625954,
+    "residual": -0.308913
+  },
+  {
+    "watershed_name": "Mullica",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.213105,
+    "predicted": 0.355836,
+    "residual": -0.142731
+  },
+  {
+    "watershed_name": "Barnegat Bay",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.192525,
+    "predicted": 0.564886,
+    "residual": -0.372361
+  },
+  {
+    "watershed_name": "Great Egg Harbor",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.272212,
+    "predicted": 0.507879,
+    "residual": -0.235668
+  },
+  {
+    "watershed_name": "Cape May",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.60238,
+    "predicted": 0.442904,
+    "residual": 0.159476
+  },
+  {
+    "watershed_name": "Monmouth",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.312736,
+    "predicted": 0.766869,
+    "residual": -0.454133
+  },
+  {
+    "watershed_name": "Rancocas",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.286016,
+    "predicted": 0.587714,
+    "residual": -0.301698
+  },
+  {
+    "watershed_name": " ",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.071953,
+    "predicted": 0.259749,
+    "residual": -0.187795
+  },
+  {
+    "watershed_name": "Lower Passaic and Saddle",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 2.198946,
+    "predicted": 1.608299,
+    "residual": 0.590647
+  },
+  {
+    "watershed_name": "Hackensack, Hudson, and Pascack",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 1.914934,
+    "predicted": 1.459871,
+    "residual": 0.455062
+  },
+  {
+    "watershed_name": "Maurice, Salem, and Cohansey",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 1.39063,
+    "predicted": 0.644127,
+    "residual": 0.746503
+  },
+  {
+    "watershed_name": "Millstone",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 1.067085,
+    "predicted": 0.816338,
+    "residual": 0.250746
+  },
+  {
+    "watershed_name": "Lower Delaware",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 1.107707,
+    "predicted": 1.034911,
+    "residual": 0.072795
+  },
+  {
+    "watershed_name": "North and South Branch Raritan",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 1.065743,
+    "predicted": 0.76378,
+    "residual": 0.301962
+  },
+  {
+    "watershed_name": "Upper Passaic, Whippany, and Rockaway",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 0.862031,
+    "predicted": 0.670198,
+    "residual": 0.191833
+  },
+  {
+    "watershed_name": "Lower Raritan, South River, and Lawrence",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 1.068226,
+    "predicted": 1.023449,
+    "residual": 0.044777
+  },
+  {
+    "watershed_name": "Central Delaware",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 0.934366,
+    "predicted": 0.994764,
+    "residual": -0.060398
+  },
+  {
+    "watershed_name": "Upper Delaware",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 0.513814,
+    "predicted": 0.563561,
+    "residual": -0.049747
+  },
+  {
+    "watershed_name": "Assiscunk, Crosswicks, and Doctors",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 0.520051,
+    "predicted": 0.996781,
+    "residual": -0.47673
+  },
+  {
+    "watershed_name": "Arthur Kill",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 0.735342,
+    "predicted": 1.676434,
+    "residual": -0.941092
+  },
+  {
+    "watershed_name": "Wallkill",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 0.351538,
+    "predicted": 0.534412,
+    "residual": -0.182874
+  },
+  {
+    "watershed_name": "Pompton, Pequannock, Wanaque, Ramapo",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 0.317041,
+    "predicted": 0.385563,
+    "residual": -0.068522
+  },
+  {
+    "watershed_name": "Mullica",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 0.213105,
+    "predicted": 0.335997,
+    "residual": -0.122892
+  },
+  {
+    "watershed_name": "Barnegat Bay",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 0.192525,
+    "predicted": 0.429485,
+    "residual": -0.23696
+  },
+  {
+    "watershed_name": "Great Egg Harbor",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 0.272212,
+    "predicted": 0.369837,
+    "residual": -0.097625
+  },
+  {
+    "watershed_name": "Cape May",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 0.60238,
+    "predicted": 0.26312,
+    "residual": 0.33926
+  },
+  {
+    "watershed_name": "Monmouth",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 0.312736,
+    "predicted": 0.596739,
+    "residual": -0.284003
+  },
+  {
+    "watershed_name": "Rancocas",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 0.286016,
+    "predicted": 0.649179,
+    "residual": -0.363163
+  },
+  {
+    "watershed_name": " ",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 0.071953,
+    "predicted": 0.181534,
+    "residual": -0.10958
+  },
+  {
+    "watershed_name": "Lower Passaic and Saddle",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 2.198946,
+    "predicted": 1.7076,
+    "residual": 0.491346
+  },
+  {
+    "watershed_name": "Hackensack, Hudson, and Pascack",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 1.914934,
+    "predicted": 1.691988,
+    "residual": 0.222945
+  },
+  {
+    "watershed_name": "Maurice, Salem, and Cohansey",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 1.39063,
+    "predicted": 0.658744,
+    "residual": 0.731886
+  },
+  {
+    "watershed_name": "Millstone",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 1.067085,
+    "predicted": 0.960265,
+    "residual": 0.106819
+  },
+  {
+    "watershed_name": "Lower Delaware",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 1.107707,
+    "predicted": 0.717071,
+    "residual": 0.390636
+  },
+  {
+    "watershed_name": "North and South Branch Raritan",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 1.065743,
+    "predicted": 0.904678,
+    "residual": 0.161064
+  },
+  {
+    "watershed_name": "Upper Passaic, Whippany, and Rockaway",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 0.862031,
+    "predicted": 1.009945,
+    "residual": -0.147914
+  },
+  {
+    "watershed_name": "Lower Raritan, South River, and Lawrence",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 1.068226,
+    "predicted": 0.750047,
+    "residual": 0.318179
+  },
+  {
+    "watershed_name": "Central Delaware",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 0.934366,
+    "predicted": 1.098466,
+    "residual": -0.164101
+  },
+  {
+    "watershed_name": "Upper Delaware",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 0.513814,
+    "predicted": 0.469956,
+    "residual": 0.043857
+  },
+  {
+    "watershed_name": "Assiscunk, Crosswicks, and Doctors",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 0.520051,
+    "predicted": 0.951352,
+    "residual": -0.431301
+  },
+  {
+    "watershed_name": "Arthur Kill",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 0.735342,
+    "predicted": 1.511606,
+    "residual": -0.776264
+  },
+  {
+    "watershed_name": "Wallkill",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 0.351538,
+    "predicted": 0.4922,
+    "residual": -0.140662
+  },
+  {
+    "watershed_name": "Pompton, Pequannock, Wanaque, Ramapo",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 0.317041,
+    "predicted": 0.419379,
+    "residual": -0.102338
+  },
+  {
+    "watershed_name": "Mullica",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 0.213105,
+    "predicted": 0.353175,
+    "residual": -0.140071
+  },
+  {
+    "watershed_name": "Barnegat Bay",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 0.192525,
+    "predicted": 0.458915,
+    "residual": -0.26639
+  },
+  {
+    "watershed_name": "Great Egg Harbor",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 0.272212,
+    "predicted": 0.208824,
+    "residual": 0.063388
+  },
+  {
+    "watershed_name": "Cape May",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 0.60238,
+    "predicted": 0.484568,
+    "residual": 0.117812
+  },
+  {
+    "watershed_name": "Monmouth",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 0.312736,
+    "predicted": 0.427566,
+    "residual": -0.11483
+  },
+  {
+    "watershed_name": "Rancocas",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 0.286016,
+    "predicted": 0.718103,
+    "residual": -0.432087
+  },
+  {
+    "watershed_name": " ",
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 0.071953,
+    "predicted": 0.00393,
+    "residual": 0.068024
+  },
+  {
+    "watershed_name": "Lower Passaic and Saddle",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 2.741699,
+    "predicted": 2.142021,
+    "residual": 0.599678
+  },
+  {
+    "watershed_name": "Hackensack, Hudson, and Pascack",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 3.561615,
+    "predicted": 1.753746,
+    "residual": 1.807869
+  },
+  {
+    "watershed_name": "Maurice, Salem, and Cohansey",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 1.776428,
+    "predicted": 0.566207,
+    "residual": 1.210221
+  },
+  {
+    "watershed_name": "Millstone",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 1.379495,
+    "predicted": 1.302127,
+    "residual": 0.077368
+  },
+  {
+    "watershed_name": "Lower Delaware",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 1.351523,
+    "predicted": 1.536227,
+    "residual": -0.184705
+  },
+  {
+    "watershed_name": "North and South Branch Raritan",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 1.281926,
+    "predicted": 1.106895,
+    "residual": 0.175031
+  },
+  {
+    "watershed_name": "Upper Passaic, Whippany, and Rockaway",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 1.076226,
+    "predicted": 1.282393,
+    "residual": -0.206167
+  },
+  {
+    "watershed_name": "Lower Raritan, South River, and Lawrence",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 1.523054,
+    "predicted": 1.622006,
+    "residual": -0.098952
+  },
+  {
+    "watershed_name": "Central Delaware",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 1.229115,
+    "predicted": 1.120257,
+    "residual": 0.108858
+  },
+  {
+    "watershed_name": "Upper Delaware",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 0.631329,
+    "predicted": 0.69207,
+    "residual": -0.060742
+  },
+  {
+    "watershed_name": "Assiscunk, Crosswicks, and Doctors",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 0.678286,
+    "predicted": 1.12021,
+    "residual": -0.441924
+  },
+  {
+    "watershed_name": "Arthur Kill",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 0.940149,
+    "predicted": 2.13128,
+    "residual": -1.191131
+  },
+  {
+    "watershed_name": "Wallkill",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 0.44811,
+    "predicted": 0.713657,
+    "residual": -0.265547
+  },
+  {
+    "watershed_name": "Pompton, Pequannock, Wanaque, Ramapo",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 0.396802,
+    "predicted": 0.784934,
+    "residual": -0.388133
+  },
+  {
+    "watershed_name": "Mullica",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 0.288932,
+    "predicted": 0.375558,
+    "residual": -0.086625
+  },
+  {
+    "watershed_name": "Barnegat Bay",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 0.262398,
+    "predicted": 0.689354,
+    "residual": -0.426957
+  },
+  {
+    "watershed_name": "Great Egg Harbor",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 0.344357,
+    "predicted": 0.643505,
+    "residual": -0.299149
+  },
+  {
+    "watershed_name": "Cape May",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 1.37332,
+    "predicted": 0.493464,
+    "residual": 0.879855
+  },
+  {
+    "watershed_name": "Monmouth",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 0.423757,
+    "predicted": 1.108215,
+    "residual": -0.684459
+  },
+  {
+    "watershed_name": "Rancocas",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 0.373073,
+    "predicted": 0.868513,
+    "residual": -0.49544
+  },
+  {
+    "watershed_name": " ",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 0.11626,
+    "predicted": 0.145211,
+    "residual": -0.028951
+  },
+  {
+    "watershed_name": "Lower Passaic and Saddle",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 2.741699,
+    "predicted": 2.406872,
+    "residual": 0.334827
+  },
+  {
+    "watershed_name": "Hackensack, Hudson, and Pascack",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 3.561615,
+    "predicted": 2.350978,
+    "residual": 1.210637
+  },
+  {
+    "watershed_name": "Maurice, Salem, and Cohansey",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 1.776428,
+    "predicted": 0.679682,
+    "residual": 1.096746
+  },
+  {
+    "watershed_name": "Millstone",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 1.379495,
+    "predicted": 0.728861,
+    "residual": 0.650634
+  },
+  {
+    "watershed_name": "Lower Delaware",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 1.351523,
+    "predicted": 0.96774,
+    "residual": 0.383783
+  },
+  {
+    "watershed_name": "North and South Branch Raritan",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 1.281926,
+    "predicted": 0.758658,
+    "residual": 0.523268
+  },
+  {
+    "watershed_name": "Upper Passaic, Whippany, and Rockaway",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 1.076226,
+    "predicted": 1.165867,
+    "residual": -0.089641
+  },
+  {
+    "watershed_name": "Lower Raritan, South River, and Lawrence",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 1.523054,
+    "predicted": 1.259912,
+    "residual": 0.263142
+  },
+  {
+    "watershed_name": "Central Delaware",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 1.229115,
+    "predicted": 0.758069,
+    "residual": 0.471046
+  },
+  {
+    "watershed_name": "Upper Delaware",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 0.631329,
+    "predicted": 0.7059,
+    "residual": -0.074572
+  },
+  {
+    "watershed_name": "Assiscunk, Crosswicks, and Doctors",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 0.678286,
+    "predicted": 0.657876,
+    "residual": 0.02041
+  },
+  {
+    "watershed_name": "Arthur Kill",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 0.940149,
+    "predicted": 2.424261,
+    "residual": -1.484112
+  },
+  {
+    "watershed_name": "Wallkill",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 0.44811,
+    "predicted": 0.753563,
+    "residual": -0.305453
+  },
+  {
+    "watershed_name": "Pompton, Pequannock, Wanaque, Ramapo",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 0.396802,
+    "predicted": 1.005988,
+    "residual": -0.609187
+  },
+  {
+    "watershed_name": "Mullica",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 0.288932,
+    "predicted": 0.772161,
+    "residual": -0.483229
+  },
+  {
+    "watershed_name": "Barnegat Bay",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 0.262398,
+    "predicted": 0.895845,
+    "residual": -0.633448
+  },
+  {
+    "watershed_name": "Great Egg Harbor",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 0.344357,
+    "predicted": 0.757792,
+    "residual": -0.413435
+  },
+  {
+    "watershed_name": "Cape May",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 1.37332,
+    "predicted": 1.01491,
+    "residual": 0.35841
+  },
+  {
+    "watershed_name": "Monmouth",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 0.423757,
+    "predicted": 0.780587,
+    "residual": -0.35683
+  },
+  {
+    "watershed_name": "Rancocas",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 0.373073,
+    "predicted": 0.731575,
+    "residual": -0.358502
+  },
+  {
+    "watershed_name": " ",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 0.11626,
+    "predicted": 0.620755,
+    "residual": -0.504495
+  },
+  {
+    "watershed_name": "Lower Passaic and Saddle",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 2.741699,
+    "predicted": 2.360443,
+    "residual": 0.381257
+  },
+  {
+    "watershed_name": "Hackensack, Hudson, and Pascack",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 3.561615,
+    "predicted": 2.020751,
+    "residual": 1.540864
+  },
+  {
+    "watershed_name": "Maurice, Salem, and Cohansey",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 1.776428,
+    "predicted": 0.58544,
+    "residual": 1.190988
+  },
+  {
+    "watershed_name": "Millstone",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 1.379495,
+    "predicted": 0.960339,
+    "residual": 0.419156
+  },
+  {
+    "watershed_name": "Lower Delaware",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 1.351523,
+    "predicted": 1.303253,
+    "residual": 0.04827
+  },
+  {
+    "watershed_name": "North and South Branch Raritan",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 1.281926,
+    "predicted": 0.941869,
+    "residual": 0.340057
+  },
+  {
+    "watershed_name": "Upper Passaic, Whippany, and Rockaway",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 1.076226,
+    "predicted": 1.10191,
+    "residual": -0.025684
+  },
+  {
+    "watershed_name": "Lower Raritan, South River, and Lawrence",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 1.523054,
+    "predicted": 1.489871,
+    "residual": 0.033183
+  },
+  {
+    "watershed_name": "Central Delaware",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 1.229115,
+    "predicted": 0.817486,
+    "residual": 0.411628
+  },
+  {
+    "watershed_name": "Upper Delaware",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.631329,
+    "predicted": 0.802979,
+    "residual": -0.17165
+  },
+  {
+    "watershed_name": "Assiscunk, Crosswicks, and Doctors",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.678286,
+    "predicted": 0.911509,
+    "residual": -0.233223
+  },
+  {
+    "watershed_name": "Arthur Kill",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.940149,
+    "predicted": 2.429666,
+    "residual": -1.489517
+  },
+  {
+    "watershed_name": "Wallkill",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.44811,
+    "predicted": 0.710577,
+    "residual": -0.262467
+  },
+  {
+    "watershed_name": "Pompton, Pequannock, Wanaque, Ramapo",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.396802,
+    "predicted": 0.9454,
+    "residual": -0.548599
+  },
+  {
+    "watershed_name": "Mullica",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.288932,
+    "predicted": 0.540686,
+    "residual": -0.251754
+  },
+  {
+    "watershed_name": "Barnegat Bay",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.262398,
+    "predicted": 0.740901,
+    "residual": -0.478504
+  },
+  {
+    "watershed_name": "Great Egg Harbor",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.344357,
+    "predicted": 0.736536,
+    "residual": -0.392179
+  },
+  {
+    "watershed_name": "Cape May",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 1.37332,
+    "predicted": 0.730777,
+    "residual": 0.642543
+  },
+  {
+    "watershed_name": "Monmouth",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.423757,
+    "predicted": 0.956298,
+    "residual": -0.532542
+  },
+  {
+    "watershed_name": "Rancocas",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.373073,
+    "predicted": 0.727531,
+    "residual": -0.354458
+  },
+  {
+    "watershed_name": " ",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.11626,
+    "predicted": 0.38363,
+    "residual": -0.26737
+  },
+  {
+    "watershed_name": "Lower Passaic and Saddle",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 2.741699,
+    "predicted": 2.366383,
+    "residual": 0.375316
+  },
+  {
+    "watershed_name": "Hackensack, Hudson, and Pascack",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 3.561615,
+    "predicted": 2.117186,
+    "residual": 1.44443
+  },
+  {
+    "watershed_name": "Maurice, Salem, and Cohansey",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 1.776428,
+    "predicted": 0.63952,
+    "residual": 1.136908
+  },
+  {
+    "watershed_name": "Millstone",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 1.379495,
+    "predicted": 0.920943,
+    "residual": 0.458552
+  },
+  {
+    "watershed_name": "Lower Delaware",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 1.351523,
+    "predicted": 1.279786,
+    "residual": 0.071736
+  },
+  {
+    "watershed_name": "North and South Branch Raritan",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 1.281926,
+    "predicted": 0.843894,
+    "residual": 0.438032
+  },
+  {
+    "watershed_name": "Upper Passaic, Whippany, and Rockaway",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 1.076226,
+    "predicted": 1.100437,
+    "residual": -0.02421
+  },
+  {
+    "watershed_name": "Lower Raritan, South River, and Lawrence",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 1.523054,
+    "predicted": 1.480478,
+    "residual": 0.042576
+  },
+  {
+    "watershed_name": "Central Delaware",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 1.229115,
+    "predicted": 0.85836,
+    "residual": 0.370755
+  },
+  {
+    "watershed_name": "Upper Delaware",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.631329,
+    "predicted": 0.722053,
+    "residual": -0.090725
+  },
+  {
+    "watershed_name": "Assiscunk, Crosswicks, and Doctors",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.678286,
+    "predicted": 0.848953,
+    "residual": -0.170667
+  },
+  {
+    "watershed_name": "Arthur Kill",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.940149,
+    "predicted": 2.45368,
+    "residual": -1.51353
+  },
+  {
+    "watershed_name": "Wallkill",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.44811,
+    "predicted": 0.685405,
+    "residual": -0.237295
+  },
+  {
+    "watershed_name": "Pompton, Pequannock, Wanaque, Ramapo",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.396802,
+    "predicted": 0.876704,
+    "residual": -0.479902
+  },
+  {
+    "watershed_name": "Mullica",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.288932,
+    "predicted": 0.584549,
+    "residual": -0.295617
+  },
+  {
+    "watershed_name": "Barnegat Bay",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.262398,
+    "predicted": 0.802733,
+    "residual": -0.540335
+  },
+  {
+    "watershed_name": "Great Egg Harbor",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.344357,
+    "predicted": 0.714586,
+    "residual": -0.370229
+  },
+  {
+    "watershed_name": "Cape May",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 1.37332,
+    "predicted": 0.676861,
+    "residual": 0.696459
+  },
+  {
+    "watershed_name": "Monmouth",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.423757,
+    "predicted": 0.953665,
+    "residual": -0.529909
+  },
+  {
+    "watershed_name": "Rancocas",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.373073,
+    "predicted": 0.770699,
+    "residual": -0.397626
+  },
+  {
+    "watershed_name": " ",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.11626,
+    "predicted": 0.500978,
+    "residual": -0.384718
+  },
+  {
+    "watershed_name": "Lower Passaic and Saddle",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 2.741699,
+    "predicted": 2.336284,
+    "residual": 0.405415
+  },
+  {
+    "watershed_name": "Hackensack, Hudson, and Pascack",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 3.561615,
+    "predicted": 2.221259,
+    "residual": 1.340356
+  },
+  {
+    "watershed_name": "Maurice, Salem, and Cohansey",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 1.776428,
+    "predicted": 0.935612,
+    "residual": 0.840816
+  },
+  {
+    "watershed_name": "Millstone",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 1.379495,
+    "predicted": 0.953817,
+    "residual": 0.425678
+  },
+  {
+    "watershed_name": "Lower Delaware",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 1.351523,
+    "predicted": 1.318004,
+    "residual": 0.033519
+  },
+  {
+    "watershed_name": "North and South Branch Raritan",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 1.281926,
+    "predicted": 0.904828,
+    "residual": 0.377098
+  },
+  {
+    "watershed_name": "Upper Passaic, Whippany, and Rockaway",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 1.076226,
+    "predicted": 0.860558,
+    "residual": 0.215668
+  },
+  {
+    "watershed_name": "Lower Raritan, South River, and Lawrence",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 1.523054,
+    "predicted": 1.362464,
+    "residual": 0.16059
+  },
+  {
+    "watershed_name": "Central Delaware",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 1.229115,
+    "predicted": 1.272707,
+    "residual": -0.043592
+  },
+  {
+    "watershed_name": "Upper Delaware",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 0.631329,
+    "predicted": 0.757776,
+    "residual": -0.126447
+  },
+  {
+    "watershed_name": "Assiscunk, Crosswicks, and Doctors",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 0.678286,
+    "predicted": 1.229257,
+    "residual": -0.550971
+  },
+  {
+    "watershed_name": "Arthur Kill",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 0.940149,
+    "predicted": 2.478391,
+    "residual": -1.538241
+  },
+  {
+    "watershed_name": "Wallkill",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 0.44811,
+    "predicted": 0.716136,
+    "residual": -0.268027
+  },
+  {
+    "watershed_name": "Pompton, Pequannock, Wanaque, Ramapo",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 0.396802,
+    "predicted": 0.554258,
+    "residual": -0.157457
+  },
+  {
+    "watershed_name": "Mullica",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 0.288932,
+    "predicted": 0.570625,
+    "residual": -0.281693
+  },
+  {
+    "watershed_name": "Barnegat Bay",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 0.262398,
+    "predicted": 0.672457,
+    "residual": -0.41006
+  },
+  {
+    "watershed_name": "Great Egg Harbor",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 0.344357,
+    "predicted": 0.537798,
+    "residual": -0.193441
+  },
+  {
+    "watershed_name": "Cape May",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 1.37332,
+    "predicted": 0.425835,
+    "residual": 0.947484
+  },
+  {
+    "watershed_name": "Monmouth",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 0.423757,
+    "predicted": 0.767218,
+    "residual": -0.343461
+  },
+  {
+    "watershed_name": "Rancocas",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 0.373073,
+    "predicted": 0.872862,
+    "residual": -0.499789
+  },
+  {
+    "watershed_name": " ",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 0.11626,
+    "predicted": 0.449705,
+    "residual": -0.333445
+  },
+  {
+    "watershed_name": "Lower Passaic and Saddle",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 2.741699,
+    "predicted": 2.096703,
+    "residual": 0.644996
+  },
+  {
+    "watershed_name": "Hackensack, Hudson, and Pascack",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 3.561615,
+    "predicted": 3.101143,
+    "residual": 0.460473
+  },
+  {
+    "watershed_name": "Maurice, Salem, and Cohansey",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 1.776428,
+    "predicted": 0.902978,
+    "residual": 0.87345
+  },
+  {
+    "watershed_name": "Millstone",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 1.379495,
+    "predicted": 1.092888,
+    "residual": 0.286607
+  },
+  {
+    "watershed_name": "Lower Delaware",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 1.351523,
+    "predicted": 0.859927,
+    "residual": 0.491596
+  },
+  {
+    "watershed_name": "North and South Branch Raritan",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 1.281926,
+    "predicted": 1.190673,
+    "residual": 0.091253
+  },
+  {
+    "watershed_name": "Upper Passaic, Whippany, and Rockaway",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 1.076226,
+    "predicted": 1.47767,
+    "residual": -0.401444
+  },
+  {
+    "watershed_name": "Lower Raritan, South River, and Lawrence",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 1.523054,
+    "predicted": 0.971622,
+    "residual": 0.551432
+  },
+  {
+    "watershed_name": "Central Delaware",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 1.229115,
+    "predicted": 1.47135,
+    "residual": -0.242235
+  },
+  {
+    "watershed_name": "Upper Delaware",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 0.631329,
+    "predicted": 0.485844,
+    "residual": 0.145485
+  },
+  {
+    "watershed_name": "Assiscunk, Crosswicks, and Doctors",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 0.678286,
+    "predicted": 1.192174,
+    "residual": -0.513888
+  },
+  {
+    "watershed_name": "Arthur Kill",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 0.940149,
+    "predicted": 2.113087,
+    "residual": -1.172938
+  },
+  {
+    "watershed_name": "Wallkill",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 0.44811,
+    "predicted": 0.869542,
+    "residual": -0.421432
+  },
+  {
+    "watershed_name": "Pompton, Pequannock, Wanaque, Ramapo",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 0.396802,
+    "predicted": 0.722919,
+    "residual": -0.326118
+  },
+  {
+    "watershed_name": "Mullica",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 0.288932,
+    "predicted": 0.571756,
+    "residual": -0.282824
+  },
+  {
+    "watershed_name": "Barnegat Bay",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 0.262398,
+    "predicted": 0.683001,
+    "residual": -0.420603
+  },
+  {
+    "watershed_name": "Great Egg Harbor",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 0.344357,
+    "predicted": 0.16434,
+    "residual": 0.180016
+  },
+  {
+    "watershed_name": "Cape May",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 1.37332,
+    "predicted": 0.912613,
+    "residual": 0.460707
+  },
+  {
+    "watershed_name": "Monmouth",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 0.423757,
+    "predicted": 0.49288,
+    "residual": -0.069123
+  },
+  {
+    "watershed_name": "Rancocas",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 0.373073,
+    "predicted": 0.803741,
+    "residual": -0.430667
+  },
+  {
+    "watershed_name": " ",
+    "target_metric": "mean_p90_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 0.11626,
+    "predicted": 0.021003,
+    "residual": 0.095257
+  },
+  {
+    "watershed_name": "Lower Passaic and Saddle",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 20.462,
+    "predicted": 41.478292,
+    "residual": -21.016292
+  },
+  {
+    "watershed_name": "Hackensack, Hudson, and Pascack",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 145.764,
+    "predicted": 39.084249,
+    "residual": 106.679751
+  },
+  {
+    "watershed_name": "Maurice, Salem, and Cohansey",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 20.7,
+    "predicted": 8.756295,
+    "residual": 11.943705
+  },
+  {
+    "watershed_name": "Millstone",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 17.6,
+    "predicted": 16.100159,
+    "residual": 1.499841
+  },
+  {
+    "watershed_name": "Lower Delaware",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 8.12,
+    "predicted": 21.630629,
+    "residual": -13.510629
+  },
+  {
+    "watershed_name": "North and South Branch Raritan",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 12.9,
+    "predicted": 10.323994,
+    "residual": 2.576006
+  },
+  {
+    "watershed_name": "Upper Passaic, Whippany, and Rockaway",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 15.224,
+    "predicted": 34.462994,
+    "residual": -19.238994
+  },
+  {
+    "watershed_name": "Lower Raritan, South River, and Lawrence",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 17.7,
+    "predicted": 32.76146,
+    "residual": -15.06146
+  },
+  {
+    "watershed_name": "Central Delaware",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 11.2,
+    "predicted": 3.444997,
+    "residual": 7.755003
+  },
+  {
+    "watershed_name": "Upper Delaware",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 8.22,
+    "predicted": 12.47432,
+    "residual": -4.25432
+  },
+  {
+    "watershed_name": "Assiscunk, Crosswicks, and Doctors",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 3.37,
+    "predicted": -2.241241,
+    "residual": 5.611241
+  },
+  {
+    "watershed_name": "Arthur Kill",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 17.18,
+    "predicted": 41.562523,
+    "residual": -24.382523
+  },
+  {
+    "watershed_name": "Wallkill",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 4.63,
+    "predicted": 15.893935,
+    "residual": -11.263935
+  },
+  {
+    "watershed_name": "Pompton, Pequannock, Wanaque, Ramapo",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 3.05,
+    "predicted": 32.231783,
+    "residual": -29.181783
+  },
+  {
+    "watershed_name": "Mullica",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 4.43,
+    "predicted": 22.564148,
+    "residual": -18.134148
+  },
+  {
+    "watershed_name": "Barnegat Bay",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 9.2305,
+    "predicted": 31.425836,
+    "residual": -22.195336
+  },
+  {
+    "watershed_name": "Great Egg Harbor",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 5.35,
+    "predicted": 26.632977,
+    "residual": -21.282977
+  },
+  {
+    "watershed_name": "Cape May",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 156.0,
+    "predicted": 27.943316,
+    "residual": 128.056684
+  },
+  {
+    "watershed_name": "Monmouth",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 9.31,
+    "predicted": 30.274184,
+    "residual": -20.964184
+  },
+  {
+    "watershed_name": "Rancocas",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 3.14,
+    "predicted": 17.955373,
+    "residual": -14.815373
+  },
+  {
+    "watershed_name": " ",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "land_use_only",
+    "observed": 0.207,
+    "predicted": 29.027278,
+    "residual": -28.820278
+  },
+  {
+    "watershed_name": "Lower Passaic and Saddle",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 20.462,
+    "predicted": 60.409934,
+    "residual": -39.947934
+  },
+  {
+    "watershed_name": "Hackensack, Hudson, and Pascack",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 145.764,
+    "predicted": 81.259201,
+    "residual": 64.504799
+  },
+  {
+    "watershed_name": "Maurice, Salem, and Cohansey",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 20.7,
+    "predicted": 8.105648,
+    "residual": 12.594352
+  },
+  {
+    "watershed_name": "Millstone",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 17.6,
+    "predicted": 0.574408,
+    "residual": 17.025592
+  },
+  {
+    "watershed_name": "Lower Delaware",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 8.12,
+    "predicted": -21.24402,
+    "residual": 29.36402
+  },
+  {
+    "watershed_name": "North and South Branch Raritan",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 12.9,
+    "predicted": 14.705627,
+    "residual": -1.805627
+  },
+  {
+    "watershed_name": "Upper Passaic, Whippany, and Rockaway",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 15.224,
+    "predicted": 53.734938,
+    "residual": -38.510938
+  },
+  {
+    "watershed_name": "Lower Raritan, South River, and Lawrence",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 17.7,
+    "predicted": 0.491473,
+    "residual": 17.208527
+  },
+  {
+    "watershed_name": "Central Delaware",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 11.2,
+    "predicted": 2.346755,
+    "residual": 8.853245
+  },
+  {
+    "watershed_name": "Upper Delaware",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 8.22,
+    "predicted": 8.925445,
+    "residual": -0.705445
+  },
+  {
+    "watershed_name": "Assiscunk, Crosswicks, and Doctors",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 3.37,
+    "predicted": -13.892578,
+    "residual": 17.262578
+  },
+  {
+    "watershed_name": "Arthur Kill",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 17.18,
+    "predicted": 41.29485,
+    "residual": -24.11485
+  },
+  {
+    "watershed_name": "Wallkill",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 4.63,
+    "predicted": 27.940351,
+    "residual": -23.310351
+  },
+  {
+    "watershed_name": "Pompton, Pequannock, Wanaque, Ramapo",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 3.05,
+    "predicted": 47.585787,
+    "residual": -44.535787
+  },
+  {
+    "watershed_name": "Mullica",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 4.43,
+    "predicted": 35.986514,
+    "residual": -31.556514
+  },
+  {
+    "watershed_name": "Barnegat Bay",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 9.2305,
+    "predicted": 30.074426,
+    "residual": -20.843926
+  },
+  {
+    "watershed_name": "Great Egg Harbor",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 5.35,
+    "predicted": 21.770199,
+    "residual": -16.420199
+  },
+  {
+    "watershed_name": "Cape May",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 156.0,
+    "predicted": 78.692315,
+    "residual": 77.307685
+  },
+  {
+    "watershed_name": "Monmouth",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 9.31,
+    "predicted": -3.913228,
+    "residual": 13.223228
+  },
+  {
+    "watershed_name": "Rancocas",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 3.14,
+    "predicted": 9.096682,
+    "residual": -5.956682
+  },
+  {
+    "watershed_name": " ",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "facility_only",
+    "observed": 0.207,
+    "predicted": 9.842774,
+    "residual": -9.635774
+  },
+  {
+    "watershed_name": "Lower Passaic and Saddle",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 20.462,
+    "predicted": 54.834923,
+    "residual": -34.372923
+  },
+  {
+    "watershed_name": "Hackensack, Hudson, and Pascack",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 145.764,
+    "predicted": 53.966402,
+    "residual": 91.797598
+  },
+  {
+    "watershed_name": "Maurice, Salem, and Cohansey",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 20.7,
+    "predicted": 24.780568,
+    "residual": -4.080568
+  },
+  {
+    "watershed_name": "Millstone",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 17.6,
+    "predicted": -1.866807,
+    "residual": 19.466807
+  },
+  {
+    "watershed_name": "Lower Delaware",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 8.12,
+    "predicted": 10.096514,
+    "residual": -1.976514
+  },
+  {
+    "watershed_name": "North and South Branch Raritan",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 12.9,
+    "predicted": 15.389862,
+    "residual": -2.489862
+  },
+  {
+    "watershed_name": "Upper Passaic, Whippany, and Rockaway",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 15.224,
+    "predicted": 3.541581,
+    "residual": 11.682419
+  },
+  {
+    "watershed_name": "Lower Raritan, South River, and Lawrence",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 17.7,
+    "predicted": 15.449962,
+    "residual": 2.250038
+  },
+  {
+    "watershed_name": "Central Delaware",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 11.2,
+    "predicted": 5.788722,
+    "residual": 5.411278
+  },
+  {
+    "watershed_name": "Upper Delaware",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 8.22,
+    "predicted": 34.092805,
+    "residual": -25.872805
+  },
+  {
+    "watershed_name": "Assiscunk, Crosswicks, and Doctors",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 3.37,
+    "predicted": 18.313983,
+    "residual": -14.943983
+  },
+  {
+    "watershed_name": "Arthur Kill",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 17.18,
+    "predicted": 62.539592,
+    "residual": -45.359592
+  },
+  {
+    "watershed_name": "Wallkill",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 4.63,
+    "predicted": 21.245223,
+    "residual": -16.615223
+  },
+  {
+    "watershed_name": "Pompton, Pequannock, Wanaque, Ramapo",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 3.05,
+    "predicted": 29.657031,
+    "residual": -26.607031
+  },
+  {
+    "watershed_name": "Mullica",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 4.43,
+    "predicted": 28.107017,
+    "residual": -23.677017
+  },
+  {
+    "watershed_name": "Barnegat Bay",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 9.2305,
+    "predicted": 17.552282,
+    "residual": -8.321782
+  },
+  {
+    "watershed_name": "Great Egg Harbor",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 5.35,
+    "predicted": 23.522768,
+    "residual": -18.172768
+  },
+  {
+    "watershed_name": "Cape May",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 156.0,
+    "predicted": 34.409742,
+    "residual": 121.590258
+  },
+  {
+    "watershed_name": "Monmouth",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 9.31,
+    "predicted": 5.565889,
+    "residual": 3.744111
+  },
+  {
+    "watershed_name": "Rancocas",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 3.14,
+    "predicted": 9.195046,
+    "residual": -6.055046
+  },
+  {
+    "watershed_name": " ",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_total_facility",
+    "observed": 0.207,
+    "predicted": 27.604395,
+    "residual": -27.397395
+  },
+  {
+    "watershed_name": "Lower Passaic and Saddle",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 20.462,
+    "predicted": 52.763488,
+    "residual": -32.301488
+  },
+  {
+    "watershed_name": "Hackensack, Hudson, and Pascack",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 145.764,
+    "predicted": 59.130548,
+    "residual": 86.633452
+  },
+  {
+    "watershed_name": "Maurice, Salem, and Cohansey",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 20.7,
+    "predicted": 28.322132,
+    "residual": -7.622132
+  },
+  {
+    "watershed_name": "Millstone",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 17.6,
+    "predicted": -1.363096,
+    "residual": 18.963096
+  },
+  {
+    "watershed_name": "Lower Delaware",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 8.12,
+    "predicted": 10.688288,
+    "residual": -2.568288
+  },
+  {
+    "watershed_name": "North and South Branch Raritan",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 12.9,
+    "predicted": 8.106415,
+    "residual": 4.793585
+  },
+  {
+    "watershed_name": "Upper Passaic, Whippany, and Rockaway",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 15.224,
+    "predicted": 6.68322,
+    "residual": 8.54078
+  },
+  {
+    "watershed_name": "Lower Raritan, South River, and Lawrence",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 17.7,
+    "predicted": 16.735601,
+    "residual": 0.964399
+  },
+  {
+    "watershed_name": "Central Delaware",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 11.2,
+    "predicted": 11.660718,
+    "residual": -0.460718
+  },
+  {
+    "watershed_name": "Upper Delaware",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 8.22,
+    "predicted": 25.025795,
+    "residual": -16.805795
+  },
+  {
+    "watershed_name": "Assiscunk, Crosswicks, and Doctors",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 3.37,
+    "predicted": 13.532246,
+    "residual": -10.162246
+  },
+  {
+    "watershed_name": "Arthur Kill",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 17.18,
+    "predicted": 60.911094,
+    "residual": -43.731094
+  },
+  {
+    "watershed_name": "Wallkill",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 4.63,
+    "predicted": 18.815721,
+    "residual": -14.185721
+  },
+  {
+    "watershed_name": "Pompton, Pequannock, Wanaque, Ramapo",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 3.05,
+    "predicted": 22.605259,
+    "residual": -19.555259
+  },
+  {
+    "watershed_name": "Mullica",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 4.43,
+    "predicted": 30.163026,
+    "residual": -25.733026
+  },
+  {
+    "watershed_name": "Barnegat Bay",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 9.2305,
+    "predicted": 23.196253,
+    "residual": -13.965753
+  },
+  {
+    "watershed_name": "Great Egg Harbor",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 5.35,
+    "predicted": 21.053337,
+    "residual": -15.703337
+  },
+  {
+    "watershed_name": "Cape May",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 156.0,
+    "predicted": 27.464501,
+    "residual": 128.535499
+  },
+  {
+    "watershed_name": "Monmouth",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 9.31,
+    "predicted": 8.015952,
+    "residual": 1.294048
+  },
+  {
+    "watershed_name": "Rancocas",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 3.14,
+    "predicted": 14.553182,
+    "residual": -11.413182
+  },
+  {
+    "watershed_name": " ",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "developed_plus_industrial",
+    "observed": 0.207,
+    "predicted": 35.723822,
+    "residual": -35.516822
+  },
+  {
+    "watershed_name": "Lower Passaic and Saddle",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 20.462,
+    "predicted": 54.969258,
+    "residual": -34.507258
+  },
+  {
+    "watershed_name": "Hackensack, Hudson, and Pascack",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 145.764,
+    "predicted": 53.770917,
+    "residual": 91.993083
+  },
+  {
+    "watershed_name": "Maurice, Salem, and Cohansey",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 20.7,
+    "predicted": 19.245172,
+    "residual": 1.454828
+  },
+  {
+    "watershed_name": "Millstone",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 17.6,
+    "predicted": -2.78524,
+    "residual": 20.38524
+  },
+  {
+    "watershed_name": "Lower Delaware",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 8.12,
+    "predicted": 9.196417,
+    "residual": -1.076417
+  },
+  {
+    "watershed_name": "North and South Branch Raritan",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 12.9,
+    "predicted": 11.037902,
+    "residual": 1.862098
+  },
+  {
+    "watershed_name": "Upper Passaic, Whippany, and Rockaway",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 15.224,
+    "predicted": 10.143024,
+    "residual": 5.080976
+  },
+  {
+    "watershed_name": "Lower Raritan, South River, and Lawrence",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 17.7,
+    "predicted": 18.555382,
+    "residual": -0.855382
+  },
+  {
+    "watershed_name": "Central Delaware",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 11.2,
+    "predicted": -1.941081,
+    "residual": 13.141081
+  },
+  {
+    "watershed_name": "Upper Delaware",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 8.22,
+    "predicted": 29.928456,
+    "residual": -21.708456
+  },
+  {
+    "watershed_name": "Assiscunk, Crosswicks, and Doctors",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 3.37,
+    "predicted": 7.426031,
+    "residual": -4.056031
+  },
+  {
+    "watershed_name": "Arthur Kill",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 17.18,
+    "predicted": 61.64534,
+    "residual": -44.46534
+  },
+  {
+    "watershed_name": "Wallkill",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 4.63,
+    "predicted": 19.603334,
+    "residual": -14.973334
+  },
+  {
+    "watershed_name": "Pompton, Pequannock, Wanaque, Ramapo",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 3.05,
+    "predicted": 34.654133,
+    "residual": -31.604133
+  },
+  {
+    "watershed_name": "Mullica",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 4.43,
+    "predicted": 29.378357,
+    "residual": -24.948357
+  },
+  {
+    "watershed_name": "Barnegat Bay",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 9.2305,
+    "predicted": 22.783329,
+    "residual": -13.552829
+  },
+  {
+    "watershed_name": "Great Egg Harbor",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 5.35,
+    "predicted": 26.798116,
+    "residual": -21.448116
+  },
+  {
+    "watershed_name": "Cape May",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 156.0,
+    "predicted": 37.86029,
+    "residual": 118.13971
+  },
+  {
+    "watershed_name": "Monmouth",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 9.31,
+    "predicted": 10.688343,
+    "residual": -1.378343
+  },
+  {
+    "watershed_name": "Rancocas",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 3.14,
+    "predicted": 8.707521,
+    "residual": -5.567521
+  },
+  {
+    "watershed_name": " ",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_core",
+    "observed": 0.207,
+    "predicted": 32.1225,
+    "residual": -31.9155
+  },
+  {
+    "watershed_name": "Lower Passaic and Saddle",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 20.462,
+    "predicted": 21.375599,
+    "residual": -0.913599
+  },
+  {
+    "watershed_name": "Hackensack, Hudson, and Pascack",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 145.764,
+    "predicted": 128.082917,
+    "residual": 17.681083
+  },
+  {
+    "watershed_name": "Maurice, Salem, and Cohansey",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 20.7,
+    "predicted": 12.486249,
+    "residual": 8.213751
+  },
+  {
+    "watershed_name": "Millstone",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 17.6,
+    "predicted": -6.07845,
+    "residual": 23.67845
+  },
+  {
+    "watershed_name": "Lower Delaware",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 8.12,
+    "predicted": -10.814156,
+    "residual": 18.934156
+  },
+  {
+    "watershed_name": "North and South Branch Raritan",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 12.9,
+    "predicted": 24.230173,
+    "residual": -11.330173
+  },
+  {
+    "watershed_name": "Upper Passaic, Whippany, and Rockaway",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 15.224,
+    "predicted": 48.051639,
+    "residual": -32.827639
+  },
+  {
+    "watershed_name": "Lower Raritan, South River, and Lawrence",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 17.7,
+    "predicted": 3.648515,
+    "residual": 14.051485
+  },
+  {
+    "watershed_name": "Central Delaware",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 11.2,
+    "predicted": 17.845474,
+    "residual": -6.645474
+  },
+  {
+    "watershed_name": "Upper Delaware",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 8.22,
+    "predicted": 2.396296,
+    "residual": 5.823704
+  },
+  {
+    "watershed_name": "Assiscunk, Crosswicks, and Doctors",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 3.37,
+    "predicted": 5.912992,
+    "residual": -2.542992
+  },
+  {
+    "watershed_name": "Arthur Kill",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 17.18,
+    "predicted": 34.842222,
+    "residual": -17.662222
+  },
+  {
+    "watershed_name": "Wallkill",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 4.63,
+    "predicted": 49.010097,
+    "residual": -44.380097
+  },
+  {
+    "watershed_name": "Pompton, Pequannock, Wanaque, Ramapo",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 3.05,
+    "predicted": 47.49049,
+    "residual": -44.44049
+  },
+  {
+    "watershed_name": "Mullica",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 4.43,
+    "predicted": 30.801025,
+    "residual": -26.371025
+  },
+  {
+    "watershed_name": "Barnegat Bay",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 9.2305,
+    "predicted": 20.029524,
+    "residual": -10.799024
+  },
+  {
+    "watershed_name": "Great Egg Harbor",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 5.35,
+    "predicted": 5.542493,
+    "residual": -0.192493
+  },
+  {
+    "watershed_name": "Cape May",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 156.0,
+    "predicted": 78.659165,
+    "residual": 77.340835
+  },
+  {
+    "watershed_name": "Monmouth",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 9.31,
+    "predicted": -8.420226,
+    "residual": 17.730226
+  },
+  {
+    "watershed_name": "Rancocas",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 3.14,
+    "predicted": -5.456728,
+    "residual": 8.596728
+  },
+  {
+    "watershed_name": " ",
+    "target_metric": "max_station_nitrate_mg_L",
+    "model_name": "combined_extended",
+    "observed": 0.207,
+    "predicted": -5.847811,
+    "residual": 6.054811
+  }
+]

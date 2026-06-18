@@ -1,0 +1,131 @@
+{
+  "station_info": {
+    "station_id": "NARS_WQX-NRS_NJ-10075",
+    "station_name": "Pequest River",
+    "latitude": 40.83334815,
+    "longitude": -74.98271063,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 1.2303,
+    "median_nitrate_mg_L": 1.2303,
+    "p90_nitrate_mg_L": 1.26254,
+    "max_nitrate_mg_L": 1.2706,
+    "min_nitrate_mg_L": 1.19,
+    "first_year": 2019,
+    "last_year": 2023,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.19,
+      "median_nitrate_mg_L": 1.19,
+      "p90_nitrate_mg_L": 1.19,
+      "max_nitrate_mg_L": 1.19,
+      "season_order": 3
+    },
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.2706,
+      "median_nitrate_mg_L": 1.2706,
+      "p90_nitrate_mg_L": 1.2706,
+      "max_nitrate_mg_L": 1.2706,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2019.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 1.2706,
+      "median_nitrate_mg_L": 1.2706,
+      "p90_nitrate_mg_L": 1.2706,
+      "max_nitrate_mg_L": 1.2706,
+      "mean_3yr_moving_average": 1.2706
+    },
+    {
+      "year": 2023.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 1.19,
+      "median_nitrate_mg_L": 1.19,
+      "p90_nitrate_mg_L": 1.19,
+      "max_nitrate_mg_L": 1.19,
+      "mean_3yr_moving_average": 1.2303
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2019-09",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.2706,
+      "median_nitrate_mg_L": 1.2706,
+      "p90_nitrate_mg_L": 1.2706,
+      "max_nitrate_mg_L": 1.2706,
+      "date": "2019-09-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2023-06",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.19,
+      "median_nitrate_mg_L": 1.19,
+      "p90_nitrate_mg_L": 1.19,
+      "max_nitrate_mg_L": 1.19,
+      "date": "2023-06-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2019-09-18",
+      "year": 2019,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 1.2706,
+      "result_value": 1.2706,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2023-06-21",
+      "year": 2023,
+      "month": 6,
+      "season": "Summer",
+      "nitrate_mg_L": 1.19,
+      "result_value": 1.19,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

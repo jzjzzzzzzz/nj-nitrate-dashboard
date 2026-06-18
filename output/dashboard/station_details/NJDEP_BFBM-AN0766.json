@@ -1,0 +1,122 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0766",
+    "station_name": "SAVAGES RUN (EAST CK) SUNSET RD",
+    "latitude": 39.242111,
+    "longitude": -74.876222,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.937,
+    "median_nitrate_mg_L": 0.937,
+    "p90_nitrate_mg_L": 1.0914,
+    "max_nitrate_mg_L": 1.13,
+    "min_nitrate_mg_L": 0.744,
+    "first_year": 2016,
+    "last_year": 2021,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.9369999999999999,
+      "median_nitrate_mg_L": 0.9369999999999999,
+      "p90_nitrate_mg_L": 1.0914,
+      "max_nitrate_mg_L": 1.13,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2016.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.744,
+      "median_nitrate_mg_L": 0.744,
+      "p90_nitrate_mg_L": 0.744,
+      "max_nitrate_mg_L": 0.744,
+      "mean_3yr_moving_average": 0.744
+    },
+    {
+      "year": 2021.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 1.13,
+      "median_nitrate_mg_L": 1.13,
+      "p90_nitrate_mg_L": 1.13,
+      "max_nitrate_mg_L": 1.13,
+      "mean_3yr_moving_average": 0.9369999999999999
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2016-06",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.744,
+      "median_nitrate_mg_L": 0.744,
+      "p90_nitrate_mg_L": 0.744,
+      "max_nitrate_mg_L": 0.744,
+      "date": "2016-06-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2021-06",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.13,
+      "median_nitrate_mg_L": 1.13,
+      "p90_nitrate_mg_L": 1.13,
+      "max_nitrate_mg_L": 1.13,
+      "date": "2021-06-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2016-06-30",
+      "year": 2016,
+      "month": 6,
+      "season": "Summer",
+      "nitrate_mg_L": 0.744,
+      "result_value": 0.744,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2021-06-29",
+      "year": 2021,
+      "month": 6,
+      "season": "Summer",
+      "nitrate_mg_L": 1.13,
+      "result_value": 1.13,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

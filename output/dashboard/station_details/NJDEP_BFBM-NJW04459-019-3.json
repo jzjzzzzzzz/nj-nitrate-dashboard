@@ -1,0 +1,85 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-NJW04459-019-3",
+    "station_name": "Lake Ioscoe-03-3",
+    "latitude": 41.032657,
+    "longitude": -74.321344,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 1,
+    "confidence_level": "Low",
+    "confidence_score": 0.1501904832236879,
+    "mean_nitrate_mg_L": 0.0593,
+    "median_nitrate_mg_L": 0.0593,
+    "p90_nitrate_mg_L": 0.0593,
+    "max_nitrate_mg_L": 0.0593,
+    "min_nitrate_mg_L": 0.0593,
+    "first_year": 2010,
+    "last_year": 2010,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0593,
+      "median_nitrate_mg_L": 0.0593,
+      "p90_nitrate_mg_L": 0.0593,
+      "max_nitrate_mg_L": 0.0593,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2010.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.0593,
+      "median_nitrate_mg_L": 0.0593,
+      "p90_nitrate_mg_L": 0.0593,
+      "max_nitrate_mg_L": 0.0593,
+      "mean_3yr_moving_average": 0.0593
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2010-08",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.0593,
+      "median_nitrate_mg_L": 0.0593,
+      "p90_nitrate_mg_L": 0.0593,
+      "max_nitrate_mg_L": 0.0593,
+      "date": "2010-08-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2010-08-18",
+      "year": 2010,
+      "month": 8,
+      "season": "Summer",
+      "nitrate_mg_L": 0.0593,
+      "result_value": 0.0593,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

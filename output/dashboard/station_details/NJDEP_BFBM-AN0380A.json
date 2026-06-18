@@ -1,0 +1,85 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0380A",
+    "station_name": "Rocky Brook at Perrineville Road",
+    "latitude": 40.22958262,
+    "longitude": -74.44184564,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 1,
+    "confidence_level": "Low",
+    "confidence_score": 0.1501904832236879,
+    "mean_nitrate_mg_L": 0.00896,
+    "median_nitrate_mg_L": 0.00896,
+    "p90_nitrate_mg_L": 0.00896,
+    "max_nitrate_mg_L": 0.00896,
+    "min_nitrate_mg_L": 0.00896,
+    "first_year": 2024,
+    "last_year": 2024,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Spring",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.00896,
+      "median_nitrate_mg_L": 0.00896,
+      "p90_nitrate_mg_L": 0.00896,
+      "max_nitrate_mg_L": 0.00896,
+      "season_order": 2
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2024.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.00896,
+      "median_nitrate_mg_L": 0.00896,
+      "p90_nitrate_mg_L": 0.00896,
+      "max_nitrate_mg_L": 0.00896,
+      "mean_3yr_moving_average": 0.00896
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2024-05",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.00896,
+      "median_nitrate_mg_L": 0.00896,
+      "p90_nitrate_mg_L": 0.00896,
+      "max_nitrate_mg_L": 0.00896,
+      "date": "2024-05-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2024-05-07",
+      "year": 2024,
+      "month": 5,
+      "season": "Spring",
+      "nitrate_mg_L": 0.00896,
+      "result_value": 0.00896,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Estimated",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

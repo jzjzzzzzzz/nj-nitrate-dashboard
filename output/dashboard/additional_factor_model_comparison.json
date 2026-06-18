@@ -1,0 +1,156 @@
+[
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_agriculture",
+    "predictors": "developed_percent, agriculture_percent",
+    "n": 21,
+    "r2": 0.3417,
+    "adjusted_r2": 0.2685,
+    "rmse": 11.6004,
+    "max_vif": 1.0664,
+    "vif_status": "acceptable"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_agriculture_rainfall",
+    "predictors": "developed_percent, agriculture_percent, mean_annual_precip_inches",
+    "n": 21,
+    "r2": 0.3429,
+    "adjusted_r2": 0.2269,
+    "rmse": 11.5899,
+    "max_vif": 1.4104,
+    "vif_status": "acceptable"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_agriculture_hydro",
+    "predictors": "developed_percent, agriculture_percent, shape_compactness",
+    "n": 21,
+    "r2": 0.3573,
+    "adjusted_r2": 0.2438,
+    "rmse": 11.4622,
+    "max_vif": 1.2186,
+    "vif_status": "acceptable"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_agriculture_upgradient_proxy",
+    "predictors": "developed_percent, agriculture_percent, upgradient_facility_density_proxy_per_100_km2",
+    "n": 21,
+    "r2": 0.3554,
+    "adjusted_r2": 0.2416,
+    "rmse": 11.4788,
+    "max_vif": 1.4835,
+    "vif_status": "acceptable"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_agriculture_discharge",
+    "predictors": "developed_percent, agriculture_percent, total_facility_discharge_value",
+    "n": 20,
+    "r2": 0.4689,
+    "adjusted_r2": 0.3693,
+    "rmse": 10.4946,
+    "max_vif": 1.2093,
+    "vif_status": "acceptable"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_agriculture_nitrogen_load",
+    "predictors": "developed_percent, agriculture_percent, total_facility_nitrogen_load",
+    "n": 20,
+    "r2": 0.3481,
+    "adjusted_r2": 0.2258,
+    "rmse": 11.6269,
+    "max_vif": 1.1871,
+    "vif_status": "acceptable"
+  },
+  {
+    "target_metric": "hotspot_rate_percent",
+    "model_name": "developed_agriculture_dmr_coverage",
+    "predictors": "developed_percent, agriculture_percent, dmr_facility_match_rate_percent",
+    "n": 21,
+    "r2": 0.3859,
+    "adjusted_r2": 0.2775,
+    "rmse": 11.2041,
+    "max_vif": 1.2807,
+    "vif_status": "acceptable"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_agriculture",
+    "predictors": "developed_percent, agriculture_percent",
+    "n": 21,
+    "r2": 0.5045,
+    "adjusted_r2": 0.4495,
+    "rmse": 0.3919,
+    "max_vif": 1.0664,
+    "vif_status": "acceptable"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_agriculture_rainfall",
+    "predictors": "developed_percent, agriculture_percent, mean_annual_precip_inches",
+    "n": 21,
+    "r2": 0.515,
+    "adjusted_r2": 0.4294,
+    "rmse": 0.3878,
+    "max_vif": 1.4104,
+    "vif_status": "acceptable"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_agriculture_hydro",
+    "predictors": "developed_percent, agriculture_percent, shape_compactness",
+    "n": 21,
+    "r2": 0.5106,
+    "adjusted_r2": 0.4242,
+    "rmse": 0.3895,
+    "max_vif": 1.2186,
+    "vif_status": "acceptable"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_agriculture_upgradient_proxy",
+    "predictors": "developed_percent, agriculture_percent, upgradient_facility_density_proxy_per_100_km2",
+    "n": 21,
+    "r2": 0.5591,
+    "adjusted_r2": 0.4813,
+    "rmse": 0.3697,
+    "max_vif": 1.4835,
+    "vif_status": "acceptable"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_agriculture_discharge",
+    "predictors": "developed_percent, agriculture_percent, total_facility_discharge_value",
+    "n": 20,
+    "r2": 0.5809,
+    "adjusted_r2": 0.5023,
+    "rmse": 0.3549,
+    "max_vif": 1.2093,
+    "vif_status": "acceptable"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_agriculture_nitrogen_load",
+    "predictors": "developed_percent, agriculture_percent, total_facility_nitrogen_load",
+    "n": 20,
+    "r2": 0.4992,
+    "adjusted_r2": 0.4053,
+    "rmse": 0.388,
+    "max_vif": 1.1871,
+    "vif_status": "acceptable"
+  },
+  {
+    "target_metric": "mean_nitrate_mg_L",
+    "model_name": "developed_agriculture_dmr_coverage",
+    "predictors": "developed_percent, agriculture_percent, dmr_facility_match_rate_percent",
+    "n": 21,
+    "r2": 0.5469,
+    "adjusted_r2": 0.467,
+    "rmse": 0.3748,
+    "max_vif": 1.2807,
+    "vif_status": "acceptable"
+  }
+]

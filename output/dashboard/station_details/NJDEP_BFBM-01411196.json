@@ -1,0 +1,150 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-01411196",
+    "station_name": "BABCOCK CREEK NEAR MAYS LANDING",
+    "latitude": 39.46895,
+    "longitude": -74.6925,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 3,
+    "confidence_level": "Low",
+    "confidence_score": 0.3003809664473759,
+    "mean_nitrate_mg_L": 0.4723333333333333,
+    "median_nitrate_mg_L": 0.46,
+    "p90_nitrate_mg_L": 0.5,
+    "max_nitrate_mg_L": 0.51,
+    "min_nitrate_mg_L": 0.447,
+    "first_year": 2024,
+    "last_year": 2024,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.447,
+      "median_nitrate_mg_L": 0.447,
+      "p90_nitrate_mg_L": 0.447,
+      "max_nitrate_mg_L": 0.447,
+      "season_order": 3
+    },
+    {
+      "season": "Fall",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.485,
+      "median_nitrate_mg_L": 0.485,
+      "p90_nitrate_mg_L": 0.505,
+      "max_nitrate_mg_L": 0.51,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2024.0,
+      "observation_count": 3.0,
+      "mean_nitrate_mg_L": 0.4723333333333333,
+      "median_nitrate_mg_L": 0.46,
+      "p90_nitrate_mg_L": 0.5,
+      "max_nitrate_mg_L": 0.51,
+      "mean_3yr_moving_average": 0.4723333333333333
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2024-06",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.447,
+      "median_nitrate_mg_L": 0.447,
+      "p90_nitrate_mg_L": 0.447,
+      "max_nitrate_mg_L": 0.447,
+      "date": "2024-06-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2024-09",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.51,
+      "median_nitrate_mg_L": 0.51,
+      "p90_nitrate_mg_L": 0.51,
+      "max_nitrate_mg_L": 0.51,
+      "date": "2024-09-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2024-10",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.46,
+      "median_nitrate_mg_L": 0.46,
+      "p90_nitrate_mg_L": 0.46,
+      "max_nitrate_mg_L": 0.46,
+      "date": "2024-10-01",
+      "mean_6mo_moving_average": 0.4723333333333333,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2024-06-26",
+      "year": 2024,
+      "month": 6,
+      "season": "Summer",
+      "nitrate_mg_L": 0.447,
+      "result_value": 0.447,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Filtered, field",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2024-09-12",
+      "year": 2024,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.51,
+      "result_value": 0.51,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Filtered, field",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2024-10-24",
+      "year": 2024,
+      "month": 10,
+      "season": "Fall",
+      "nitrate_mg_L": 0.46,
+      "result_value": 0.46,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Filtered, field",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

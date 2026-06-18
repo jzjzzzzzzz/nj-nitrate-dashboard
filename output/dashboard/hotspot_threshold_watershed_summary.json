@@ -1,0 +1,506 @@
+[
+  {
+    "watershed_name": "Hackensack, Hudson, and Pascack",
+    "station_count": 107,
+    "hotspot_station_count": 28,
+    "mean_nitrate_mg_L": 1.914933574078352,
+    "threshold": "top_5pct",
+    "hotspot_rate_percent": 26.168224299065418
+  },
+  {
+    "watershed_name": "Lower Passaic and Saddle",
+    "station_count": 87,
+    "hotspot_station_count": 22,
+    "mean_nitrate_mg_L": 2.1989458982723993,
+    "threshold": "top_5pct",
+    "hotspot_rate_percent": 25.287356321839084
+  },
+  {
+    "watershed_name": "Maurice, Salem, and Cohansey",
+    "station_count": 327,
+    "hotspot_station_count": 62,
+    "mean_nitrate_mg_L": 1.390630262147135,
+    "threshold": "top_5pct",
+    "hotspot_rate_percent": 18.960244648318042
+  },
+  {
+    "watershed_name": "Millstone",
+    "station_count": 151,
+    "hotspot_station_count": 18,
+    "mean_nitrate_mg_L": 1.067084527319373,
+    "threshold": "top_5pct",
+    "hotspot_rate_percent": 11.920529801324504
+  },
+  {
+    "watershed_name": "Lower Raritan, South River, and Lawrence",
+    "station_count": 134,
+    "hotspot_station_count": 12,
+    "mean_nitrate_mg_L": 1.0682256326386705,
+    "threshold": "top_5pct",
+    "hotspot_rate_percent": 8.955223880597014
+  },
+  {
+    "watershed_name": "Lower Delaware",
+    "station_count": 150,
+    "hotspot_station_count": 12,
+    "mean_nitrate_mg_L": 1.1077067023390912,
+    "threshold": "top_5pct",
+    "hotspot_rate_percent": 8.0
+  },
+  {
+    "watershed_name": "Upper Passaic, Whippany, and Rockaway",
+    "station_count": 209,
+    "hotspot_station_count": 14,
+    "mean_nitrate_mg_L": 0.8620312207713697,
+    "threshold": "top_5pct",
+    "hotspot_rate_percent": 6.698564593301436
+  },
+  {
+    "watershed_name": "Upper Delaware",
+    "station_count": 355,
+    "hotspot_station_count": 17,
+    "mean_nitrate_mg_L": 0.5138136990829458,
+    "threshold": "top_5pct",
+    "hotspot_rate_percent": 4.788732394366197
+  },
+  {
+    "watershed_name": "North and South Branch Raritan",
+    "station_count": 229,
+    "hotspot_station_count": 10,
+    "mean_nitrate_mg_L": 1.0657425791100814,
+    "threshold": "top_5pct",
+    "hotspot_rate_percent": 4.366812227074235
+  },
+  {
+    "watershed_name": "Central Delaware",
+    "station_count": 106,
+    "hotspot_station_count": 3,
+    "mean_nitrate_mg_L": 0.9343656113283737,
+    "threshold": "top_5pct",
+    "hotspot_rate_percent": 2.8301886792452833
+  },
+  {
+    "watershed_name": "Great Egg Harbor",
+    "station_count": 176,
+    "hotspot_station_count": 2,
+    "mean_nitrate_mg_L": 0.27221173711437774,
+    "threshold": "top_5pct",
+    "hotspot_rate_percent": 1.1363636363636365
+  },
+  {
+    "watershed_name": "Cape May",
+    "station_count": 103,
+    "hotspot_station_count": 1,
+    "mean_nitrate_mg_L": 0.6023804247151757,
+    "threshold": "top_5pct",
+    "hotspot_rate_percent": 0.9708737864077669
+  },
+  {
+    "watershed_name": "Wallkill",
+    "station_count": 113,
+    "hotspot_station_count": 1,
+    "mean_nitrate_mg_L": 0.35153807083678623,
+    "threshold": "top_5pct",
+    "hotspot_rate_percent": 0.8849557522123894
+  },
+  {
+    "watershed_name": "Pompton, Pequannock, Wanaque, Ramapo",
+    "station_count": 154,
+    "hotspot_station_count": 1,
+    "mean_nitrate_mg_L": 0.31704119363146155,
+    "threshold": "top_5pct",
+    "hotspot_rate_percent": 0.6493506493506493
+  },
+  {
+    "watershed_name": "Barnegat Bay",
+    "station_count": 463,
+    "hotspot_station_count": 3,
+    "mean_nitrate_mg_L": 0.19252476914385497,
+    "threshold": "top_5pct",
+    "hotspot_rate_percent": 0.6479481641468683
+  },
+  {
+    "watershed_name": "Mullica",
+    "station_count": 208,
+    "hotspot_station_count": 1,
+    "mean_nitrate_mg_L": 0.21310491246291496,
+    "threshold": "top_5pct",
+    "hotspot_rate_percent": 0.4807692307692308
+  },
+  {
+    "watershed_name": "Monmouth",
+    "station_count": 237,
+    "hotspot_station_count": 1,
+    "mean_nitrate_mg_L": 0.31273612111182214,
+    "threshold": "top_5pct",
+    "hotspot_rate_percent": 0.42194092827004215
+  },
+  {
+    "watershed_name": "Arthur Kill",
+    "station_count": 67,
+    "hotspot_station_count": 0,
+    "mean_nitrate_mg_L": 0.7353416451694623,
+    "threshold": "top_5pct",
+    "hotspot_rate_percent": 0.0
+  },
+  {
+    "watershed_name": "Assiscunk, Crosswicks, and Doctors",
+    "station_count": 98,
+    "hotspot_station_count": 0,
+    "mean_nitrate_mg_L": 0.5200509633435635,
+    "threshold": "top_5pct",
+    "hotspot_rate_percent": 0.0
+  },
+  {
+    "watershed_name": " ",
+    "station_count": 2,
+    "hotspot_station_count": 0,
+    "mean_nitrate_mg_L": 0.0719533333333333,
+    "threshold": "top_5pct",
+    "hotspot_rate_percent": 0.0
+  },
+  {
+    "watershed_name": "Rancocas",
+    "station_count": 167,
+    "hotspot_station_count": 0,
+    "mean_nitrate_mg_L": 0.28601604248800405,
+    "threshold": "top_5pct",
+    "hotspot_rate_percent": 0.0
+  },
+  {
+    "watershed_name": "Lower Passaic and Saddle",
+    "station_count": 87,
+    "hotspot_station_count": 50,
+    "mean_nitrate_mg_L": 2.1989458982723993,
+    "threshold": "top_10pct",
+    "hotspot_rate_percent": 57.47126436781609
+  },
+  {
+    "watershed_name": "Hackensack, Hudson, and Pascack",
+    "station_count": 107,
+    "hotspot_station_count": 36,
+    "mean_nitrate_mg_L": 1.914933574078352,
+    "threshold": "top_10pct",
+    "hotspot_rate_percent": 33.64485981308411
+  },
+  {
+    "watershed_name": "Maurice, Salem, and Cohansey",
+    "station_count": 327,
+    "hotspot_station_count": 103,
+    "mean_nitrate_mg_L": 1.390630262147135,
+    "threshold": "top_10pct",
+    "hotspot_rate_percent": 31.49847094801223
+  },
+  {
+    "watershed_name": "Millstone",
+    "station_count": 151,
+    "hotspot_station_count": 31,
+    "mean_nitrate_mg_L": 1.067084527319373,
+    "threshold": "top_10pct",
+    "hotspot_rate_percent": 20.52980132450331
+  },
+  {
+    "watershed_name": "Lower Delaware",
+    "station_count": 150,
+    "hotspot_station_count": 29,
+    "mean_nitrate_mg_L": 1.1077067023390912,
+    "threshold": "top_10pct",
+    "hotspot_rate_percent": 19.333333333333332
+  },
+  {
+    "watershed_name": "North and South Branch Raritan",
+    "station_count": 229,
+    "hotspot_station_count": 40,
+    "mean_nitrate_mg_L": 1.0657425791100814,
+    "threshold": "top_10pct",
+    "hotspot_rate_percent": 17.46724890829694
+  },
+  {
+    "watershed_name": "Upper Passaic, Whippany, and Rockaway",
+    "station_count": 209,
+    "hotspot_station_count": 32,
+    "mean_nitrate_mg_L": 0.8620312207713697,
+    "threshold": "top_10pct",
+    "hotspot_rate_percent": 15.311004784688995
+  },
+  {
+    "watershed_name": "Lower Raritan, South River, and Lawrence",
+    "station_count": 134,
+    "hotspot_station_count": 18,
+    "mean_nitrate_mg_L": 1.0682256326386705,
+    "threshold": "top_10pct",
+    "hotspot_rate_percent": 13.432835820895523
+  },
+  {
+    "watershed_name": "Central Delaware",
+    "station_count": 106,
+    "hotspot_station_count": 12,
+    "mean_nitrate_mg_L": 0.9343656113283737,
+    "threshold": "top_10pct",
+    "hotspot_rate_percent": 11.320754716981133
+  },
+  {
+    "watershed_name": "Upper Delaware",
+    "station_count": 355,
+    "hotspot_station_count": 30,
+    "mean_nitrate_mg_L": 0.5138136990829458,
+    "threshold": "top_10pct",
+    "hotspot_rate_percent": 8.450704225352112
+  },
+  {
+    "watershed_name": "Assiscunk, Crosswicks, and Doctors",
+    "station_count": 98,
+    "hotspot_station_count": 4,
+    "mean_nitrate_mg_L": 0.5200509633435635,
+    "threshold": "top_10pct",
+    "hotspot_rate_percent": 4.081632653061225
+  },
+  {
+    "watershed_name": "Arthur Kill",
+    "station_count": 67,
+    "hotspot_station_count": 2,
+    "mean_nitrate_mg_L": 0.7353416451694623,
+    "threshold": "top_10pct",
+    "hotspot_rate_percent": 2.9850746268656714
+  },
+  {
+    "watershed_name": "Wallkill",
+    "station_count": 113,
+    "hotspot_station_count": 3,
+    "mean_nitrate_mg_L": 0.35153807083678623,
+    "threshold": "top_10pct",
+    "hotspot_rate_percent": 2.6548672566371683
+  },
+  {
+    "watershed_name": "Pompton, Pequannock, Wanaque, Ramapo",
+    "station_count": 154,
+    "hotspot_station_count": 3,
+    "mean_nitrate_mg_L": 0.31704119363146155,
+    "threshold": "top_10pct",
+    "hotspot_rate_percent": 1.948051948051948
+  },
+  {
+    "watershed_name": "Mullica",
+    "station_count": 208,
+    "hotspot_station_count": 4,
+    "mean_nitrate_mg_L": 0.21310491246291496,
+    "threshold": "top_10pct",
+    "hotspot_rate_percent": 1.9230769230769231
+  },
+  {
+    "watershed_name": "Barnegat Bay",
+    "station_count": 463,
+    "hotspot_station_count": 8,
+    "mean_nitrate_mg_L": 0.19252476914385497,
+    "threshold": "top_10pct",
+    "hotspot_rate_percent": 1.7278617710583155
+  },
+  {
+    "watershed_name": "Great Egg Harbor",
+    "station_count": 176,
+    "hotspot_station_count": 2,
+    "mean_nitrate_mg_L": 0.27221173711437774,
+    "threshold": "top_10pct",
+    "hotspot_rate_percent": 1.1363636363636365
+  },
+  {
+    "watershed_name": "Cape May",
+    "station_count": 103,
+    "hotspot_station_count": 1,
+    "mean_nitrate_mg_L": 0.6023804247151757,
+    "threshold": "top_10pct",
+    "hotspot_rate_percent": 0.9708737864077669
+  },
+  {
+    "watershed_name": "Monmouth",
+    "station_count": 237,
+    "hotspot_station_count": 2,
+    "mean_nitrate_mg_L": 0.31273612111182214,
+    "threshold": "top_10pct",
+    "hotspot_rate_percent": 0.8438818565400843
+  },
+  {
+    "watershed_name": " ",
+    "station_count": 2,
+    "hotspot_station_count": 0,
+    "mean_nitrate_mg_L": 0.0719533333333333,
+    "threshold": "top_10pct",
+    "hotspot_rate_percent": 0.0
+  },
+  {
+    "watershed_name": "Rancocas",
+    "station_count": 167,
+    "hotspot_station_count": 0,
+    "mean_nitrate_mg_L": 0.28601604248800405,
+    "threshold": "top_10pct",
+    "hotspot_rate_percent": 0.0
+  },
+  {
+    "watershed_name": "Lower Passaic and Saddle",
+    "station_count": 87,
+    "hotspot_station_count": 70,
+    "mean_nitrate_mg_L": 2.1989458982723993,
+    "threshold": "top_20pct",
+    "hotspot_rate_percent": 80.45977011494253
+  },
+  {
+    "watershed_name": "North and South Branch Raritan",
+    "station_count": 229,
+    "hotspot_station_count": 109,
+    "mean_nitrate_mg_L": 1.0657425791100814,
+    "threshold": "top_20pct",
+    "hotspot_rate_percent": 47.59825327510917
+  },
+  {
+    "watershed_name": "Maurice, Salem, and Cohansey",
+    "station_count": 327,
+    "hotspot_station_count": 154,
+    "mean_nitrate_mg_L": 1.390630262147135,
+    "threshold": "top_20pct",
+    "hotspot_rate_percent": 47.09480122324159
+  },
+  {
+    "watershed_name": "Hackensack, Hudson, and Pascack",
+    "station_count": 107,
+    "hotspot_station_count": 50,
+    "mean_nitrate_mg_L": 1.914933574078352,
+    "threshold": "top_20pct",
+    "hotspot_rate_percent": 46.728971962616825
+  },
+  {
+    "watershed_name": "Lower Delaware",
+    "station_count": 150,
+    "hotspot_station_count": 67,
+    "mean_nitrate_mg_L": 1.1077067023390912,
+    "threshold": "top_20pct",
+    "hotspot_rate_percent": 44.666666666666664
+  },
+  {
+    "watershed_name": "Central Delaware",
+    "station_count": 106,
+    "hotspot_station_count": 40,
+    "mean_nitrate_mg_L": 0.9343656113283737,
+    "threshold": "top_20pct",
+    "hotspot_rate_percent": 37.735849056603776
+  },
+  {
+    "watershed_name": "Millstone",
+    "station_count": 151,
+    "hotspot_station_count": 55,
+    "mean_nitrate_mg_L": 1.067084527319373,
+    "threshold": "top_20pct",
+    "hotspot_rate_percent": 36.423841059602644
+  },
+  {
+    "watershed_name": "Upper Passaic, Whippany, and Rockaway",
+    "station_count": 209,
+    "hotspot_station_count": 57,
+    "mean_nitrate_mg_L": 0.8620312207713697,
+    "threshold": "top_20pct",
+    "hotspot_rate_percent": 27.27272727272727
+  },
+  {
+    "watershed_name": "Lower Raritan, South River, and Lawrence",
+    "station_count": 134,
+    "hotspot_station_count": 35,
+    "mean_nitrate_mg_L": 1.0682256326386705,
+    "threshold": "top_20pct",
+    "hotspot_rate_percent": 26.119402985074625
+  },
+  {
+    "watershed_name": "Arthur Kill",
+    "station_count": 67,
+    "hotspot_station_count": 15,
+    "mean_nitrate_mg_L": 0.7353416451694623,
+    "threshold": "top_20pct",
+    "hotspot_rate_percent": 22.388059701492537
+  },
+  {
+    "watershed_name": "Upper Delaware",
+    "station_count": 355,
+    "hotspot_station_count": 60,
+    "mean_nitrate_mg_L": 0.5138136990829458,
+    "threshold": "top_20pct",
+    "hotspot_rate_percent": 16.901408450704224
+  },
+  {
+    "watershed_name": "Assiscunk, Crosswicks, and Doctors",
+    "station_count": 98,
+    "hotspot_station_count": 15,
+    "mean_nitrate_mg_L": 0.5200509633435635,
+    "threshold": "top_20pct",
+    "hotspot_rate_percent": 15.306122448979592
+  },
+  {
+    "watershed_name": "Wallkill",
+    "station_count": 113,
+    "hotspot_station_count": 10,
+    "mean_nitrate_mg_L": 0.35153807083678623,
+    "threshold": "top_20pct",
+    "hotspot_rate_percent": 8.849557522123893
+  },
+  {
+    "watershed_name": "Pompton, Pequannock, Wanaque, Ramapo",
+    "station_count": 154,
+    "hotspot_station_count": 13,
+    "mean_nitrate_mg_L": 0.31704119363146155,
+    "threshold": "top_20pct",
+    "hotspot_rate_percent": 8.441558441558442
+  },
+  {
+    "watershed_name": "Great Egg Harbor",
+    "station_count": 176,
+    "hotspot_station_count": 13,
+    "mean_nitrate_mg_L": 0.27221173711437774,
+    "threshold": "top_20pct",
+    "hotspot_rate_percent": 7.386363636363637
+  },
+  {
+    "watershed_name": "Rancocas",
+    "station_count": 167,
+    "hotspot_station_count": 9,
+    "mean_nitrate_mg_L": 0.28601604248800405,
+    "threshold": "top_20pct",
+    "hotspot_rate_percent": 5.389221556886228
+  },
+  {
+    "watershed_name": "Mullica",
+    "station_count": 208,
+    "hotspot_station_count": 10,
+    "mean_nitrate_mg_L": 0.21310491246291496,
+    "threshold": "top_20pct",
+    "hotspot_rate_percent": 4.807692307692308
+  },
+  {
+    "watershed_name": "Barnegat Bay",
+    "station_count": 463,
+    "hotspot_station_count": 16,
+    "mean_nitrate_mg_L": 0.19252476914385497,
+    "threshold": "top_20pct",
+    "hotspot_rate_percent": 3.455723542116631
+  },
+  {
+    "watershed_name": "Monmouth",
+    "station_count": 237,
+    "hotspot_station_count": 8,
+    "mean_nitrate_mg_L": 0.31273612111182214,
+    "threshold": "top_20pct",
+    "hotspot_rate_percent": 3.375527426160337
+  },
+  {
+    "watershed_name": "Cape May",
+    "station_count": 103,
+    "hotspot_station_count": 1,
+    "mean_nitrate_mg_L": 0.6023804247151757,
+    "threshold": "top_20pct",
+    "hotspot_rate_percent": 0.9708737864077669
+  },
+  {
+    "watershed_name": " ",
+    "station_count": 2,
+    "hotspot_station_count": 0,
+    "mean_nitrate_mg_L": 0.0719533333333333,
+    "threshold": "top_20pct",
+    "hotspot_rate_percent": 0.0
+  }
+]

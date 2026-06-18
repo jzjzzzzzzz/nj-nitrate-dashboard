@@ -1,0 +1,12 @@
+{
+  "total_stations": 3658,
+  "hotspot_stations": 411,
+  "high_confidence_stations": 76,
+  "medium_confidence_stations": 253,
+  "low_confidence_stations": 3329,
+  "mean_nitrate_all_stations": 0.7075423737213472,
+  "median_nitrate_all_stations": 0.2895,
+  "max_nitrate_all_stations": 156.0,
+  "highest_p90_station": "NJDEP_BFBM-NJW04459-352-3",
+  "note": "Hotspots are based on top 10% station-level mean or p90 nitrate values. Low-confidence hotspots should be interpreted carefully."
+}

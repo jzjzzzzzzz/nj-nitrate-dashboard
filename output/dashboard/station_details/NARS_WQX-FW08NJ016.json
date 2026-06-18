@@ -1,0 +1,85 @@
+{
+  "station_info": {
+    "station_id": "NARS_WQX-FW08NJ016",
+    "station_name": "South Branch Raritan River",
+    "latitude": 40.50601167,
+    "longitude": -74.74864283,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 1,
+    "confidence_level": "Low",
+    "confidence_score": 0.1501904832236879,
+    "mean_nitrate_mg_L": 0.89088,
+    "median_nitrate_mg_L": 0.89088,
+    "p90_nitrate_mg_L": 0.89088,
+    "max_nitrate_mg_L": 0.89088,
+    "min_nitrate_mg_L": 0.89088,
+    "first_year": 2009,
+    "last_year": 2009,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.89088,
+      "median_nitrate_mg_L": 0.89088,
+      "p90_nitrate_mg_L": 0.89088,
+      "max_nitrate_mg_L": 0.89088,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2009.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.89088,
+      "median_nitrate_mg_L": 0.89088,
+      "p90_nitrate_mg_L": 0.89088,
+      "max_nitrate_mg_L": 0.89088,
+      "mean_3yr_moving_average": 0.89088
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2009-07",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.89088,
+      "median_nitrate_mg_L": 0.89088,
+      "p90_nitrate_mg_L": 0.89088,
+      "max_nitrate_mg_L": 0.89088,
+      "date": "2009-07-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2009-07-16",
+      "year": 2009,
+      "month": 7,
+      "season": "Summer",
+      "nitrate_mg_L": 0.89088,
+      "result_value": 0.89088,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-01401500",
+    "station_name": "Millstone River near Kingston NJ",
+    "latitude": 40.38444,
+    "longitude": -74.62306,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 1,
+    "confidence_level": "Low",
+    "confidence_score": 0.1501904832236879,
+    "mean_nitrate_mg_L": 5.9,
+    "median_nitrate_mg_L": 5.9,
+    "p90_nitrate_mg_L": 5.9,
+    "max_nitrate_mg_L": 5.9,
+    "min_nitrate_mg_L": 5.9,
+    "first_year": 2013,
+    "last_year": 2013,
+    "is_hotspot": true,
+    "is_p90_hotspot": true,
+    "is_mean_hotspot": true
+  },
+  "seasonal_summary": [
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 5.9,
+      "median_nitrate_mg_L": 5.9,
+      "p90_nitrate_mg_L": 5.9,
+      "max_nitrate_mg_L": 5.9,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2013.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 5.9,
+      "median_nitrate_mg_L": 5.9,
+      "p90_nitrate_mg_L": 5.9,
+      "max_nitrate_mg_L": 5.9,
+      "mean_3yr_moving_average": 5.9
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2013-09",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 5.9,
+      "median_nitrate_mg_L": 5.9,
+      "p90_nitrate_mg_L": 5.9,
+      "max_nitrate_mg_L": 5.9,
+      "date": "2013-09-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2013-09-16",
+      "year": 2013,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 5.9,
+      "result_value": 5.9,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "station_info": {
+    "station_id": "EMAP_CS_WQX-NY03-0227-A",
+    "station_name": "Arthur Kill",
+    "latitude": 40.5797,
+    "longitude": -74.2095,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 3,
+    "confidence_level": "Low",
+    "confidence_score": 0.3003809664473759,
+    "mean_nitrate_mg_L": 0.59,
+    "median_nitrate_mg_L": 0.56,
+    "p90_nitrate_mg_L": 0.64,
+    "max_nitrate_mg_L": 0.66,
+    "min_nitrate_mg_L": 0.55,
+    "first_year": 2003,
+    "last_year": 2003,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 3,
+      "mean_nitrate_mg_L": 0.59,
+      "median_nitrate_mg_L": 0.56,
+      "p90_nitrate_mg_L": 0.64,
+      "max_nitrate_mg_L": 0.66,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2003.0,
+      "observation_count": 3.0,
+      "mean_nitrate_mg_L": 0.59,
+      "median_nitrate_mg_L": 0.56,
+      "p90_nitrate_mg_L": 0.64,
+      "max_nitrate_mg_L": 0.66,
+      "mean_3yr_moving_average": 0.59
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2003-08",
+      "observation_count": 3,
+      "mean_nitrate_mg_L": 0.59,
+      "median_nitrate_mg_L": 0.56,
+      "p90_nitrate_mg_L": 0.64,
+      "max_nitrate_mg_L": 0.66,
+      "date": "2003-08-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2003-08-06",
+      "year": 2003,
+      "month": 8,
+      "season": "Summer",
+      "nitrate_mg_L": 0.55,
+      "result_value": 0.55,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Calculated",
+      "detection_condition": null
+    },
+    {
+      "date": "2003-08-06",
+      "year": 2003,
+      "month": 8,
+      "season": "Summer",
+      "nitrate_mg_L": 0.66,
+      "result_value": 0.66,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Calculated",
+      "detection_condition": null
+    },
+    {
+      "date": "2003-08-06",
+      "year": 2003,
+      "month": 8,
+      "season": "Summer",
+      "nitrate_mg_L": 0.56,
+      "result_value": 0.56,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Calculated",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

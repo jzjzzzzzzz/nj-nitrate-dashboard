@@ -1,0 +1,122 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-FIBI241",
+    "station_name": "Pines Run off Blackhorse Pike",
+    "latitude": 39.81847,
+    "longitude": -75.06985,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.153,
+    "median_nitrate_mg_L": 0.153,
+    "p90_nitrate_mg_L": 0.1602,
+    "max_nitrate_mg_L": 0.162,
+    "min_nitrate_mg_L": 0.144,
+    "first_year": 2016,
+    "last_year": 2023,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.153,
+      "median_nitrate_mg_L": 0.153,
+      "p90_nitrate_mg_L": 0.1602,
+      "max_nitrate_mg_L": 0.162,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2016.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.144,
+      "median_nitrate_mg_L": 0.144,
+      "p90_nitrate_mg_L": 0.144,
+      "max_nitrate_mg_L": 0.144,
+      "mean_3yr_moving_average": 0.144
+    },
+    {
+      "year": 2023.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.162,
+      "median_nitrate_mg_L": 0.162,
+      "p90_nitrate_mg_L": 0.162,
+      "max_nitrate_mg_L": 0.162,
+      "mean_3yr_moving_average": 0.153
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2016-06",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.144,
+      "median_nitrate_mg_L": 0.144,
+      "p90_nitrate_mg_L": 0.144,
+      "max_nitrate_mg_L": 0.144,
+      "date": "2016-06-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2023-06",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.162,
+      "median_nitrate_mg_L": 0.162,
+      "p90_nitrate_mg_L": 0.162,
+      "max_nitrate_mg_L": 0.162,
+      "date": "2023-06-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2016-06-08",
+      "year": 2016,
+      "month": 6,
+      "season": "Summer",
+      "nitrate_mg_L": 0.144,
+      "result_value": 0.144,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2023-06-26",
+      "year": 2023,
+      "month": 6,
+      "season": "Summer",
+      "nitrate_mg_L": 0.162,
+      "result_value": 0.162,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

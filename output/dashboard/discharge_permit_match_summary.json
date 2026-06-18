@@ -1,0 +1,83 @@
+[
+  {
+    "permit_prefix": "NJ0",
+    "facility_type_group": "groundwater_discharge",
+    "total_facilities": 399,
+    "matched_facilities": 11,
+    "unique_facility_permits": 398,
+    "match_rate_percent": 2.7569,
+    "unmatched_reason": "No exact normalized permit match in the local DMR summary."
+  },
+  {
+    "permit_prefix": "NJ0",
+    "facility_type_group": "mining_quarrying",
+    "total_facilities": 1,
+    "matched_facilities": 0,
+    "unique_facility_permits": 1,
+    "match_rate_percent": 0.0,
+    "unmatched_reason": "No exact normalized permit match in the local DMR summary."
+  },
+  {
+    "permit_prefix": "NJ0",
+    "facility_type_group": "residuals_or_recycling",
+    "total_facilities": 180,
+    "matched_facilities": 21,
+    "unique_facility_permits": 179,
+    "match_rate_percent": 11.6667,
+    "unmatched_reason": "No exact normalized permit match in the local DMR summary."
+  },
+  {
+    "permit_prefix": "NJG",
+    "facility_type_group": "construction_or_permit",
+    "total_facilities": 117,
+    "matched_facilities": 0,
+    "unique_facility_permits": 117,
+    "match_rate_percent": 0.0,
+    "unmatched_reason": "General permit IDs usually do not appear as facility-specific DMR permit summaries."
+  },
+  {
+    "permit_prefix": "NJG",
+    "facility_type_group": "industrial_stormwater",
+    "total_facilities": 2037,
+    "matched_facilities": 0,
+    "unique_facility_permits": 2037,
+    "match_rate_percent": 0.0,
+    "unmatched_reason": "General permit IDs usually do not appear as facility-specific DMR permit summaries."
+  },
+  {
+    "permit_prefix": "NJG",
+    "facility_type_group": "mining_quarrying",
+    "total_facilities": 17,
+    "matched_facilities": 0,
+    "unique_facility_permits": 17,
+    "match_rate_percent": 0.0,
+    "unmatched_reason": "General permit IDs usually do not appear as facility-specific DMR permit summaries."
+  },
+  {
+    "permit_prefix": "NJG",
+    "facility_type_group": "residuals_or_recycling",
+    "total_facilities": 15,
+    "matched_facilities": 0,
+    "unique_facility_permits": 15,
+    "match_rate_percent": 0.0,
+    "unmatched_reason": "General permit IDs usually do not appear as facility-specific DMR permit summaries."
+  },
+  {
+    "permit_prefix": "NJG",
+    "facility_type_group": "septic_groundwater",
+    "total_facilities": 581,
+    "matched_facilities": 0,
+    "unique_facility_permits": 581,
+    "match_rate_percent": 0.0,
+    "unmatched_reason": "General permit IDs usually do not appear as facility-specific DMR permit summaries."
+  },
+  {
+    "permit_prefix": "NJG",
+    "facility_type_group": "stormwater_or_surface",
+    "total_facilities": 227,
+    "matched_facilities": 0,
+    "unique_facility_permits": 227,
+    "match_rate_percent": 0.0,
+    "unmatched_reason": "General permit IDs usually do not appear as facility-specific DMR permit summaries."
+  }
+]

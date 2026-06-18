@@ -1,0 +1,85 @@
+{
+  "station_info": {
+    "station_id": "NARS_WQX-NRS_NJ-10045",
+    "station_name": "Rockaway Creek",
+    "latitude": 40.70015927,
+    "longitude": -74.78778261,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 1,
+    "confidence_level": "Low",
+    "confidence_score": 0.1501904832236879,
+    "mean_nitrate_mg_L": 2.0834,
+    "median_nitrate_mg_L": 2.0834,
+    "p90_nitrate_mg_L": 2.0834,
+    "max_nitrate_mg_L": 2.0834,
+    "min_nitrate_mg_L": 2.0834,
+    "first_year": 2018,
+    "last_year": 2018,
+    "is_hotspot": true,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": true
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 2.0834,
+      "median_nitrate_mg_L": 2.0834,
+      "p90_nitrate_mg_L": 2.0834,
+      "max_nitrate_mg_L": 2.0834,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2018.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 2.0834,
+      "median_nitrate_mg_L": 2.0834,
+      "p90_nitrate_mg_L": 2.0834,
+      "max_nitrate_mg_L": 2.0834,
+      "mean_3yr_moving_average": 2.0834
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2018-06",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 2.0834,
+      "median_nitrate_mg_L": 2.0834,
+      "p90_nitrate_mg_L": 2.0834,
+      "max_nitrate_mg_L": 2.0834,
+      "date": "2018-06-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2018-06-26",
+      "year": 2018,
+      "month": 6,
+      "season": "Summer",
+      "nitrate_mg_L": 2.0834,
+      "result_value": 2.0834,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

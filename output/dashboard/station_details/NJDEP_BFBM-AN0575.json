@@ -1,0 +1,122 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0575",
+    "station_name": "CEDAR BK MYRTLE AVE COLUMBIA RD",
+    "latitude": 39.664555,
+    "longitude": -74.765583,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.9455,
+    "median_nitrate_mg_L": 0.9455,
+    "p90_nitrate_mg_L": 1.2771,
+    "max_nitrate_mg_L": 1.36,
+    "min_nitrate_mg_L": 0.531,
+    "first_year": 2015,
+    "last_year": 2020,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Fall",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.9455,
+      "median_nitrate_mg_L": 0.9455,
+      "p90_nitrate_mg_L": 1.2771000000000001,
+      "max_nitrate_mg_L": 1.36,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2015.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.531,
+      "median_nitrate_mg_L": 0.531,
+      "p90_nitrate_mg_L": 0.531,
+      "max_nitrate_mg_L": 0.531,
+      "mean_3yr_moving_average": 0.531
+    },
+    {
+      "year": 2020.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 1.36,
+      "median_nitrate_mg_L": 1.36,
+      "p90_nitrate_mg_L": 1.36,
+      "max_nitrate_mg_L": 1.36,
+      "mean_3yr_moving_average": 0.9455
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2015-09",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.531,
+      "median_nitrate_mg_L": 0.531,
+      "p90_nitrate_mg_L": 0.531,
+      "max_nitrate_mg_L": 0.531,
+      "date": "2015-09-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2020-11",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.36,
+      "median_nitrate_mg_L": 1.36,
+      "p90_nitrate_mg_L": 1.36,
+      "max_nitrate_mg_L": 1.36,
+      "date": "2020-11-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2015-09-11",
+      "year": 2015,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.531,
+      "result_value": 0.531,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2020-11-16",
+      "year": 2020,
+      "month": 11,
+      "season": "Fall",
+      "nitrate_mg_L": 1.36,
+      "result_value": 1.36,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

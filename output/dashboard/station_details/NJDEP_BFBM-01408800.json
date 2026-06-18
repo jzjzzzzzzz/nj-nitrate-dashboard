@@ -1,0 +1,85 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-01408800",
+    "station_name": "WEBBS MILL BROOK ON RT 539",
+    "latitude": 39.887917,
+    "longitude": -74.379595,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 1,
+    "confidence_level": "Low",
+    "confidence_score": 0.1501904832236879,
+    "mean_nitrate_mg_L": 0.00713,
+    "median_nitrate_mg_L": 0.00713,
+    "p90_nitrate_mg_L": 0.00713,
+    "max_nitrate_mg_L": 0.00713,
+    "min_nitrate_mg_L": 0.00713,
+    "first_year": 2009,
+    "last_year": 2009,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Winter",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.00713,
+      "median_nitrate_mg_L": 0.00713,
+      "p90_nitrate_mg_L": 0.00713,
+      "max_nitrate_mg_L": 0.00713,
+      "season_order": 1
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2009.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.00713,
+      "median_nitrate_mg_L": 0.00713,
+      "p90_nitrate_mg_L": 0.00713,
+      "max_nitrate_mg_L": 0.00713,
+      "mean_3yr_moving_average": 0.00713
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2009-12",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.00713,
+      "median_nitrate_mg_L": 0.00713,
+      "p90_nitrate_mg_L": 0.00713,
+      "max_nitrate_mg_L": 0.00713,
+      "date": "2009-12-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2009-12-08",
+      "year": 2009,
+      "month": 12,
+      "season": "Winter",
+      "nitrate_mg_L": 0.00713,
+      "result_value": 0.00713,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Estimated",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

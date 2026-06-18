@@ -1,0 +1,21 @@
+[
+  {
+    "status": "loaded",
+    "file": "C:\\Users\\DELL\\Desktop\\\u5b66\u4e60\u8d44\u6599\\Research\\Water-web\\water_analysis\\data\\external\\discharge\\nj_npdes_dmr_flow_load_summary.csv",
+    "permit_column": "npdes_permit_id",
+    "value_column": "mean_dmr_flow_mgd",
+    "dmr_permit_count": 709,
+    "facility_permit_count": 3571,
+    "matched_unique_permits": 41,
+    "matched_facilities": 32,
+    "total_facilities": 3574,
+    "facility_match_rate_percent": 0.8954,
+    "permit_match_rate_percent": 1.1481,
+    "matched_watersheds": 13,
+    "general_permit_facilities": 2994,
+    "individual_npdes_like_facilities": 580,
+    "outfall_location_status": "not_available_in_local_inputs",
+    "flowline_network_status": "not_available_in_local_inputs",
+    "method_note": "DMR values are joined by normalized permit ID to NJPDES facility points, then summarized by watershed and facility type."
+  }
+]

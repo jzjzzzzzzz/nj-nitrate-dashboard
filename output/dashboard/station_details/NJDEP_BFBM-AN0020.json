@@ -1,0 +1,131 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0020",
+    "station_name": "DRY BROOK AT MILL ROAD",
+    "latitude": 41.143566,
+    "longitude": -74.745353,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.2355,
+    "median_nitrate_mg_L": 0.2355,
+    "p90_nitrate_mg_L": 0.3063,
+    "max_nitrate_mg_L": 0.324,
+    "min_nitrate_mg_L": 0.147,
+    "first_year": 2017,
+    "last_year": 2023,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.147,
+      "median_nitrate_mg_L": 0.147,
+      "p90_nitrate_mg_L": 0.147,
+      "max_nitrate_mg_L": 0.147,
+      "season_order": 3
+    },
+    {
+      "season": "Fall",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.324,
+      "median_nitrate_mg_L": 0.324,
+      "p90_nitrate_mg_L": 0.324,
+      "max_nitrate_mg_L": 0.324,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2017.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.324,
+      "median_nitrate_mg_L": 0.324,
+      "p90_nitrate_mg_L": 0.324,
+      "max_nitrate_mg_L": 0.324,
+      "mean_3yr_moving_average": 0.324
+    },
+    {
+      "year": 2023.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.147,
+      "median_nitrate_mg_L": 0.147,
+      "p90_nitrate_mg_L": 0.147,
+      "max_nitrate_mg_L": 0.147,
+      "mean_3yr_moving_average": 0.2355
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2017-10",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.324,
+      "median_nitrate_mg_L": 0.324,
+      "p90_nitrate_mg_L": 0.324,
+      "max_nitrate_mg_L": 0.324,
+      "date": "2017-10-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    },
+    {
+      "year_month": "2023-07",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.147,
+      "median_nitrate_mg_L": 0.147,
+      "p90_nitrate_mg_L": 0.147,
+      "max_nitrate_mg_L": 0.147,
+      "date": "2023-07-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2017-10-17",
+      "year": 2017,
+      "month": 10,
+      "season": "Fall",
+      "nitrate_mg_L": 0.324,
+      "result_value": 0.324,
+      "unit": "mg/L",
+      "characteristic": "Inorganic nitrogen (nitrate and nitrite) ***retired***use Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Total",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2023-07-14",
+      "year": 2023,
+      "month": 7,
+      "season": "Summer",
+      "nitrate_mg_L": 0.147,
+      "result_value": 0.147,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

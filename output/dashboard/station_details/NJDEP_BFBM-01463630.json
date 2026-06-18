@@ -1,0 +1,85 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-01463630",
+    "station_name": "Shipetaukin Creek trib 2 near Lawrenceville NJ",
+    "latitude": 40.315938,
+    "longitude": -74.724237,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 1,
+    "confidence_level": "Low",
+    "confidence_score": 0.1501904832236879,
+    "mean_nitrate_mg_L": 0.976,
+    "median_nitrate_mg_L": 0.976,
+    "p90_nitrate_mg_L": 0.976,
+    "max_nitrate_mg_L": 0.976,
+    "min_nitrate_mg_L": 0.976,
+    "first_year": 2018,
+    "last_year": 2018,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Summer",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.976,
+      "median_nitrate_mg_L": 0.976,
+      "p90_nitrate_mg_L": 0.976,
+      "max_nitrate_mg_L": 0.976,
+      "season_order": 3
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2018.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 0.976,
+      "median_nitrate_mg_L": 0.976,
+      "p90_nitrate_mg_L": 0.976,
+      "max_nitrate_mg_L": 0.976,
+      "mean_3yr_moving_average": 0.976
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2018-06",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 0.976,
+      "median_nitrate_mg_L": 0.976,
+      "p90_nitrate_mg_L": 0.976,
+      "max_nitrate_mg_L": 0.976,
+      "date": "2018-06-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2018-06-13",
+      "year": 2018,
+      "month": 6,
+      "season": "Summer",
+      "nitrate_mg_L": 0.976,
+      "result_value": 0.976,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

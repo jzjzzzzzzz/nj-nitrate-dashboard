@@ -1,0 +1,102 @@
+{
+  "station_info": {
+    "station_id": "NARS_WQX-NRS_NJ-10034",
+    "station_name": "Big Timber Creek",
+    "latitude": 39.87754486,
+    "longitude": -75.13151153,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 1.2724,
+    "median_nitrate_mg_L": 1.2724,
+    "p90_nitrate_mg_L": 1.7053600000000002,
+    "max_nitrate_mg_L": 1.8136,
+    "min_nitrate_mg_L": 0.7312,
+    "first_year": 2019,
+    "last_year": 2019,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Fall",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 1.2724,
+      "median_nitrate_mg_L": 1.2724,
+      "p90_nitrate_mg_L": 1.7053600000000002,
+      "max_nitrate_mg_L": 1.8136,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2019.0,
+      "observation_count": 2.0,
+      "mean_nitrate_mg_L": 1.2724,
+      "median_nitrate_mg_L": 1.2724,
+      "p90_nitrate_mg_L": 1.7053600000000002,
+      "max_nitrate_mg_L": 1.8136,
+      "mean_3yr_moving_average": 1.2724
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2019-09",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 1.2724,
+      "median_nitrate_mg_L": 1.2724,
+      "p90_nitrate_mg_L": 1.7053600000000002,
+      "max_nitrate_mg_L": 1.8136,
+      "date": "2019-09-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2019-09-10",
+      "year": 2019,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.7312,
+      "result_value": 0.7312,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2019-09-24",
+      "year": 2019,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 1.8136,
+      "result_value": 1.8136,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

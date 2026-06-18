@@ -1,0 +1,102 @@
+{
+  "station_info": {
+    "station_id": "NARS_WQX-NRS_NJ-10011",
+    "station_name": "Delaware River",
+    "latitude": 41.27242262,
+    "longitude": -74.84021528,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 2,
+    "confidence_level": "Low",
+    "confidence_score": 0.2380462838747353,
+    "mean_nitrate_mg_L": 0.1394,
+    "median_nitrate_mg_L": 0.1394,
+    "p90_nitrate_mg_L": 0.16276,
+    "max_nitrate_mg_L": 0.1686,
+    "min_nitrate_mg_L": 0.1102,
+    "first_year": 2018,
+    "last_year": 2018,
+    "is_hotspot": false,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": false
+  },
+  "seasonal_summary": [
+    {
+      "season": "Fall",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.1394,
+      "median_nitrate_mg_L": 0.1394,
+      "p90_nitrate_mg_L": 0.16276000000000002,
+      "max_nitrate_mg_L": 0.1686,
+      "season_order": 4
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2018.0,
+      "observation_count": 2.0,
+      "mean_nitrate_mg_L": 0.1394,
+      "median_nitrate_mg_L": 0.1394,
+      "p90_nitrate_mg_L": 0.16276000000000002,
+      "max_nitrate_mg_L": 0.1686,
+      "mean_3yr_moving_average": 0.1394
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2018-09",
+      "observation_count": 2,
+      "mean_nitrate_mg_L": 0.1394,
+      "median_nitrate_mg_L": 0.1394,
+      "p90_nitrate_mg_L": 0.16276000000000002,
+      "max_nitrate_mg_L": 0.1686,
+      "date": "2018-09-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2018-09-05",
+      "year": 2018,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.1102,
+      "result_value": 0.1102,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    },
+    {
+      "date": "2018-09-19",
+      "year": 2018,
+      "month": 9,
+      "season": "Fall",
+      "nitrate_mg_L": 0.1686,
+      "result_value": 0.1686,
+      "unit": "mg/L",
+      "characteristic": "Nitrate",
+      "nitrate_category": "Nitrate",
+      "sample_fraction": "Dissolved",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}

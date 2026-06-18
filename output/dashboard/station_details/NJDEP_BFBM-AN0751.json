@@ -1,0 +1,85 @@
+{
+  "station_info": {
+    "station_id": "NJDEP_BFBM-AN0751",
+    "station_name": "MAURICE RIVER SHERMAN AVE",
+    "latitude": 39.448083,
+    "longitude": -75.072111,
+    "provider": "STORET",
+    "nitrate_categories": "Nitrate + Nitrite",
+    "units_seen": "mg/L"
+  },
+  "summary": {
+    "observation_count": 1,
+    "confidence_level": "Low",
+    "confidence_score": 0.1501904832236879,
+    "mean_nitrate_mg_L": 1.72,
+    "median_nitrate_mg_L": 1.72,
+    "p90_nitrate_mg_L": 1.72,
+    "max_nitrate_mg_L": 1.72,
+    "min_nitrate_mg_L": 1.72,
+    "first_year": 2022,
+    "last_year": 2022,
+    "is_hotspot": true,
+    "is_p90_hotspot": false,
+    "is_mean_hotspot": true
+  },
+  "seasonal_summary": [
+    {
+      "season": "Spring",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.72,
+      "median_nitrate_mg_L": 1.72,
+      "p90_nitrate_mg_L": 1.72,
+      "max_nitrate_mg_L": 1.72,
+      "season_order": 2
+    }
+  ],
+  "yearly_trend": [
+    {
+      "year": 2022.0,
+      "observation_count": 1.0,
+      "mean_nitrate_mg_L": 1.72,
+      "median_nitrate_mg_L": 1.72,
+      "p90_nitrate_mg_L": 1.72,
+      "max_nitrate_mg_L": 1.72,
+      "mean_3yr_moving_average": 1.72
+    }
+  ],
+  "monthly_trend": [
+    {
+      "year_month": "2022-05",
+      "observation_count": 1,
+      "mean_nitrate_mg_L": 1.72,
+      "median_nitrate_mg_L": 1.72,
+      "p90_nitrate_mg_L": 1.72,
+      "max_nitrate_mg_L": 1.72,
+      "date": "2022-05-01",
+      "mean_6mo_moving_average": null,
+      "mean_12mo_moving_average": null
+    }
+  ],
+  "raw_observations": [
+    {
+      "date": "2022-05-24",
+      "year": 2022,
+      "month": 5,
+      "season": "Spring",
+      "nitrate_mg_L": 1.72,
+      "result_value": 1.72,
+      "unit": "mg/L",
+      "characteristic": "Nitrate + Nitrite",
+      "nitrate_category": "Nitrate + Nitrite",
+      "sample_fraction": "Unfiltered",
+      "activity_type": "Sample-Routine",
+      "provider": "STORET",
+      "result_status": "Final",
+      "value_type": "Actual",
+      "detection_condition": null
+    }
+  ],
+  "notes": {
+    "raw_observation_limit": 500,
+    "confidence_rule": "High: >=100 observations; Medium: 30-99 observations; Low: <30 observations.",
+    "interpretation_warning": "Low-confidence stations should not be overinterpreted."
+  }
+}
